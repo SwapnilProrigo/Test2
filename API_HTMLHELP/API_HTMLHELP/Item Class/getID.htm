@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>geteID</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2>getID()</h2>
+
+<p align="left">Returns ID of the Item node. According to AML standard ID could be set on &lt;Item&gt; either as the attribute with name &#39;id&#39; or as a sub-tag &lt;id&gt; (i.e. item property) or both.</p>
+
+<h3>C#:</h3>
+
+<h4>Item itm = this.newItem(&quot;Customer&quot;, &quot;add&quot;);<br />
+itm.setProperty(&quot;name&quot;, &quot;ACME&quot;);<br />
+itm.setProperty(&quot;contact_name&quot;, &quot;Andrew Harris&quot;);<br />
+itm = itm.apply();<br />
+string id = <span style="background-color: #ffff00">itm.getID()</span>;</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim itm As Item = Me.newItem(&quot;Customer&quot;, &quot;add&quot;)<br />
+itm.setProperty(&quot;name&quot;, &quot;ACME&quot;)<br />
+itm.setProperty(&quot;contact_name&quot;, &quot;Andrew Harris&quot;)<br />
+itm = itm.apply()<br />
+Dim id As String = <span style="background-color: #ffff00">itm.getID()</span></h4>
+
+<h3>Notes:</h3>
+
+<p>ID of the item or empty string if ID was not found.</p>
+
+<p><br />
+<br />
+&nbsp;</p>
+</body>
+</html>

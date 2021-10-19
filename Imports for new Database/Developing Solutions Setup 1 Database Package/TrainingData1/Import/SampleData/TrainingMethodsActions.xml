@@ -1,0 +1,324 @@
+<AML>
+    <Item
+        type = "Method"
+        id = "E688886FFB9C4428924DEE843151300D"
+        action = "add">
+        <method_code>
+            <![CDATA[
+            var method_name=this.getProperty("name");
+            var method_type=this.getProperty("method_type");
+            var result;
+            if (method_type!="JavaScript"){
+            top.aras.AlertError("Not a Client Method");
+            return "Use Run Server Method Action";
+            }
+            else {
+            result=top.aras.evalMethod(method_name,this.node.xml);
+            }
+            if (typeof result == "object"  && !Array.isArray(result)) {
+            var ss=top.aras.getBaseURL()+"/styles/default.xsl"; 
+            return result.applyStylesheet(ss,"URL");
+            }
+            else {
+            return result;
+            }]]>
+        </method_code>
+        <method_type>JavaScript</method_type>
+        <name>Run Client Method Action</name>
+    </Item>
+    <Item
+        type = "Action"
+        id = "52BBBA0F25944FE0A3A2469387F6E641"
+        action = "add">
+        <item_query>___is_new___</item_query>
+        <location>client</location>
+        <method keyed_name = "Run Client Method Action " type = "Method">
+            <Item
+                type = "Method"
+                action = "get"
+                select = "id">
+                <name>Run Client Method Action</name>
+            </Item>
+        </method>
+        <name>Run Client Method</name>
+        <target>window</target>
+        <type>item</type>
+    </Item>
+    <Item
+        type = "Item Action"
+        id = "2F54E66F755642B381B65A4D1B71311C"
+        action = "add">
+        <related_id>52BBBA0F25944FE0A3A2469387F6E641</related_id>
+        <source_id>87879A09B8044DE380D59DF22DE1867F</source_id>
+        <id keyed_name = "2F54E66F755642B381B65A4D1B71311C" type = "Item Action">2F54E66F755642B381B65A4D1B71311C</id>
+    </Item>
+    <!--GETCONTROLLED ITEM METHOD FOR WORKFLOW LAB -->
+    <Item
+        type = "Method"
+        id = "BB80712CC6474841A1B5CAC95EAE1DDB"
+        action = "add">
+        <classification>/*</classification>
+        <comments>From community proj</comments>
+        <execution_allowed_to keyed_name = "World" type = "Identity">A73B655731924CD0B027E4F4D5FCC0A9</execution_allowed_to>
+        <method_code>
+            <![CDATA[
+            // Retrieve the workflow item(s)
+            Innovator inn = this.getInnovator();
+            Item wflItem = this.newItem("Workflow","get");
+            wflItem.setAttribute("select","source_id,source_type");
+            Item wflProc = wflItem.createRelatedItem("Workflow Process","get");
+            wflProc.setAttribute("select","name");
+            Item wflProcAct = wflProc.createRelationship("Workflow Process Activity","get");
+            wflProcAct.setAttribute("select","related_id");
+            wflProcAct.setProperty("related_id",this.getID());
+            wflItem = wflItem.apply();
+            if (wflItem.getItemCount() < 1 || 
+            wflItem.getItemByIndex(0).getProperty("source_id","").Length != 32 || 
+            wflItem.getItemByIndex(0).getPropertyAttribute("source_type","keyed_name","").Length < 1) 
+            {
+            
+            return inn.newError("Error retrieving workflow: " + wflItem.getErrorDetail());
+            }
+            
+            // Build a list of ids For the versions of the controlled item
+            StringBuilder idList = new StringBuilder();
+            for (int i=0; i<wflItem.getItemCount(); i++) {
+            if (wflItem.getItemByIndex(i).getProperty("source_type","") != wflItem.getItemByIndex(0).getProperty("source_type",""))
+            {
+            return inn.newError("Error: Workflow Process attached to items of different types");
+            }
+            idList.Append("'" + wflItem.getItemByIndex(i).getProperty("source_id","") + "',");
+            }
+            idList.Remove(idList.Length - 1, 1);
+            
+            // Retrieve the current item controlled by the workflow
+            string contType = wflItem.getItemByIndex(0).getPropertyAttribute("source_type","keyed_name","");
+            Item contItem = this.newItem(contType,"get");
+            contItem.setProperty("is_current","1");
+            contItem.setProperty("id",idList.ToString());
+            contItem.setPropertyAttribute("id","condition","in");
+            contItem = contItem.apply();
+            if (contItem.getItemCount() != 1) return inn.newError("Error retrieving controlled item: " + contItem.getErrorDetail());
+            
+            return contItem;
+            
+            
+            ]]>
+        </method_code>
+        <method_type>C#</method_type>
+        <name>Get Controlled Item</name>
+    </Item>
+    <!--ADD DEBUG METHODS FOR LABS -->
+    <Item
+        type = "Method"
+        action = "add"
+        id = "E699996FFB9C4428924DEE843151300D">
+        <core>0</core>
+        <is_current>1</is_current>
+        <is_released>0</is_released>
+        <keyed_name>DebugMe</keyed_name>
+        <major_rev>A</major_rev>
+        <method_code>
+            Innovator inn = this.getInnovator();
+            
+            Item itm = this.newItem("Sales Order", "get");
+            itm.setProperty("so_num", "SO-0005");
+            Item result = itm.apply();
+            
+            string po = result.GetPropertyValue("purchase_order");
+            
+            return inn.newResult(po);
+        </method_code>
+        <method_type>C#</method_type>
+        <modified_by_id keyed_name = "Innovator Admin" type = "User">30B991F927274FA3829655F50C99472E</modified_by_id>
+        <modified_on>2013-05-28T15:14:31</modified_on>
+        <new_version>0</new_version>
+        <not_lockable>0</not_lockable>
+        <permission_id keyed_name = "Method" type = "Permission">696C2AAAD70F47C79C7B232372FBB919</permission_id>
+        <state>Released</state>
+        <name>DebugMe</name>
+    </Item>
+    <Item
+        type = "Method"
+        action = "add"
+        id = "AA99996FFB9C4428924DEE843151300D">
+        <core>0</core>
+        <is_current>1</is_current>
+        <is_released>0</is_released>
+        <keyed_name>DebugMe_VB</keyed_name>
+        <major_rev>A</major_rev>
+        <method_code>
+            <![CDATA[
+            Dim inn As Innovator = Me.getInnovator()
+            
+            Dim itm As Item = Me.newItem("Sales Order", "get")
+            itm.setProperty("so_num", "SO-0005")
+            Dim result As Item = itm.apply()
+            
+            Dim po As String = result.GetPropertyValue("purchase_order")
+            
+            Return inn.newResult(po)
+            ]]>
+        </method_code>
+        <method_type>VB</method_type>
+        <modified_by_id keyed_name = "Innovator Admin" type = "User">30B991F927274FA3829655F50C99472E</modified_by_id>
+        <modified_on>2013-04-24T17:07:59</modified_on>
+        <new_version>0</new_version>
+        <not_lockable>0</not_lockable>
+        <permission_id keyed_name = "Method" type = "Permission">696C2AAAD70F47C79C7B232372FBB919</permission_id>
+        <state>Released</state>
+        <name>DebugMe_VB</name>
+    </Item>
+    <!--ADD FEDERATED METHODS FOR LABS -->
+    <Item
+        type = "Method"
+        id = "9484E0295E5046AB800E63299BEBC822"
+        action = "add">
+        <method_code>
+            <![CDATA[
+SQLConnector db = new SQLConnector("localhost", "Federation", "sa", "innovator");
+Hashtable ht = new Hashtable();
+ht.Add("customercontact", this.getProperty("contact_name", ""));
+ht.Add("customerphone", this.getProperty("main_phone", "") );
+int rows = db.DBAdd("dbo.Contacts", "customerid", this.getID(), ht);
+return this;
+            ]]>
+        </method_code>
+        <method_type>C#</method_type>
+        <name>TRN_AddFederatedData</name>
+    </Item>
+    <Item
+        type = "Method"
+        id = "DE896C3A6C044883B5C1E1DF0DFAB7E0"
+        action = "add">
+        <method_code>
+            <![CDATA[
+SQLConnector sqlc = new SQLConnector("localhost", "Federation", "sa", "innovator");
+
+for (int i = 0; i <= this.getItemCount() - 1; i++) {
+
+    Item idx_itm = this.getItemByIndex(i);
+    string id = idx_itm.getID();
+    
+    Hashtable ht  = sqlc.DBRead("dbo.Contacts", "customerid", id);
+    
+    if (ht.Count>0) {
+    
+        string contact = (string)ht["customercontact"];
+        idx_itm.setProperty("contact_name", contact);
+        
+        string phone = (string)ht["customerphone"];
+        idx_itm.setProperty("main_phone", phone);
+    }
+}
+return this;
+            ]]>
+        </method_code>
+        <method_type>C#</method_type>
+        <name>TRN_GetFederatedData</name>
+    </Item>
+    <Item
+        type = "Method"
+        id = "7E45BACA571D40F8881317CB45D8D960"
+        action = "add">
+        <method_code>
+            <![CDATA[
+SQLConnector db = new SQLConnector("localhost", "Federation", "sa", "innovator");
+Hashtable ht = new Hashtable();
+ht.Add("customercontact", this.getProperty("contact_name", ""));
+ht.Add("customerphone", this.getProperty("main_phone", "") );
+int rows = db.DBUpdate("dbo.Contacts", "customerid", this.getID(), ht);
+return this;
+            ]]>
+        </method_code>
+        <method_type>C#</method_type>
+        <name>TRN_UpdateFederatedData</name>
+    </Item>
+    <Item
+        type = "Method"
+        id = "939CC6C3590F4C3E9B01DC66FD3D01C1"
+        action = "add">
+        <method_code>
+            <![CDATA[
+Dim db As New SQLConnector("localhost", "Federation", "sa", "innovator")
+Dim ht As New Hashtable()
+ht.Add("customercontact", Me.getProperty("contact_name", ""))
+ht.Add("customerphone", Me.getProperty("main_phone", ""))
+Dim rows As Integer = _
+db.DBAdd("dbo.Contacts", "customerid", Me.getID(), ht)
+Return Me
+            ]]>
+        </method_code>
+        <method_type>VB</method_type>
+        <name>TRN_AddFederatedData_VB</name>
+    </Item>
+    <Item
+        type = "Method"
+        id = "B676414F8B2E447BB6B17090D1C47CB8"
+        action = "add">
+        <method_code>
+            <![CDATA[
+Dim db As New SQLConnector("localhost", "Federation", "sa", "innovator")
+Dim ht As New Hashtable()
+ht.Add("customercontact", Me.getProperty("contact_name", ""))
+ht.Add("customerphone", Me.getProperty("main_phone", ""))
+Dim rows As Integer = _
+db.DBUpdate("dbo.Contacts", "customerid", Me.getID(), ht)
+Return Me
+            ]]>
+        </method_code>
+        <method_type>VB</method_type>
+        <name>TRN_UpdateFederatedData_VB</name>
+    </Item>
+    <Item
+        type = "Method"
+        id = "CE805D4F79DE4EF6937AF8FA5C297376"
+        action = "add">
+        <method_code>
+            <![CDATA[
+Dim sqlc As New SQLConnector("localhost", "Federation", "sa", "innovator")
+For i As Integer = 0 To Me.getItemCount() - 1
+	Dim idx_itm As Item = Me.getItemByIndex(i)
+	Dim id As String = idx_itm.getID()
+	Dim ht As Hashtable = sqlc.DBRead("dbo.Contacts", "customerid", id)
+	If ht.Count > 0 Then
+		Dim contact As String = _
+        DirectCast(ht("customercontact"), String)
+		idx_itm.setProperty("contact_name", contact)
+
+		Dim phone As String = _
+        DirectCast(ht("customerphone"), String)
+		idx_itm.setProperty("main_phone", phone)
+	End If
+Next
+Return Me
+            ]]>
+        </method_code>
+        <method_type>VB</method_type>
+        <name>TRN_GetFederatedData_VB</name>
+    </Item>
+    <Item
+        type = "Method"
+        action = "add"
+        id = "7C45D7B09E49423BBE241B99EF642637">
+        <method_code>
+            <![CDATA[
+            string sonum = this.getProperty("order");
+            string days = this.getProperty("days");
+            
+            //.NET Functions
+            int daynum = Convert.ToInt16(days);
+            DateTime date = DateTime.Now.AddDays(daynum);
+            string strdate = date.ToString("yyyy-MM-dd");
+            
+            Item itm = this.newItem("Sales Order", "edit");
+            itm.setAttribute("where",
+            "[sales_order].so_number='" + sonum + "'");
+            itm.setProperty("ship_date", strdate);
+            return itm.apply();
+            ]]>
+        </method_code>
+        <method_type>C#</method_type>
+        <name>TRN_CalculateShipDate</name>
+    </Item>
+</AML>

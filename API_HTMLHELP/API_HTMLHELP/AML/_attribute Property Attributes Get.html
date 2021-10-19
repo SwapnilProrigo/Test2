@@ -1,0 +1,151 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>applyAML</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1 pbzloc="0">AML Attributes</h1>
+
+<h2 pbzloc="14">Property Condition Attributes</h2>
+
+<p pbzloc="13">The following property condition attributes are supported when retrieving an Item(s) from the server using the <a href="get.html">get </a>action.</p>
+
+<table border="1" cellpadding="0" cellspacing="0">
+	<thead>
+		<tr>
+			<th style="width: 114px; height: 38px">
+			<p><strong>Condition</strong></p>
+			</th>
+			<th style="width: 193px; height: 38px">
+			<p><strong>Description</strong></p>
+			</th>
+			<th style="width: 307px; height: 38px">
+			<p><strong>Example</strong></p>
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="width: 114px; height: 38px">
+			<p>eq</p>
+			</td>
+			<td style="width: 193px; height: 38px">
+			<p>Property is equal to another value</p>
+			</td>
+			<td pbzloc="20" style="width: 307px; height: 38px">
+			<h4>&lt;name condition=&rdquo;eq&rdquo;&gt;Peter&lt;/name&gt;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 114px; height: 38px">
+			<p>ne</p>
+			</td>
+			<td style="width: 193px; height: 38px">
+			<p>Property is not equal to another value</p>
+			</td>
+			<td pbzloc="23" style="width: 307px; height: 38px">
+			<h4 pbzloc="21">&lt;name condition=&rdquo;ne&rdquo;&gt;Peter&lt;/name&gt;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 114px; height: 38px">
+			<p>ge</p>
+			</td>
+			<td style="width: 193px; height: 38px">
+			<p>Property is greater than or equal to another value</p>
+			</td>
+			<td pbzloc="26" style="width: 307px; height: 38px">
+			<h4>&lt;cost condition=&rdquo;ge&rdquo;&gt;200&lt;/cost&gt;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 114px; height: 38px">
+			<p>le</p>
+			</td>
+			<td style="width: 193px; height: 38px">
+			<p>Property is less than or equal to another value</p>
+			</td>
+			<td pbzloc="29" style="width: 307px; height: 38px">
+			<h4>&lt;cost condition=&rdquo;le&rdquo;&gt;200&lt;/cost&gt;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 114px; height: 38px">
+			<p>gt</p>
+			</td>
+			<td style="width: 193px; height: 38px">
+			<p>Property is greater than another value</p>
+			</td>
+			<td pbzloc="32" style="width: 307px; height: 38px">
+			<h4>&lt;cost condition=&rdquo;gt&rdquo;&gt;200&lt;/cost&gt;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 114px; height: 38px">
+			<p>lt</p>
+			</td>
+			<td style="width: 193px; height: 38px">
+			<p>Property is less than another value</p>
+			</td>
+			<td pbzloc="35" style="width: 307px; height: 38px">
+			<h4>&lt;cost condition=&rdquo;lt&rdquo;&gt;200&lt;/cost&gt;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 114px; height: 38px">
+			<p>like<br />
+			not like</p>
+			</td>
+			<td style="width: 193px; height: 38px">
+			<p>Include % or * wild card symbols</p>
+			</td>
+			<td pbzloc="38" style="width: 307px; height: 38px">
+			<h4>&lt;name condition=&rdquo;like&rdquo;&gt;Admin%&lt;/name&gt;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 114px; height: 37px">
+			<p>between<br />
+			not between</p>
+			</td>
+			<td style="width: 193px; height: 37px">
+			<p>Use <em>and</em> keyword for range</p>
+			</td>
+			<td pbzloc="41" style="width: 307px; height: 37px">
+			<h4>&lt;cost condition=&rdquo;between&rdquo;&gt;10 and 90&lt;/cost&gt;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 114px; height: 47px">
+			<p>in</p>
+			</td>
+			<td style="width: 193px; height: 47px">
+			<p>Value is in comma delimited set</p>
+			</td>
+			<td pbzloc="44" style="width: 307px; height: 47px">
+			<h4>&lt;name condition=&rdquo;in&rdquo;&gt; &rsquo;Admin&rsquo;,&rsquo;Peter&rsquo;,&rsquo;Bob&rsquo;&lt;/name&gt;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="width: 114px; height: 73px">
+			<p>is<br />
+			is null<br />
+			is not null</p>
+			</td>
+			<td style="width: 193px; height: 73px">
+			<p>Value is null or not null</p>
+			</td>
+			<td pbzloc="47" style="width: 307px; height: 73px">
+			<h4 pbzloc="12">&lt;name condition=&rdquo;is&rdquo;&gt;null&lt;/name&gt;<br />
+			&lt;name condition=&rdquo;is&rdquo;&gt;not null&lt;/name&gt;<br />
+			&lt;name condition=&rdquo;is null&rdquo; /&gt;<br />
+			&lt;name condition=&rdquo;is not null&rdquo; /&gt;</h4>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

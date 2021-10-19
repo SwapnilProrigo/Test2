@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>add AML Action</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>AML Actions</h1>
+
+<h2>add</h2>
+
+<p>Add an Item as an instance of an ItemType.</p>
+
+<h3>Syntax:</h3>
+
+<h4><strong><span style="color: #008000">&lt;Item type = &quot;Type&quot; action= &quot;add&quot;</span><span style="color: #008000"> </span><span style="color: #008000">[id=&quot;<a href="_attribute guid.html">GUID</a>&quot;]&gt;<br />
+&nbsp;&lt;property&gt;value&lt;/property&gt;<br />
+&nbsp;...</span><br />
+&nbsp;<span style="color: #ff0000">&lt;Relationships&gt;<br />
+&nbsp; &lt;Item type=&quot;Type&quot; action=&quot;add|create&quot; [id=&quot;<a href="_attribute guid.html">GUID</a>&quot;]&gt;<br />
+&nbsp;&nbsp; &lt;property&gt;value&lt;/property&gt;<br />
+&nbsp;&nbsp; ...</span><br />
+&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: #0000ff">&lt;related_id&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Item type=&quot;Type&quot; action=&quot;add|create|get&quot; [<a href="_attribute Item Attributes.html">item attributes</a>]&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;property&gt;value&lt;/property&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/Item&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp; &lt;related_id&gt;<br />
+&nbsp; </span><span style="color: #ff0000">&lt;/Item&gt;<br />
+&nbsp;&nbsp; ...<br />
+&nbsp;&lt;/Relationships&gt;</span><br />
+<span style="color: #008000">&lt;/Item&gt;</span></strong><br />
+&nbsp;</h4>
+
+<h3>Notes:</h3>
+
+<p>Add creates a new Item on the server of the specified type.&nbsp; Relationships to related Items can also be defined using the &lt;Relationships&gt; tag.</p>
+
+<h3>Examples:</h3>
+
+<h4>&lt;!-- Add part with specified properties --&gt;<br />
+&lt;Item type=&quot;Part&quot; action=&quot;<span style="background-color: #ffff00">add</span>&quot;&gt;<br />
+&nbsp;&lt;item_number&gt;ABCD-1234&lt;/item_number&gt;<br />
+&nbsp;&lt;name&gt;Transistor&lt;/name&gt;<br />
+&lt;/Item&gt;</h4>
+
+<h4>&lt;!-- Add part&nbsp;with new related item and&nbsp;quantity specified&nbsp;--&gt;<br />
+&lt;Item type=&quot;Part&quot;&nbsp; action=&quot;<span style="background-color: #ffff00">add</span>&quot;&gt;<br />
+&nbsp;&lt;item_number&gt;AAAA-1000&lt;/item_number&gt;<br />
+&nbsp;&lt;name&gt;Cable Assembly&lt;/name&gt;<br />
+&nbsp;&lt;classification&gt;Assembly&lt;/classification&gt;<br />
+&nbsp; &lt;Relationships&gt;<br />
+&nbsp;&nbsp;&nbsp; &lt;Item type=&quot;Part BOM&quot; action=&quot;add&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;quantity&gt;2&lt;/quantity&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;related_id&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Item type=&quot;Part&quot; action=&quot;add&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;item_number&gt;1121-9011&lt;/item_number&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;name&gt;Binder clip&lt;/name&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/Item&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/related_id&gt;<br />
+&nbsp;&nbsp;&nbsp; &lt;/Item&gt;<br />
+&nbsp; &lt;/Relationships&gt;<br />
+&lt;/Item&gt;</h4>
+</body>
+</html>

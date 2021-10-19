@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>isError</title>
+
+
+	
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR">
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"></head><body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2><span class="identifier">isError</span>()</h2>
+
+<p align="left">Returns true if the item is an "error item".</p>
+
+<h3>C#</h3>
+
+<h4>Innovator inn = this.getInnovator();<br>
+Item cal = this.newItem("Business Calendar Year", "get");<br>
+cal.setProperty("year", "2031");<br>
+Item result = cal.apply();<br>
+if <span style="background-color: yellow;">(result.isError()) </span>return inn.newResult("Calendar not found");<br>
+return result;</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim inn As Innovator = Me.getInnovator()<br>
+Dim cal As Item = Me.newItem("Business Calendar Year", "get")<br>
+cal.setProperty("year", "2031")<br>
+Dim result As Item = cal.apply()<br>
+If <span style="background-color: yellow;">result.isError()</span> Then Return inn.newResult("Calendar not found")<br>
+Return result<br>
+</h4>
+
+<h3>Notes:</h3>
+
+<p>Returns&nbsp;true if error item.</p>
+</body></html>

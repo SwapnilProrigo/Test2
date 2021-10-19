@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>getConnection</title>
+<link rel="stylesheet" type="text/css" href="../style.css"> 
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Innovator Class</h1>
+
+<h2>getConnection()</h2>
+
+<p align="left">Returns the server connection set on the current Aras Innovator instance.</p>
+
+<h3>C#:</h3>
+
+<h4>Innovator inn =&nbsp; this.getInnovator();<br />
+HttpServerConnection cnx = (HttpServerConnection) <span style="background-color: #ffff00">inn.getConnection();</span><br />
+&nbsp;</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim inn As Innovator = Me.getInnovator()<br />
+Dim cnx As HttpServerConnection = DirectCast(<span style="background-color: #ffff00">inn.getConnection()</span>, HttpServerConnection</h4>
+
+<h3>Notes:</h3>
+
+<p>Server connection object that implements IServerConnection interface.</p>
+
+<p>The real type of the server connection object depends on what was passed to the IomFactory.CreateInnovator(IServerConnection) when the instance of the Innovator class was created.</p>
+</body>
+</html>

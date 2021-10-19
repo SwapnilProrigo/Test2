@@ -1,0 +1,15 @@
+﻿<AML>
+ <Item type="Permission_ItemClassification" id="3EC737218AD940B599E2FE97E44B4757" action="add">
+  <name>Request Classify Permissions</name>
+  <Relationships>
+   <Item type="Access_ItemClassification" id="F460F5B96DB6426388909EE43ABBADD9" action="add">
+    <can_classify>1</can_classify>
+    <can_get_isclassified>1</can_get_isclassified>
+    <can_unclassify>1</can_unclassify>
+    <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Request Classify Permissions" type="Permission_ItemClassification">3EC737218AD940B599E2FE97E44B4757</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

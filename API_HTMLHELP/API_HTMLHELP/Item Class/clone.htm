@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>clone</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2>clone(bool cloneRelationships)</h2>
+
+<p align="left">Make a duplicate of an item.&nbsp; if cloneRelationships flag&nbsp;is true then any currently retrieved relationships are also cloned.</p>
+
+<h3>C#</h3>
+
+<h4>Item itm = this.newItem(&quot;Vendor&quot; , &quot;get&quot;);<br />
+itm.setProperty(&quot;name&quot;, &quot;Allied Industries&quot;);<br />
+itm.createRelationship(&quot;Vendor Part&quot;, &quot;get&quot;);<br />
+itm = itm.apply();</h4>
+
+<h4>Item i_copy = <span style="background-color: #ffff00">itm.clone(true)</span>;<br />
+i_copy.setProperty(&quot;name&quot;, &quot;Copy of Allied Industries&quot;);<br />
+return i_copy.apply();</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim itm As Item = Me.newItem(&quot;Vendor&quot;, &quot;get&quot;)<br />
+itm.setProperty(&quot;name&quot;, &quot;Allied Industries&quot;)<br />
+itm.createRelationship(&quot;Vendor Part&quot;, &quot;get&quot;)<br />
+itm = itm.apply()</h4>
+
+<h4>Dim i_copy As Item = <span style="background-color: #ffff00">itm.clone(True)</span><br />
+i_copy.setProperty(&quot;name&quot;, &quot;Copy of Allied Industries&quot;)<br />
+Return i_copy.apply()</h4>
+
+<h3>Notes:</h3>
+
+<p>The method creates a new instance of item that must be applied to be permanently saved.</p>
+
+<p>To clone relationships the original item must be contain the relationship data to be cloned.&nbsp; In the examples above, the Vendor Part relationships are retrieved along with the parent Vendor item.&nbsp; When the original Vendor is cloned the Vendor Part relationships declared in the original are also cloned.</p>
+
+<p>Cloned item as well as cloned relationships have new IDs and <span class="code">action</span> attributes set to &#39;add&#39; which must be applied to the server.&nbsp;<br />
+&nbsp;</p>
+</body>
+</html>

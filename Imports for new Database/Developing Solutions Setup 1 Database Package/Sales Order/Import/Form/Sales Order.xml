@@ -1,0 +1,301 @@
+﻿<AML>
+ <Item type="Form" id="44AE6F040947429E9C416EF9C5965000" action="add">
+  <category_form>0</category_form>
+  <height>234</height>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>699</width>
+  <name>Sales Order</name>
+  <Relationships>
+   <Item type="Body" id="4604EF87A72D4357B0EDA671B0C63776" action="add">
+    <bg_attach>scroll</bg_attach>
+    <bg_color>#FFFFFF</bg_color>
+    <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
+    <bg_repeat>no-repeat</bg_repeat>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Sales Order" type="Form">44AE6F040947429E9C416EF9C5965000</source_id>
+    <Relationships>
+     <Item type="Field" id="8FF3C7A1DAA8452DA0C85EAE96456A2B" action="add">
+      <bg_color>beige  </bg_color>
+      <border_width>0</border_width>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Order Date</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>1152</sort_order>
+      <source_id keyed_name="4604EF87A72D4357B0EDA671B0C63776" type="Body">4604EF87A72D4357B0EDA671B0C63776</source_id>
+      <tab_index>512</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>183</x>
+      <y>146</y>
+      <name>created_on</name>
+     </Item>
+     <Item type="Field" id="E599F2E41321490E94029A7F3659F1D8" action="add">
+      <border_width>0</border_width>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Sales Rep</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="creator_last_name" type="Property">7A64D9311C2C4B68878DA468B0B050ED</propertytype_id>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="4604EF87A72D4357B0EDA671B0C63776" type="Body">4604EF87A72D4357B0EDA671B0C63776</source_id>
+      <tab_index>3328</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>336</x>
+      <y>57</y>
+      <name>creator_last_name</name>
+     </Item>
+     <Item type="Field" id="57F9BA5F11F04499946C56DC2786BA79" action="add">
+      <field_type>html</field_type>
+      <html_code><![CDATA[<span id='ITEM_INFO_INTERNAL_SPAN'/>
+<script>
+  populate_ITEM_INFO_INTERNAL_SPAN = function()
+  {
+    document.getElementById('ITEM_INFO_INTERNAL_SPAN').innerHTML = top.aras.uiGetItemInfoTable(document.itemType);
+  }
+  window.attachEvent('onload', populate_ITEM_INFO_INTERNAL_SPAN);
+</script>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="4604EF87A72D4357B0EDA671B0C63776" type="Body">4604EF87A72D4357B0EDA671B0C63776</source_id>
+      <tab_stop>0</tab_stop>
+      <x>0</x>
+      <y>0</y>
+      <name>item_info</name>
+     </Item>
+     <Item type="Field" id="6194AFD069E04F5F8B90A25ABE73608C" action="add">
+      <border_width>0</border_width>
+      <field_type>item</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Reviewing Manager</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="4604EF87A72D4357B0EDA671B0C63776" type="Body">4604EF87A72D4357B0EDA671B0C63776</source_id>
+      <tab_index>896</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>336</x>
+      <y>10</y>
+      <name>managed_by_id</name>
+     </Item>
+     <Item type="Field" id="67D28666AF6B4BDB80F5F39CEE117B8C" action="add">
+      <border_width>0</border_width>
+      <container>Shipment</container>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Allow Multiple Shipments?</label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="multiple_shipment" type="Property">62CEC50A56774529B724E7ED3E1652EE</propertytype_id>
+      <sort_order>1280</sort_order>
+      <source_id keyed_name="4604EF87A72D4357B0EDA671B0C63776" type="Body">4604EF87A72D4357B0EDA671B0C63776</source_id>
+      <tab_index>3584</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>192</x>
+      <y>148</y>
+      <name>multiple_shipment</name>
+     </Item>
+     <Item type="Field" id="94CBEECA2AFA41D2BBFB2CDED42C8404" action="add">
+      <border_width>0</border_width>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Purchase Order #</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="po_number" type="Property">5F9F197E2EED407BA4C1866C2CCCF425</propertytype_id>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="4604EF87A72D4357B0EDA671B0C63776" type="Body">4604EF87A72D4357B0EDA671B0C63776</source_id>
+      <tab_index>3200</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>183</x>
+      <y>56</y>
+      <name>po_number</name>
+     </Item>
+     <Item type="Field" id="B94CAFBAD6D54877B9BE5214ED35EDB4" action="add">
+      <border_width>0</border_width>
+      <container>Shipment</container>
+      <field_type>date</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Ship Date</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="ship_date" type="Property">9BA16859498343F3AF3869C90A1814B5</propertytype_id>
+      <sort_order>1024</sort_order>
+      <source_id keyed_name="4604EF87A72D4357B0EDA671B0C63776" type="Body">4604EF87A72D4357B0EDA671B0C63776</source_id>
+      <tab_index>3456</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>189</x>
+      <y>105</y>
+      <name>ship_date</name>
+     </Item>
+     <Item type="Field" id="8983323FFB8E47A8A9C928097FBAE5DC" action="add">
+      <border_width>2</border_width>
+      <field_type>groupbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label_position>top</label_position>
+      <legend xml:lang="en">Shipping Info</legend>
+      <list_no_blank>0</list_no_blank>
+      <orientation>vertical</orientation>
+      <sort_order>1408</sort_order>
+      <source_id keyed_name="4604EF87A72D4357B0EDA671B0C63776" type="Body">4604EF87A72D4357B0EDA671B0C63776</source_id>
+      <tab_stop>1</tab_stop>
+      <x>336</x>
+      <y>92</y>
+      <name>Shipment</name>
+     </Item>
+     <Item type="Field" id="5D1B1E76E8A14481A82B4CE3ECF54D8A" action="add">
+      <border_width>0</border_width>
+      <container>Shipment</container>
+      <field_type>dropdown</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Shipping Method</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <positioning>static</positioning>
+      <propertytype_id keyed_name="shipping_method" type="Property">F757DD1DE7714B2581624CE5651EDBDF</propertytype_id>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="4604EF87A72D4357B0EDA671B0C63776" type="Body">4604EF87A72D4357B0EDA671B0C63776</source_id>
+      <tab_index>3072</tab_index>
+      <tab_stop>0</tab_stop>
+      <x>190</x>
+      <y>59</y>
+      <name>shipping_method</name>
+     </Item>
+     <Item type="Field" id="81B63DB18E374396963E7EA9CFC9C3F4" action="add">
+      <border_width>0</border_width>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Sales Order #</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <propertytype_id keyed_name="so_number" type="Property">2FB68171745C44ABA8EA46D7B011B508</propertytype_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="4604EF87A72D4357B0EDA671B0C63776" type="Body">4604EF87A72D4357B0EDA671B0C63776</source_id>
+      <tab_index>10</tab_index>
+      <tab_stop>0</tab_stop>
+      <x>183</x>
+      <y>10</y>
+      <name>so_number</name>
+     </Item>
+     <Item type="Field" id="0259A1DAD86145DEBD61BCDE82583C1F" action="add">
+      <border_width>0</border_width>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">Status</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>896</sort_order>
+      <source_id keyed_name="4604EF87A72D4357B0EDA671B0C63776" type="Body">4604EF87A72D4357B0EDA671B0C63776</source_id>
+      <tab_index>1408</tab_index>
+      <tab_stop>0</tab_stop>
+      <x>183</x>
+      <y>99</y>
+      <name>state</name>
+     </Item>
+     <Item type="Field" id="3763E2DEF03F43B58F9D77D89D531B46" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>xclass</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">xClass</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>1536</sort_order>
+      <source_id keyed_name="4604EF87A72D4357B0EDA671B0C63776" type="Body">4604EF87A72D4357B0EDA671B0C63776</source_id>
+      <tab_stop>1</tab_stop>
+      <x>534</x>
+      <y>7</y>
+      <name>xclass</name>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="Field" id="8FF3C7A1DAA8452DA0C85EAE96456A2B" action="edit">
+  <!-- Please note: this AML depends on the "Sales Order" ItemType. Please make sure it exists before running this. -->
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>created_on</name>
+    <source_id type="ItemType" keyed_name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+ <Item type="Field" id="6194AFD069E04F5F8B90A25ABE73608C" action="edit">
+  <!-- Please note: this AML depends on the "Sales Order" ItemType. Please make sure it exists before running this. -->
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>managed_by_id</name>
+    <source_id type="ItemType" keyed_name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+ <Item type="Field" id="0259A1DAD86145DEBD61BCDE82583C1F" action="edit">
+  <!-- Please note: this AML depends on the "Sales Order" ItemType. Please make sure it exists before running this. -->
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>state</name>
+    <source_id type="ItemType" keyed_name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+</AML>

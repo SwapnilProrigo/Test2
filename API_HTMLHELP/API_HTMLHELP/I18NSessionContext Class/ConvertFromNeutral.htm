@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../style.css"> 
+<meta name="GENERATOR" content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)">
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" >
+<title>Innovator applyAML</title>
+</head>
+<body bgcolor="#ffffff">
+<h1><span id="nsrTitle" pbzloc="324">I18NSessionContext Class</span></h1>
+
+<h2><span class="identifier">ConvertFromNeutral</span>(S<span class="nolink">tring</span> <span class="parameter">svalue</span>, S<span class="nolink">tring</span> <span class="parameter">vtype</span>, S<span class="nolink">tring</span> <span class="parameter">datePtrn)</span><br />
+&nbsp;</h2>
+
+<p align="left">Converts from Aras neutral format into the format specific for the session locale.</p>
+
+<h3>C#:</h3>
+
+<h4 pbzloc="332">string neutral_date = &quot;2013-05-02T00:00:00&quot;;<br />
+string float_num = &quot;41.00027357629127&quot;;<br />
+string decimal_num = &quot;234.12&quot;;</h4>
+
+<h4 pbzloc="333">I18NSessionContext cntx = this.getInnovator().getI18NSessionContext();<br />
+string date_value = <span style="background-color: #ffff00">cntx.ConvertFromNeutral(neutral_date,&quot;date&quot;, &quot;short_date_time&quot;);</span><br />
+string float_value = <span style="background-color: #ffff00">cntx.ConvertFromNeutral(float_num,&quot;float&quot;, &quot;&quot;);</span><br />
+string decimal_value = <span style="background-color: #ffff00">cntx.ConvertFromNeutral(decimal_num,&quot;decimal&quot;, &quot;&quot;);</span><br />
+&nbsp;<br />
+return this.getInnovator().newResult(date_value + &quot; &quot; + float_value + &quot; &quot; + decimal_value);</h4>
+
+<h3>VB:</h3>
+
+<h4 pbzloc="341">Dim neutral_date As String = &quot;2013-05-02T00:00:00&quot;<br />
+Dim float_num As String = &quot;41.00027357629127&quot;<br />
+Dim decimal_num As String = &quot;234.12&quot;</h4>
+
+<h4 pbzloc="342">Dim cntx As I18NSessionContext = Me.getInnovator().getI18NSessionContext()<br />
+Dim date_value As String = <span style="background-color: #ffff00">cntx.ConvertFromNeutral(neutral_date, &quot;date&quot;, &quot;short_date_time&quot;)</span><br />
+Dim float_value As String = <span style="background-color: #ffff00">cntx.ConvertFromNeutral(float_num, &quot;float&quot;, &quot;&quot;)</span><br />
+Dim decimal_value As String = <span style="background-color: #ffff00">cntx.ConvertFromNeutral(decimal_num, &quot;decimal&quot;, &quot;&quot;)</span></h4>
+
+<h4>Return Me.getInnovator().newResult(date_value + &quot; &quot; + float_value + &quot; &quot; + decimal_value)</h4>
+
+<h3>&nbsp;</h3>
+
+<h4>&nbsp;</h4>
+Notes:
+
+<p>Accepts the following parameters:</p>
+
+<p>sValue - Locale specific string representation of a value that has to be converted.<br />
+<span class="parameter">vtype&nbsp;- </span>Type of the value; only the following types are considered to be locale specific - &#39;date&#39; | &#39;float&#39; | &#39;decimal&#39;<br />
+<span class="parameter">datePtrn -&nbsp;</span>This parameter is taken into consideration only if <span class="code">vtype=&#39;date&#39;</span>. In this case the parameter can have one the following values:<br />
+short_date,&nbsp; long_date,&nbsp; short_date_time,&nbsp; long_date_time,&nbsp; short_time,&nbsp; long_time</p>
+
+<p>In the examples above if the session context fr_FR (French - France) the following is returned:</p>
+
+<p>&lt;Result&gt;02/05/2013 00:00:00 41,000273576291271 234,12&lt;/Result&gt;<br />
+&nbsp;</p>
+
+<dl>
+</dl>
+</body>
+</html>

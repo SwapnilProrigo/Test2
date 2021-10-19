@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>getErrorSource</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2>getErrorSource()</h2>
+
+<p align="left">Returns the content of the &lt;faultactor&gt; element of SOAP Fault element.</p>
+
+<h3>C#:</h3>
+
+<h4>string faultString=&quot;&quot;;<br />
+Item part = this.newItem(&quot;Program&quot;, &quot;get&quot;);<br />
+part = part.apply();</h4>
+
+<h4>if (part.isError()) {<br />
+&nbsp;faultString = <span style="background-color: #ffff00">part.getErrorSource()</span>;<br />
+&nbsp;}</h4>
+
+<h4>return this.getInnovator().newResult(faultString);</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim faultStringAs String = &quot;&quot;<br />
+Dim part As Item = Me.newItem(&quot;Program&quot;, &quot;get&quot;)<br />
+part = part.apply()</h4>
+
+<h4>If part.isError() Then<br />
+&nbsp;faultString= <span style="background-color: #ffff00">part.getErrorSource()</span><br />
+End If</h4>
+
+<h4>Return Me.getInnovator().newResult(faultString)</h4>
+
+<h3>Notes:</h3>
+
+<p>If the instance is not an error item, an empty string is returned.</p>
+
+<p><br />
+<br />
+&nbsp;</p>
+</body>
+</html>

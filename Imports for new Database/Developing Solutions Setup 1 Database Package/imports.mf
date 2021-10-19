@@ -1,0 +1,19 @@
+<imports>
+    
+    <package name = "Sales Order" path = "Sales Order\Import">
+        <dependson name = "ConfigSolutionsVersion12"/>
+	</package>
+    <package name = "TrainingData1" path = "TrainingData1\Import">
+            <dependson name = "Sales Order"/>
+			<dependson name = "com.aras.innovator.solution.PLM"/>
+    </package>
+    <package name = "TrainingData2" path = "TrainingData2\Import">
+        <dependson name = "TrainingData1"/>
+		<dependson name = "ConfigSolutionsVersion12"/>
+    </package>
+    <package name = "com.aras.innovator.solution.PLM" path = "PLM\Import">
+	 <dependson name = "ConfigSolutionsVersion12"/>
+	</package>
+	<package name = "ConfigSolutionsVersion12" path = "ConfigSolutionsVersion12\Import">
+    </package>
+</imports>

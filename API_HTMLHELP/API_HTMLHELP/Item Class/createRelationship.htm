@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>createRelationship</title>
+
+
+	
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR">
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"></head><body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2>createRelationship(String, String)</h2>
+
+<p align="left">Creates new &lt;Item&gt; node with specified 'type' and 'action' under &lt;Relationships&gt; node..</p>
+
+<h3>C#:</h3>
+
+<h4>Item parentItem = this.newItem("Part", "get");<br>
+Item relationshipItem = <span style="background-color: rgb(255, 255, 0);">parentItem.createRelationship("Part Document", "get")</span>;<br>
+Item relatedItem = this.newItem("Document", "get");<br>
+relatedItem.setProperty("item_number", "DOC-0001");<br>
+relationshipItem.setRelatedItem(relatedItem);<br>
+return parentItem.apply();</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim parentItem As Item = Me.newItem("Part", "get")<br>
+Dim relationshipItem As Item = <span style="background-color: rgb(255, 255, 0);">parentItem.createRelationship("Part Document", "get")</span><br>
+Dim relatedItem As Item = Me.newItem("Document", "get")<br>
+relatedItem.setProperty("item_number", "DOC-0001")<br>
+relationshipItem.setRelatedItem(relatedItem)<br>
+Return parentItem.apply()</h4>
+
+<h3>Notes:</h3>
+
+<p>The method inserts passed relationship Item under
+&lt;Relationships&gt; node.&nbsp; Relationship Item node is created and
+placed under parent node.</p>
+
+<p>Examples above creates the following AML Request:</p>
+
+<p>&lt;Item type="Part" action="get"&gt;<br>
+&lt;Relationships&gt;<br>
+&lt;Item type="Part Document" action="get"&gt;<br>
+&lt;related_id&gt;<br>
+&lt;Item type = "Document" action="get"&gt;<br>
+&lt;item_number&gt;DOC-0001"&lt;/item_number&gt;<br>
+&lt;/Item&gt;<br>
+&lt;related_id&gt;<br>
+&lt;/Item&gt;<br>
+&lt;/Relationships&gt;<br>
+&lt;/Item&gt;<br>
+&nbsp;</p>
+</body></html>

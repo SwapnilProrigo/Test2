@@ -1,0 +1,7 @@
+﻿<AML>
+ <Item type="EMail Message" id="66BB7C8EE59248DE9F6B0E3CECC60F66" action="add">
+  <body_plain>Request ${Item[@type="Design Request"]/_item_number} waiting for submission</body_plain>
+  <name>Request Flow Submit with Variables</name>
+  <subject>Request ${Item[@type="Design Request"]/_item_number} waiting for submission</subject>
+ </Item>
+</AML>

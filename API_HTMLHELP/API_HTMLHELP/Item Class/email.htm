@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>email</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2>email(Item <span class="parameter">emailItem</span>, Item <span class="parameter">identityItem)</span></h2>
+
+<p align="left">Send e-mail to the specified identity.</p>
+
+<h3>C#</h3>
+
+<h4>Item email_msg = this.newItem(&quot;Email Message&quot;, &quot;get&quot;);<br />
+email_msg.setProperty(&quot;name&quot;, &quot;Service Reminder&quot;);<br />
+email_msg = email_msg.apply();<br />
+//Get admin Identity<br />
+Item iden = this.newItem(&quot;Identity&quot;, &quot;get&quot;);<br />
+iden.setProperty(&quot;name&quot;, &quot;Innovator Admin&quot;);<br />
+iden = iden.apply();</h4>
+
+<h4>bool result = <span style="background-color: #ffff00">this.email(email_msg, iden)</span>;</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim email_msg As Item = Me.newItem(&quot;Email Message&quot;, &quot;get&quot;)<br />
+email_msg.setProperty(&quot;name&quot;, &quot;Service Reminder&quot;)<br />
+email_msg = email_msg.apply()<br />
+&#39;Get admin Identity<br />
+Dim iden As Item = Me.newItem(&quot;Identity&quot;, &quot;get&quot;)<br />
+iden.setProperty(&quot;name&quot;, &quot;Innovator Admin&quot;)<br />
+iden = iden.apply()</h4>
+
+<h4>Dim result As Boolean = <span style="background-color: #ffff00">Me.email(email_msg, iden)</span></h4>
+
+<h3>Notes:</h3>
+
+<p>Returns boolean&nbsp;&#39;true&#39; if mail was successfully sent, &#39;false&#39; otherwise.</p>
+
+<p>All members of specified Identity must have an e-mail address in their User record and the email message item must have a valid return Identity assigned or email will not be generated and a false will be returned from the method.<br />
+&nbsp;</p>
+</body>
+</html>

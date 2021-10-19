@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>getRelationships</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2>getRelationships(<span class="nolink">string</span> <span class="parameter">itemTypeName</span>)</h2>
+
+<p align="left">Returns an item that is a collection of relationships items available on the instance of type TypeName.</p>
+
+<h3>C#:</h3>
+
+<h4>Item part = this.newItem(&quot;Part&quot;, &quot;get&quot;);<br />
+part.setProperty(&quot;item_number&quot;, &quot;8120-8900&quot;);<br />
+part = part.apply();<br />
+part.fetchRelationships(&quot;Part BOM&quot;);<br />
+part.fetchRelationships(&quot;Part Document&quot;);<br />
+Item relationships = <span style="background-color: #ffff00">part.getRelationships(&quot;Part Document&quot;)</span>;<br />
+return this.getInnovator().newResult(relationships.getItemCount().ToString());</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim part As Item = Me.newItem(&quot;Part&quot;, &quot;get&quot;)<br />
+part.setProperty(&quot;item_number&quot;, &quot;8120-8900&quot;)<br />
+part = part.apply()<br />
+part.fetchRelationships(&quot;Part BOM&quot;)<br />
+part.fetchRelationships(&quot;Part Document&quot;)<br />
+Dim relationships As Item = <span style="background-color: #ffff00">part.getRelationships(&quot;Part Document&quot;)</span><br />
+Return Me.getInnovator().newResult(relationships.getItemCount().ToString())</h4>
+
+<h3>Notes:</h3>
+
+<p>Returns an Item that is a collection of all relationships items available on the instance of specific TypeName. If <span class="code">this</span> doesn&#39;t have relationships, the returned item <span class="code">nodeList</span> will be empty.</p>
+
+<p class="heading">The methods does&nbsp;<b>NOT</b> make a request to the server but rather returns relationships items available on <span class="code">this.dom</span> in memory. In order to get relationships from the server&nbsp;use the <span class="code">fetchRelationships(...)</span> methods.</p>
+
+<p class="heading">The examples above get any relationships of type Part Document on a selected Part and return the total count.&nbsp; The Part BOM relationships which have been fetched from the server are ignored.</p>
+
+<p><br />
+<br />
+&nbsp;</p>
+</body>
+</html>

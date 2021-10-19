@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>IgetPropertyAttribute</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2><span class="identifier">getPropertyAttribute</span>(<span class="nolink">string</span> <span class="parameter">propertyName</span>, <span class="nolink">string</span> <span class="parameter">attributeName)</span><br />
+&nbsp;</h2>
+
+<p align="left">Gets the specified attribute of the property with the specified name.</p>
+
+<h3>C#:</h3>
+
+<h4>Item itm = this.newItem(&quot;Customer&quot;, &quot;get&quot;);<br />
+itm.setProperty(&quot;name&quot;, &quot;ACME&quot;);<br />
+itm = itm.apply();<br />
+string state = itm.<span style="background-color: #ffff00">getPropertyAttribute(&quot;current_state&quot;, &quot;keyed_name&quot;)</span>;<br />
+return this.getInnovator().newError(state);</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim itm As Item = Me.newItem(&quot;Customer&quot;, &quot;get&quot;)<br />
+itm.setProperty(&quot;name&quot;, &quot;ACME&quot;)<br />
+itm = itm.apply()<br />
+Dim state As String = <span style="background-color: #ffff00">itm.getPropertyAttribute(&quot;current_state&quot;, &quot;keyed_name&quot;)</span><br />
+Return Me.getInnovator().newError(state)</h4>
+
+<h3>Notes:</h3>
+
+<p>If either property with the specified name or the specified attribute on the property doesn&#39;t exist, returns <span class="code">null</span> ( in JavaScript, returns <span class="code">undefined</span>.)</p>
+</body>
+</html>

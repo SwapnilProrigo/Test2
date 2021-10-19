@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>instantiateWorkflow</title>
+
+
+	
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR">
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"></head><body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2><span class="identifier">instantiateWorkflow</span>(<span class="nolink">string</span> <span class="parameter">workflowMapID)</span><br>
+&nbsp;</h2>
+
+<p align="left">Instantiates workflow for the item using specified workflow map.</p>
+
+<h3>C#</h3>
+
+<h4>Item itm = this.newItem("Workflow Map", "get");<br>
+itm.setAttribute("select", "id");<br>
+itm.setProperty("name", "PR");<br>
+itm = itm.apply();<br>
+string wf_id = itm.getID();<br>
+Item wf_process = <span style="background-color: rgb(255, 255, 0);">this.instantiateWorkflow(wf_id)</span>;<br>
+return wf_process.apply("startWorkflow");</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim itm as Item = this.newItem("Workflow Map", "get")<br>
+itm.setAttribute("select", "id")<br>
+itm.setProperty("name", "PR")<br>
+itm = itm.apply()<br>
+Dim wf_id as String = itm.getID()<br>
+Dim wf_process as Item = <span style="background-color: rgb(255, 255, 0);">this.instantiateWorkflow(wf_id)</span><br>
+Return wf_process.apply("startWorkflow")<br>
+&nbsp;</h4>
+
+<h3>Notes:</h3>
+
+<p>Returns a Workflow Process item created by this method or an "error" item.</p>
+
+<p>After successful instantiation the workflow process must be started using the <strong>startWorkflow </strong>Method.&nbsp; Here it is assumed that the startWorkflow Method is being invoked from the controlled Item.</p>
+
+<p class="heading">The method does the following: a) sends a request to
+the server to instantiate the specified Workflow Map to a Workflow
+Process b) using ID of the WorkflowProcess item obtained from the
+server, sends another request to attach the Workflow Process to the
+controlled item via the "Workflow" relationship. Note, that the item
+itself is not modified by the method.</p>
+
+<p><br>
+<br>
+&nbsp;</p>
+</body></html>

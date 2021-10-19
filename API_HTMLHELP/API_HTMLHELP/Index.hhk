@@ -1,0 +1,619 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="applyAML">
+		<param name="Name" value="Innovator methods">
+		<param name="Local" value="Innovator Class\Innovator_applyAML.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="applyMethod">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Innovator Class\Innovator_applyMethod.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="applySQL">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Innovator Class\Innovator_applySQL.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getConnection">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Innovator Class\Innovator_getConnection.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ConsumeLicense">
+		<param name="Name" value="ConsumeLicense">
+		<param name="Local" value="Innovator Class\Innovator_ConsumeLicense.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getFileUrl">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Innovator Class\Innovator_getFileUrl.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getFileUrls">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Innovator Class\Innovator_getFileUrls.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getI18NSessionContext">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Innovator Class\Innovator_getI18NSessionContext.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getItemById">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Innovator Class\Innovator_getItemById.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getItemByKeyedName">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Innovator Class\Innovator_getItemByKeyedName.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getItemInDom">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Innovator Class\Innovator_getItemInDom.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getNextSequence">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Innovator Class\Innovator_getNextSequence.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getUserID">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Innovator Class\Innovator_getUserID.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="newError">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Innovator Class\Innovator_newError.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="newItem">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Innovator Class\Innovator_newItem Overview.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="newResult">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Innovator Class\Innovator_newResult.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="newXMLDocument">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Innovator Class\Innovator_newXMLDocument.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ScalcMD5">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Innovator Class\Innovator_ScalcMD5.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="addRelationship">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\addRelationship.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="appendItem">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\appendItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="apply">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\apply.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="applyStylesheet">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\applyStylesheet.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="attachPhysicalFile">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\attachPhysicalFile.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="checkout">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\checkout.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="clone">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\clone.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="createPropertyItem">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\createPropertyItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="createRelatedItem">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\createRelatedItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="createRelationship">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\createRelationship.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="email">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\email.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="fetchDefaultPropertyValues">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\fetchDefaultPropertyValues.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="fetchFileProperty">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\fetchFileProperty.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="fetchLockStatus">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\fetchLockStatus.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="fetchRelationships">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\fetchRelationships.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="filelist">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\filelist.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getAction">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getAction.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getAttribute">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getAttribute.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getErrorCode">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getErrorCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getErrorDetail">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getErrorDetail.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getErrorSource">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getErrorSource.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getErrorString">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getErrorString.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getID">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getInnovator">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getInnovator.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getItemByIndex">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getItemByIndex.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getItemCount">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getItemCount.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getItemsByXPath">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getItemsByXPath.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getLockStatus">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getLockStatus.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getLogicalChildren">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getLogicalChildren.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getNewID">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getNewID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getParentItem">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getParentItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getProperty">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getProperty.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getPropertyAttribute">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getPropertyAttribute.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getPropertyCondition">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getPropertyCondition.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getPropertyItem">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getPropertyItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getRelatedItem">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getRelatedItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getRelatedItemID">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getRelatedItemID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getRelationships">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getRelationships.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getResult">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getResult.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getType">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\getType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="instantiateWorkflow">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\instantiateWorkflow.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="isCollection">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\isCollection.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="isEmpty">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\isEmpty.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="isError">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\isError.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="isLogical">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\isLogical.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="isNew">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\isNew.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="isRoot">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\isRoot.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Item">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\Item.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="loadAML">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\loadAML.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="lockItem">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\lockItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="newAND">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\newAND.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="newItem">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\newItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="newNOT">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\newNOT.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="newOR">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\newOR.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="newXMLDocument">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\newXMLDocument.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="promote">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\promote.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="removeAttribute">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\removeAttribute.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="removeItem">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\removeItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="removeLogical">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\removeLogical.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="removeProperty">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\removeProperty.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="removePropertyAttribute">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\removePropertyAttribute.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="removeProperty">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\removeProperty.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="removeRelationship">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\removeRelationship.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="setAction">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\setAction.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="setAttribute">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\setAttribute.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="setErrorCode">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\setErrorCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="setErrorDetail">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\setErrorDetail.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="setErrorSource">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\setErrorSource.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="setErrorString">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\setErrorString.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="setID">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\setID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="setNewID">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\setNewID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="setProperty">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\setProperty.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="setPropertyAttribute">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\setPropertyAttribute.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="setPropertyCondition">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\setPropertyCondition.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="setPropertyItem">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\setPropertyItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="setProperty">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\setProperty.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="setFileProperty">
+		<param name="Name" value="Item">
+		<param name="Local" value="Item Class\setFileProperty.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="setRelatedItem">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\setRelatedItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="setType">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\setType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ToString">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\ToString.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="unlockItem">
+		<param name="Name" value="Innovator">
+		<param name="Local" value="Item Class\unlockItem.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetDatabaseName">
+		<param name="Name" value="HttpServerConnection">
+		<param name="Local" value="HttpServerConnection Class\GetDatabaseName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetDatabases">
+		<param name="Name" value="HttpServerConnection">
+		<param name="Local" value="HttpServerConnection Class\GetDatabases.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getFileUrl">
+		<param name="Name" value="HttpServerConnection">
+		<param name="Local" value="HttpServerConnection Class\getFileUrl.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getFileUrls">
+		<param name="Name" value="HttpServerConnection">
+		<param name="Local" value="HttpServerConnection Class\getFileUrls.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetLicenseInfo">
+		<param name="Name" value="HttpServerConnection">
+		<param name="Local" value="HttpServerConnection Class\GetLicenseInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getUserID">
+		<param name="Name" value="HttpServerConnection">
+		<param name="Local" value="HttpServerConnection Class\getUserID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="getUserInfo">
+		<param name="Name" value="HttpServerConnection">
+		<param name="Local" value="HttpServerConnection Class\getUserInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Login">
+		<param name="Name" value="HttpServerConnection">
+		<param name="Local" value="HttpServerConnection Class\Login.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Logout">
+		<param name="Name" value="HttpServerConnection">
+		<param name="Local" value="HttpServerConnection Class\Logout.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CreateHttpServerConnection">
+		<param name="Name" value="IomFactory ">
+		<param name="Local" value="IomFactory Class\CreateHttpServerConnection.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CreateInnovator">
+		<param name="Name" value="IomFactory ">
+		<param name="Local" value="IomFactory Class\CreateInnovator.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ConvertNeutralToUtcDateTime">
+		<param name="Name" value="I18NSessionContext">
+		<param name="Local" value="I18NSessionContext Class\ConvertNeutralToUtcDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ConvertToNeutral">
+		<param name="Name" value="I18NSessionContext">
+		<param name="Local" value="I18NSessionContext Class\ConvertToNeutral.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ConvertUtcDateTimeToNeutral">
+		<param name="Name" value="I18NSessionContext">
+		<param name="Local" value="I18NSessionContext Class\ConvertUtcDateTimeToNeutral.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="filelist">
+		<param name="Name" value="I18NSessionContext">
+		<param name="Local" value="I18NSessionContext Class\filelist.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetCorporateToLocalOffset">
+		<param name="Name" value="I18NSessionContext">
+		<param name="Local" value="I18NSessionContext Class\GetCorporateToLocalOffset.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetDefaultLanguageCode">
+		<param name="Name" value="I18NSessionContext">
+		<param name="Local" value="I18NSessionContext Class\GetDefaultLanguageCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetDefaultLanguageSuffix">
+		<param name="Name" value="I18NSessionContext">
+		<param name="Local" value="I18NSessionContext Class\GetDefaultLanguageSuffix.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetLanguageCode">
+		<param name="Name" value="I18NSessionContext">
+		<param name="Local" value="I18NSessionContext Class\GetLanguageCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetLanguageSuffix">
+		<param name="Name" value="I18NSessionContext">
+		<param name="Local" value="I18NSessionContext Class\GetLanguageSuffix.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetLocale">
+		<param name="Name" value="I18NSessionContext">
+		<param name="Local" value="I18NSessionContext Class\GetLocale.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetTimeZone">
+		<param name="Name" value="I18NSessionContext">
+		<param name="Local" value="I18NSessionContext Class\GetTimeZone.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GetUIDatePattern">
+		<param name="Name" value="I18NSessionContext">
+		<param name="Local" value="I18NSessionContext Class\GetUIDatePattern.htm">
+		</OBJECT>
+</UL>
+</BODY></HTML>

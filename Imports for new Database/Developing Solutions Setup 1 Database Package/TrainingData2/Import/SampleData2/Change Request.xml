@@ -1,0 +1,429 @@
+<AML>
+      <Item type="Change Request"  id="19544C05D7004A948678266B5DB9B371" action="add">
+        <_cost_estimate>100.00</_cost_estimate>
+        <_region>AM</_region>
+        <_title>Update to Windows Print Spooler for all devices</_title>
+        <classification>Enhancement</classification>
+        <config_id keyed_name="CR-000060" type="Change Request">19544C05D7004A948678266B5DB9B371</config_id>
+        <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+        <created_on>2014-01-28T16:23:37</created_on>
+        <current_state keyed_name="Preliminary" type="Life Cycle State" name="Preliminary">C191FA26FA334C8A85D39FA55CC2D56C</current_state>
+        <generation>1</generation>
+        <id keyed_name="CR-000060" type="Change Request">19544C05D7004A948678266B5DB9B371</id>
+        <is_current>1</is_current>
+        <is_released>0</is_released>
+        <keyed_name>CR-000060</keyed_name>
+        <major_rev>A</major_rev>
+        <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+        <modified_on>2014-01-28T16:23:37</modified_on>
+        <new_version>0</new_version>
+        <not_lockable>0</not_lockable>
+        <permission_id keyed_name="Change Request" type="Permission">356C6E7F1FB840E9AC685E0C1C3861E8</permission_id>
+        <state>Preliminary</state>
+        <_item_number>CR-000060</_item_number>
+        <Relationships>
+          <Item type="Change Request Customer"  id="BED828F228B74765B2CF495B01B16622" action="add">
+            <behavior>float</behavior>
+            <config_id keyed_name="BED828F228B74765B2CF495B01B16622" type="Change Request Customer">BED828F228B74765B2CF495B01B16622</config_id>
+            <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+            <created_on>2014-01-28T16:23:37</created_on>
+            <generation>1</generation>
+            <id keyed_name="BED828F228B74765B2CF495B01B16622" type="Change Request Customer">BED828F228B74765B2CF495B01B16622</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>BED828F228B74765B2CF495B01B16622</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+            <modified_on>2014-01-28T16:23:37</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Change Request" type="Permission">356C6E7F1FB840E9AC685E0C1C3861E8</permission_id>
+            <related_id keyed_name="GHC" type="Customer">
+              <Item type="Customer"  id="B319970194B44A52B1E7E85A1690B379">
+                <address>Tal 234</address>
+                <city>Berlin</city>
+                <config_id keyed_name="GHC" type="Customer">B319970194B44A52B1E7E85A1690B379</config_id>
+                <contact_name>Verner Kohler</contact_name>
+                <country>Germany</country>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2014-01-28T15:52:07</created_on>
+                <current_state keyed_name="Released" type="Life Cycle State" name="Released">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+                <description>GHC Corporate</description>
+                <generation>1</generation>
+                <id keyed_name="GHC" type="Customer">B319970194B44A52B1E7E85A1690B379</id>
+                <is_current>1</is_current>
+                <is_released>1</is_released>
+                <keyed_name>GHC</keyed_name>
+                <main_phone>49.89.21.99.0000</main_phone>
+                <major_rev>A</major_rev>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2014-01-28T15:53:50</modified_on>
+                <new_version>1</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="Customer" type="Permission">BC3AEA825BC343A48CF7E51213C456F3</permission_id>
+                <state>Released</state>
+                <web_site></web_site>
+                <zip_code></zip_code>
+                <name>GHC</name>
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="CR-000060" type="Change Request">19544C05D7004A948678266B5DB9B371</source_id>
+          </Item>
+        </Relationships>
+      </Item>
+      <Item type="Change Request"  id="BE6EE285D7924402B669CF6218823482" action="add">
+        <_cost_estimate>150.00</_cost_estimate>
+        <_region>EU</_region>
+        <_title>Multi feed transparency tray</_title>
+        <classification>Enhancement</classification>
+        <config_id keyed_name="CR-000050" type="Change Request">BE6EE285D7924402B669CF6218823482</config_id>
+        <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+        <created_on>2014-01-28T16:21:59</created_on>
+        <current_state keyed_name="Preliminary" type="Life Cycle State" name="Preliminary">C191FA26FA334C8A85D39FA55CC2D56C</current_state>
+        <generation>1</generation>
+        <id keyed_name="CR-000050" type="Change Request">BE6EE285D7924402B669CF6218823482</id>
+        <is_current>1</is_current>
+        <is_released>0</is_released>
+        <keyed_name>CR-000050</keyed_name>
+        <major_rev>A</major_rev>
+        <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+        <modified_on>2014-01-28T16:22:08</modified_on>
+        <new_version>0</new_version>
+        <not_lockable>0</not_lockable>
+        <permission_id keyed_name="Change Request" type="Permission">356C6E7F1FB840E9AC685E0C1C3861E8</permission_id>
+        <state>Preliminary</state>
+        <_item_number>CR-000050</_item_number>
+        <Relationships>
+          <Item type="Change Request Customer" action="add" id="9C6A1A0A98FE4BE08D6FD7244138D7F0">
+            <behavior>float</behavior>
+            <config_id keyed_name="9C6A1A0A98FE4BE08D6FD7244138D7F0" type="Change Request Customer">9C6A1A0A98FE4BE08D6FD7244138D7F0</config_id>
+            <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+            <created_on>2014-01-28T16:21:59</created_on>
+            <generation>1</generation>
+            <id keyed_name="9C6A1A0A98FE4BE08D6FD7244138D7F0" type="Change Request Customer">9C6A1A0A98FE4BE08D6FD7244138D7F0</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>9C6A1A0A98FE4BE08D6FD7244138D7F0</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+            <modified_on>2014-01-28T16:21:59</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Change Request" type="Permission">356C6E7F1FB840E9AC685E0C1C3861E8</permission_id>
+            <related_id keyed_name="Brown Industries" type="Customer">
+              <Item type="Customer" typeId="E4847F4A706B4285A395C0228A867E0F" id="F9074B4B519544F79542FB3555381798">
+                <address>2345 Industry Dr</address>
+                <address_state>California</address_state>
+                <city>Los Angeles</city>
+                <config_id keyed_name="Brown Industries" type="Customer">F9074B4B519544F79542FB3555381798</config_id>
+                <contact_name>Ken Allen</contact_name>
+                <country>United States</country>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2014-01-28T15:52:07</created_on>
+                <current_state keyed_name="Released" type="Life Cycle State" name="Released">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+                <description>Pacific division</description>
+                <generation>1</generation>
+                <id keyed_name="Brown Industries" type="Customer">F9074B4B519544F79542FB3555381798</id>
+                <is_current>1</is_current>
+                <is_released>1</is_released>
+                <keyed_name>Brown Industries</keyed_name>
+                <main_phone>213-988-1000</main_phone>
+                <major_rev>A</major_rev>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2014-01-28T15:53:49</modified_on>
+                <new_version>1</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="Customer" type="Permission">BC3AEA825BC343A48CF7E51213C456F3</permission_id>
+                <state>Released</state>
+                <web_site></web_site>
+                <zip_code>90011</zip_code>
+                <name>Brown Industries</name>
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="CR-000050" type="Change Request">BE6EE285D7924402B669CF6218823482</source_id>
+          </Item>
+          <Item type="Change Request Product" action="add" id="05D4CA18DC6A412099182C0B81B621ED">
+            <behavior>float</behavior>
+            <config_id keyed_name="05D4CA18DC6A412099182C0B81B621ED" type="Change Request Product">05D4CA18DC6A412099182C0B81B621ED</config_id>
+            <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+            <created_on>2014-01-28T16:21:59</created_on>
+            <generation>1</generation>
+            <id keyed_name="05D4CA18DC6A412099182C0B81B621ED" type="Change Request Product">05D4CA18DC6A412099182C0B81B621ED</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>05D4CA18DC6A412099182C0B81B621ED</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+            <modified_on>2014-01-28T16:21:59</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Change Request" type="Permission">356C6E7F1FB840E9AC685E0C1C3861E8</permission_id>
+            <related_id keyed_name="DeskJet 400 Series" type="Product">
+              <Item type="Product" typeId="DF373D3D2CC1462D852C2BD420CCF5E2" id="082F75FCB7B0492DA6E77E078E3696DD">
+                <config_id keyed_name="DeskJet 400 Series" type="Product">082F75FCB7B0492DA6E77E078E3696DD</config_id>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2014-01-28T15:54:08</created_on>
+                <current_state keyed_name="Released" type="Life Cycle State" name="Released">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+                <description>Low cost inkjet printer for consumer and business</description>
+                <generation>1</generation>
+                <id keyed_name="DeskJet 400 Series" type="Product">082F75FCB7B0492DA6E77E078E3696DD</id>
+                <is_current>1</is_current>
+                <is_released>1</is_released>
+                <keyed_name>DeskJet 400 Series</keyed_name>
+                <major_rev>A</major_rev>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2014-01-28T15:54:08</modified_on>
+                <name>Inkjet Printer</name>
+                <new_version>1</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="Product" type="Permission">2382DEC5CAAC42BBA9D27DFD0B0D742C</permission_id>
+                <state>Released</state>
+                <item_number>DeskJet 400 Series</item_number>
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="CR-000050" type="Change Request">BE6EE285D7924402B669CF6218823482</source_id>
+          </Item>
+        </Relationships>
+      </Item>
+      <Item type="Change Request" action="add" id="E67EA20ED3A64468A732694A81E09445">
+        <_cost_estimate>35.00</_cost_estimate>
+        <_defect_details>Temperature range &lt; 5 degrees C</_defect_details>
+        <_reason>Poor laminate design</_reason>
+        <_region>AS</_region>
+        <_target_date>2014-08-24T00:00:00</_target_date>
+        <_title>Case cracks in low temperature</_title>
+        <classification>Defect</classification>
+        <config_id keyed_name="CR-000010" type="Change Request">E67EA20ED3A64468A732694A81E09445</config_id>
+        <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+        <created_on>2014-01-28T16:15:45</created_on>
+        <current_state keyed_name="Preliminary" type="Life Cycle State" name="Preliminary">C191FA26FA334C8A85D39FA55CC2D56C</current_state>
+        <generation>1</generation>
+        <id keyed_name="CR-000010" type="Change Request">E67EA20ED3A64468A732694A81E09445</id>
+        <is_current>1</is_current>
+        <is_released>0</is_released>
+        <keyed_name>CR-000010</keyed_name>
+        <major_rev>A</major_rev>
+        <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+        <modified_on>2014-01-28T16:15:50</modified_on>
+        <new_version>0</new_version>
+        <not_lockable>0</not_lockable>
+        <permission_id keyed_name="Change Request" type="Permission">356C6E7F1FB840E9AC685E0C1C3861E8</permission_id>
+        <state>Preliminary</state>
+        <_item_number>CR-000010</_item_number>
+        <Relationships>
+          <Item type="Change Request Customer" action="add" id="0219E1EFC52B402D92FF5D96D26F63E2">
+            <behavior>float</behavior>
+            <config_id keyed_name="0219E1EFC52B402D92FF5D96D26F63E2" type="Change Request Customer">0219E1EFC52B402D92FF5D96D26F63E2</config_id>
+            <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+            <created_on>2014-01-28T16:15:45</created_on>
+            <generation>1</generation>
+            <id keyed_name="0219E1EFC52B402D92FF5D96D26F63E2" type="Change Request Customer">0219E1EFC52B402D92FF5D96D26F63E2</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>0219E1EFC52B402D92FF5D96D26F63E2</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+            <modified_on>2014-01-28T16:15:45</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Change Request" type="Permission">356C6E7F1FB840E9AC685E0C1C3861E8</permission_id>
+            <related_id keyed_name="ABC Industries" type="Customer">
+              <Item type="Customer" typeId="E4847F4A706B4285A395C0228A867E0F" id="A1D512C82C204817BDD275FC4F794A3E">
+                <address>23 Apple St</address>
+                <address_state>California</address_state>
+                <city>Los Angeles</city>
+                <config_id keyed_name="ABC Industries" type="Customer">A1D512C82C204817BDD275FC4F794A3E</config_id>
+                <contact_name>John Thomas</contact_name>
+                <country>United States</country>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2014-01-28T15:52:07</created_on>
+                <current_state keyed_name="Released" type="Life Cycle State" name="Released">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+                <description>Corportate headquarters</description>
+                <generation>1</generation>
+                <id keyed_name="ABC Industries" type="Customer">A1D512C82C204817BDD275FC4F794A3E</id>
+                <is_current>1</is_current>
+                <is_released>1</is_released>
+                <keyed_name>ABC Industries</keyed_name>
+                <main_phone>213-909-8988</main_phone>
+                <major_rev>A</major_rev>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2014-01-28T15:53:49</modified_on>
+                <new_version>1</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="Customer" type="Permission">BC3AEA825BC343A48CF7E51213C456F3</permission_id>
+                <state>Released</state>
+                <web_site></web_site>
+                <zip_code>90013</zip_code>
+                <name>ABC Industries</name>
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="CR-000010" type="Change Request">E67EA20ED3A64468A732694A81E09445</source_id>
+          </Item>
+          <Item type="Change Request Product" action="add" id="F48A3D7DBD1A49BBA90500EA354DE8DD">
+            <behavior>float</behavior>
+            <config_id keyed_name="F48A3D7DBD1A49BBA90500EA354DE8DD" type="Change Request Product">F48A3D7DBD1A49BBA90500EA354DE8DD</config_id>
+            <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+            <created_on>2014-01-28T16:15:45</created_on>
+            <generation>1</generation>
+            <id keyed_name="F48A3D7DBD1A49BBA90500EA354DE8DD" type="Change Request Product">F48A3D7DBD1A49BBA90500EA354DE8DD</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>F48A3D7DBD1A49BBA90500EA354DE8DD</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+            <modified_on>2014-01-28T16:15:45</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Change Request" type="Permission">356C6E7F1FB840E9AC685E0C1C3861E8</permission_id>
+            <related_id keyed_name="OfficeJet Business Series" type="Product">
+              <Item type="Product" typeId="DF373D3D2CC1462D852C2BD420CCF5E2" id="E3C4E2870B874FB59B1C0CC132C67171">
+                <config_id keyed_name="OfficeJet Business Series" type="Product">E3C4E2870B874FB59B1C0CC132C67171</config_id>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2014-01-28T15:54:08</created_on>
+                <current_state keyed_name="Released" type="Life Cycle State" name="Released">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+                <description>High capacity commercial printer</description>
+                <generation>1</generation>
+                <id keyed_name="OfficeJet Business Series" type="Product">E3C4E2870B874FB59B1C0CC132C67171</id>
+                <is_current>1</is_current>
+                <is_released>1</is_released>
+                <keyed_name>OfficeJet Business Series</keyed_name>
+                <major_rev>A</major_rev>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2014-01-28T15:54:08</modified_on>
+                <name>All-in-one Office Printer</name>
+                <new_version>1</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="Product" type="Permission">2382DEC5CAAC42BBA9D27DFD0B0D742C</permission_id>
+                <state>Released</state>
+                <item_number>OfficeJet Business Series</item_number>
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="CR-000010" type="Change Request">E67EA20ED3A64468A732694A81E09445</source_id>
+          </Item>
+        </Relationships>
+      </Item>
+      <Item type="Change Request" action="add" id="EB455652EBE34CE98D885020BFF24298">
+        <_cost_estimate>235.00</_cost_estimate>
+        <_defect_details>Margin over 16"</_defect_details>
+        <_region>AM</_region>
+        <_title>Cable assembly binding on wide margin page</_title>
+        <classification>Defect</classification>
+        <config_id keyed_name="CR-000030" type="Change Request">EB455652EBE34CE98D885020BFF24298</config_id>
+        <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+        <created_on>2014-01-28T16:20:26</created_on>
+        <current_state keyed_name="Preliminary" type="Life Cycle State" name="Preliminary">C191FA26FA334C8A85D39FA55CC2D56C</current_state>
+        <generation>1</generation>
+        <id keyed_name="CR-000030" type="Change Request">EB455652EBE34CE98D885020BFF24298</id>
+        <is_current>1</is_current>
+        <is_released>0</is_released>
+        <keyed_name>CR-000030</keyed_name>
+        <major_rev>A</major_rev>
+        <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+        <modified_on>2014-01-28T16:20:26</modified_on>
+        <new_version>0</new_version>
+        <not_lockable>0</not_lockable>
+        <permission_id keyed_name="Change Request" type="Permission">356C6E7F1FB840E9AC685E0C1C3861E8</permission_id>
+        <state>Preliminary</state>
+        <team_id keyed_name="Computing Products" type="Team">C72BAAD527F047FB9B7954C2D9B897AA</team_id>
+        <_item_number>CR-000030</_item_number>
+        <Relationships>
+          <Item type="Change Request Customer" action="add" id="0E295C6E17774CFEB98D0D3FD8F39F45">
+            <behavior>float</behavior>
+            <config_id keyed_name="0E295C6E17774CFEB98D0D3FD8F39F45" type="Change Request Customer">0E295C6E17774CFEB98D0D3FD8F39F45</config_id>
+            <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+            <created_on>2014-01-28T16:20:26</created_on>
+            <generation>1</generation>
+            <id keyed_name="0E295C6E17774CFEB98D0D3FD8F39F45" type="Change Request Customer">0E295C6E17774CFEB98D0D3FD8F39F45</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>0E295C6E17774CFEB98D0D3FD8F39F45</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+            <modified_on>2014-01-28T16:20:26</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Change Request" type="Permission">356C6E7F1FB840E9AC685E0C1C3861E8</permission_id>
+            <related_id keyed_name="GHC" type="Customer">
+              <Item type="Customer" typeId="E4847F4A706B4285A395C0228A867E0F" id="B319970194B44A52B1E7E85A1690B379">
+                <address>Tal 234</address>
+                <city>Berlin</city>
+                <config_id keyed_name="GHC" type="Customer">B319970194B44A52B1E7E85A1690B379</config_id>
+                <contact_name>Verner Kohler</contact_name>
+                <country>Germany</country>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2014-01-28T15:52:07</created_on>
+                <current_state keyed_name="Released" type="Life Cycle State" name="Released">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+                <description>GHC Corporate</description>
+                <generation>1</generation>
+                <id keyed_name="GHC" type="Customer">B319970194B44A52B1E7E85A1690B379</id>
+                <is_current>1</is_current>
+                <is_released>1</is_released>
+                <keyed_name>GHC</keyed_name>
+                <main_phone>49.89.21.99.0000</main_phone>
+                <major_rev>A</major_rev>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2014-01-28T15:53:50</modified_on>
+                <new_version>1</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="Customer" type="Permission">BC3AEA825BC343A48CF7E51213C456F3</permission_id>
+                <state>Released</state>
+                <web_site></web_site>
+                <zip_code></zip_code>
+                <name>GHC</name>
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="CR-000030" type="Change Request">EB455652EBE34CE98D885020BFF24298</source_id>
+            <team_id keyed_name="Computing Products" type="Team">C72BAAD527F047FB9B7954C2D9B897AA</team_id>
+          </Item>
+          <Item type="Change Request Product" action="add" id="AD02FFF8FE964D9D8FB8D673AED7DA73">
+            <behavior>float</behavior>
+            <config_id keyed_name="AD02FFF8FE964D9D8FB8D673AED7DA73" type="Change Request Product">AD02FFF8FE964D9D8FB8D673AED7DA73</config_id>
+            <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+            <created_on>2014-01-28T16:20:26</created_on>
+            <generation>1</generation>
+            <id keyed_name="AD02FFF8FE964D9D8FB8D673AED7DA73" type="Change Request Product">AD02FFF8FE964D9D8FB8D673AED7DA73</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>AD02FFF8FE964D9D8FB8D673AED7DA73</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+            <modified_on>2014-01-28T16:20:26</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Change Request" type="Permission">356C6E7F1FB840E9AC685E0C1C3861E8</permission_id>
+            <related_id keyed_name="DesignJet 2000 Large Format" type="Product">
+              <Item type="Product" typeId="DF373D3D2CC1462D852C2BD420CCF5E2" id="FB6F028D117649D3A3C90429948EFDB9">
+                <config_id keyed_name="DesignJet 2000 Large Format" type="Product">FB6F028D117649D3A3C90429948EFDB9</config_id>
+                <created_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</created_by_id>
+                <created_on>2014-01-28T15:54:08</created_on>
+                <current_state keyed_name="Released" type="Life Cycle State" name="Released">C363ABDADF8D485393BB89877DBDCFD0</current_state>
+                <description>Commercial high capacity large format</description>
+                <generation>1</generation>
+                <id keyed_name="DesignJet 2000 Large Format" type="Product">FB6F028D117649D3A3C90429948EFDB9</id>
+                <is_current>1</is_current>
+                <is_released>1</is_released>
+                <keyed_name>DesignJet 2000 Large Format</keyed_name>
+                <major_rev>A</major_rev>
+                <modified_by_id keyed_name="Super User" type="User">AD30A6D8D3B642F5A2AFED1A4B02BEFA</modified_by_id>
+                <modified_on>2014-01-28T15:54:08</modified_on>
+                <name>Large Format Printer</name>
+                <new_version>1</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="Product" type="Permission">2382DEC5CAAC42BBA9D27DFD0B0D742C</permission_id>
+                <state>Released</state>
+                <item_number>DesignJet 2000 Large Format</item_number>
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="CR-000030" type="Change Request">EB455652EBE34CE98D885020BFF24298</source_id>
+            <team_id keyed_name="Computing Products" type="Team">C72BAAD527F047FB9B7954C2D9B897AA</team_id>
+          </Item>
+        </Relationships>
+      </Item>
+</AML>

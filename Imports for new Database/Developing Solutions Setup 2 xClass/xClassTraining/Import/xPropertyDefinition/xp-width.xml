@@ -1,0 +1,16 @@
+﻿<AML>
+ <Item type="xPropertyDefinition" id="9B2365F37E9C4CDF818BEDDC0BC62EC2" action="add">
+  <column_alignment>left</column_alignment>
+  <data_type>decimal</data_type>
+  <default_value xml:lang="en">0.0000</default_value>
+  <is_indexed>0</is_indexed>
+  <is_required>0</is_required>
+  <label xml:lang="en">Width</label>
+  <prec>8</prec>
+  <private_permission_behavior>None</private_permission_behavior>
+  <readonly>0</readonly>
+  <scale>4</scale>
+  <track_history>0</track_history>
+  <name>xp-width</name>
+ </Item>
+</AML>

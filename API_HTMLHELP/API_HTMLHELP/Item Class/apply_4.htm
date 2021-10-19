@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>apply(String action, Hashtable argsObject</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2>apply(String action, Hashtable argsObject)</h2>
+
+<p align="left">Applies the AML Item request on the server.&nbsp; Sets properties on the Item request based on Hashtable key value pairs and performs action specified.</p>
+
+<h3>C#:</h3>
+
+<h4>Hashtable ht = new Hashtable();<br />
+ht.Add(&quot;name&quot;, &quot;ACME&quot;);<br />
+ht.Add(&quot;contact_name&quot;, &quot;Andrew Harris&quot;);<br />
+Item itm =&nbsp; this.newItem(&quot;Customer&quot;);<br />
+return <span style="background-color: #ffff00">itm.apply(&quot;add&quot;, ht)</span>;</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim ht As New Hashtable()<br />
+ht.Add(&quot;name&quot;, &quot;ACME&quot;)<br />
+ht.Add(&quot;contact_name&quot;, &quot;Andrew Harris&quot;)<br />
+Dim itm As Item = Me.newItem(&quot;Customer&quot;)<br />
+Return <span style="background-color: #ffff00">itm.apply(&quot;add&quot;, ht)</span></h4>
+
+<h3>Notes:</h3>
+
+<p>A collection of name-value pairs where &#39;name&#39; is interpreted as &#39;property name&#39; and &#39;value&#39; as the property value. Property values are set prior to applying&nbsp;the specified AML action.</p>
+
+<p>Returns an Item where the <span class="code">dom</span> property is the XML returned from the server.</p>
+
+<p>The <span class="code">dom</span> may contain an Item, a collection of Items, or an error.</p>
+
+<p><br />
+<br />
+&nbsp;</p>
+</body>
+</html>

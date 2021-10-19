@@ -1,0 +1,72 @@
+﻿<AML>
+ <Item type="Life Cycle Map" id="5A7F7F6E00B34695AB3FC75F389A7498" action="add">
+  <name>Sales Order</name>
+  <start_state keyed_name="New" type="Life Cycle State">18945EB74ECF4C3AB7BD463A1A6175A4</start_state>
+  <Relationships>
+   <Item type="Life Cycle State" id="4CCA41FA4B5A46639C8B27F4D91926CF" action="add">
+     <image>../images/LifeCycleState.svg</image>
+    <name>Cancelled</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>1</set_not_lockable>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Sales Order" type="Life Cycle Map">5A7F7F6E00B34695AB3FC75F389A7498</source_id>
+    <x>409</x>
+    <y>126</y>
+   </Item>
+   <Item type="Life Cycle State" id="E40D9A3C990F4BD3AA350D5583D211A7" action="add">
+      <image>../images/LifeCycleState.svg</image>
+    <name>In Progress</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Sales Order" type="Life Cycle Map">5A7F7F6E00B34695AB3FC75F389A7498</source_id>
+    <x>246</x>
+    <y>124</y>
+   </Item>
+   <Item type="Life Cycle State" id="18945EB74ECF4C3AB7BD463A1A6175A4" action="add">
+      <image>../images/LifeCycleState.svg</image>
+    <name>New</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Sales Order" type="Life Cycle Map">5A7F7F6E00B34695AB3FC75F389A7498</source_id>
+    <x>77</x>
+    <y>125</y>
+   </Item>
+   <Item type="Life Cycle State" id="3439453EAF814918BBB30180942F9742" action="add">
+    <image>../images/LifeCycleState.svg</image>
+    <name>Shipped</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>1</set_not_lockable>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Sales Order" type="Life Cycle Map">5A7F7F6E00B34695AB3FC75F389A7498</source_id>
+    <x>247</x>
+    <y>256</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="BA6A3958823B405BBADACEC7C63CFBDF" action="add">
+    <from_state keyed_name="In Progress" type="Life Cycle State">E40D9A3C990F4BD3AA350D5583D211A7</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</role>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Sales Order" type="Life Cycle Map">5A7F7F6E00B34695AB3FC75F389A7498</source_id>
+    <to_state keyed_name="Cancelled" type="Life Cycle State">4CCA41FA4B5A46639C8B27F4D91926CF</to_state>
+   </Item>
+  
+   <Item type="Life Cycle Transition" id="03B3E0F76D3D44599BA879FF9E77E450" action="add">
+    <from_state keyed_name="In Progress" type="Life Cycle State">E40D9A3C990F4BD3AA350D5583D211A7</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</role>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Sales Order" type="Life Cycle Map">5A7F7F6E00B34695AB3FC75F389A7498</source_id>
+    <to_state keyed_name="Shipped" type="Life Cycle State">3439453EAF814918BBB30180942F9742</to_state>
+   </Item>
+   <Item type="Life Cycle Transition" id="88F6274856A14DCB9415D83EC362ACA4" action="add">
+    <from_state keyed_name="New" type="Life Cycle State">18945EB74ECF4C3AB7BD463A1A6175A4</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Sales Order" type="Life Cycle Map">5A7F7F6E00B34695AB3FC75F389A7498</source_id>
+    <to_state keyed_name="In Progress" type="Life Cycle State">E40D9A3C990F4BD3AA350D5583D211A7</to_state>
+   </Item></Relationships>
+ </Item>
+</AML>

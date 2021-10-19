@@ -1,0 +1,19 @@
+﻿<AML>
+ <Item type="User" id="F27EF52E44F14107AB097C4A3984453A" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>jyoung@aras.com</email>
+  <first_name>John</first_name>
+  <last_name>Young</last_name>
+  <login_name>jyoung</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="John Young" type="Identity">BE7D4FB1155648768C03F90F9B966835</owned_by_id>
+  <Relationships>
+   <Item type="Alias" id="134F316A8DDF48E1A251435BD920DC72" action="add">
+    <from_date>2014-01-28T11:27:15</from_date>
+    <related_id keyed_name="John Young" type="Identity">BE7D4FB1155648768C03F90F9B966835</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="John Young" type="User">F27EF52E44F14107AB097C4A3984453A</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,10 @@
+﻿<AML>
+ <Item type="Sequence" id="CB116C56175F4AD68EDC542A19C8B845" action="add">
+  <initial_value>0</initial_value>
+  <name>Design Request</name>
+  <pad_to>6</pad_to>
+  <pad_with>0</pad_with>
+  <prefix>DR-</prefix>
+  <step>10</step>
+ </Item>
+</AML>

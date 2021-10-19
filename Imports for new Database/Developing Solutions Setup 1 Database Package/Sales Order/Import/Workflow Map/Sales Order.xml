@@ -1,0 +1,332 @@
+﻿<AML>
+ <Item type="Workflow Map" id="3E5115146F3F47A5936AF456D6BF400D" action="add">
+  <description xml:lang="en"></description>
+  <label xml:lang="en">Sales Order</label>
+  <name>Sales Order</name>
+  <node_bg_color></node_bg_color>
+  <node_label1_color></node_label1_color>
+  <node_label1_font></node_label1_font>
+  <node_label2_color></node_label2_color>
+  <node_label2_font></node_label2_font>
+  <node_name_color></node_name_color>
+  <node_name_font></node_name_font>
+  <node_size></node_size>
+  <process_owner keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</process_owner>
+  <transition_line_color></transition_line_color>
+  <transition_name_color></transition_name_color>
+  <transition_name_font></transition_name_font>
+  <Relationships>
+   <Item type="Workflow Map Activity" id="5D76E9BE30B34F46B24395C874AD3894" action="add">
+    <related_id keyed_name="Cancel Order" type="Activity Template">
+     <Item type="Activity Template" id="7076685A92994B46B6DA7F9F869CE861" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/WorkflowNode.svg</icon>
+      <is_auto>1</is_auto>
+      <is_end>1</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Please Review...</message>
+      <name>Cancel Order</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>404</x>
+      <y>165</y>
+      <Relationships>
+       <Item type="Activity Template Transition" id="D600206E6D9E49C0A0843AA746FE3977" action="add">
+        <controlled_itemtype keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="BA6A3958823B405BBADACEC7C63CFBDF" type="Life Cycle Transition">BA6A3958823B405BBADACEC7C63CFBDF</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Cancel Order" type="Activity Template">7076685A92994B46B6DA7F9F869CE861</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="Sales Order" type="Workflow Map">3E5115146F3F47A5936AF456D6BF400D</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="8CCB493065334B6BA08D3585D40DC1D2" action="add">
+    <related_id keyed_name="Complete Order" type="Activity Template">
+     <Item type="Activity Template" id="551326D0CBBB4C0FA253E86C3D4D43AA" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>0</expected_duration>
+      <icon>../images/WorkflowNode.svg</icon>
+      <is_auto>1</is_auto>
+      <is_end>1</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Workflow End</message>
+      <name>Complete Order</name>
+      <priority>1</priority>
+      <reminder_count>0</reminder_count>
+      <reminder_interval>0</reminder_interval>
+      <timeout_duration>0</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>560</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Activity Template Transition" id="2F3B562944FA41EF93EE487F68E9519D" action="add">
+        <controlled_itemtype keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="03B3E0F76D3D44599BA879FF9E77E450" type="Life Cycle Transition">03B3E0F76D3D44599BA879FF9E77E450</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Complete Order" type="Activity Template">551326D0CBBB4C0FA253E86C3D4D43AA</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Sales Order" type="Workflow Map">3E5115146F3F47A5936AF456D6BF400D</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="2D02477C3B6A4924AB914E32539E3636" action="add">
+    <related_id keyed_name="Precheck" type="Activity Template">
+     <Item type="Activity Template" id="B8797EAB103E4B6BB13FC1422F207199" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/WorkflowNode.svg</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Please Check Order...</message>
+      <name>Precheck</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>96</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="1C3A3A3226824413A0F3F9781E506CBF" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Creator" type="Identity">
+         <Item type="Identity" action="get" select="id">
+          <name>Creator</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Precheck" type="Activity Template">B8797EAB103E4B6BB13FC1422F207199</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="AD0B8733757C4673B3C79DA2D3B8F4AA" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>OK</name>
+        <related_id>B41E9542BA2F47F2B8718C3BC5C3303A</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Precheck" type="Activity Template">B8797EAB103E4B6BB13FC1422F207199</source_id>
+        <x>0</x>
+        <y>0</y>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="Sales Order" type="Workflow Map">3E5115146F3F47A5936AF456D6BF400D</source_id>
+   </Item>
+  
+   <Item type="Workflow Map Activity" id="D547AC1BCA8A48A58D09FB766D511EE8" action="add">
+    <related_id keyed_name="Process Order" type="Activity Template">
+     <Item type="Activity Template" id="4EA38C7CEB8845BE84FF0CF9E227AECC" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/WorkflowNode.svg</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Please Review...</message>
+      <name>Process Order</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>404</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="A6098844A1B947238518EB5D9EEBDFAA" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Shipping" type="Identity">63B58B507D4445829025519AF865BCF6</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Process Order" type="Activity Template">4EA38C7CEB8845BE84FF0CF9E227AECC</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Activity Template Transition" id="817B4961F24043F2B79CA5FE516A7A9C" action="add">
+        <controlled_itemtype keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="88F6274856A14DCB9415D83EC362ACA4" type="Life Cycle Transition">88F6274856A14DCB9415D83EC362ACA4</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Process Order" type="Activity Template">4EA38C7CEB8845BE84FF0CF9E227AECC</source_id>
+       </Item>
+       <Item type="Workflow Map Path" id="E363709F8B3D4ECFB55E48CACBA3FAD2" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Cancel</name>
+        <related_id>7076685A92994B46B6DA7F9F869CE861</related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="Process Order" type="Activity Template">4EA38C7CEB8845BE84FF0CF9E227AECC</source_id>
+       </Item>
+      
+       <Item type="Workflow Map Path" id="AC5C0553313249F98710641B485A507D" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Complete</name>
+        <related_id>551326D0CBBB4C0FA253E86C3D4D43AA</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Process Order" type="Activity Template">4EA38C7CEB8845BE84FF0CF9E227AECC</source_id>
+       </Item></Relationships>
+     </Item>
+    </related_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Sales Order" type="Workflow Map">3E5115146F3F47A5936AF456D6BF400D</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="04C5D9BC739248E3A38E0DD1CB15DA6E" action="add">
+    <related_id keyed_name="Reject Order" type="Activity Template">
+     <Item type="Activity Template" id="BFB9C135DB444722869D8C2DC5602A0F" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/WorkflowNode.svg</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Please Review...</message>
+      <name>Reject Order</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>199</x>
+      <y>176</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="D03DE71094A0453289A9A2E5D5778469" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Creator" type="Identity">
+         <Item type="Identity" action="get" select="id">
+          <name>Creator</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Reject Order" type="Activity Template">BFB9C135DB444722869D8C2DC5602A0F</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="23475274BD384CF19D145E53DBD44816" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Resubmit</name>
+        <related_id>B41E9542BA2F47F2B8718C3BC5C3303A</related_id>
+        <segments>129,108</segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Reject Order" type="Activity Template">BFB9C135DB444722869D8C2DC5602A0F</source_id>
+        <x>-146</x>
+        <y>-74</y>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Sales Order" type="Workflow Map">3E5115146F3F47A5936AF456D6BF400D</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="FC4D9153E6C34BFEB119E20A584E3AD4" action="add">
+    <related_id keyed_name="Review Order" type="Activity Template">
+     <Item type="Activity Template" id="B41E9542BA2F47F2B8718C3BC5C3303A" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/WorkflowNode.svg</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Please Review...</message>
+      <name>Review Order</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>185</x>
+      <y>19</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="0120C82CEFB048F0BB1A3D50E610DAC7" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Manager" type="Identity">
+         <Item type="Identity" action="get" select="id">
+          <name>Manager</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Review Order" type="Activity Template">B41E9542BA2F47F2B8718C3BC5C3303A</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Workflow Map Path" id="9A7743ABD5584E62946AC1A2A532AA1C" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Approve</name>
+        <related_id>4EA38C7CEB8845BE84FF0CF9E227AECC</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Review Order" type="Activity Template">B41E9542BA2F47F2B8718C3BC5C3303A</source_id>
+       </Item>
+       <Item type="Workflow Map Path" id="FF19B54542DC45DFAAA05BCC28494700" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Reject</name>
+        <related_id>BFB9C135DB444722869D8C2DC5602A0F</related_id>
+        <segments>279,106</segments>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="Review Order" type="Activity Template">B41E9542BA2F47F2B8718C3BC5C3303A</source_id>
+        <x>85</x>
+        <y>81</y>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Sales Order" type="Workflow Map">3E5115146F3F47A5936AF456D6BF400D</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="3467DDEFDB934E9FBBA41442192AF922" action="add">
+    <related_id keyed_name="Start Order" type="Activity Template">
+     <Item type="Activity Template" id="AE823C0866924DBF855174D68CFED803" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>0</expected_duration>
+      <icon>../images/WorkflowNode.svg</icon>
+      <is_auto>1</is_auto>
+      <is_end>0</is_end>
+      <is_start>1</is_start>
+      <message xml:lang="en">Workflow Start</message>
+      <name>Start Order</name>
+      <priority>2</priority>
+      <reminder_count>0</reminder_count>
+      <reminder_interval>0</reminder_interval>
+      <timeout_duration>0</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>20</x>
+      <y>20</y>
+      <Relationships>
+       <Item type="Workflow Map Path" id="E83E9B39523C4AAC84B9BFAA623F97B6" action="add">
+        <authentication>none</authentication>
+        <is_default>1</is_default>
+        <is_override>0</is_override>
+        <name>Go</name>
+        <related_id>B8797EAB103E4B6BB13FC1422F207199</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Start Order" type="Activity Template">AE823C0866924DBF855174D68CFED803</source_id>
+        <x>0</x>
+        <y>0</y>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Sales Order" type="Workflow Map">3E5115146F3F47A5936AF456D6BF400D</source_id>
+   </Item></Relationships>
+ </Item>
+</AML>

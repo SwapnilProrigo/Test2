@@ -1,0 +1,16 @@
+<BatchLoader>
+  <InnovatorServer>http://trainingdns.northcentralus.cloudapp.azure.com/Innovator12/</InnovatorServer>
+  <Database>DevelopingSolutions12</Database>
+  <LoginName>admin</LoginName>
+  <Delimiter>,</Delimiter>
+  <WorkerProcesses>1</WorkerProcesses>
+  <Threads>1</Threads>
+  <RowsPerWorkerProcess>100</RowsPerWorkerProcess>
+  <FirstRow>1</FirstRow>
+  <LastRow>-1</LastRow>
+  <DataFileEncoding>Unicode (UTF-8)</DataFileEncoding>
+  <LogLevel>2</LogLevel>
+  <PrevRows>10</PrevRows>
+  <MaxCols>10</MaxCols>
+  <IgnoreFirstLine>no</IgnoreFirstLine>
+</BatchLoader>

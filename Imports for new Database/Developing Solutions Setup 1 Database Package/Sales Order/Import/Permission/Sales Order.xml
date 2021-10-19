@@ -1,0 +1,23 @@
+﻿<AML>
+ <Item type="Permission" id="CD6E6419D00A41C0A157DB070699CFFB" action="add">
+  <is_private>0</is_private>
+  <name>Sales Order</name>
+  <Relationships>
+   <Item type="Access" id="F2290D0A12CA44EA8F7B28923A75F1D8" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Sales Order" type="Permission">CD6E6419D00A41C0A157DB070699CFFB</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

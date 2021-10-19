@@ -1,0 +1,85 @@
+<AML>
+    <Item
+        type = "xClassificationTree"
+        id = "EEE9D640699D433D8674A9AEF1474BA3"
+        action = "add">
+        <classification_hierarchy>[{"toRefId":"EEE9D640699D433D8674A9AEF1474BA3"}]</classification_hierarchy>
+        <name>Dimensions</name>
+        <select_only_leaf_class>1</select_only_leaf_class>
+        <select_only_single_class>1</select_only_single_class>
+        <item_number>DIM-123</item_number>
+        <Relationships>
+            <Item
+                type = "xClassificationTree_ItemType"
+                id = "33A34ADC866448B5A1DDD0280B9DC7D1"
+                action = "add">
+                <related_id
+                    keyed_name = "Design Request"
+                    type = "ItemType"
+                    name = "Design Request">D729A54597344968A8106343B19CA1B9</related_id>
+                <sort_order>128</sort_order>
+                <source_id keyed_name = "DIM-123" type = "xClassificationTree">EEE9D640699D433D8674A9AEF1474BA3</source_id>
+            </Item>
+            <Item
+                type = "xClass"
+                id = "F4E1820B2717443A912B033E7C92D52C"
+                action = "add">
+                <name>Dimensions</name>
+                <ref_id>EEE9D640699D433D8674A9AEF1474BA3</ref_id>
+                <sort_order>128</sort_order>
+                <source_id keyed_name = "DIM-123" type = "xClassificationTree">EEE9D640699D433D8674A9AEF1474BA3</source_id>
+                <xproperties_sort_order>0E950A8A18F1403C9703FF2FF154D05E,9B2365F37E9C4CDF818BEDDC0BC62EC2,3407821556A1480B9B9F188E856AE154</xproperties_sort_order>
+                <Relationships>
+                    <Item
+                        type = "xClass_Classification_Perm"
+                        id = "87FAEF9BE1AF4C5A9140CD2ADBD27CD8"
+                        action = "add">
+                        <itemtype_id
+                            keyed_name = "Design Request"
+                            type = "ItemType"
+                            name = "Design Request">D729A54597344968A8106343B19CA1B9</itemtype_id>
+                        <related_id keyed_name = "Request Classify Permissions" type = "Permission_ItemClassification">3EC737218AD940B599E2FE97E44B4757</related_id>
+                        <sort_order>128</sort_order>
+                        <source_id keyed_name = "/Dimensions" type = "xClass">F4E1820B2717443A912B033E7C92D52C</source_id>
+                    </Item>
+                    <Item
+                        type = "xClass_xPropertyDefinition"
+                        id = "D00D09DEF6654085ABC7A8BE12536A63"
+                        action = "add">
+                        <related_id keyed_name = "xp-depth" type = "xPropertyDefinition">3407821556A1480B9B9F188E856AE154</related_id>
+                        <sort_order>128</sort_order>
+                        <source_id keyed_name = "/Dimensions" type = "xClass">F4E1820B2717443A912B033E7C92D52C</source_id>
+                    </Item>
+                    <Item
+                        type = "xClass_xPropertyDefinition"
+                        id = "B0A844242D124C79925CF39289FF8F94"
+                        action = "add">
+                        <related_id keyed_name = "xp-height" type = "xPropertyDefinition">0E950A8A18F1403C9703FF2FF154D05E</related_id>
+                        <sort_order>256</sort_order>
+                        <source_id keyed_name = "/Dimensions" type = "xClass">F4E1820B2717443A912B033E7C92D52C</source_id>
+                    </Item>
+                    <Item
+                        type = "xClass_xPropertyDefinition"
+                        id = "855957773D1F4EC48A8BBB1ABC440BFD"
+                        action = "add">
+                        <related_id keyed_name = "xp-width" type = "xPropertyDefinition">9B2365F37E9C4CDF818BEDDC0BC62EC2</related_id>
+                        <sort_order>384</sort_order>
+                        <source_id keyed_name = "/Dimensions" type = "xClass">F4E1820B2717443A912B033E7C92D52C</source_id>
+                    </Item>
+                    <Item
+                        type = "xClass_xPropValue_Perm"
+                        id = "407523E9E9704BFAB3407409487A14D3"
+                        action = "add">
+                        <itemtype_id
+                            keyed_name = "Design Request"
+                            type = "ItemType"
+                            name = "Design Request">D729A54597344968A8106343B19CA1B9</itemtype_id>
+                        <related_id keyed_name = "Request Value Permissions" type = "Permission_PropertyValue">0A17E3EDFDA547239731B37CC9E978CF</related_id>
+                        <sort_order>128</sort_order>
+                        <source_id keyed_name = "/Dimensions" type = "xClass">F4E1820B2717443A912B033E7C92D52C</source_id>
+                    </Item>
+                </Relationships>
+            </Item>
+        </Relationships>
+    </Item>
+</AML>

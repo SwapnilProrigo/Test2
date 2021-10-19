@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>createPropertyItem</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2>createPropertyItem(S<span class="nolink">tring</span> <span class="parameter">propName</span>, S<span class="nolink">tring</span> <span class="parameter">type</span>, S<span class="nolink">tring</span> <span class="parameter">action</span>)</h2>
+
+<p align="left">Creates an item with the specified type and action and sets it as the specified property of <span class="code">this</span> item.</p>
+
+<h3>C#</h3>
+
+<h4>Item part = this.newItem(&quot;Part&quot; , &quot;add&quot;);<br />
+part.setProperty(&quot;name&quot;, &quot;Cable Harness&quot;);<br />
+part.setProperty(&quot;item_number&quot;, &quot;CH-1021&quot;);</h4>
+
+<h4><span style="background-color: #ffff00">part.createPropertyItem(&quot;owned_by_id&quot;, &quot;Identity&quot;, &quot;get&quot;)</span>;<br />
+Item identity = part.getPropertyItem(&quot;owned_by_id&quot;);<br />
+identity.setProperty(&quot;name&quot;, &quot;Component Engineering&quot;);</h4>
+
+<h4>return part.apply();</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim part As Item = Me.newItem(&quot;Part&quot;, &quot;add&quot;)<br />
+part.setProperty(&quot;name&quot;, &quot;Cable Harness&quot;)<br />
+part.setProperty(&quot;item_number&quot;, &quot;CH-1021&quot;)</h4>
+
+<h4><span style="background-color: #ffff00">part.createPropertyItem(&quot;owned_by_id&quot;, &quot;Identity&quot;, &quot;get&quot;)</span><br />
+Dim identity As Item = part.getPropertyItem(&quot;owned_by_id&quot;)<br />
+identity.setProperty(&quot;name&quot;, &quot;Component Engineering&quot;)</h4>
+
+<h4>Return part.apply()</h4>
+
+<h3>Notes:</h3>
+
+<p>This method creates a new item (using the type and action specified) on an property of datatype ItemType.&nbsp; In the examples above the owned_by_id property is assigned to the Identity named &quot;Component Engineering&quot;.</p>
+
+<p>The method is similar to setPropertyItem(propName, item) except that setPropertyItem(propName, item) gets an item already created as the method argument and doesn&#39;t create it internally. &nbsp;<br />
+&nbsp;</p>
+</body>
+</html>

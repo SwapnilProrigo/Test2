@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head>
+
+
+<link rel="stylesheet" type="text/css" href="../style.css"> 
+<meta name="GENERATOR" content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)">
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"><title>applyMethod</title></head><body bgcolor="#ffffff">
+<h1>Innovator Class</h1>
+
+<h2>applyMethod(String, String)</h2>
+
+<p align="left">Apply a method by name, passing a string value as its body. Returns item passed from calling Method.</p>
+
+<h3>C#:</h3>
+
+<h4>Innovator inn = this.getInnovator();<br>
+string body ="&lt;itm_type&gt;Part&lt;/itm_type&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;itm_num&gt;T-0029-2010&lt;/itm_num&gt;";<br>
+Item res = <span style="background-color: rgb(255, 255, 0);">inn.applyMethod("GetItem",body);</span><br>
+return res;</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim inn as Innovator = Me.getInnovator<br>
+Dim body as String = _<br>
+&nbsp;"&lt;itm_type&gt;Part&lt;/itm_type&gt;" &amp; _<br>
+&nbsp;"&lt;itm_num&gt;T-0029-2010&lt;/itm_num&gt;"<br>
+Dim res as Item = _<br>
+<span style="background-color: rgb(255, 255, 0);">&nbsp;inn.applyMethod("GetItem", body)</span><br>
+&nbsp;Return res</h4>
+
+<h3>JavaScript:</h3>
+
+<h4>var&nbsp;inn = this.getInnovator();<br>
+var&nbsp;body ="&lt;itm_type&gt;Part&lt;/itm_type&gt;<br>
+&lt;itm_num&gt;T-0029-2010&lt;/itm_num&gt;";<br>
+var&nbsp;res = <span style="background-color: rgb(255, 255, 0);">inn.applyMethod("GetItem",body);</span><br>
+return res;</h4>
+
+<h3>Notes:</h3>
+
+<p>&nbsp;The named Method must be a Server Method.&nbsp; Any number of
+parameters can be passed in the body string argument. The item returned
+is passed back from the called Method.</p>
+
+<p>The examples above call the followiing server Method:</p>
+
+<h4>//GetItem (Called Method)<br>
+string item_number = this.getProperty("itm_num");<br>
+string item_type = this.getProperty("itm_type");<br>
+Item myItem = this.newItem(item_type, "get");<br>
+myItem.setProperty("item_number", item_number);<br>
+myItem = myItem.apply();<br>
+return myItem</h4>
+</body></html>

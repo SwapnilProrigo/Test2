@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>getItemByIndex</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2><span class="identifier">getItemByIndex</span>(<span class="nolink">int</span> <span class="parameter">index)</span><br />
+&nbsp;</h2>
+
+<p align="left">Gets an item by index.</p>
+
+<h3>C#:</h3>
+
+<h4>Item customers = this.newItem(&quot;Customer&quot;, &quot;get&quot;);<br />
+customers = customers.apply();</h4>
+
+<h4>for (int i=0; i &lt; customers.getItemCount(); i++) {<br />
+&nbsp;Item itm_idx = <span style="background-color: #ffff00">customers.getItemByIndex(i)</span>;<br />
+&nbsp;if (itm_idx.getProperty(&quot;address_state&quot;, &quot;&quot;) != &quot;&quot;) {<br />
+&nbsp;&nbsp;itm_idx.setAction(&quot;edit&quot;);<br />
+&nbsp;&nbsp;itm_idx.setProperty(&quot;country&quot;, &quot;United States&quot;);<br />
+&nbsp;&nbsp;itm_idx.apply();<br />
+&nbsp;&nbsp;}<br />
+}<br />
+return customers;</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim customers As Item = Me.newItem(&quot;Customer&quot;, &quot;get&quot;)<br />
+customers = customers.apply()<br />
+For i As Integer = 0 To customers.getItemCount() - 1<br />
+&nbsp;Dim itm_idx As Item = <span style="background-color: #ffff00">customers.getItemByIndex(i)</span><br />
+&nbsp;If itm_idx.getProperty(&quot;address_state&quot;, &quot;&quot;) &lt;&gt; &quot;&quot; Then<br />
+&nbsp;&nbsp;itm_idx.setAction(&quot;edit&quot;)<br />
+&nbsp;&nbsp;itm_idx.setProperty(&quot;country&quot;, &quot;United States&quot;)<br />
+&nbsp;&nbsp;itm_idx.apply()<br />
+&nbsp;End If<br />
+Next<br />
+Return customers</h4>
+
+<h3>Notes:</h3>
+
+<p>This method is used to iterate over a collection of items using a zero based index number (0 = first item in collection).</p>
+
+<p>Returned item shares its <span class="code">dom</span> with <span class="code">this</span> item (i.e. returned item and <span class="code">this</span> item <span class="code">dom</span> property reference the same instance of Aras XmlDocument).&nbsp;&nbsp; To debug the indexed item view the _node property of the item.</p>
+
+<p>The examples above change the country of any Customer that have an &quot;address_state&quot; that is not blank.</p>
+
+<p><br />
+<br />
+&nbsp;</p>
+</body>
+</html>

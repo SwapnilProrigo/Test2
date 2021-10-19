@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>removeRelationship</title>
+
+
+	
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR">
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"></head><body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2><span class="identifier">removeRelationship</span>(Item relationshipI<span class="parameter">tem</span><span class="parameter">)</span></h2>
+
+<p align="left">Remove &lt;Relationships&gt; node&nbsp;from item dom.</p>
+
+<h3>C#:</h3>
+
+<h4>Item partrel = this.newItem("Part Document", "get");</h4>
+
+<h4>if (this.getType()!="Part") {<br>
+&nbsp;<span style="background-color: rgb(255, 255, 0);">this.removeRelationship(partrel);</span><br>
+}</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim partrel As Item = Me.newItem("Part Document", "get")<br>
+<br>
+If Me.getType()&nbsp;&lt;&gt; "Part" Then<br>
+<span style="background-color: rgb(255, 255, 0);">Me.removeRelationship(partrel)</span><br>
+End If<br>
+&nbsp;</h4>
+
+<h3>Notes:</h3>
+
+<p>Remove &lt;Relationships&gt; node&nbsp;from request.</p>
+</body></html>

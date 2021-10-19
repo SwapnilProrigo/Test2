@@ -1,0 +1,271 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>ConvertNeutralToUtcDateTime</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1><span id="nsrTitle">I18NSessionContext Class</span></h1>
+
+<h2><span class="identifier">ConvertNeutralToUtcDateTime</span>(s<span class="nolink">tring</span> <span class="parameter">neutralStr</span>, s<span class="nolink">tring</span> <span class="parameter">outPattern)</span></h2>
+
+<p align="left">Converts a date-time in the time zone of the session in neutral format to a string that represents the same moment of time in UTC.</p>
+
+<h3>C#:</h3>
+
+<h4>string neutral_date = &quot;2013-05-02T00:00:00&quot;;</h4>
+
+<h4>I18NSessionContext cntx = this.getInnovator().getI18NSessionContext();<br />
+string date_value = <span style="background-color: #ffff00">cntx.ConvertNeutralToUtcDateTime(neutral_date, &quot;D&quot;);</span></h4>
+
+<h4>return this.getInnovator().newResult(date_value);</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim neutral_date As String = &quot;2013-05-02T00:00:00&quot;</h4>
+
+<h4>Dim cntx As I18NSessionContext = Me.getInnovator().getI18NSessionContext()<br />
+Dim date_value As String = <span style="background-color: #ffff00">cntx.ConvertNeutralToUtcDateTime(neutral_date, &quot;D&quot;)</span></h4>
+
+<h4>Return Me.getInnovator().newResult(date_value)</h4>
+
+<h3>Notes:</h3>
+
+<p>Accepts the following parameters:</p>
+
+<p><span class="parameter">neutralStr - </span>A string that represent a date-time in the time zone of the session in neutral format.<br />
+<span class="parameter">outPattern -&nbsp;</span>Invariant culture date time format.</p>
+
+<p>In the examples above the following is returned if the session context is fr-FR (French France);</p>
+
+<p>&lt;Result&gt;Thursday, 02 May 2013&lt;/Result&gt;</p>
+
+<p>The following outPatterns are available:</p>
+
+<dl paramname="neutralStr">
+</dl>
+
+<table border="1" cellpadding="0">
+	<tbody>
+		<tr>
+			<td>
+			<p align="center"><strong>Format specifier</strong></p>
+			</td>
+			<td>
+			<p align="center"><strong>Description</strong></p>
+			</td>
+			<td>
+			<p align="center"><strong>Examples</strong></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>&quot;d&quot;</p>
+			</td>
+			<td>
+			<p>Short date pattern.<br />
+			&nbsp;</p>
+			</td>
+			<td>
+			<p>6/15/2009 1:45:30 PM -&gt; 6/15/2009 (en-US)<br />
+			6/15/2009 1:45:30 PM -&gt; 15/06/2009 (fr-FR)<br />
+			6/15/2009 1:45:30 PM -&gt; 2009/06/15 (ja-JP)</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>&quot;D&quot;</p>
+			</td>
+			<td>
+			<p>Long date pattern.<br />
+			&nbsp;</p>
+			</td>
+			<td>
+			<p>6/15/2009 1:45:30 PM -&gt; Monday, June 15, 2009 (en-US)<br />
+			6/15/2009 1:45:30 PM -&gt; 15 ???? 2009 ?. (ru-RU)<br />
+			6/15/2009 1:45:30 PM -&gt; Montag, 15. Juni 2009 (de-DE)</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>&quot;f&quot;</p>
+			</td>
+			<td>
+			<p>Full date/time pattern (short time).<br />
+			&nbsp;</p>
+			</td>
+			<td>
+			<p>6/15/2009 1:45:30 PM -&gt; Monday, June 15, 2009 1:45 PM (en-US)<br />
+			6/15/2009 1:45:30 PM -&gt; den 15 juni 2009 13:45 (sv-SE)<br />
+			6/15/2009 1:45:30 PM -&gt; &Delta;&epsilon;&upsilon;&tau;?&rho;&alpha;, 15 &Iota;&omicron;&upsilon;&nu;?&omicron;&upsilon; 2009 1:45 &mu;&mu; (el-GR)</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>&quot;F&quot;</p>
+			</td>
+			<td>
+			<p>Full date/time pattern (long time).<br />
+			&nbsp;</p>
+			</td>
+			<td>
+			<p>6/15/2009 1:45:30 PM -&gt; Monday, June 15, 2009 1:45:30 PM (en-US)<br />
+			6/15/2009 1:45:30 PM -&gt; den 15 juni 2009 13:45:30 (sv-SE)<br />
+			6/15/2009 1:45:30 PM -&gt; &Delta;&epsilon;&upsilon;&tau;?&rho;&alpha;, 15 &Iota;&omicron;&upsilon;&nu;?&omicron;&upsilon; 2009 1:45:30 &mu;&mu; (el-GR)</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>&quot;g&quot;</p>
+			</td>
+			<td>
+			<p>General date/time pattern (short time).<br />
+			&nbsp;</p>
+			</td>
+			<td>
+			<p>6/15/2009 1:45:30 PM -&gt; 6/15/2009 1:45 PM (en-US)<br />
+			6/15/2009 1:45:30 PM -&gt; 15/06/2009 13:45 (es-ES)<br />
+			6/15/2009 1:45:30 PM -&gt; 2009/6/15 13:45 (zh-CN)</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>&quot;G&quot;</p>
+			</td>
+			<td>
+			<p>General date/time pattern (long time).<br />
+			&nbsp;</p>
+			</td>
+			<td>
+			<p>6/15/2009 1:45:30 PM -&gt; 6/15/2009 1:45:30 PM (en-US)<br />
+			6/15/2009 1:45:30 PM -&gt; 15/06/2009 13:45:30 (es-ES)<br />
+			6/15/2009 1:45:30 PM -&gt; 2009/6/15 13:45:30 (zh-CN)</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>&quot;M&quot;, &quot;m&quot;</p>
+			</td>
+			<td>
+			<p>Month/day pattern.<br />
+			&nbsp;</p>
+			</td>
+			<td>
+			<p>6/15/2009 1:45:30 PM -&gt; June 15 (en-US)<br />
+			6/15/2009 1:45:30 PM -&gt; 15. juni (da-DK)<br />
+			6/15/2009 1:45:30 PM -&gt; 15 Juni (id-ID)</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>&quot;O&quot;, &quot;o&quot;</p>
+			</td>
+			<td>
+			<p>Round-trip date/time pattern.<br />
+			&nbsp;</p>
+			</td>
+			<td>
+			<p>6/15/2009 1:45:30 PM -&gt; 2009-06-15T13:45:30.0900000</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>&quot;R&quot;, &quot;r&quot;</p>
+			</td>
+			<td>
+			<p>RFC1123 pattern.<br />
+			&nbsp;</p>
+			</td>
+			<td>
+			<p>6/15/2009 1:45:30 PM -&gt; Mon, 15 Jun 2009 20:45:30 GMT</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>&quot;s&quot;</p>
+			</td>
+			<td>
+			<p>Sortable date/time pattern.<br />
+			&nbsp;</p>
+			</td>
+			<td>
+			<p>6/15/2009 1:45:30 PM -&gt; 2009-06-15T13:45:30</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>&quot;t&quot;</p>
+			</td>
+			<td>
+			<p>Short time pattern.<br />
+			&nbsp;</p>
+			</td>
+			<td>
+			<p>6/15/2009 1:45:30 PM -&gt; 1:45 PM (en-US)<br />
+			6/15/2009 1:45:30 PM -&gt; 13:45 (hr-HR)<br />
+			6/15/2009 1:45:30 PM -&gt; 01:45 ? (ar-EG)</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>&quot;T&quot;</p>
+			</td>
+			<td>
+			<p>Long time pattern.<br />
+			&nbsp;</p>
+			</td>
+			<td>
+			<p>6/15/2009 1:45:30 PM -&gt; 1:45:30 PM (en-US)<br />
+			6/15/2009 1:45:30 PM -&gt; 13:45:30 (hr-HR)<br />
+			6/15/2009 1:45:30 PM -&gt; 01:45:30 ? (ar-EG)</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>&quot;u&quot;</p>
+			</td>
+			<td>
+			<p>Universal sortable date/time pattern.<br />
+			&nbsp;</p>
+			</td>
+			<td>
+			<p>6/15/2009 1:45:30 PM -&gt; 2009-06-15 20:45:30Z</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>&quot;U&quot;</p>
+			</td>
+			<td>
+			<p>Universal full date/time pattern.<br />
+			&nbsp;</p>
+			</td>
+			<td>
+			<p>6/15/2009 1:45:30 PM -&gt; Monday, June 15, 2009 8:45:30 PM (en-US)<br />
+			6/15/2009 1:45:30 PM -&gt; den 15 juni 2009 20:45:30 (sv-SE)<br />
+			6/15/2009 1:45:30 PM -&gt; &Delta;&epsilon;&upsilon;&tau;?&rho;&alpha;, 15 &Iota;&omicron;&upsilon;&nu;?&omicron;&upsilon; 2009 8:45:30 &mu;&mu; (el-GR)</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<p>&quot;Y&quot;, &quot;y&quot;</p>
+			</td>
+			<td>
+			<p>Year month pattern.<br />
+			.</p>
+			</td>
+			<td>
+			<p>6/15/2009 1:45:30 PM -&gt; June, 2009 (en-US)<br />
+			6/15/2009 1:45:30 PM -&gt; juni 2009 (da-DK)<br />
+			6/15/2009 1:45:30 PM -&gt; Juni 2009 (id-ID)</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<dl>
+</dl>
+</body>
+</html>

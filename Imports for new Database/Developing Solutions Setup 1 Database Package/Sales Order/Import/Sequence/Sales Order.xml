@@ -1,0 +1,10 @@
+﻿<AML>
+ <Item type="Sequence" id="C7E6B82813894A22A06D3ABDE9137BEB" action="add">
+  <initial_value>0</initial_value>
+  <name>Sales Order</name>
+  <pad_to>4</pad_to>
+  <pad_with>0</pad_with>
+  <prefix>SO-</prefix>
+  <step>1</step>
+ </Item>
+</AML>

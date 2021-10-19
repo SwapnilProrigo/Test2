@@ -1,0 +1,163 @@
+<AML>
+    <!--CLASSIFY EXISTING ITEMS-->
+    <Item type = "Design Request" action = "edit" where = "[design_request]._item_number='DR-000010'" version = "0">
+        <Relationships>
+            <Item type = "Design Request_xClass" action = "add" id = "82946F1F30DD4149A9C8C4FA9CA7C2D0">
+                <related_id>
+                    <Item type = "xClass" action = "get">
+                        <name>Dimensions</name>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item type = "Design Request" action = "edit" where = "[design_request]._item_number='DR-000020'" version = "0">
+        <Relationships>
+            <Item type = "Design Request_xClass" action = "add" id = "11146F1F30DD4149A9C8C4FA9CA7C2D0">
+                <related_id>
+                    <Item type = "xClass" action = "get">
+                        <name>Dimensions</name>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item type = "Design Request" action = "edit" where = "[design_request]._item_number='DR-000030'" version = "0">
+        <Relationships>
+            <Item type = "Design Request_xClass" action = "add" id = "22246F1F30DD4149A9C8C4FA9CA7C2D0">
+                <related_id>
+                    <Item type = "xClass" action = "get">
+                        <name>Dimensions</name>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item type = "Design Request" action = "edit" where = "[design_request]._item_number='DR-000040'" version = "0">
+        <Relationships>
+            <Item type = "Design Request_xClass" action = "add" id = "33346F1F30DD4149A9C8C4FA9CA7C2D0">
+                <related_id>
+                    <Item type = "xClass" action = "get">
+                        <name>Dimensions</name>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <!--CR -->
+    <Item type = "Change Request" action = "edit" where = "[change_request]._item_number='CR-000010'" version = "0">
+        <Relationships>
+            <Item type = "Change Request_xClass" action = "add" id = "6AD3DE42FCFD4B069C556F0536C61149">
+                <related_id>
+                    <Item type = "xClass" action = "get">
+                        <name>Requests</name>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item type = "Change Request" action = "edit" where = "[change_request]._item_number='CR-000020'" version = "0">
+        <Relationships>
+            <Item type = "Change Request_xClass" action = "add" id = "7893DE42FCFD4B069C556F0536C61149">
+                <related_id>
+                    <Item type = "xClass" action = "get">
+                        <name>Requests</name>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item type = "Change Request" action = "edit" where = "[change_request]._item_number='CR-000030'" version = "0">
+        <Relationships>
+            <Item type = "Change Request_xClass" action = "add" id = "B103DE42FCFD4B069C556F0536C61149">
+                <related_id>
+                    <Item type = "xClass" action = "get">
+                        <name>Requests</name>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item type = "Change Request" action = "edit" where = "[change_request]._item_number='CR-000040'" version = "0">
+        <Relationships>
+            <Item type = "Change Request_xClass" action = "add" id = "99D3DE42FCFD4B069C556F0536C61149">
+                <related_id>
+                    <Item type = "xClass" action = "get">
+                        <name>Requests</name>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item type = "Sales Order" action = "edit" where = "[sales_order].so_number='SO-0001'" version = "0">
+        <Relationships>
+           <Item type = "Sales Order_xClass" action = "add" id = "05D69E8F016143248AB44996AC82A800">
+                <related_id>
+                    <Item type = "xClass" action = "get">
+                        <name>Ship To</name>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+<Item type = "Sales Order" action = "edit" where = "[sales_order].so_number='SO-0002'" version = "0">
+        <Relationships>
+           <Item type = "Sales Order_xClass" action = "add" id = "98769E8F016143248AB44996AC82A800">
+                <related_id>
+                    <Item type = "xClass" action = "get">
+                        <name>Ship To</name>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <!--SAMPLE PROP VALUES-->
+    <Item type = "Design Request" action = "edit" where = "[design_request]._item_number='DR-000010'" version = "0">
+        <xp-depth set = "value">10</xp-depth>
+        <xp-width set = "value">10</xp-width>
+        <xp-height set = "value">10</xp-height>
+    </Item>
+    <Item type = "Design Request" action = "edit" where = "[design_request]._item_number='DR-000020'" version = "0">
+        <xp-depth set = "value">5</xp-depth>
+        <xp-width set = "value">10</xp-width>
+        <xp-height set = "value">15</xp-height>
+    </Item>
+    <Item type = "Design Request" action = "edit" where = "[design_request]._item_number='DR-000030'" version = "0">
+        <xp-depth set = "value">20</xp-depth>
+        <xp-width set = "value">10</xp-width>
+        <xp-height set = "value">5</xp-height>
+    </Item>
+    <Item type = "Design Request" action = "edit" where = "[design_request]._item_number='DR-000040'" version = "0">
+        <xp-depth set = "value">5</xp-depth>
+        <xp-width set = "value">25</xp-width>
+        <xp-height set = "value">35</xp-height>
+    </Item>
+    <Item type = "Change Request" action = "edit" where = "[change_request]._item_number='CR-000010'" version = "0">
+        <xp-model set = "value">X100</xp-model>
+        <xp-series set = "value">ABC1234</xp-series>
+    </Item>
+    <Item type = "Change Request" action = "edit" where = "[change_request]._item_number='CR-000020'" version = "0">
+        <xp-model set = "value">XY100</xp-model>
+        <xp-series set = "value">BE987</xp-series>
+    </Item>
+<Item type = "Change Request" action = "edit" where = "[change_request]._item_number='CR-000030'" version = "0">
+        <xp-model set = "value">X200</xp-model>
+        <xp-series set = "value">DEF1234</xp-series>
+    </Item>
+    <Item type = "Change Request" action = "edit" where = "[change_request]._item_number='CR-000040'" version = "0">
+        <xp-model set = "value">XY300</xp-model>
+        <xp-series set = "value">GHI987</xp-series>
+    </Item>
+    <Item type = "Sales Order" action = "edit" where = "[sales_order].so_number='SO-0001'">
+        <xp-name set = "value">Carol Lang</xp-name>
+        <xp-address set = "value">123 Any Street</xp-address>
+        <xp-city set = "value">New York</xp-city>
+        <xp-postalcode set = "value">10001</xp-postalcode>
+    </Item>
+    <Item type = "Sales Order" action = "edit" where = "[sales_order].so_number='SO-0002'">
+        <xp-name set = "value">Mike Adams</xp-name>
+        <xp-address set = "value">1111 Main Street</xp-address>
+        <xp-city set = "value">Boston</xp-city>
+        <xp-postalcode set = "value">02101</xp-postalcode>
+    </Item>
+</AML>

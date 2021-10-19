@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>setFileProperty(string propertyName, string pathtoFile)</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1 pbzloc="7">Item Class</h1>
+
+<h2>setFileProperty(string propertyName, file)</h2>
+
+<p>Upload a file to a Vault.&nbsp;Tthe physical will be streamed to the&nbsp;Vault when <span class="code">apply()</span> is called on the container&nbsp;item.</p>
+
+<h3>JavaScript:</h3>
+
+<h4 pbzloc="1">//Obtain the File object from the client (uses promise)<br />
+var vlt = aras.vault;<br />
+vlt.selectFile().then(</h4>
+
+<h4 pbzloc="3">function (fileObject) {</h4>
+
+<h4 pbzloc="59">&nbsp;&nbsp; //This example creates a new file relationship on the current item&nbsp;<br />
+&nbsp;&nbsp; var rel = this.createRelationship(&quot;Document File&quot;, &quot;add&quot;);<br />
+<span pbzloc="2" style="background-color: #ffff00">&nbsp;&nbsp; rel.setFileProperty</span>(&quot;related_id&quot;, fileObject);</h4>
+
+<h4 pbzloc="53">&nbsp;&nbsp; //This example uploads&nbsp;a file using the property _my_file which is<br />
+&nbsp;&nbsp; //of type Item (datasource = File)<br />
+<span pbzloc="54" style="background-color: #ffff00">&nbsp;&nbsp; this.setFileProperty</span>(&quot;_my_file&quot;, fileObject);</h4>
+
+<h4 pbzloc="6">&nbsp;&nbsp; return this.apply();}<br />
+)</h4>
+
+<h3 pbzloc="6">C#:</h3>
+
+<h4 pbzloc="36">//Create new CAD Item and attach and upload server file.</h4>
+
+<h4 pbzloc="39">Item d = this.newItem(&quot;CAD&quot;, &quot;add&quot;);<br />
+d.setProperty(&quot;item_number&quot;, &quot;DFG 1000&quot;);<br />
+d.setFileProperty(&quot;native_file&quot;, @&quot;C:\DFG1000.dwg&quot;);<br />
+return d.apply();</h4>
+
+<h3 pbzloc="57">Notes:</h3>
+
+<p pbzloc="58">This method is only available in Aras Innovator Version 11 and greater and replaces the attachPhysicalFile method which is deprecated.<br />
+If the method is called in Client Method the file source is the client machine.&nbsp; A file Object must be passed as the first parameter.<br />
+The selectFile method associated with aras.vault allows a user to choose the file from their local&nbsp;machine.<br />
+The method can also be used with a Server Method,&nbsp; The second parameter is a string which references filename on the server.<br />
+The property must be&nbsp;of type Item with a&nbsp;datasource of FIle.&nbsp; Physical file will be streamed to&nbsp;Vault when the container item is applied.<br />
+<br />
+&nbsp;</p>
+</body>
+</html>

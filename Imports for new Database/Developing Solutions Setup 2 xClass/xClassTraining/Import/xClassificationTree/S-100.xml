@@ -1,0 +1,93 @@
+<AML>
+    <Item
+        type = "xClassificationTree"
+        id = "0E332A6D5F9241CD95C4B0413330B8EB"
+        action = "add">
+        <classification_hierarchy>[{"toRefId":"0E332A6D5F9241CD95C4B0413330B8EB"}]</classification_hierarchy>
+        <name>Ship To</name>
+        <select_only_leaf_class>1</select_only_leaf_class>
+        <select_only_single_class>1</select_only_single_class>
+        <item_number>S-100</item_number>
+        <Relationships>
+            <Item
+                type = "xClassificationTree_ItemType"
+                id = "BE77506D658B43B7BFFD45651F429A39"
+                action = "add">
+                <related_id
+                    keyed_name = "Sales Order"
+                    type = "ItemType"
+                    name = "Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</related_id>
+                <sort_order>128</sort_order>
+                <source_id keyed_name = "S-100" type = "xClassificationTree">0E332A6D5F9241CD95C4B0413330B8EB</source_id>
+            </Item>
+            <Item
+                type = "xClass"
+                id = "55DD3CEF03434BECB8DA948536AF1F0C"
+                action = "add">
+                <name>Ship To</name>
+                <ref_id>0E332A6D5F9241CD95C4B0413330B8EB</ref_id>
+                <sort_order>128</sort_order>
+                <source_id keyed_name = "S-100" type = "xClassificationTree">0E332A6D5F9241CD95C4B0413330B8EB</source_id>
+                <xproperties_sort_order>AB547C08B65448C8B534473928EA564C,30731D5EEC8441D78BEBCE1BD7ABB142,B6F1E4E8B4AC473CA95DCBC3BA7D7BA3,2633EA38B28F4CE2B50B63C31014ECB8</xproperties_sort_order>
+                <Relationships>
+                    <Item
+                        type = "xClass_Classification_Perm"
+                        id = "B6EAC726ECDB441694DE9AAEFD01ACA7"
+                        action = "add">
+                        <itemtype_id
+                            keyed_name = "Sales Order"
+                            type = "ItemType"
+                            name = "Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</itemtype_id>
+                        <related_id keyed_name = "Request Classify Permissions" type = "Permission_ItemClassification">3EC737218AD940B599E2FE97E44B4757</related_id>
+                        <sort_order>128</sort_order>
+                        <source_id keyed_name = "/Ship To" type = "xClass">55DD3CEF03434BECB8DA948536AF1F0C</source_id>
+                    </Item>
+                    <Item
+                        type = "xClass_xPropertyDefinition"
+                        id = "F28AA9DD618449698114A641D25B7FDF"
+                        action = "add">
+                        <related_id keyed_name = "xp-address" type = "xPropertyDefinition">30731D5EEC8441D78BEBCE1BD7ABB142</related_id>
+                        <sort_order>128</sort_order>
+                        <source_id keyed_name = "/Ship To" type = "xClass">55DD3CEF03434BECB8DA948536AF1F0C</source_id>
+                    </Item>
+                    <Item
+                        type = "xClass_xPropertyDefinition"
+                        id = "A35CD061DA9740978BAF9A39605E4CBF"
+                        action = "add">
+                        <related_id keyed_name = "xp-city" type = "xPropertyDefinition">B6F1E4E8B4AC473CA95DCBC3BA7D7BA3</related_id>
+                        <sort_order>256</sort_order>
+                        <source_id keyed_name = "/Ship To" type = "xClass">55DD3CEF03434BECB8DA948536AF1F0C</source_id>
+                    </Item>
+                    <Item
+                        type = "xClass_xPropertyDefinition"
+                        id = "2294A7DA8CAC4018A59FD989677ABB28"
+                        action = "add">
+                        <related_id keyed_name = "xp-name" type = "xPropertyDefinition">AB547C08B65448C8B534473928EA564C</related_id>
+                        <sort_order>384</sort_order>
+                        <source_id keyed_name = "/Ship To" type = "xClass">55DD3CEF03434BECB8DA948536AF1F0C</source_id>
+                    </Item>
+                    <Item
+                        type = "xClass_xPropertyDefinition"
+                        id = "5CF7CC3AA7EE4EE59A57D426293BB38A"
+                        action = "add">
+                        <related_id keyed_name = "xp-postalcode" type = "xPropertyDefinition">2633EA38B28F4CE2B50B63C31014ECB8</related_id>
+                        <sort_order>512</sort_order>
+                        <source_id keyed_name = "/Ship To" type = "xClass">55DD3CEF03434BECB8DA948536AF1F0C</source_id>
+                    </Item>
+                    <Item
+                        type = "xClass_xPropValue_Perm"
+                        id = "14299F3C99DD4AFDA44E458244B73303"
+                        action = "add">
+                        <itemtype_id
+                            keyed_name = "Sales Order"
+                            type = "ItemType"
+                            name = "Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</itemtype_id>
+                        <related_id keyed_name = "Request Value Permissions" type = "Permission_PropertyValue">0A17E3EDFDA547239731B37CC9E978CF</related_id>
+                        <sort_order>128</sort_order>
+                        <source_id keyed_name = "/Ship To" type = "xClass">55DD3CEF03434BECB8DA948536AF1F0C</source_id>
+                    </Item>
+                </Relationships>
+            </Item>
+        </Relationships>
+    </Item>
+</AML>

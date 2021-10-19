@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>Logout</title>
+
+
+	
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR">
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"></head><body bgcolor="#ffffff">
+<h1>HttpServerConnection Class</h1>
+
+<h2><span class="identifier">Logout</span>(B<span class="nolink">ool</span> <span class="parameter">unlockOnLogout)</span><br>
+&nbsp;</h2>
+
+<p align="left">Logout from Innovator and unlock Items if "Unlock on Logout"&nbsp;selected on the ItemType and unlockOnLogout = true.</p>
+
+<h3>C#:</h3>
+
+<h4>string url = "http://localhost/InnovatorServer";<br>
+string db = "InnovatorSolutions";<br>
+string user = "admin";<br>
+string pw = "innovator";<br>
+string message = "";</h4>
+
+<h4>HttpServerConnection cnx = IomFactory.CreateHttpServerConnection(url, db, user, pw);</h4>
+
+<h4>Item login_result = cnx.Login();<br>
+if (login_result.isError()) {<br>
+&nbsp; message = login_result.getErrorString();<br>
+}<br>
+else {<br>
+&nbsp; message= "Login successful";<br>
+&nbsp; cnx.Logout(true);<br>
+}<br>
+&nbsp;return this.getInnovator().newResult(message);</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim url As String = "http://localhost/InnovatorServer"<br>
+Dim db As String = "InnovatorSolutions"<br>
+Dim user As String = "admin"<br>
+Dim pw As String = "innovator"<br>
+Dim message As String = ""</h4>
+
+<h4>Dim cnx As HttpServerConnection = IomFactory.CreateHttpServerConnection(url, db, user, pw)</h4>
+
+<h4>Dim login_result As Item = cnx.Login()</h4>
+
+<h4>If login_result.isError() Then<br>
+message = login_result.getErrorString()<br>
+Else<br>
+message = "Login successful"<br>
+cnx.Logout(true)<br>
+End If</h4>
+
+<h4>Return Me.getInnovator().newResult(message)</h4>
+
+<h3>Notes:</h3>
+
+<p>Items can be unlocked on logout if and only if the property
+"unlock_on_logout" of the item's corresponding ItemType is set to "1".
+If this property is set to "0" the parameter "unlockOnLogout" is
+ignored.</p>
+
+<p>&nbsp;</p>
+
+<dl paramname="actionName">
+	<dt>&nbsp;</dt>
+</dl>
+
+<p><br>
+<br>
+&nbsp;</p>
+</body></html>

@@ -1,0 +1,15 @@
+﻿<AML>
+ <Item type="Permission_PropertyValue" id="0A17E3EDFDA547239731B37CC9E978CF" action="add">
+  <name>Request Value Permissions</name>
+  <Relationships>
+   <Item type="Access_PropertyValue" id="10CECFE737264BF9BB2D9F41EC3B8A46" action="add">
+    <can_change_access>1</can_change_access>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Request Value Permissions" type="Permission_PropertyValue">0A17E3EDFDA547239731B37CC9E978CF</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

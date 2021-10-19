@@ -1,0 +1,1762 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="14.0">
+ <Namespaces>
+  <Namespace Name="Aras.I18NUtils">
+   <Messages>
+    <Message Id="Utils" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Utils' in namespace name 'Aras.I18NUtils'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="Aras.IOME">
+   <Messages>
+    <Message Id="IOME" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'IOME' in namespace name 'Aras.IOME' by changing it to 'Iome'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="Aras.IOME.ConflictDetection">
+   <Messages>
+    <Message Id="IOME" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="85" Level="Error">Correct the casing of 'IOME' in namespace name 'Aras.IOME.ConflictDetection' by changing it to 'Iome'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+  <Namespace Name="Aras.Utils">
+   <Messages>
+    <Message Id="Utils" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+     <Issue Name="Namespace" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Utils' in namespace name 'Aras.Utils'.</Issue>
+    </Message>
+   </Messages>
+  </Namespace>
+ </Namespaces>
+ <Targets>
+  <Target Name="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\Output\SDK\RT\IOM.RT.dll">
+   <Modules>
+    <Module Name="iom.rt.dll">
+     <Messages>
+      <Message Id="IOM" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+       <Issue Name="Assembly" Certainty="85" Level="Error">Correct the casing of 'IOM' in assembly name 'IOM.RT.dll' by changing it to 'Iom'.</Issue>
+      </Message>
+     </Messages>
+     <Namespaces>
+      <Namespace Name="Aras.Common.Compression">
+       <Types>
+        <Type Name="CompressionType" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#deflate" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="deflate" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'deflate' in member name 'CompressionType.deflate' by changing it to 'Deflate'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#gzip" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="gzip" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'gzip' in member name 'CompressionType.gzip' by changing it to 'Gzip'.</Issue>
+            </Message>
+            <Message Id="gzip" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'gzip' in member name 'CompressionType.gzip' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#none" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="none" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'none' in member name 'CompressionType.none' by changing it to 'None'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Aras.Cryptography.Hashes">
+       <Types>
+        <Type Name="Md5" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#ComputeHash(System.String,System.Text.Encoding,System.Boolean)" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message Id="encoding" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\Aras.Cryptography\Hashes" File="Md5.cs" Line="50">Parameter 'encoding' of 'Md5.ComputeHash(string, Encoding, bool)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Sha256" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#ComputeHash(System.String,System.Text.Encoding,System.Boolean)" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message Id="encoding" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\Aras.Cryptography\Hashes" File="Sha256.cs" Line="54">Parameter 'encoding' of 'Sha256.ComputeHash(string, Encoding, bool)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="toLower" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\Aras.Cryptography\Hashes" File="Sha256.cs" Line="54">Parameter 'toLower' of 'Sha256.ComputeHash(string, Encoding, bool)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Aras.I18NUtils">
+       <Types>
+        <Type Name="DateTimeConverter" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DATE_NEUTRAL_FORMAT" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="DATE" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'DATE' in member name 'DateTimeConverter.DATE_NEUTRAL_FORMAT' by changing it to 'Date'.</Issue>
+            </Message>
+            <Message Id="FORMAT" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'FORMAT' in member name 'DateTimeConverter.DATE_NEUTRAL_FORMAT' by changing it to 'Format'.</Issue>
+            </Message>
+            <Message Id="NEUTRAL" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'NEUTRAL' in member name 'DateTimeConverter.DATE_NEUTRAL_FORMAT' by changing it to 'Neutral'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DATETIME_NEUTRAL_FORMAT" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="DATETIME" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'DATETIME' in member name 'DateTimeConverter.DATETIME_NEUTRAL_FORMAT' by changing it to 'Datetime'.</Issue>
+            </Message>
+            <Message Id="FORMAT" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'FORMAT' in member name 'DateTimeConverter.DATETIME_NEUTRAL_FORMAT' by changing it to 'Format'.</Issue>
+            </Message>
+            <Message Id="NEUTRAL" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'NEUTRAL' in member name 'DateTimeConverter.DATETIME_NEUTRAL_FORMAT' by changing it to 'Neutral'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#HasTimeZone(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="tzname" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\I18NUtils" File="DateTimeConverter.cs" Line="106">In method 'DateTimeConverter.HasTimeZone(string)', correct the spelling of 'tzname' in parameter name 'tzname' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OffsetBetweenTimeZones(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="tzname" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\I18NUtils" File="DateTimeConverter.cs" Line="135">In method 'DateTimeConverter.OffsetBetweenTimeZones(string, string)', correct the spelling of 'tzname' in parameter name 'tzname1' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\I18NUtils" File="DateTimeConverter.cs" Line="135">In method 'DateTimeConverter.OffsetBetweenTimeZones(string, string)', correct the spelling of 'tzname' in parameter name 'tzname2' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OffsetBetweenTimeZones(System.String,System.String,System.DateTime)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="tzname" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\I18NUtils" File="DateTimeConverter.cs" Line="148">In method 'DateTimeConverter.OffsetBetweenTimeZones(string, string, DateTime)', correct the spelling of 'tzname' in parameter name 'tzname1' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\I18NUtils" File="DateTimeConverter.cs" Line="148">In method 'DateTimeConverter.OffsetBetweenTimeZones(string, string, DateTime)', correct the spelling of 'tzname' in parameter name 'tzname2' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="utcdt" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\I18NUtils" File="DateTimeConverter.cs" Line="148">In method 'DateTimeConverter.OffsetBetweenTimeZones(string, string, DateTime)', correct the spelling of 'utcdt' in parameter name 'utcdt' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ParseFromLocal(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="s" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\I18NUtils" File="DateTimeConverter.cs" Line="68">In method 'DateTimeConverter.ParseFromLocal(string, string)', consider providing a more meaningful name than parameter name 's'.</Issue>
+            </Message>
+            <Message Id="tzname" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\I18NUtils" File="DateTimeConverter.cs" Line="68">In method 'DateTimeConverter.ParseFromLocal(string, string)', correct the spelling of 'tzname' in parameter name 'tzname' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ToLocalString(System.String,System.DateTime)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dt" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\I18NUtils" File="DateTimeConverter.cs" Line="93">In method 'DateTimeConverter.ToLocalString(string, DateTime)', correct the spelling of 'dt' in parameter name 'dt' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="tzname" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\I18NUtils" File="DateTimeConverter.cs" Line="93">In method 'DateTimeConverter.ToLocalString(string, DateTime)', correct the spelling of 'tzname' in parameter name 'tzname' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UTC_TIMEZONE_NAME" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="NAME" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'NAME' in member name 'DateTimeConverter.UTC_TIMEZONE_NAME' by changing it to 'Name'.</Issue>
+            </Message>
+            <Message Id="TIMEZONE" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'TIMEZONE' in member name 'DateTimeConverter.UTC_TIMEZONE_NAME' by changing it to 'Timezone'.</Issue>
+            </Message>
+            <Message Id="UTC" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'UTC' in member name 'DateTimeConverter.UTC_TIMEZONE_NAME' by changing it to 'Utc'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Aras.IOM">
+       <Types>
+        <Type Name="HttpServerConnection" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CallActionImplAsync(System.String,Windows.Data.Xml.Dom.XmlDocument,Windows.Data.Xml.Dom.XmlDocument,System.String,System.Boolean)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Impl" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Impl' in member name 'HttpServerConnection.CallActionImplAsync(string, XmlDocument, XmlDocument, string, bool)' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="I18NSessionContext" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ConvertFromNeutral(System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Ptrn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="I18NSessionContext.cs" Line="230">In method 'I18NSessionContext.ConvertFromNeutral(string, string, string)', correct the spelling of 'Ptrn' in parameter name 'datePtrn' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="svalue" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="I18NSessionContext.cs" Line="230">In method 'I18NSessionContext.ConvertFromNeutral(string, string, string)', correct the spelling of 'svalue' in parameter name 'svalue' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="vtype" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="I18NSessionContext.cs" Line="230">In method 'I18NSessionContext.ConvertFromNeutral(string, string, string)', correct the spelling of 'vtype' in parameter name 'vtype' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ConvertNeutralToUtcDateTime(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Str" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="I18NSessionContext.cs" Line="309">In method 'I18NSessionContext.ConvertNeutralToUtcDateTime(string, string)', correct the spelling of 'Str' in parameter name 'neutralStr' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ConvertToNeutral(System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Ptrn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="I18NSessionContext.cs" Line="195">In method 'I18NSessionContext.ConvertToNeutral(string, string, string)', correct the spelling of 'Ptrn' in parameter name 'datePtrn' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="svalue" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="I18NSessionContext.cs" Line="195">In method 'I18NSessionContext.ConvertToNeutral(string, string, string)', correct the spelling of 'svalue' in parameter name 'svalue' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="vtype" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="I18NSessionContext.cs" Line="195">In method 'I18NSessionContext.ConvertToNeutral(string, string, string)', correct the spelling of 'vtype' in parameter name 'vtype' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ConvertUtcDateTimeToNeutral(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Str" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="I18NSessionContext.cs" Line="248">In method 'I18NSessionContext.ConvertUtcDateTimeToNeutral(string, string)', correct the spelling of 'Str' in parameter name 'utcStr' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Innovator" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#applyAMLAsync(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="AML" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'AML' in member name 'Innovator.applyAMLAsync(string)' by changing it to 'Aml'.</Issue>
+             <Issue Name="MemberParameter" Certainty="85" Level="Error">In member 'Innovator.applyAMLAsync(string)', correct the casing of 'AML' in parameter name 'AML' by changing it to 'aml'.</Issue>
+            </Message>
+            <Message Id="apply" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'apply' in member name 'Innovator.applyAMLAsync(string)' by changing it to 'Apply'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#applyMethodAsync(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="apply" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'apply' in member name 'Innovator.applyMethodAsync(string, string)' by changing it to 'Apply'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#applySQLAsync(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="SQL" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'SQL' in member name 'Innovator.applySQLAsync(string)' by changing it to 'Sql'.</Issue>
+            </Message>
+            <Message Id="apply" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'apply' in member name 'Innovator.applySQLAsync(string)' by changing it to 'Apply'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getAssignedActivitiesAsync(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="userId" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning">Parameter 'userId' of 'Innovator.getAssignedActivitiesAsync(string, string)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getConnection()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Innovator.common.cs" Line="179">Correct the casing of 'get' in member name 'Innovator.getConnection()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getFileUrlAsync(System.String,Aras.IOM.UrlType)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'get' in member name 'Innovator.getFileUrlAsync(string, UrlType)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getFileUrlsAsync(System.Collections.Generic.IList`1&lt;System.Object&gt;,Aras.IOM.UrlType)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'get' in member name 'Innovator.getFileUrlsAsync(IList&lt;object&gt;, UrlType)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getI18NSessionContext()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Innovator.common.cs" Line="195">Correct the casing of 'get' in member name 'Innovator.getI18NSessionContext()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getItemByIdAsync(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'get' in member name 'Innovator.getItemByIdAsync(string, string)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getItemByKeyedNameAsync(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'get' in member name 'Innovator.getItemByKeyedNameAsync(string, string)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getItemInDom(Windows.Data.Xml.Dom.XmlDocument)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Innovator.common.cs" Line="707">Correct the casing of 'get' in member name 'Innovator.getItemInDom(XmlDocument)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getNewID()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Innovator.common.cs" Line="226">Correct the casing of 'ID' in member name 'Innovator.getNewID()' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Innovator.common.cs" Line="226">Correct the casing of 'get' in member name 'Innovator.getNewID()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getNextSequenceAsync(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'get' in member name 'Innovator.getNextSequenceAsync(string)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getUserIDAsync()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in member name 'Innovator.getUserIDAsync()' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'get' in member name 'Innovator.getUserIDAsync()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#newError(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="new" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Innovator.common.cs" Line="583">Correct the casing of 'new' in member name 'Innovator.newError(string)' by changing it to 'New'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#newItem()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="new" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Innovator.common.cs" Line="268">Correct the casing of 'new' in member name 'Innovator.newItem()' by changing it to 'New'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#newItem(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="new" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Innovator.common.cs" Line="290">Correct the casing of 'new' in member name 'Innovator.newItem(string)' by changing it to 'New'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#newItem(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="new" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Innovator.common.cs" Line="318">Correct the casing of 'new' in member name 'Innovator.newItem(string, string)' by changing it to 'New'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#newResult(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="new" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Innovator.common.cs" Line="653">Correct the casing of 'new' in member name 'Innovator.newResult(string)' by changing it to 'New'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#newXMLDocument()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="XML" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Innovator.common.cs" Line="162">Correct the casing of 'XML' in member name 'Innovator.newXMLDocument()' by changing it to 'Xml'.</Issue>
+            </Message>
+            <Message Id="new" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Innovator.common.cs" Line="162">Correct the casing of 'new' in member name 'Innovator.newXMLDocument()' by changing it to 'New'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ScalcMD5(System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Scalc" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Innovator.cs" Line="264">Correct the spelling of 'Scalc' in member name 'Innovator.ScalcMD5(string)' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="val" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Innovator.cs" Line="264">In method 'Innovator.ScalcMD5(string)', correct the spelling of 'val' in parameter name 'val' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="IomFactory" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Iom" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Iom' in type name 'IomFactory'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#CreateCheckinManager(Aras.IOM.Item)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Checkin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="IomFactory.cs" Line="247">Correct the spelling of 'Checkin' in member name 'IomFactory.CreateCheckinManager(Item)' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="configuration" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="IomFactory.cs" Line="247">Parameter 'configuration' of 'IomFactory.CreateCheckinManager(Item)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreateCheckinManager(Aras.IOM.Item,Aras.IOME.CheckinManagerFlags)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Checkin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="IomFactory.cs" Line="285">Correct the spelling of 'Checkin' in member name 'IomFactory.CreateCheckinManager(Item, CheckinManagerFlags)' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="configuration" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="IomFactory.cs" Line="285">Parameter 'configuration' of 'IomFactory.CreateCheckinManager(Item, CheckinManagerFlags)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="flags" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="IomFactory.cs" Line="285">Parameter 'flags' of 'IomFactory.CreateCheckinManager(Item, CheckinManagerFlags)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreateCheckoutManager(Aras.IOM.Item)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="configuration" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="IomFactory.cs" Line="211">Parameter 'configuration' of 'IomFactory.CreateCheckoutManager(Item)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreateCheckoutManager(Aras.IOM.Item,Aras.IOME.CheckoutManagerFlags)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="configuration" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="IomFactory.cs" Line="232">Parameter 'configuration' of 'IomFactory.CreateCheckoutManager(Item, CheckoutManagerFlags)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="flags" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="IomFactory.cs" Line="232">Parameter 'flags' of 'IomFactory.CreateCheckoutManager(Item, CheckoutManagerFlags)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreateMultiParentConfigurationBuilder(Aras.IOM.Item)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Multi" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="IomFactory.cs" Line="300">Correct the spelling of 'Multi' in member name 'IomFactory.CreateMultiParentConfigurationBuilder(Item)' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="configuration" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="IomFactory.cs" Line="300">Parameter 'configuration' of 'IomFactory.CreateMultiParentConfigurationBuilder(Item)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreateWinAuthHttpServerConnection(System.String,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Auth" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="IomFactory.cs" Line="163">Correct the spelling of 'Auth' in member name 'IomFactory.CreateWinAuthHttpServerConnection(string, string)' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="IServerConnection" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DebugLog(System.String,System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="msg" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IServerConnection.DebugLog(string, object)', correct the spelling of 'msg' in parameter name 'msg' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getFileUrlAsync(System.String,Aras.IOM.UrlType)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'get' in member name 'IServerConnection.getFileUrlAsync(string, UrlType)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getFileUrlsAsync(System.Collections.Generic.IList`1&lt;System.Object&gt;,Aras.IOM.UrlType)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'get' in member name 'IServerConnection.getFileUrlsAsync(IList&lt;object&gt;, UrlType)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetLicenseInfoAsync(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="addon" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IServerConnection.GetLicenseInfoAsync(string, string)', correct the spelling of 'addon' in parameter name 'addonName' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetOperatingParameter(System.String,System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="defaultvalue" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IServerConnection.GetOperatingParameter(string, object)', correct the spelling of 'defaultvalue' in parameter name 'defaultvalue' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetSrvContext()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Srv" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Srv' in member name 'IServerConnection.GetSrvContext()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getUserIDAsync()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error">Correct the casing of 'ID' in member name 'IServerConnection.getUserIDAsync()' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'get' in member name 'IServerConnection.getUserIDAsync()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Item" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#addRelationship(Aras.IOM.Item)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="add" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="4015">Correct the casing of 'add' in member name 'Item.addRelationship(Item)' by changing it to 'Add'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#appendItem(Aras.IOM.Item)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="append" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="3091">Correct the casing of 'append' in member name 'Item.appendItem(Item)' by changing it to 'Append'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#applyAsync()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="apply" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'apply' in member name 'Item.applyAsync()' by changing it to 'Apply'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#applyAsync(System.Collections.Generic.IDictionary`2&lt;System.Object,System.Object&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="apply" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'apply' in member name 'Item.applyAsync(IDictionary&lt;object, object&gt;)' by changing it to 'Apply'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#applyAsync(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="apply" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'apply' in member name 'Item.applyAsync(string)' by changing it to 'Apply'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#applyAsync(System.String,System.Collections.Generic.IDictionary`2&lt;System.Object,System.Object&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="apply" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'apply' in member name 'Item.applyAsync(string, IDictionary&lt;object, object&gt;)' by changing it to 'Apply'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#applyAsync(System.String,System.Collections.Generic.IDictionary`2&lt;System.Object,System.Object&gt;,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="location" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning">Parameter 'location' of 'Item.applyAsync(string, IDictionary&lt;object, object&gt;, string)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#applyStylesheet(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="apply" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.cs" Line="953">Correct the casing of 'apply' in member name 'Item.applyStylesheet(string, string)' by changing it to 'Apply'.</Issue>
+            </Message>
+            <Message Id="type" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.cs" Line="953">Parameter 'type' of 'Item.applyStylesheet(string, string)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="xslStylesheet" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.cs" Line="953">Parameter 'xslStylesheet' of 'Item.applyStylesheet(string, string)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#attachPhysicalFileAsync(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="attach" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'attach' in member name 'Item.attachPhysicalFileAsync(string)' by changing it to 'Attach'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#checkoutAsync(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="checkout" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'checkout' in member name 'Item.checkoutAsync(string)' by changing it to 'Checkout'.</Issue>
+            </Message>
+            <Message Id="dir" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'Item.checkoutAsync(string)', correct the spelling of 'dir' in parameter name 'dir' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#clone(System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="clone" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="654">Correct the casing of 'clone' in member name 'Item.clone(bool)' by changing it to 'Clone'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#createPropertyItem(System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="create" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="5161">Correct the casing of 'create' in member name 'Item.createPropertyItem(string, string, string)' by changing it to 'Create'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#createRelatedItem(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="create" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="5193">Correct the casing of 'create' in member name 'Item.createRelatedItem(string, string)' by changing it to 'Create'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#createRelationship(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="create" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="5129">Correct the casing of 'create' in member name 'Item.createRelationship(string, string)' by changing it to 'Create'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#dom" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dom" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="437">Correct the casing of 'dom' in member name 'Item.dom' by changing it to 'Dom'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#emailAsync(Aras.IOM.Item,Aras.IOM.Item)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="email" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'email' in member name 'Item.emailAsync(Item, Item)' by changing it to 'Email'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fetchDefaultPropertyValuesAsync(System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="current" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error">In member 'Item.fetchDefaultPropertyValuesAsync(bool)', correct the casing of 'current' in parameter name 'overwrite_current' by changing it to 'Current'.</Issue>
+            </Message>
+            <Message Id="fetch" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'fetch' in member name 'Item.fetchDefaultPropertyValuesAsync(bool)' by changing it to 'Fetch'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fetchFileProperty(System.String,System.String,Aras.IOM.FetchFileMode)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="fetch" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'fetch' in member name 'Item.fetchFileProperty(string, string, FetchFileMode)' by changing it to 'Fetch'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fetchLockStatusAsync()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="fetch" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'fetch' in member name 'Item.fetchLockStatusAsync()' by changing it to 'Fetch'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fetchRelationshipsAsync(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="fetch" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'fetch' in member name 'Item.fetchRelationshipsAsync(string)' by changing it to 'Fetch'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fetchRelationshipsAsync(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="fetch" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'fetch' in member name 'Item.fetchRelationshipsAsync(string, string)' by changing it to 'Fetch'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#fetchRelationshipsAsync(System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="fetch" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'fetch' in member name 'Item.fetchRelationshipsAsync(string, string, string)' by changing it to 'Fetch'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getAction()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1570">Correct the casing of 'get' in member name 'Item.getAction()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getAttribute(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1502">Correct the casing of 'get' in member name 'Item.getAttribute(string)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getAttribute(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1517">Correct the casing of 'get' in member name 'Item.getAttribute(string, string)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getErrorCode()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2575">Correct the casing of 'get' in member name 'Item.getErrorCode()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getErrorDetail()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2503">Correct the casing of 'get' in member name 'Item.getErrorDetail()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getErrorSource()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2646">Correct the casing of 'get' in member name 'Item.getErrorSource()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getErrorString()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2537">Correct the casing of 'get' in member name 'Item.getErrorString()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getID()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1615">Correct the casing of 'ID' in member name 'Item.getID()' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1615">Correct the casing of 'get' in member name 'Item.getID()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getInnovator()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1601">Correct the casing of 'get' in member name 'Item.getInnovator()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getItemByIndex(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="3608">Correct the casing of 'get' in member name 'Item.getItemByIndex(int)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getItemCount()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="3559">Correct the casing of 'get' in member name 'Item.getItemCount()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getItemsByXPath(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="3492">Correct the casing of 'get' in member name 'Item.getItemsByXPath(string)' by changing it to 'Get'.</Issue>
+            </Message>
+            <Message Id="xpath" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="3492">In method 'Item.getItemsByXPath(string)', correct the spelling of 'xpath' in parameter name 'xpath' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getLockStatusAsync()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'get' in member name 'Item.getLockStatusAsync()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getLogicalChildren()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="4966">Correct the casing of 'get' in member name 'Item.getLogicalChildren()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getNewID()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="4778">Correct the casing of 'ID' in member name 'Item.getNewID()' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="4778">Correct the casing of 'get' in member name 'Item.getNewID()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getParentItem()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="4223">Correct the casing of 'get' in member name 'Item.getParentItem()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getProperty(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1711">Correct the casing of 'get' in member name 'Item.getProperty(string)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getProperty(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1735">Correct the casing of 'get' in member name 'Item.getProperty(string, string)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getProperty(System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1759">Correct the casing of 'get' in member name 'Item.getProperty(string, string, string)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getPropertyAttribute(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2023">Correct the casing of 'get' in member name 'Item.getPropertyAttribute(string, string)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getPropertyAttribute(System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2045">Correct the casing of 'get' in member name 'Item.getPropertyAttribute(string, string, string)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getPropertyAttribute(System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2070">Correct the casing of 'get' in member name 'Item.getPropertyAttribute(string, string, string, string)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getPropertyCondition(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1930">Correct the casing of 'get' in member name 'Item.getPropertyCondition(string)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getPropertyCondition(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1952">Correct the casing of 'get' in member name 'Item.getPropertyCondition(string, string)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getPropertyItem(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2213">Correct the casing of 'get' in member name 'Item.getPropertyItem(string)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getRelatedItem()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="3893">Correct the casing of 'get' in member name 'Item.getRelatedItem()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getRelatedItemID()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="4169">Correct the casing of 'ID' in member name 'Item.getRelatedItemID()' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="4169">Correct the casing of 'get' in member name 'Item.getRelatedItemID()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getRelationships()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="3992">Correct the casing of 'get' in member name 'Item.getRelationships()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getRelationships(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="4066">Correct the casing of 'get' in member name 'Item.getRelationships(string)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getResult()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2703">Correct the casing of 'get' in member name 'Item.getResult()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getType()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1669">Correct the casing of 'get' in member name 'Item.getType()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#instantiateWorkflowAsync(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterAbbreviation" Certainty="85" Level="Error">In member 'Item.instantiateWorkflowAsync(string)', correct the casing of 'ID' in parameter name 'workflowMapID' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="instantiate" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'instantiate' in member name 'Item.instantiateWorkflowAsync(string)' by changing it to 'Instantiate'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#isCollection()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="is" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2811">Correct the casing of 'is' in member name 'Item.isCollection()' by changing it to 'Is'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#isEmpty()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="is" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="3021">Correct the casing of 'is' in member name 'Item.isEmpty()' by changing it to 'Is'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#isError()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="is" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="3010">Correct the casing of 'is' in member name 'Item.isError()' by changing it to 'Is'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#isLogical()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="is" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="4249">Correct the casing of 'is' in member name 'Item.isLogical()' by changing it to 'Is'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#isNew()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="is" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2777">Correct the casing of 'is' in member name 'Item.isNew()' by changing it to 'Is'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#isRoot()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="is" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2790">Correct the casing of 'is' in member name 'Item.isRoot()' by changing it to 'Is'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#loadAML(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="AML" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="601">Correct the casing of 'AML' in member name 'Item.loadAML(string)' by changing it to 'Aml'.</Issue>
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="601">In member 'Item.loadAML(string)', correct the casing of 'AML' in parameter name 'AML' by changing it to 'aml'.</Issue>
+            </Message>
+            <Message Id="load" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="601">Correct the casing of 'load' in member name 'Item.loadAML(string)' by changing it to 'Load'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#lockItemAsync()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="lock" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'lock' in member name 'Item.lockItemAsync()' by changing it to 'Lock'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#newAND()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="AND" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="4288">Correct the casing of 'AND' in member name 'Item.newAND()' by changing it to 'And'.</Issue>
+            </Message>
+            <Message Id="new" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="4288">Correct the casing of 'new' in member name 'Item.newAND()' by changing it to 'New'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#newItem()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="new" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="302">Correct the casing of 'new' in member name 'Item.newItem()' by changing it to 'New'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#newItem(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="new" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="324">Correct the casing of 'new' in member name 'Item.newItem(string)' by changing it to 'New'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#newItem(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="new" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="352">Correct the casing of 'new' in member name 'Item.newItem(string, string)' by changing it to 'New'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#newNOT()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="NOT" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="4382">Correct the casing of 'NOT' in member name 'Item.newNOT()' by changing it to 'Not'.</Issue>
+            </Message>
+            <Message Id="new" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="4382">Correct the casing of 'new' in member name 'Item.newNOT()' by changing it to 'New'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#newOR()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="new" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="4332">Correct the casing of 'new' in member name 'Item.newOR()' by changing it to 'New'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#newXMLDocument()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="XML" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="844">Correct the casing of 'XML' in member name 'Item.newXMLDocument()' by changing it to 'Xml'.</Issue>
+            </Message>
+            <Message Id="new" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="844">Correct the casing of 'new' in member name 'Item.newXMLDocument()' by changing it to 'New'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#node" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="node" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="460">Correct the casing of 'node' in member name 'Item.node' by changing it to 'Node'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#nodeList" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="node" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="482">Correct the casing of 'node' in member name 'Item.nodeList' by changing it to 'Node'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#promoteAsync(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="promote" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'promote' in member name 'Item.promoteAsync(string, string)' by changing it to 'Promote'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#removeAttribute(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="remove" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1554">Correct the casing of 'remove' in member name 'Item.removeAttribute(string)' by changing it to 'Remove'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#removeItem(Aras.IOM.Item)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="remove" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="3267">Correct the casing of 'remove' in member name 'Item.removeItem(Item)' by changing it to 'Remove'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#removeLogical(Aras.IOM.Item)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="remove" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="4416">Correct the casing of 'remove' in member name 'Item.removeLogical(Item)' by changing it to 'Remove'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#removeProperty(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="remove" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1888">Correct the casing of 'remove' in member name 'Item.removeProperty(string)' by changing it to 'Remove'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#removeProperty(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="remove" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1907">Correct the casing of 'remove' in member name 'Item.removeProperty(string, string)' by changing it to 'Remove'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#removePropertyAttribute(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="remove" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2158">Correct the casing of 'remove' in member name 'Item.removePropertyAttribute(string, string)' by changing it to 'Remove'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#removePropertyAttribute(System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="remove" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2179">Correct the casing of 'remove' in member name 'Item.removePropertyAttribute(string, string, string)' by changing it to 'Remove'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#removeRelationship(Aras.IOM.Item)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="remove" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="4115">Correct the casing of 'remove' in member name 'Item.removeRelationship(Item)' by changing it to 'Remove'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setAction(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="set" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1587">Correct the casing of 'set' in member name 'Item.setAction(string)' by changing it to 'Set'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setAttribute(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="set" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1540">Correct the casing of 'set' in member name 'Item.setAttribute(string, string)' by changing it to 'Set'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setErrorCode(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="set" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2613">Correct the casing of 'set' in member name 'Item.setErrorCode(string)' by changing it to 'Set'.</Issue>
+            </Message>
+            <Message Id="errcode" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2613">In method 'Item.setErrorCode(string)', correct the spelling of 'errcode' in parameter name 'errcode' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setErrorDetail(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="set" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2522">Correct the casing of 'set' in member name 'Item.setErrorDetail(string)' by changing it to 'Set'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setErrorSource(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="set" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2656">Correct the casing of 'set' in member name 'Item.setErrorSource(string)' by changing it to 'Set'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setErrorString(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="set" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2551">Correct the casing of 'set' in member name 'Item.setErrorString(string)' by changing it to 'Set'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setFileProperty(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="set" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'set' in member name 'Item.setFileProperty(string, string)' by changing it to 'Set'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setID(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1648">Correct the casing of 'ID' in member name 'Item.setID(string)' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="set" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1648">Correct the casing of 'set' in member name 'Item.setID(string)' by changing it to 'Set'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setNewID()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="ID" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberAbbreviation" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="4766">Correct the casing of 'ID' in member name 'Item.setNewID()' by changing it to 'Id'. 'Id' is an abbreviation and therefore is not subject to acronym casing guidelines.</Issue>
+            </Message>
+            <Message Id="set" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="4766">Correct the casing of 'set' in member name 'Item.setNewID()' by changing it to 'Set'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setProperty(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="set" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1816">Correct the casing of 'set' in member name 'Item.setProperty(string, string)' by changing it to 'Set'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setProperty(System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="set" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1842">Correct the casing of 'set' in member name 'Item.setProperty(string, string, string)' by changing it to 'Set'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setPropertyAttribute(System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="set" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2102">Correct the casing of 'set' in member name 'Item.setPropertyAttribute(string, string, string)' by changing it to 'Set'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setPropertyAttribute(System.String,System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="set" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2130">Correct the casing of 'set' in member name 'Item.setPropertyAttribute(string, string, string, string)' by changing it to 'Set'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setPropertyCondition(System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="set" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1977">Correct the casing of 'set' in member name 'Item.setPropertyCondition(string, string)' by changing it to 'Set'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setPropertyCondition(System.String,System.String,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="set" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2002">Correct the casing of 'set' in member name 'Item.setPropertyCondition(string, string, string)' by changing it to 'Set'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setPropertyItem(System.String,Aras.IOM.Item)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="set" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="2304">Correct the casing of 'set' in member name 'Item.setPropertyItem(string, Item)' by changing it to 'Set'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setRelatedItem(Aras.IOM.Item)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="set" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="3969">Correct the casing of 'set' in member name 'Item.setRelatedItem(Item)' by changing it to 'Set'.</Issue>
+            </Message>
+            <Message Id="ritem" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="3969">In method 'Item.setRelatedItem(Item)', correct the spelling of 'ritem' in parameter name 'ritem' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#setType(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="set" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="Item.common.cs" Line="1685">Correct the casing of 'set' in member name 'Item.setType(string)' by changing it to 'Set'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#unlockItemAsync()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="unlock" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'unlock' in member name 'Item.unlockItemAsync()' by changing it to 'Unlock'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ServerConnectionBase" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#_getSortedLocatedListAsync(Aras.IOM.Item,Aras.IOM.Item)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="fileItem" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning">Parameter 'fileItem' of 'ServerConnectionBase._getSortedLocatedListAsync(Item, Item)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getClientHTTPHeaders(System.String)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message Id="HTTP" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="ServerConnectionBase.common.cs" Line="740">Correct the casing of 'HTTP' in member name 'ServerConnectionBase.getClientHTTPHeaders(string)' by changing it to 'Http'.</Issue>
+            </Message>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="ServerConnectionBase.common.cs" Line="740">Correct the casing of 'get' in member name 'ServerConnectionBase.getClientHTTPHeaders(string)' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#getUserInfoAsync()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="get" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error">Correct the casing of 'get' in member name 'ServerConnectionBase.getUserInfoAsync()' by changing it to 'Get'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="WinAuthHttpServerConnection" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Auth" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Auth' in type name 'WinAuthHttpServerConnection'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Aras.IOME">
+       <Types>
+        <Type Name="CheckinCompletedEventArgs" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Checkin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Checkin' in type name 'CheckinCompletedEventArgs'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="CheckinCompletedEventHandler" Kind="Delegate" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Checkin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Checkin' in type name 'CheckinCompletedEventHandler'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="CheckinManager" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Checkin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Checkin' in type name 'CheckinManager'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#.ctor(Aras.IOM.Item,Aras.IOME.CheckinManagerFlags)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message Id="flags" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckinManager" File="CheckinManager.cs" Line="78">Parameter 'flags' of 'CheckinManager.CheckinManager(Item, CheckinManagerFlags)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CheckForConflicts(System.Collections.Generic.List`1&lt;System.Object&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="rulesArray" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckinManager" File="CheckinManager.cs" Line="263">Parameter 'rulesArray' of 'CheckinManager.CheckForConflicts(List&lt;object&gt;)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Checkin(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Checkin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckinManager" File="CheckinManager.cs" Line="143">Correct the spelling of 'Checkin' in member name 'CheckinManager.Checkin(int)' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="numberOfThreads" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckinManager" File="CheckinManager.cs" Line="143">Parameter 'numberOfThreads' of 'CheckinManager.Checkin(int)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CheckinAsync(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Checkin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckinManager" File="CheckinManager.cs" Line="185">Correct the spelling of 'Checkin' in member name 'CheckinManager.CheckinAsync(int)' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="numberOfThreads" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckinManager" File="CheckinManager.cs" Line="185">Parameter 'numberOfThreads' of 'CheckinManager.CheckinAsync(int)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CheckinCancelAsync()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Checkin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckinManager" File="CheckinManager.cs" Line="206">Correct the spelling of 'Checkin' in member name 'CheckinManager.CheckinCancelAsync()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CheckinPauseAsync()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Checkin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckinManager" File="CheckinManager.cs" Line="195">Correct the spelling of 'Checkin' in member name 'CheckinManager.CheckinPauseAsync()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CheckinResumeAsync()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Checkin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckinManager" File="CheckinManager.cs" Line="216">Correct the spelling of 'Checkin' in member name 'CheckinManager.CheckinResumeAsync()' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CheckinManagerFlags" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Checkin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Checkin' in type name 'CheckinManagerFlags'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#UnlockAfterCheckin" Kind="Field" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Checkin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Checkin' in member name 'CheckinManagerFlags.UnlockAfterCheckin' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="CheckinProgressChangedEventArgs" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Checkin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Checkin' in type name 'CheckinProgressChangedEventArgs'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="CheckinProgressChangedEventHandler" Kind="Delegate" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Checkin" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Checkin' in type name 'CheckinProgressChangedEventHandler'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="CheckoutManager" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#DownloadFiles(System.String,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dir" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckoutManager" File="CheckoutManager.cs" Line="149">In member 'CheckoutManager.DownloadFiles(string, int)', correct the casing of 'dir' in parameter name 'target_dir' by changing it to 'Dir'.</Issue>
+            </Message>
+            <Message Id="of" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckoutManager" File="CheckoutManager.cs" Line="149">In member 'CheckoutManager.DownloadFiles(string, int)', correct the casing of 'of' in parameter name 'number_of_threads' by changing it to 'Of'.</Issue>
+            </Message>
+            <Message Id="threads" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckoutManager" File="CheckoutManager.cs" Line="149">In member 'CheckoutManager.DownloadFiles(string, int)', correct the casing of 'threads' in parameter name 'number_of_threads' by changing it to 'Threads'.</Issue>
+            </Message>
+            <Message Id="dir" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckoutManager" File="CheckoutManager.cs" Line="149">In method 'CheckoutManager.DownloadFiles(string, int)', correct the spelling of 'dir' in parameter name 'target_dir' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="number_of_threads" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckoutManager" File="CheckoutManager.cs" Line="149">Parameter 'number_of_threads' of 'CheckoutManager.DownloadFiles(string, int)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="target_dir" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckoutManager" File="CheckoutManager.cs" Line="149">Parameter 'target_dir' of 'CheckoutManager.DownloadFiles(string, int)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#DownloadFilesAsync(System.String,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="dir" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckoutManager" File="CheckoutManager.cs" Line="185">In member 'CheckoutManager.DownloadFilesAsync(string, int)', correct the casing of 'dir' in parameter name 'target_dir' by changing it to 'Dir'.</Issue>
+            </Message>
+            <Message Id="of" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckoutManager" File="CheckoutManager.cs" Line="185">In member 'CheckoutManager.DownloadFilesAsync(string, int)', correct the casing of 'of' in parameter name 'number_of_threads' by changing it to 'Of'.</Issue>
+            </Message>
+            <Message Id="threads" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckoutManager" File="CheckoutManager.cs" Line="185">In member 'CheckoutManager.DownloadFilesAsync(string, int)', correct the casing of 'threads' in parameter name 'number_of_threads' by changing it to 'Threads'.</Issue>
+            </Message>
+            <Message Id="dir" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckoutManager" File="CheckoutManager.cs" Line="185">In method 'CheckoutManager.DownloadFilesAsync(string, int)', correct the spelling of 'dir' in parameter name 'target_dir' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="number_of_threads" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckoutManager" File="CheckoutManager.cs" Line="185">Parameter 'number_of_threads' of 'CheckoutManager.DownloadFilesAsync(string, int)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+            <Message Id="target_dir" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="DependsOnFix">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckoutManager" File="CheckoutManager.cs" Line="185">Parameter 'target_dir' of 'CheckoutManager.DownloadFilesAsync(string, int)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DownloadFilesCompletedEventArgs" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Collections.Generic.Dictionary`2&lt;System.String,System.Object&gt;,System.Exception,System.Boolean,System.Object)" Kind="Method" Static="False" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message Id="hashResult" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\_CommonFiles\IOM\CheckoutManager" File="DownloadFilesCompletedEventArgs.cs" Line="27">Parameter 'hashResult' of 'DownloadFilesCompletedEventArgs.DownloadFilesCompletedEventArgs(Dictionary&lt;string, object&gt;, Exception, bool, object)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="forlocker" Kind="Delegate" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="forlocker" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="85" Level="Error">Correct the casing of 'forlocker' in type name 'forlocker' by changing it to 'Forlocker'.</Issue>
+          </Message>
+          <Message Id="forlocker" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'forlocker' in type name 'forlocker'.</Issue>
+          </Message>
+          <Message Id="x" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+           <Issue Name="DelegateParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning">In delegate 'forlocker', consider providing a more meaningful name than parameter name 'x'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ItemCache" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Remove(System.String[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="idlist" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="ItemCache.common.cs" Line="285">In method 'ItemCache.Remove(string[])', correct the spelling of 'idlist' in parameter name 'idlist' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetItem(System.Collections.Generic.List`1&lt;System.Object&gt;,Aras.IOME.ICacheable)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="val" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="ItemCache.cs" Line="197">In method 'ItemCache.SetItem(List&lt;object&gt;, ICacheable)', correct the spelling of 'val' in parameter name 'val' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetItem(System.Collections.Generic.List`1&lt;System.Object&gt;,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="val" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="ItemCache.cs" Line="162">In method 'ItemCache.SetItem(List&lt;object&gt;, bool)', correct the spelling of 'val' in parameter name 'val' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetItem(System.Collections.Generic.List`1&lt;System.Object&gt;,System.Collections.Generic.List`1&lt;System.Object&gt;)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="val" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="ItemCache.cs" Line="131">In method 'ItemCache.SetItem(List&lt;object&gt;, List&lt;object&gt;)', correct the spelling of 'val' in parameter name 'val' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetItem(System.Collections.Generic.List`1&lt;System.Object&gt;,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="val" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="ItemCache.cs" Line="151">In method 'ItemCache.SetItem(List&lt;object&gt;, int)', correct the spelling of 'val' in parameter name 'val' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetItem(System.Collections.Generic.List`1&lt;System.Object&gt;,System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="val" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="ItemCache.common.cs" Line="633">In method 'ItemCache.SetItem(List&lt;object&gt;, object)', correct the spelling of 'val' in parameter name 'val' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetItem(System.Collections.Generic.List`1&lt;System.Object&gt;,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="val" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="ItemCache.cs" Line="173">In method 'ItemCache.SetItem(List&lt;object&gt;, string)', correct the spelling of 'val' in parameter name 'val' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetItem(System.Collections.Generic.List`1&lt;System.Object&gt;,Windows.Data.Xml.Dom.XmlElement)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="val" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="ItemCache.cs" Line="185">In method 'ItemCache.SetItem(List&lt;object&gt;, XmlElement)', correct the spelling of 'val' in parameter name 'val' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#withinlocker(Aras.IOME.forlocker,System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="withinlocker" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="ItemCache.common.cs" Line="899">Correct the casing of 'withinlocker' in member name 'ItemCache.withinlocker(forlocker, object)' by changing it to 'Withinlocker'.</Issue>
+            </Message>
+            <Message Id="fcn" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="ItemCache.common.cs" Line="899">In method 'ItemCache.withinlocker(forlocker, object)', correct the spelling of 'fcn' in parameter name 'fcn' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="withinlocker" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="75" Level="CriticalWarning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base" File="ItemCache.common.cs" Line="899">Correct the spelling of 'withinlocker' in member name 'ItemCache.withinlocker(forlocker, object)' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MultiParentConfigurationBuilder" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Multi" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Multi' in type name 'MultiParentConfigurationBuilder'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#addParent(System.String,Aras.IOM.Item,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="add" TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="Breaking">
+             <Issue Name="Member" Certainty="85" Level="Error" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.Base\CheckinManager" File="MultiParentConfigurationBuilder.cs" Line="45">Correct the casing of 'add' in member name 'MultiParentConfigurationBuilder.addParent(string, Item, string)' by changing it to 'Add'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Aras.Net">
+       <Types>
+        <Type Name="ApplicationRequestProvider+DataProvider" Kind="Class" Accessibility="Private" ExternallyVisible="False">
+         <Members>
+          <Member Name="#GetProviders(Aras.Net.IConfigurationManager)" Kind="Method" Static="True" Accessibility="Assembly" ExternallyVisible="False">
+           <Messages>
+            <Message Id="configurationManager" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\Aras.Net\Requests" File="ApplicationRequestProvider.cs" Line="165">Parameter 'configurationManager' of 'ApplicationRequestProvider.DataProvider.GetProviders(IConfigurationManager)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ContextBasedCookieContainerProvider" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#.ctor(System.Uri)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message Id="uri" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\Aras.Net\Requests\CookieContainerProvider" File="ContextBasedCookieContainerProvider.cs" Line="14">Parameter 'uri' of 'ContextBasedCookieContainerProvider.ContextBasedCookieContainerProvider(Uri)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ReadWriteTimeoutRequestProviderDecorator" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#ApplyTimeoutSettings(System.Net.Http.HttpClientHandler)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="handler" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\Aras.Net\Requests\RequestProviderDecorator" File="ReadWriteTimeoutRequestProviderDecorator.cs" Line="34">Parameter 'handler' of 'ReadWriteTimeoutRequestProviderDecorator.ApplyTimeoutSettings(HttpClientHandler)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TimeoutRequestProviderDecorator" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#ApplyTimeoutSettings(System.Net.Http.HttpClientHandler)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="handler" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\Aras.Net\Requests\RequestProviderDecorator" File="TimeoutRequestProviderDecorator.cs" Line="28">Parameter 'handler' of 'TimeoutRequestProviderDecorator.ApplyTimeoutSettings(HttpClientHandler)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ApplyTimeoutSettings(System.Net.WebRequest)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="webRequest" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\Aras.Net\Requests\RequestProviderDecorator" File="TimeoutRequestProviderDecorator.cs" Line="17">Parameter 'webRequest' of 'TimeoutRequestProviderDecorator.ApplyTimeoutSettings(WebRequest)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="Aras.Utils">
+       <Types>
+        <Type Name="FileUpload" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#CreateHttpWebRequestForFileUpload(System.Uri,System.String,System.Int32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="contentLength" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning" Path="C:\users\VSAdmin\{0F8F55F0-0410-43D4-8FDD-E08162163A48}\CompilableCode\IOM.RT" File="FileUpload.cs" Line="295">Parameter 'contentLength' of 'FileUpload.CreateHttpWebRequestForFileUpload(Uri, string, int)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreateKerberosOrNtlmAuthenticatedHttpWebRequestForFileUploadAsync(System.Boolean,System.Uri,System.String,System.Int32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="isKerberos" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning">Parameter 'isKerberos' of 'FileUpload.CreateKerberosOrNtlmAuthenticatedHttpWebRequestForFileUploadAsync(bool, Uri, string, int)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CreateNegotiateAuthenticatedHttpWebRequestForFileUploadAsync(System.Net.HttpWebRequest,System.Uri,System.String,System.Int32)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="failedHttpWebRequest" TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801" Status="Active" Created="2018-05-24 15:22:56Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Warning">Parameter 'failedHttpWebRequest' of 'FileUpload.CreateNegotiateAuthenticatedHttpWebRequestForFileUploadAsync(HttpWebRequest, Uri, string, int)' is never used. Remove the parameter or use it in the method body.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="IdentifiersShouldBeCasedCorrectly" Category="Microsoft.Naming" CheckId="CA1709">
+   <Name>Identifiers should be cased correctly</Name>
+   <Description>Type, namespace, and member identifiers are Pascal-cased. Parameter identifiers are camel-cased. Two letter acronyms within these identifiers should be upper-cased, for example, use System.IO instead of System.Io. Acronyms of three or more letters should be Pascal-cased, for example, use System.Xml instead of System.XML. The pascal-casing convention capitalizes the first letter of each word, as in BackColor. The camel-casing convention formats the first letter of the first word in lowercase and capitalizes the first letter of all subsequent words, as in backgroundColor. Although it may be common practice for some two letter acronyms to not be fully capitalized, violations of this rule should not be excluded for this reason. For example, 'DbConnection', is common but incorrect; use DBConnection. A violation of this rule might be required for compatibility with existing, non-managed symbol schemes. In general, however, these symbols should not be visible outside the assembly that uses them.</Description>
+   <Resolution Name="Assembly">Correct the casing of '{0}' in assembly name {1} by changing it to '{2}'.</Resolution>
+   <Resolution Name="Member">Correct the casing of '{0}' in member name {1} by changing it to '{2}'.</Resolution>
+   <Resolution Name="MemberAbbreviation">Correct the casing of '{0}' in member name {1} by changing it to '{2}'. '{2}' is an abbreviation and therefore is not subject to acronym casing guidelines.</Resolution>
+   <Resolution Name="MemberParameter">In member {0}, correct the casing of '{1}' in parameter name {2} by changing it to '{3}'.</Resolution>
+   <Resolution Name="MemberParameterAbbreviation">In member {0}, correct the casing of '{1}' in parameter name {2} by changing it to '{3}'. '{3}' is an abbreviation and therefore is not subject to acronym casing guidelines.</Resolution>
+   <Resolution Name="Namespace">Correct the casing of '{0}' in namespace name '{1}' by changing it to '{2}'.</Resolution>
+   <Resolution Name="Type">Correct the casing of '{0}' in type name {1} by changing it to '{2}'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182240.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="85">Error</MessageLevel>
+   <File Name="namingrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+   <Name>Identifiers should be spelled correctly</Name>
+   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
+   <Resolution Name="DelegateParameterMoreMeaningfulName">In delegate {0}, consider providing a more meaningful name than parameter name {1}.</Resolution>
+   <Resolution Name="Member">Correct the spelling of '{0}' in member name {1} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberParameter">In method {0}, correct the spelling of '{1}' in parameter name {2} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberParameterMoreMeaningfulName">In method {0}, consider providing a more meaningful name than parameter name {1}.</Resolution>
+   <Resolution Name="Namespace">Correct the spelling of '{0}' in namespace name '{1}'.</Resolution>
+   <Resolution Name="Type">Correct the spelling of '{0}' in type name {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264492.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="namingrules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="ReviewUnusedParameters" Category="Microsoft.Usage" CheckId="CA1801">
+   <Name>Review unused parameters</Name>
+   <Description>Review parameters in non-virtual methods that are not used in the method body to ensure no correctness exists around failure to access them. Unused parameters incur maintenance and performance costs. Sometimes a violation of this rule can point to an implementation bug in the method (i.e. the parameter should actually have been used in the method body). Exclude warnings of this rule if the parameter has to exist because of backward compatibility.</Description>
+   <Resolution Name="Default">Parameter {0} of {1} is never used. Remove the parameter or use it in the method body.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182268.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

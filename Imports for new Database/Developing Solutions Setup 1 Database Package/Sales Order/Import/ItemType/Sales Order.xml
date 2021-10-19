@@ -1,0 +1,290 @@
+﻿<AML>
+ <Item type="ItemType" id="11D43C6BFA5E4554AC3B7FC7A3429E3F" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>0</auto_search>
+  <enforce_discovery>1</enforce_discovery>
+  <hide_where_used>0</hide_where_used>
+  <implementation_type>table</implementation_type>
+  <instance_data>SALES_ORDER</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>0</is_versionable>
+  <label xml:lang="en">Sales Order</label>
+  <label_plural xml:lang="en">Sales Orders</label_plural>
+  <large_icon>../images/properties.svg</large_icon>
+  <manual_versioning>0</manual_versioning>
+  <name>Sales Order</name>
+  <open_icon>../images/properties.svg</open_icon>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <show_parameters_tab>1</show_parameters_tab>
+  <structure_view>tab view</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <Relationships>
+   <Item type="Allowed Permission" id="5EA73D085FEC4EDCA0F555DA8D324867" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="Sales Order" type="Permission">CD6E6419D00A41C0A157DB070699CFFB</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+   </Item>
+  
+   <Item type="Allowed Workflow" id="1075FF05AEFA4E7293EF3BA26BCA7BE7" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="Sales Order" type="Workflow Map">3E5115146F3F47A5936AF456D6BF400D</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+   </Item>
+   <Item type="Can Add" id="9CF5003863B941ECB265CA51ADBF96F4" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+   </Item>
+   <Item type="ItemType Life Cycle" id="4F3DD57591E74D10B32527DD04FBDEFD" action="add">
+    <related_id keyed_name="Sales Order" type="Life Cycle Map">5A7F7F6E00B34695AB3FC75F389A7498</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+   </Item>
+   <Item type="Property" id="7A64D9311C2C4B68878DA468B0B050ED" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source>
+     <Item type="Property" action="get" select="id">
+      <name>created_by_id</name>
+      <source_id>11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+     </Item>
+    </data_source>
+    <data_type>foreign</data_type>
+    <foreign_property>
+     <Item type="Property" action="get" select="id">
+      <keyed_name>last_name</keyed_name>
+      <source_id>
+       <Item type="ItemType" action="get" select="id">
+        <name>User</name>
+       </Item>
+      </source_id>
+     </Item>
+    </foreign_property>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Creator</label>
+    <name>creator_last_name</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3328</sort_order>
+    <source_id keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="62CEC50A56774529B724E7ED3E1652EE" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>boolean</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Allow Multiple Shipments?</label>
+    <name>multiple_shipment</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3584</sort_order>
+    <source_id keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="5F9F197E2EED407BA4C1866C2CCCF425" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Purchase Order #</label>
+    <name>po_number</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3200</sort_order>
+    <source_id keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="9BA16859498343F3AF3869C90A1814B5" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Ship Date</label>
+    <name>ship_date</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3456</sort_order>
+    <source_id keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="F757DD1DE7714B2581624CE5651EDBDF" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Shipping Method">CE46CD04735F47D0856FA825C5651899</data_source>
+    <data_type>list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Shipping Method</label>
+    <name>shipping_method</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3072</sort_order>
+    <source_id keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="2FB68171745C44ABA8EA46D7B011B508" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Sales Order">C7E6B82813894A22A06D3ABDE9137BEB</data_source>
+    <data_type>sequence</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>10</keyed_name_order>
+    <label xml:lang="en">Sales Order #</label>
+    <name>so_number</name>
+    <order_by>1</order_by>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="89366071547A4D3089B9F679447CB0DE" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>decimal</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Total Cost</label>
+    <name>total_cost</name>
+    <prec>16</prec>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <scale>2</scale>
+    <sort_order>3712</sort_order>
+    <source_id keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="TOC Access" id="B495DC347EAB46C6A52626BAB0AC084B" action="add">
+    <category>Sales Innovator</category>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+   </Item>
+   <Item type="View" id="7EC544DA9E5742409AD091DF79FC7A82" action="add">
+    <client>js</client>
+    <related_id keyed_name="Sales Order" type="Form">44AE6F040947429E9C416EF9C5965000</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+    <type>default</type>
+   </Item></Relationships>
+ </Item>
+ <Item type="ItemType" id="11D43C6BFA5E4554AC3B7FC7A3429E3F" action="edit">
+  <Relationships>
+   <Item type="Property" action="edit" where="source_id='11D43C6BFA5E4554AC3B7FC7A3429E3F' and name='created_on'">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>1</is_required>
+    <name>created_on</name>
+    <pattern>short_date_time</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='11D43C6BFA5E4554AC3B7FC7A3429E3F' and name='generation'">
+    <column_alignment>left</column_alignment>
+    <data_type>integer</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <name>generation</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>2432</sort_order>
+    <source_id keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='11D43C6BFA5E4554AC3B7FC7A3429E3F' and name='managed_by_id'">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Identity" type="ItemType" name="Identity">E582AB17663F4EF28460015B2BE9E094</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Reviewing Manager</label>
+    <name>managed_by_id</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='11D43C6BFA5E4554AC3B7FC7A3429E3F' and name='state'">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <name>state</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>1408</sort_order>
+    <source_id keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+    <stored_length>32</stored_length>
+    <track_history>0</track_history>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

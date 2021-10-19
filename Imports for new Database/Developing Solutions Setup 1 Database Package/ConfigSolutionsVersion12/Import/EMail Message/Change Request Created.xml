@@ -1,0 +1,7 @@
+﻿<AML>
+ <Item type="EMail Message" id="2E6DBEC3351E48F19D99032FBA5D6D89" action="add">
+  <body_plain>Change Request @{_item_number} created</body_plain>
+  <name>Change Request Created</name>
+  <subject>Change Request @{_item_number} created</subject>
+ </Item>
+</AML>

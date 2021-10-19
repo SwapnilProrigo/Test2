@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>fetchFileProperty (string propertyName, string targetPath, string mode)</title>
+
+
+	
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR">
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"></head><body bgcolor="#ffffff">
+<h1 pbzloc="0">Item Class</h1>
+
+<h2>fetchFileProperty(string propertyName, string targetPath, mode)</h2>
+
+<p>Download a file from a Vault. Calling the method means that the physical file will be streamed to the targetPath when called.</p>
+
+<h3 pbzloc="7">JavaScript:</h3>
+
+<h4 pbzloc="5">var&nbsp;fileItem = <span style="background-color: rgb(255, 255, 0);">this.fetchFileProperty</span>("_my_file", "C:\\TrainingFiles", FetchFileMode.Normal);</h4>
+
+<h3 pbzloc="10">C#:</h3>
+
+<pre pbzloc="17">Item fileItem = <span pbzloc="12" style="background-color: rgb(255, 255, 0);">this.fetchFileProperty</span>("_my_file", "C:\\TrainingServerFiles", FetchFileMode.Normal);<br></pre>
+
+<h3 pbzloc="16">Notes:</h3>
+
+<p pbzloc="11">This method is only available in Aras Innovator Version
+11 and greater and replaces the&nbsp;checkout method which is
+deprecated.<br>
+If used in a Client Method, file is streamed to client directory, otherwise file is streamed to server directory.<br>
+The property must be&nbsp;of type Item with a&nbsp;datasource of FIle.&nbsp;<br>
+A File item is returned is successful - the checkout_path property contains the full name of the retrieved file.<br>
+FetchFileMode.Normal streams the file, FetchFileMode.Dry only returns the File item and does not stream the file.<br>
+An apply() is NOT required.<br>
+&nbsp;</p>
+
+</body></html>

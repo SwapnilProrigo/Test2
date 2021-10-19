@@ -1,0 +1,38 @@
+﻿<AML>
+ <Item type="Form" id="2C24D3C769D842B5A8D5FA6A40EC0C9C" action="add">
+  <name>Sales Order Remarks</name>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <Relationships>
+   <Item type="Body" id="8961FAC17F754B428EAB5F9EB788225C" action="add">
+    <bg_attach>scroll</bg_attach>
+    <bg_color>#FFFFFF</bg_color>
+    <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
+    <bg_repeat>no-repeat</bg_repeat>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Sales Order Remarks" type="Form">2C24D3C769D842B5A8D5FA6A40EC0C9C</source_id>
+    <Relationships>
+     <Item type="Field" id="9566C5A37AD443C1886C861D8441724B" action="add">
+      <field_type>html</field_type>
+      <html_code><![CDATA[<span id='ITEM_INFO_INTERNAL_SPAN'/>
+<script>
+  populate_ITEM_INFO_INTERNAL_SPAN = function()
+  {
+    document.getElementById('ITEM_INFO_INTERNAL_SPAN').innerHTML = top.aras.uiGetItemInfoTable(document.itemType);
+  }
+  window.attachEvent('onload', populate_ITEM_INFO_INTERNAL_SPAN);
+</script>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <name>item_info</name>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="8961FAC17F754B428EAB5F9EB788225C" type="Body">8961FAC17F754B428EAB5F9EB788225C</source_id>
+      <tab_stop>0</tab_stop>
+      <x>0</x>
+      <y>0</y>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

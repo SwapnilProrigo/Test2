@@ -1,0 +1,16 @@
+﻿<AML>
+ <Item type="xPropertyDefinition" id="0E950A8A18F1403C9703FF2FF154D05E" action="add">
+  <column_alignment>left</column_alignment>
+  <data_type>decimal</data_type>
+  <default_value xml:lang="en">0.0000</default_value>
+  <is_indexed>0</is_indexed>
+  <is_required>0</is_required>
+  <label xml:lang="en">Height</label>
+  <prec>8</prec>
+  <private_permission_behavior>None</private_permission_behavior>
+  <readonly>0</readonly>
+  <scale>4</scale>
+  <track_history>0</track_history>
+  <name>xp-height</name>
+ </Item>
+</AML>

@@ -1,0 +1,795 @@
+{
+	"info": {
+		"_postman_id": "0cd30765-c11f-4259-b0c0-177d7ee88a37",
+		"name": "Training",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get OAuth Token",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "12ebb19f-f429-4b32-bd8f-a54b0e5954e0",
+						"exec": [
+							"var jsonData = JSON.parse(responseBody);\r",
+							"postman.setGlobalVariable('token', jsonData.access_token);\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "scope",
+							"value": "Innovator",
+							"type": "text"
+						},
+						{
+							"key": "client_id",
+							"value": "IOMApp",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "607920b64fe136f9ab2389e371852af2",
+							"type": "text"
+						},
+						{
+							"key": "database",
+							"value": "DevelopingSolutions12",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/Innovator12/oauthserver/connect/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Innovator12",
+						"oauthserver",
+						"connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Parts",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:80/Innovator12/server/odata/Part",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"Innovator12",
+						"server",
+						"odata",
+						"Part"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Parts Skiptoken",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Prefer",
+						"value": "odata.maxpagesize=10"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:80/Innovator12/server/odata/Part",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"Innovator12",
+						"server",
+						"odata",
+						"Part"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Parts Count",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:80/Innovator12/server/odata/Part/$count",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"Innovator12",
+						"server",
+						"odata",
+						"Part",
+						"$count"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Parts Top",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:80/Innovator12/server/odata/Part?$top=3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"Innovator12",
+						"server",
+						"odata",
+						"Part"
+					],
+					"query": [
+						{
+							"key": "$top",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Parts Top OrderBy",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:80/Innovator12/server/odata/Part?$orderby=item_number,name",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"Innovator12",
+						"server",
+						"odata",
+						"Part"
+					],
+					"query": [
+						{
+							"key": "$orderby",
+							"value": "item_number,name"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Single Part",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:80/Innovator12/server/odata/Part('10EEE1F2F00543AF84673D07650BDC01')",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"Innovator12",
+						"server",
+						"odata",
+						"Part('10EEE1F2F00543AF84673D07650BDC01')"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Single Part Single Property",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:80/Innovator12/server/odata/Part('10EEE1F2F00543AF84673D07650BDC01')/item_number",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"Innovator12",
+						"server",
+						"odata",
+						"Part('10EEE1F2F00543AF84673D07650BDC01')",
+						"item_number"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Select Properties",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:80/Innovator12/server/odata/Part?$select=name,description",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"Innovator12",
+						"server",
+						"odata",
+						"Part"
+					],
+					"query": [
+						{
+							"key": "$select",
+							"value": "name,description"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Filter on Properties",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:80/Innovator12/server/odata/Part?$filter=cost gt 100 and classification eq 'Product'",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"Innovator12",
+						"server",
+						"odata",
+						"Part"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "cost gt 100 and classification eq 'Product'"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Expand Relationship",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:80/Innovator12/server/odata/Part?$filter=item_number eq 'C4703A' &$expand=Part BOM",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"Innovator12",
+						"server",
+						"odata",
+						"Part"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "item_number eq 'C4703A' "
+						},
+						{
+							"key": "$expand",
+							"value": "Part BOM"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Expand Relationship Related Item",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:80/Innovator12/server/odata/Part?$filter=item_number eq 'C4703A' &$expand=Part BOM($expand=related_id)",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"Innovator12",
+						"server",
+						"odata",
+						"Part"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "item_number eq 'C4703A' "
+						},
+						{
+							"key": "$expand",
+							"value": "Part BOM($expand=related_id)"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add New Item",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"item_number\": \"P-1000001\",\n  \"name\" : \"Sample Part\",\n  \"description\" : \"Test Part\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:80/Innovator12/server/odata/Part",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"Innovator12",
+						"server",
+						"odata",
+						"Part"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add New Item With Item Reference",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"item_number\": \"P-1000002\",\n  \"name\" : \"Sample Part\",\n  \"description\" : \"Test Part\",\n  \"owned_by_idid@odata.bind\": \"Identity('5F9C887B3B224E358EB257BE51B18949')\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:80/Innovator12/server/odata/Part",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"Innovator12",
+						"server",
+						"odata",
+						"Part"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add New item With Relationship",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"item_number\": \"P-1000001\",\n  \"name\" : \"Sample Part\",\n  \"description\" : \"Test Part\",\n  \"Part BOM\" : [\n  \t{\"related_id\" :\n  \t\t{ \"item_number\" : \"R-1000001\",\n  \t\t   \"name\" : \"Sample Related Item\"\n  \t\t}\n  \t}\n  ]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:80/Innovator12/server/odata/Part",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"Innovator12",
+						"server",
+						"odata",
+						"Part"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit Part",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"description\": \"Edited Part\" }"
+				},
+				"url": {
+					"raw": "http://localhost:80/Innovator12/server/odata/Part('10EEE1F2F00543AF84673D07650BDC01')",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"Innovator12",
+						"server",
+						"odata",
+						"Part('10EEE1F2F00543AF84673D07650BDC01')"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Run Server Method",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:80/Innovator12/server/odata/method.Identity Membership Report",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "80",
+					"path": [
+						"Innovator12",
+						"server",
+						"odata",
+						"method.Identity Membership Report"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

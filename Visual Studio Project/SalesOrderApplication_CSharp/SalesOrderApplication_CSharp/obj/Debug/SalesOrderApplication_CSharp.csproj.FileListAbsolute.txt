@@ -1,0 +1,11 @@
+C:\Users\bellis\Documents\Visual Studio 2010\Projects\SalesOrderApplication_CSharp\SalesOrderApplication_CSharp\bin\SalesOrderApplication_CSharp.dll
+C:\Users\bellis\Documents\Visual Studio 2010\Projects\SalesOrderApplication_CSharp\SalesOrderApplication_CSharp\bin\SalesOrderApplication_CSharp.pdb
+C:\Users\bellis\Documents\Visual Studio 2010\Projects\SalesOrderApplication_CSharp\SalesOrderApplication_CSharp\obj\Debug\SalesOrderApplication_CSharp.dll
+C:\Users\bellis\Documents\Visual Studio 2010\Projects\SalesOrderApplication_CSharp\SalesOrderApplication_CSharp\obj\Debug\SalesOrderApplication_CSharp.pdb
+C:\Users\ArasTraining\Documents\Visual Studio 2017\Projects\SalesOrderApplication_CSharp\SalesOrderApplication_CSharp\bin\SalesOrderApplication_CSharp.dll.config
+C:\Users\ArasTraining\Documents\Visual Studio 2017\Projects\SalesOrderApplication_CSharp\SalesOrderApplication_CSharp\bin\SalesOrderApplication_CSharp.dll
+C:\Users\ArasTraining\Documents\Visual Studio 2017\Projects\SalesOrderApplication_CSharp\SalesOrderApplication_CSharp\bin\SalesOrderApplication_CSharp.pdb
+C:\Users\ArasTraining\Documents\Visual Studio 2017\Projects\SalesOrderApplication_CSharp\SalesOrderApplication_CSharp\obj\Debug\SalesOrderApplication_CSharp.csprojAssemblyReference.cache
+C:\Users\ArasTraining\Documents\Visual Studio 2017\Projects\SalesOrderApplication_CSharp\SalesOrderApplication_CSharp\obj\Debug\SalesOrderApplication_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\ArasTraining\Documents\Visual Studio 2017\Projects\SalesOrderApplication_CSharp\SalesOrderApplication_CSharp\obj\Debug\SalesOrderApplication_CSharp.dll
+C:\Users\ArasTraining\Documents\Visual Studio 2017\Projects\SalesOrderApplication_CSharp\SalesOrderApplication_CSharp\obj\Debug\SalesOrderApplication_CSharp.pdb

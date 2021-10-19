@@ -1,0 +1,275 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>applyAML</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>AML Attributes</h1>
+
+<h2>Item Attributes</h2>
+
+<p>Item attributes are available when <a href="#ADD_ATTRIBUTES">adding</a>, <a href="#GET_ATTRIBUTES">getting</a>, or <a href="#CHANGE_ATTRIBUTES">changing/deleting </a>Items with AML actions.</p>
+
+<h3><a id="GET_ATTRIBUTES" name="GET_ATTRIBUTES">Get Item Attributes</a></h3>
+
+<p>The following item attributes are supported when retrieving an Item(s) from the server using the <a href="get.html">get </a>action.</p>
+
+<table border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="height: 13px; width: 157px">
+			<p><em>id</em></p>
+			</td>
+			<td style="height: 13px; width: 450px">
+			<p><em>The GUID of the item to be returned,</em></p>
+
+			<h4>idlist=&quot;1D1BA69FE8CB4DD58108623740807B19&quot;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 13px; width: 157px">
+			<p><em>idlist</em></p>
+			</td>
+			<td style="height: 13px; width: 450px">
+			<p><em>The GUID list of the items to be returned,</em></p>
+
+			<h4>idlist=&quot;1D1BA69FE8CB4DD58108623740807B19,10EEE1F2F00543AF84673D07650BDC01&quot;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 13px; width: 157px">
+			<p><em>select</em></p>
+			</td>
+			<td style="height: 13px; width: 450px">
+			<p><em>A comma delimited list of property names (column names) to return with each Item.</em></p>
+
+			<h4>select=&quot;item_number,name&quot;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 13px; width: 157px">
+			<p><em>where</em></p>
+			</td>
+			<td style="height: 13px; width: 450px">
+			<p><em>A database SQL where clause to locate one or more Items. Each property name represents a column name in the database.</em></p>
+
+			<h4>where=&quot;[part].is_released=&#39;1&#39;&quot;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 13px; width: 157px">
+			<p><em>orderBy </em></p>
+			</td>
+			<td style="height: 13px; width: 450px">
+			<p><em>A comma delimited list of property names (column names) to order the results.&nbsp;Used as the ORDER BY clause in the SQL statement. </em></p>
+
+			<h4>orderBy=&quot;last_name&quot;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 8px; width: 157px">
+			<p><em>page </em></p>
+			</td>
+			<td style="height: 8px; width: 450px">
+			<p><em>The page number for the results set. </em></p>
+
+			<h4>page=&quot;1&quot;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 8px; width: 157px">
+			<p><em>pagesize </em></p>
+			</td>
+			<td style="height: 8px; width: 450px">
+			<p><em>The page size for the results set. </em></p>
+
+			<h4>pagesize=&quot;25&quot;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 13px; width: 157px">
+			<p><em>maxRecords </em></p>
+			</td>
+			<td style="height: 13px; width: 450px">
+			<p><em>The maximum number of Items to be returned from the database. </em></p>
+
+			<h4>maxRecords=&quot;25&quot;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 26px; width: 157px">
+			<p><em>levels </em></p>
+			</td>
+			<td style="height: 26px; width: 450px">
+			<p><em>The Item configuration depth to be returned. This should be used with caution as performance can be affected due to the lack of specifity in the query. Use the nested Relationships style of defining queries for faster retrievals. </em></p>
+
+			<h4>levels=&quot;5&quot;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 8px; width: 157px">
+			<p><em>serverEvents </em></p>
+			</td>
+			<td style="height: 8px; width: 450px">
+			<p><em>If 0 then disable the server events improving performance. Default is 1. </em></p>
+
+			<h4>serverEvents=&quot;0&quot;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 19px; width: 157px">
+			<p><em>isCriteria </em></p>
+			</td>
+			<td style="height: 19px; width: 450px">
+			<p><em>If 0 then include the nested structure for the Item configuration in the response but don&#39;t use it as search criteria. Default is 1, which will use the nested structure in the request as search criteria. </em></p>
+
+			<h4>isCriteria=&quot;0&quot;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 13px; width: 157px">
+			<p><em>related_expand </em></p>
+			</td>
+			<td style="height: 13px; width: 450px">
+			<p><em>If 0 then do not expand the related_id Property for the relationship Items to include the related Item.&nbsp;Only return ID. </em></p>
+
+			<h4>related_expand=&quot;0&quot;<br />
+			&nbsp;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 13px; width: 157px">
+			<p><em>language </em></p>
+			</td>
+			<td style="height: 13px; width: 450px">
+			<p><em>A comma-delimited list of language codes, or &quot;*&quot; to return all languages. Multilingual property </em></p>
+
+			<h4>language=&quot;en,fr&quot;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 13px; width: 157px">
+			<p><em>queryType</em></p>
+			</td>
+			<td style="height: 13px; width: 450px">
+			<p><em>Return versioned Items based on Latest, Effective, or Released date.&nbsp; Specify queryDate below.</em></p>
+
+			<h4>queryType=&quot;Released&quot;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 13px; width: 157px">
+			<p><em>queryDate</em></p>
+			</td>
+			<td style="height: 13px; width: 450px">
+			<p><em>Used with queryType above.&nbsp; Format is yyyy-mm-ddThh:mm:ss</em></p>
+
+			<h4>queryDate=&quot;2013-01-02T12:00:00&quot;</h4>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<h3><a id="ADD_ATTRIBUTES" name="ADD_ATTRIBUTES">Add/Create Item Attribute</a></h3>
+
+<p>The following item attribute is available when creating or adding an Item,</p>
+
+<table border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="height: 13px; width: 157px">
+			<p><em>id</em></p>
+			</td>
+			<td style="height: 13px; width: 450px">
+			<p><em>The GUID to be set on the new Item. (Must be unique.)</em></p>
+
+			<h4>id=&quot;1D1BA69FE8CB4DD58108623740807B19&quot;</h4>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<h3><a id="CHANGE_ATTRIBUTES" name="CHANGE_ATTRIBUTES">Edit/Merge/Update/Delete/Purge/Lock/Unlock Item Attributes</a></h3>
+
+<p>The following item attributes are supported when changing or removing an Item(s) from the server.</p>
+
+<table border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="height: 13px; width: 157px">
+			<p><em>id</em></p>
+			</td>
+			<td style="height: 13px; width: 450px">
+			<p><em>The GUID of the item to be returned,</em></p>
+
+			<h4>id=&quot;1D1BA69FE8CB4DD58108623740807B19&quot;</h4>
+			</td>
+		</tr>
+			<tr>
+			<td style="height: 13px; width: 157px">
+			<p><em>idlist</em></p>
+			</td>
+			<td style="height: 13px; width: 450px">
+			<p><em>The GUID list of the items to be effected,</em></p>
+
+			<h4>idlist=&quot;1D1BA69FE8CB4DD58108623740807B19,10EEE1F2F00543AF84673D07650BDC01&quot;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 13px; width: 157px">
+			<p><em>where</em></p>
+			</td>
+			<td style="height: 13px; width: 450px">
+			<p><em>A database SQL where clause to locate one or more Items. Each property name represents a column name in the database.</em></p>
+
+			<h4>where=&quot;[part].is_released=&#39;1&#39;&quot;</h4>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<h3><a id="CHANGE_ATTRIBUTES" name="CHANGE_ATTRIBUTES">Promote Item Attributes</a></h3>
+
+<p>The following item attributes are supported when changing or removing an Item(s) from the server.</p>
+
+<table border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td style="height: 13px; width: 157px">
+			<p><em>id</em></p>
+			</td>
+			<td style="height: 13px; width: 450px">
+			<p><em>The GUID of the item to be effected,</em></p>
+
+			<h4>id=&quot;1D1BA69FE8CB4DD58108623740807B19&quot;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 13px; width: 157px">
+			<p><em>idlist</em></p>
+			</td>
+			<td style="height: 13px; width: 450px">
+			<p><em>The GUID list of the items to be effected,</em></p>
+
+			<h4>idlist=&quot;1D1BA69FE8CB4DD58108623740807B19,10EEE1F2F00543AF84673D07650BDC01&quot;</h4>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 13px; width: 157px">
+			<p><em>where</em></p>
+			</td>
+			<td style="height: 13px; width: 450px">
+			<p><em>A database SQL where clause to locate one or more Items.</em></p>
+
+			<h4>where=&quot;id like &#39;%1D&#39;&quot;</h4>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+</body>
+</html>

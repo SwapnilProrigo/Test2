@@ -1,0 +1,14 @@
+﻿<AML>
+ <Item type="xPropertyDefinition" id="30731D5EEC8441D78BEBCE1BD7ABB142" action="add">
+  <column_alignment>left</column_alignment>
+  <data_type>string</data_type>
+  <is_indexed>0</is_indexed>
+  <is_required>0</is_required>
+  <label xml:lang="en">Address</label>
+  <private_permission_behavior>None</private_permission_behavior>
+  <readonly>0</readonly>
+  <stored_length>64</stored_length>
+  <track_history>0</track_history>
+  <name>xp-address</name>
+ </Item>
+</AML>

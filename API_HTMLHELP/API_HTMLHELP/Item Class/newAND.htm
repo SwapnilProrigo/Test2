@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>newAND</title>
+
+
+	
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR">
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"></head><body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2>newAND()</h2>
+
+<p align="left">Inserts logical node with tag &lt;and&gt; under the
+parent node, which can be Item or Logical, and returns an Item Object
+that represents a newly inserted logical node.</p>
+
+<h3>C#</h3>
+
+<h4>Item qry = this.newItem("Part", "get");<br>
+Item logicItm = qry.newOR();<br>
+Item logicAND1 = logicItm.<span style="background-color: yellow;">newAND()</span>;<br>
+logicAND1.setProperty("cost", "100");<br>
+logicAND1.setProperty("make_buy", "Buy");<br>
+Item logicAND2 = logicItm.<span style="background-color: yellow;">newAND()</span>;<br>
+logicAND2.setProperty("cost", "1000");<br>
+logicAND2.setProperty("make_buy", "Make");<br>
+Item retItm = qry.apply();</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim qry As Item = Me.newItem("Part", "get")<br>
+Dim logicItm As Item = qry.newOR()<br>
+Dim logicAND1 As Item = logicItm.<span style="background-color: yellow;">newAND()</span><br>
+logicAND1.setProperty("cost", "100")<br>
+logicAND1.setProperty("make_buy", "Buy")<br>
+Dim logicAND2 As Item = logicItm.<span style="background-color: yellow;">newAND()</span><br>
+logicAND2.setProperty("cost", "1000")<br>
+logicAND2.setProperty("make_buy", "Make")<br>
+Dim retItm As Item = qry.apply()<br>
+&nbsp;</h4>
+
+<h3>Notes:</h3>
+
+<p>Logical item is an item which <span class="code">node</span>
+references to the "logical" tag, i.e. 'or', 'and' or 'not'. Logical
+items are used to build request conditions where item's properties
+serve as condition expressions. User has to use <span class="code">setProperty(...), setPropertyCondition(...)</span>
+to set condition expressions on logical item (see example above). It's
+possible to build nested logical request conditions by calling <span class="code">newOR()</span>, <span class="code">newAND()</span> or <span class="code">newNOT()</span> on a logical item (see above).</p>
+
+<p>Examples above build the following request:</p>
+
+<p>&lt;Item type="Part" action="get"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;or&gt;&nbsp;&nbsp;&nbsp;&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;and&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;cost&gt;100&lt;/cost&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;make_buy&gt;Buy&lt;/make_buy&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/and&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;and&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp; &lt;cost&gt;1000&lt;/cost&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;make_buy&gt;Make&lt;/make_buy&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/and&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/or&gt;<br>
+&lt;/Item&gt;</p>
+</body></html>

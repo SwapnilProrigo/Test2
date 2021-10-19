@@ -1,0 +1,406 @@
+﻿<AML>
+ <Item type="Workflow Map" id="0AA496EB830C409DABB407B70D8043C9" action="add">
+  <description xml:lang="en"></description>
+  <name>Design Request</name>
+  <node_bg_color></node_bg_color>
+  <node_label1_color></node_label1_color>
+  <node_label1_font></node_label1_font>
+  <node_label2_color></node_label2_color>
+  <node_label2_font></node_label2_font>
+  <node_name_color></node_name_color>
+  <node_name_font></node_name_font>
+  <node_size></node_size>
+  <process_owner keyed_name="Administrators" type="Identity">2618D6F5A90949BAA7E920D1B04C7EE1</process_owner>
+  <transition_line_color></transition_line_color>
+  <transition_name_color></transition_name_color>
+  <transition_name_font></transition_name_font>
+  <Relationships>
+   <Item type="Workflow Map Activity" id="B6617174B27941B6B942431042138DB7" action="add">
+    <related_id keyed_name="Approve Request" type="Activity Template">
+     <Item type="Activity Template" id="F2A7D6FE8E41415BB4C97AC4E901CCC4" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>0</expected_duration>
+      <icon>../images/Delete.svg</icon>
+      <is_auto>1</is_auto>
+      <is_end>1</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Workflow End</message>
+      <name>Approve Request</name>
+      <priority>1</priority>
+      <reminder_count>0</reminder_count>
+      <reminder_interval>0</reminder_interval>
+      <timeout_duration>0</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>1055</x>
+      <y>46</y>
+      <Relationships>
+       <Item type="Activity Template Transition" id="C66C70F01B1C4D2EA3D3F8944295652F" action="add">
+        <controlled_itemtype keyed_name="Design Request" type="ItemType" name="Design Request">D729A54597344968A8106343B19CA1B9</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="205789263F4645369C88AC7BC39DAEDF" type="Life Cycle Transition">205789263F4645369C88AC7BC39DAEDF</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Approve Request" type="Activity Template">F2A7D6FE8E41415BB4C97AC4E901CCC4</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Design Request" type="Workflow Map">0AA496EB830C409DABB407B70D8043C9</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="F49D119DA1B2449498D7CB5C811B9E4F" action="add">
+    <related_id keyed_name="Cancel Request" type="Activity Template">
+     <Item type="Activity Template" id="F2DE81CFD84F4E8EBA54E43DA8711AE6" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/WorkflowNode.svg</icon>
+      <is_auto>1</is_auto>
+      <is_end>1</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Please Review...</message>
+      <name>Cancel Request</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>725</x>
+      <y>170</y>
+      <Relationships>
+       <Item type="Activity Template Transition" id="10F94A9FDF364DDBA8161ADF9EE96505" action="add">
+        <controlled_itemtype keyed_name="Design Request" type="ItemType" name="Design Request">D729A54597344968A8106343B19CA1B9</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="4742D0BCB1B644B5A35D877334715CE5" type="Life Cycle Transition">4742D0BCB1B644B5A35D877334715CE5</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Cancel Request" type="Activity Template">F2DE81CFD84F4E8EBA54E43DA8711AE6</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="Design Request" type="Workflow Map">0AA496EB830C409DABB407B70D8043C9</source_id>
+   </Item>
+  
+   <Item type="Workflow Map Activity" id="D7F4D4FCB5774FDB968452D36FA69719" action="add">
+    <related_id keyed_name="Perform Tech Review" type="Activity Template">
+     <Item type="Activity Template" id="26C77497CAF243FFA8321E1FB02A55EB" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/WorkflowNode.svg</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Please Tech Review...</message>
+      <name>Perform Tech Review</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>775</x>
+      <y>44</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="02017434175D4FA0858541F9B0EE7975" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="CRB" type="Identity">82F3C6E0E1D34FECB48B5205C735A930</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Perform Tech Review" type="Activity Template">26C77497CAF243FFA8321E1FB02A55EB</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Activity Template Transition" id="CCA2C106E14A44DDA907F3FF27A99D02" action="add">
+        <controlled_itemtype keyed_name="Design Request" type="ItemType" name="Design Request">D729A54597344968A8106343B19CA1B9</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="B0D6040884FF4FD19AB340D5212B005D" type="Life Cycle Transition">B0D6040884FF4FD19AB340D5212B005D</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Perform Tech Review" type="Activity Template">26C77497CAF243FFA8321E1FB02A55EB</source_id>
+       </Item>
+       <Item type="Workflow Map Path" id="EF9D1C7D384C40E6BB778D9E1D7E98B9" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Approve</name>
+        <related_id>F2A7D6FE8E41415BB4C97AC4E901CCC4</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Perform Tech Review" type="Activity Template">26C77497CAF243FFA8321E1FB02A55EB</source_id>
+        <x>0</x>
+        <y>0</y>
+       </Item>
+       <Item type="Workflow Map Path" id="54ECB8A646444D779DDB998D7C6C6B10" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Reject</name>
+        <related_id>EAD63D5C51FF4B25A6B8BB346D8C354F</related_id>
+        <segments></segments>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="Perform Tech Review" type="Activity Template">26C77497CAF243FFA8321E1FB02A55EB</source_id>
+        <x>0</x>
+        <y>0</y>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Design Request" type="Workflow Map">0AA496EB830C409DABB407B70D8043C9</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="184584579CE9476EB0ED7A90303B2FF4" action="add">
+    <related_id keyed_name="Provide Missing Info" type="Activity Template">
+     <Item type="Activity Template" id="F9C14B35A5614F5FBDC361A44A5D3D79" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/WorkflowNode.svg</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Please Provide Missing Info...</message>
+      <name>Provide Missing Info</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>549</x>
+      <y>170</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="D08277C4BDBD4EE0A4893B4CE41508B3" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Creator" type="Identity">
+         <Item type="Identity" action="get" select="id">
+          <name>Creator</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Provide Missing Info" type="Activity Template">F9C14B35A5614F5FBDC361A44A5D3D79</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Activity Template Transition" id="E4FB09F6E01B478F95A0325C1D841EF3" action="add">
+        <controlled_itemtype keyed_name="Design Request" type="ItemType" name="Design Request">D729A54597344968A8106343B19CA1B9</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="92FBDDD214384D368F05CE5B64B0043C" type="Life Cycle Transition">92FBDDD214384D368F05CE5B64B0043C</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Provide Missing Info" type="Activity Template">F9C14B35A5614F5FBDC361A44A5D3D79</source_id>
+       </Item>
+       <Item type="Workflow Map Path" id="1048B76B3CC949A1A01ADACD296E1734" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Cancel</name>
+        <related_id>F2DE81CFD84F4E8EBA54E43DA8711AE6</related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="Provide Missing Info" type="Activity Template">F9C14B35A5614F5FBDC361A44A5D3D79</source_id>
+       </Item>
+      
+       <Item type="Workflow Map Path" id="4A1F5C68907E4B95A545441C7EBAB1A2" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Resubmit to review</name>
+        <related_id>F941EAD8C2A54F008F8121432F072DB9</related_id>
+        <segments>475,180</segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Provide Missing Info" type="Activity Template">F9C14B35A5614F5FBDC361A44A5D3D79</source_id>
+        <x>-137</x>
+        <y>-30</y>
+       </Item></Relationships>
+     </Item>
+    </related_id>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="Design Request" type="Workflow Map">0AA496EB830C409DABB407B70D8043C9</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="83C00934A9D94C2B8B17EDEFB9F82589" action="add">
+    <related_id keyed_name="Reject Request" type="Activity Template">
+     <Item type="Activity Template" id="EAD63D5C51FF4B25A6B8BB346D8C354F" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/WorkflowNode.svg</icon>
+      <is_auto>1</is_auto>
+      <is_end>1</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Please Review...</message>
+      <name>Reject Request</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>1055</x>
+      <y>137</y>
+      <Relationships>
+       <Item type="Activity Template Transition" id="04F27C93EDA14AC9B8B3A1404585A4B4" action="add">
+        <controlled_itemtype keyed_name="Design Request" type="ItemType" name="Design Request">D729A54597344968A8106343B19CA1B9</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="C7294D90E33D4B5188D31C4821631041" type="Life Cycle Transition">C7294D90E33D4B5188D31C4821631041</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Reject Request" type="Activity Template">EAD63D5C51FF4B25A6B8BB346D8C354F</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="Design Request" type="Workflow Map">0AA496EB830C409DABB407B70D8043C9</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="C974A519706D4A7DB2C2E4A868EC51BE" action="add">
+    <related_id keyed_name="Review Request" type="Activity Template">
+     <Item type="Activity Template" id="F941EAD8C2A54F008F8121432F072DB9" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/WorkflowNode.svg</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Please Review...</message>
+      <name>Review Request</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>549</x>
+      <y>42</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="AD0F75E48F4A47B0ADEA99B02C939F93" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Engineering" type="Identity">BC72C6DE3D0F46D195711994B3993CA7</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Review Request" type="Activity Template">F941EAD8C2A54F008F8121432F072DB9</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Activity Template Assignment" id="84F267F4C6FE4093A141BF2EDCEBDD03" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="Review Request" type="Activity Template">F941EAD8C2A54F008F8121432F072DB9</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Activity Template Transition" id="7B00E67B5F8042F9993831151DF4A9FB" action="add">
+        <controlled_itemtype keyed_name="Design Request" type="ItemType" name="Design Request">D729A54597344968A8106343B19CA1B9</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="502D515671CA4D9BA631BBF1FA65D0C0" type="Life Cycle Transition">502D515671CA4D9BA631BBF1FA65D0C0</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Review Request" type="Activity Template">F941EAD8C2A54F008F8121432F072DB9</source_id>
+       </Item>
+       <Item type="Activity Template Transition" id="82B074BC0A684DA99DC4C21D0CC3B322" action="add">
+        <controlled_itemtype keyed_name="Design Request" type="ItemType" name="Design Request">D729A54597344968A8106343B19CA1B9</controlled_itemtype>
+        <event>on_activate</event>
+        <related_id keyed_name="981013C9A4484F87910497349F32E4C2" type="Life Cycle Transition">981013C9A4484F87910497349F32E4C2</related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="Review Request" type="Activity Template">F941EAD8C2A54F008F8121432F072DB9</source_id>
+       </Item>
+       <Item type="Workflow Map Path" id="FB5C1B6DE40D48F08F54EDD3E920CB83" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Incomplete info</name>
+        <related_id>F9C14B35A5614F5FBDC361A44A5D3D79</related_id>
+        <sort_order>256</sort_order>
+        <source_id keyed_name="Review Request" type="Activity Template">F941EAD8C2A54F008F8121432F072DB9</source_id>
+       </Item>
+      
+       <Item type="Workflow Map Path" id="8409DC689CAB463FBA05F32374A7F510" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Submit to Tech Review</name>
+        <related_id>26C77497CAF243FFA8321E1FB02A55EB</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Review Request" type="Activity Template">F941EAD8C2A54F008F8121432F072DB9</source_id>
+        <x>0</x>
+        <y>0</y>
+       </Item></Relationships>
+     </Item>
+    </related_id>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Design Request" type="Workflow Map">0AA496EB830C409DABB407B70D8043C9</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="B6AF9902018D4BB09A0190DCF2290735" action="add">
+    <related_id keyed_name="Start" type="Activity Template">
+     <Item type="Activity Template" id="87451BF4A35F42498E9D8FE7858C61D0" action="add">
+      <can_delegate>0</can_delegate>
+      <can_refuse>0</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <expected_duration>0</expected_duration>
+      <icon>../images/WorkflowStart.svg</icon>
+      <is_auto>1</is_auto>
+      <is_end>0</is_end>
+      <is_start>1</is_start>
+      <message xml:lang="en">Workflow Start</message>
+      <name>Start</name>
+      <priority>2</priority>
+      <reminder_count>0</reminder_count>
+      <reminder_interval>0</reminder_interval>
+      <timeout_duration>0</timeout_duration>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>136</x>
+      <y>45</y>
+      <Relationships>
+       <Item type="Workflow Map Path" id="9D9D39CE5753451292F83951F17F0FED" action="add">
+        <authentication>none</authentication>
+        <is_default>1</is_default>
+        <is_override>0</is_override>
+        <name>Go</name>
+        <related_id>627F40EEC91142619A6CE6761FE45577</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Start" type="Activity Template">87451BF4A35F42498E9D8FE7858C61D0</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Design Request" type="Workflow Map">0AA496EB830C409DABB407B70D8043C9</source_id>
+   </Item>
+   <Item type="Workflow Map Activity" id="052E4C19D6264958B73B601D8511C4D4" action="add">
+    <related_id keyed_name="Verify Request" type="Activity Template">
+     <Item type="Activity Template" id="627F40EEC91142619A6CE6761FE45577" action="add">
+      <can_delegate>1</can_delegate>
+      <can_refuse>1</can_refuse>
+      <consolidate_ondelegate>0</consolidate_ondelegate>
+      <icon>../images/WorkflowNode.svg</icon>
+      <is_auto>0</is_auto>
+      <is_end>0</is_end>
+      <is_start>0</is_start>
+      <message xml:lang="en">Please Verify...</message>
+      <name>Verify Request</name>
+      <wait_for_all_inputs>0</wait_for_all_inputs>
+      <wait_for_all_votes>0</wait_for_all_votes>
+      <x>314</x>
+      <y>43</y>
+      <Relationships>
+       <Item type="Activity Template Assignment" id="0C62A28E335F49D9BA0B169B9F36309D" action="add">
+        <for_all_members>0</for_all_members>
+        <is_required>0</is_required>
+        <related_id keyed_name="Creator" type="Identity">
+         <Item type="Identity" action="get" select="id">
+          <name>Creator</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Verify Request" type="Activity Template">627F40EEC91142619A6CE6761FE45577</source_id>
+        <voting_weight>100</voting_weight>
+       </Item>
+       <Item type="Activity Template EMail" id="63D04B261F3A49AFA6833772CBCDF3B3" action="add">
+        <event>on_activate</event>
+        <related_id keyed_name="Request Flow Submit with Variables" type="EMail Message">66BB7C8EE59248DE9F6B0E3CECC60F66</related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Verify Request" type="Activity Template">627F40EEC91142619A6CE6761FE45577</source_id>
+        <target>all_assignments</target>
+       </Item>
+       <Item type="Workflow Map Path" id="718FE93196B946EF8E208365A823AED8" action="add">
+        <authentication>none</authentication>
+        <is_default>0</is_default>
+        <is_override>0</is_override>
+        <name>Verified</name>
+        <related_id>F941EAD8C2A54F008F8121432F072DB9</related_id>
+        <segments></segments>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="Verify Request" type="Activity Template">627F40EEC91142619A6CE6761FE45577</source_id>
+        <x>0</x>
+        <y>0</y>
+       </Item>
+      </Relationships>
+     </Item>
+    </related_id>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Design Request" type="Workflow Map">0AA496EB830C409DABB407B70D8043C9</source_id>
+   </Item></Relationships>
+ </Item>
+</AML>

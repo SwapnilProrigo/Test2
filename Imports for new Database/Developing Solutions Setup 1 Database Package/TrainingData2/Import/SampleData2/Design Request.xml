@@ -1,0 +1,212 @@
+<AML>
+      <Item type="Design Request" action="add" id="212A48C9D0B24E00AA4164C35BB6B390">
+        <_completion_date>2014-07-19T00:00:00</_completion_date>
+        <_cost>100.00</_cost>
+        <_customer keyed_name="Brown Industries" type="Customer">F9074B4B519544F79542FB3555381798</_customer>
+        <_customer_phone>213-988-1000</_customer_phone>
+        <_description>High density plastic case resists cracking</_description>
+        <_patent_required>1</_patent_required>
+        <_product_divisions>MO</_product_divisions>
+        <_product_types>SP</_product_types>
+        <_title>New Mobile Phone Case</_title>
+        <classification>External</classification>
+        <config_id>5AE078BB7E2048AFB41B658792079CFF</config_id>
+        <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+        <created_on>2014-01-28T15:29:00</created_on>
+        <current_state keyed_name="New" type="Life Cycle State" name="New">D4884C4B94FD477CBE430105351CF379</current_state>
+        <generation>2</generation>
+        <id keyed_name="DR-000010" type="Design Request">212A48C9D0B24E00AA4164C35BB6B390</id>
+        <is_current>1</is_current>
+        <is_released>0</is_released>
+        <keyed_name>DR-000010</keyed_name>
+        <major_rev>A</major_rev>
+        <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+        <modified_on>2014-01-28T15:59:39</modified_on>
+        <new_version>0</new_version>
+        <not_lockable>0</not_lockable>
+        <permission_id keyed_name="Design Request" type="Permission">42FD6A24BD7E4861B4C7A2B72A849C53</permission_id>
+        <state>New</state>
+        <team_id keyed_name="Mobile Products" type="Team">DF7C5EF945F647019DA443DAFCAEB836</team_id>
+        <_item_number>DR-000010</_item_number>
+        <Relationships>
+          <Item type="Design Request Document" action="add" id="92D1ACF999984DFFB646D770D70130FC">
+            <behavior>float</behavior>
+            <config_id keyed_name="92D1ACF999984DFFB646D770D70130FC" type="Design Request Document">92D1ACF999984DFFB646D770D70130FC</config_id>
+            <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+            <created_on>2014-01-28T15:59:39</created_on>
+            <generation>1</generation>
+            <id keyed_name="92D1ACF999984DFFB646D770D70130FC" type="Design Request Document">92D1ACF999984DFFB646D770D70130FC</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>92D1ACF999984DFFB646D770D70130FC</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+            <modified_on>2014-01-28T15:59:39</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Design Request" type="Permission">42FD6A24BD7E4861B4C7A2B72A849C53</permission_id>
+            <related_id keyed_name="SPEC-00001" type="Document">
+              <Item type="Document" typeId="B88C14B99EF449828C5D926E39EE8B89" id="B01F1F19EC7D4059ABADDAA7F4173900">
+                <classification>Specification</classification>
+                <config_id keyed_name="SPEC-00001" type="Document">B01F1F19EC7D4059ABADDAA7F4173900</config_id>
+                <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+                <created_on>2014-01-28T15:59:01</created_on>
+                <current_state keyed_name="Preliminary" type="Life Cycle State" name="Preliminary">7E2824158A364D83B137117911BA87B3</current_state>
+                <generation>1</generation>
+                <has_change_pending>0</has_change_pending>
+                <has_files>0</has_files>
+                <id keyed_name="SPEC-00001" type="Document">B01F1F19EC7D4059ABADDAA7F4173900</id>
+                <is_current>1</is_current>
+                <is_released>0</is_released>
+                <is_template>0</is_template>
+                <keyed_name>SPEC-00001</keyed_name>
+                <major_rev>A</major_rev>
+                <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+                <modified_on>2014-01-28T15:59:01</modified_on>
+                <name>Mobile Phone Case Design Proposal</name>
+                <new_version>0</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="New Document" type="Permission">F0E3A6D242FC4889A9A119EEBC8EC79E</permission_id>
+                <state>Preliminary</state>
+                <item_number>SPEC-00001</item_number>
+                <itemtype>B88C14B99EF449828C5D926E39EE8B89</itemtype>
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="DR-000010" type="Design Request">212A48C9D0B24E00AA4164C35BB6B390</source_id>
+            <team_id keyed_name="Mobile Products" type="Team">DF7C5EF945F647019DA443DAFCAEB836</team_id>
+          </Item>
+        </Relationships>
+      </Item>
+      <Item type="Design Request" action="add" id="61BD8205B01F454D88D7D3A0B792C65F">
+        <_completion_date>2014-08-17T00:00:00</_completion_date>
+        <_cost>125.00</_cost>
+        <_customer keyed_name="EDA" type="Customer">F045495F51854DC38200B73EFC116130</_customer>
+        <_customer_phone>Spain</_customer_phone>
+        <_description>Detachable Keyboard design for portable table</_description>
+        <_patent_required>0</_patent_required>
+        <_product_divisions>MO</_product_divisions>
+        <_title>Keyboard redesign</_title>
+        <classification>External</classification>
+        <config_id keyed_name="DR-000040" type="Design Request">61BD8205B01F454D88D7D3A0B792C65F</config_id>
+        <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+        <created_on>2014-01-28T16:06:41</created_on>
+        <current_state keyed_name="New" type="Life Cycle State" name="New">D4884C4B94FD477CBE430105351CF379</current_state>
+        <generation>1</generation>
+        <id keyed_name="DR-000040" type="Design Request">61BD8205B01F454D88D7D3A0B792C65F</id>
+        <is_current>1</is_current>
+        <is_released>0</is_released>
+        <keyed_name>DR-000040</keyed_name>
+        <major_rev>A</major_rev>
+        <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+        <modified_on>2014-01-28T16:06:41</modified_on>
+        <new_version>0</new_version>
+        <not_lockable>0</not_lockable>
+        <permission_id keyed_name="Design Request" type="Permission">42FD6A24BD7E4861B4C7A2B72A849C53</permission_id>
+        <state>New</state>
+        <team_id keyed_name="Computing Products" type="Team">C72BAAD527F047FB9B7954C2D9B897AA</team_id>
+        <_item_number>DR-000040</_item_number>
+      </Item>
+      <Item type="Design Request" action="add" id="706928C7174043058325AE9A20A8F0BC">
+        <_cost>2500.00</_cost>
+        <_customer keyed_name="General Electronics" type="Customer">DF715EBCA4AC4281BB1ECBEDC07B059B</_customer>
+        <_customer_phone>212-888-0000</_customer_phone>
+        <_description>3-D printer that can be easily transported</_description>
+        <_patent_required>0</_patent_required>
+        <_product_divisions>CO</_product_divisions>
+        <_product_types>PN</_product_types>
+        <_title>3-D Portable Printer</_title>
+        <config_id keyed_name="DR-000030" type="Design Request">706928C7174043058325AE9A20A8F0BC</config_id>
+        <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+        <created_on>2014-01-28T16:04:44</created_on>
+        <current_state keyed_name="New" type="Life Cycle State" name="New">D4884C4B94FD477CBE430105351CF379</current_state>
+        <generation>1</generation>
+        <id keyed_name="DR-000030" type="Design Request">706928C7174043058325AE9A20A8F0BC</id>
+        <is_current>1</is_current>
+        <is_released>0</is_released>
+        <keyed_name>DR-000030</keyed_name>
+        <major_rev>A</major_rev>
+        <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+        <modified_on>2014-01-28T16:04:44</modified_on>
+        <new_version>0</new_version>
+        <not_lockable>0</not_lockable>
+        <permission_id keyed_name="Design Request" type="Permission">42FD6A24BD7E4861B4C7A2B72A849C53</permission_id>
+        <state>New</state>
+        <team_id keyed_name="Computing Products" type="Team">C72BAAD527F047FB9B7954C2D9B897AA</team_id>
+        <_item_number>DR-000030</_item_number>
+      </Item>
+      <Item type="Design Request" action="add" id="7DA98825F2324B96B652E7DADFF905DF">
+        <_cost>3500.00</_cost>
+        <_department_number>256</_department_number>
+        <_description>Curved screen proposal</_description>
+        <_patent_required>1</_patent_required>
+        <_product_divisions>HE</_product_divisions>
+        <_title>UltraHi Definition Curved Screen</_title>
+        <classification>Internal</classification>
+        <config_id keyed_name="DR-000020" type="Design Request">FD7F5DBB36D14B6094F0E5BE93D2B6C1</config_id>
+        <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+        <created_on>2014-01-28T16:03:12</created_on>
+        <current_state keyed_name="New" type="Life Cycle State" name="New">D4884C4B94FD477CBE430105351CF379</current_state>
+        <generation>2</generation>
+        <id keyed_name="DR-000020" type="Design Request">7DA98825F2324B96B652E7DADFF905DF</id>
+        <is_current>1</is_current>
+        <is_released>0</is_released>
+        <keyed_name>DR-000020</keyed_name>
+        <major_rev>A</major_rev>
+        <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+        <modified_on>2014-01-28T16:04:58</modified_on>
+        <new_version>0</new_version>
+        <not_lockable>0</not_lockable>
+        <permission_id keyed_name="Design Request" type="Permission">42FD6A24BD7E4861B4C7A2B72A849C53</permission_id>
+        <state>New</state>
+        <_item_number>DR-000020</_item_number>
+        <Relationships>
+          <Item type="Design Request Document" action="add" id="9E23FE03333041B7A1109AB23D60A790">
+            <behavior>float</behavior>
+            <config_id keyed_name="9E23FE03333041B7A1109AB23D60A790" type="Design Request Document">9E23FE03333041B7A1109AB23D60A790</config_id>
+            <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+            <created_on>2014-01-28T16:04:58</created_on>
+            <generation>1</generation>
+            <id keyed_name="9E23FE03333041B7A1109AB23D60A790" type="Design Request Document">9E23FE03333041B7A1109AB23D60A790</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>9E23FE03333041B7A1109AB23D60A790</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+            <modified_on>2014-01-28T16:04:58</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Design Request" type="Permission">42FD6A24BD7E4861B4C7A2B72A849C53</permission_id>
+            <related_id keyed_name="SPEC-0002" type="Document">
+              <Item type="Document" typeId="B88C14B99EF449828C5D926E39EE8B89" id="810EA3A23F4D4F488431E523982E8F5B">
+                <classification>Specification</classification>
+                <config_id keyed_name="SPEC-0002" type="Document">810EA3A23F4D4F488431E523982E8F5B</config_id>
+                <created_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</created_by_id>
+                <created_on>2014-01-28T16:03:08</created_on>
+                <current_state keyed_name="Preliminary" type="Life Cycle State" name="Preliminary">7E2824158A364D83B137117911BA87B3</current_state>
+                <generation>1</generation>
+                <has_change_pending>0</has_change_pending>
+                <has_files>0</has_files>
+                <id keyed_name="SPEC-0002" type="Document">810EA3A23F4D4F488431E523982E8F5B</id>
+                <is_current>1</is_current>
+                <is_released>0</is_released>
+                <is_template>0</is_template>
+                <keyed_name>SPEC-0002</keyed_name>
+                <major_rev>A</major_rev>
+                <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+                <modified_on>2014-01-28T16:03:08</modified_on>
+                <name>Ultra High Density Television</name>
+                <new_version>0</new_version>
+                <not_lockable>0</not_lockable>
+                <permission_id keyed_name="New Document" type="Permission">F0E3A6D242FC4889A9A119EEBC8EC79E</permission_id>
+                <state>Preliminary</state>
+                <item_number>SPEC-0002</item_number>
+                <itemtype>B88C14B99EF449828C5D926E39EE8B89</itemtype>
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="DR-000020" type="Design Request">7DA98825F2324B96B652E7DADFF905DF</source_id>
+          </Item>
+        </Relationships>
+      </Item>
+</AML>

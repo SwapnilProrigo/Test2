@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>update AML Action</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>AML Actions</h1>
+
+<h2>promoteItem</h2>
+
+<p>Promote Item(s) to next lifecycle state.</p>
+
+<h3>Syntax:</h3>
+
+<h4><strong><span style="color: #008000">&lt;Item type=&quot;Type&quot; action=&quot;promoteItem&quot; [<a href="_attribute Item Attributes.html">item attributes</a>]&gt;<br />
+&nbsp;&lt;state&gt;value&lt;/state&gt;<br />
+&nbsp;</span><span style="color: #008000">&lt;/Item&gt;</span></strong><br />
+&nbsp;</h4>
+
+<h3>Notes:</h3>
+
+<p>Promote&nbsp;requires that the Item specified is unlocked and the state value is the&nbsp;legal next life cycle state for the item(s) being promoted. The user (identity) of the current session must be a member of the transition identity defined in the life cycle map.</p>
+
+<h3>Examples:</h3>
+
+<h4>&lt;!-- Promote single&nbsp;part&nbsp; --&gt;<br />
+&lt;Item type=&quot;Part&quot; action=&quot;<span style="background-color: #ffff00">promoteItem</span>&quot; id=&quot;97FC2C2999264A1B8E9ECC36CE6CF702&quot;&gt;<br />
+&nbsp; &lt;state&gt;In Review&lt;/state&gt;<br />
+&lt;/Item&gt;</h4>
+
+<h4>&lt;!-- Prmote multiple parts&nbsp;--&gt;<br />
+&lt;Item type=&quot;Part&quot;&nbsp; action=&quot;<span style="background-color: #ffff00">promoteItem</span>&quot; idlist=&quot;97FC2C2999264A1B8E9ECC36CE6CF702,C178DF9A420C4E8A8C9A058F27D662CF&quot;&gt;<br />
+&nbsp;&lt;state&gt;In Review&lt;/state&gt;<br />
+&lt;/Item&gt;</h4>
+
+<h4>&nbsp;</h4>
+</body>
+</html>

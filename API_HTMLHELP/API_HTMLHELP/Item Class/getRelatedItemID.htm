@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>getRelatedItemID</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2><span class="identifier">getRelatedItemID</span>()</h2>
+
+<p align="left">Gets related item ID&nbsp;of the relationship.</p>
+
+<h3>C#:</h3>
+
+<h4>Item vendor = this.newItem(&quot;Vendor&quot;, &quot;get&quot;);<br />
+vendor.setProperty(&quot;name&quot;, &quot;Allied Industries&quot;);<br />
+vendor = vendor.apply();<br />
+vendor.fetchRelationships(&quot;Vendor Part&quot;);<br />
+Item relationships = vendor.getRelationships(&quot;Vendor Part&quot;);<br />
+Item partRel = relationships.getItemByIndex(0);<br />
+string vendorPartID = <span style="background-color: #ffff00">partRel.getRelatedItemID();</span><br />
+return this.getInnovator().newResult(vendorPartID);</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim vendor As Item = Me.newItem(&quot;Vendor&quot;, &quot;get&quot;)<br />
+vendor.setProperty(&quot;name&quot;, &quot;Allied Industries&quot;)<br />
+vendor = vendor.apply()<br />
+vendor.fetchRelationships(&quot;Vendor Part&quot;)<br />
+Dim relationships As Item = vendor.getRelationships(&quot;Vendor Part&quot;)<br />
+Dim partRel As Item = relationships.getItemByIndex(0)<br />
+Dim vendorPartID As String = <span style="background-color: #ffff00">partRel.getRelatedItemID()</span><br />
+Return Me.getInnovator().newResult(vendorPartID)</h4>
+
+<h3>Notes:</h3>
+
+<p>If related item not found, returns empty string.</p>
+
+<p>The examples above return the first Manufactured Part ID associated with a Vendor.</p>
+</body>
+</html>

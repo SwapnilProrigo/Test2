@@ -1,0 +1,19 @@
+﻿<AML>
+ <Item type="User" id="6988B6E76C1D40CFABF7160621087607" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>areddy@aras.com</email>
+  <first_name>Ann</first_name>
+  <last_name>Reddy</last_name>
+  <login_name>areddy</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Ann Reddy" type="Identity">3EF5B0E5FAEF4716BF5F0A864B4C2239</owned_by_id>
+  <Relationships>
+   <Item type="Alias" id="603383A3CDA549E6923D82CA8FEB31CC" action="add">
+    <from_date>2014-01-28T11:34:20</from_date>
+    <related_id keyed_name="Ann Reddy" type="Identity">3EF5B0E5FAEF4716BF5F0A864B4C2239</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Ann Reddy" type="User">6988B6E76C1D40CFABF7160621087607</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

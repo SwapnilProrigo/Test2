@@ -1,0 +1,19 @@
+﻿<AML>
+ <Item type="Team" id="DF7C5EF945F647019DA443DAFCAEB836" action="add">
+  <name>Mobile Products</name>
+  <Relationships>
+   <Item type="Team Identity" id="65C599E6E55B410EBC8BC58C79743077" action="add">
+    <related_id keyed_name="Peter Smith" type="Identity">D296A5C079C44EE8B1EB9FDB6BAE99A4</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Mobile Products" type="Team">DF7C5EF945F647019DA443DAFCAEB836</source_id>
+    <team_role keyed_name="Team Member" type="Identity">7635594273054F2BA32C1CADB31FD413</team_role>
+   </Item>
+  
+   <Item type="Team Identity" id="0F8C28EF9ACC4135ACA4D9BA384F3BB5" action="add">
+    <related_id keyed_name="Susan Harris" type="Identity">64AEF0E0FCA54697B6E1C0B57EA8413F</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Mobile Products" type="Team">DF7C5EF945F647019DA443DAFCAEB836</source_id>
+    <team_role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</team_role>
+   </Item></Relationships>
+ </Item>
+</AML>

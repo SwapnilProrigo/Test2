@@ -1,0 +1,93 @@
+<AML>
+    <!--ADD CUSTOMER DATA-->
+    <Item
+        type = "Customer"
+        action = "add"
+        id = "A1D512C82C204817BDD275FC4F794A3E">
+        <address>23 Apple St</address>
+        <address_state>California</address_state>
+        <city>Los Angeles</city>
+        <contact_name>John Thomas</contact_name>
+        <country>United States</country>
+        <description>Corportate headquarters</description>
+        <main_phone>213-909-8988</main_phone>
+        <web_site></web_site>
+        <zip_code>90013</zip_code>
+        <name>ABC Industries</name>
+    </Item>
+    <Item
+        type = "Customer"
+        action = "add"
+        id = "F9074B4B519544F79542FB3555381798">
+        <address>2345 Industry Dr</address>
+        <address_state>California</address_state>
+        <city>Los Angeles</city>
+        <contact_name>Ken Allen</contact_name>
+        <country>United States</country>
+        <description>Pacific division</description>
+        <main_phone>213-988-1000</main_phone>
+        <web_site></web_site>
+        <zip_code>90011</zip_code>
+        <name>Brown Industries</name>
+    </Item>
+    <Item
+        type = "Customer"
+        action = "add"
+        id = "F045495F51854DC38200B73EFC116130">
+        <address>Calle Gran Via 636</address>
+        <address_state>Madrid</address_state>
+        <city>Madrid</city>
+        <contact_name>Jose Ruiz</contact_name>
+        <country>8007</country>
+        <description>Europe division</description>
+        <main_phone>Spain</main_phone>
+        <web_site></web_site>
+        <zip_code></zip_code>
+        <name>EDA</name>
+    </Item>
+    <Item
+        type = "Customer"
+        action = "add"
+        id = "DF715EBCA4AC4281BB1ECBEDC07B059B">
+        <address>101 Main St</address>
+        <address_state>New York</address_state>
+        <city>New York</city>
+        <contact_name>Lois Lark</contact_name>
+        <country>United States</country>
+        <description>Electronics Supplier</description>
+        <main_phone>212-888-0000</main_phone>
+        <web_site></web_site>
+        <zip_code>10011</zip_code>
+        <name>General Electronics</name>
+    </Item>
+    <Item
+        type = "Customer"
+        action = "add"
+        id = "B319970194B44A52B1E7E85A1690B379">
+        <address>Tal 234</address>
+        <address_state is_null = "1"/>
+        <city>Berlin</city>
+        <contact_name>Verner Kohler</contact_name>
+        <country>Germany</country>
+        <description>GHC Corporate</description>
+        <main_phone>49.89.21.99.0000</main_phone>
+        <web_site></web_site>
+        <zip_code></zip_code>
+        <name>GHC</name>
+    </Item>
+    <Item
+        type = "Customer"
+        action = "add"
+        id = "96FF58C81BF94993B09CF9DA1965B3C9">
+        <address>23 Main St</address>
+        <address_state>New York</address_state>
+        <city>New York</city>
+        <contact_name>John Jones</contact_name>
+        <country>United States</country>
+        <description>IBM Corporate</description>
+        <main_phone>212-555-1212</main_phone>
+        <web_site>ibm.com</web_site>
+        <zip_code></zip_code>
+        <name>IBM</name>
+    </Item>
+</AML>

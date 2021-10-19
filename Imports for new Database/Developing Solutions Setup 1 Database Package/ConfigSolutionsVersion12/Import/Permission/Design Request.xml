@@ -1,0 +1,56 @@
+﻿<AML>
+ <Item type="Permission" id="42FD6A24BD7E4861B4C7A2B72A849C53" action="add">
+  <is_private>0</is_private>
+  <name>Design Request</name>
+  <Relationships>
+   <Item type="Access" id="E1374263FE4241578A3ABAA30FF65E20" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Engineering" type="Identity">BC72C6DE3D0F46D195711994B3993CA7</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Design Request" type="Permission">42FD6A24BD7E4861B4C7A2B72A849C53</source_id>
+   </Item>
+  
+   <Item type="Access" id="8278B000434845AAAFA750100B90A0F0" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Innovator Admin" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>Innovator Admin</name>
+     </Item>
+    </related_id>
+    <show_permissions_warning>1</show_permissions_warning>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Design Request" type="Permission">42FD6A24BD7E4861B4C7A2B72A849C53</source_id>
+   </Item>
+   <Item type="Access" id="398B272C47D14073A7917BBC9F8CADD3" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Design Request" type="Permission">42FD6A24BD7E4861B4C7A2B72A849C53</source_id>
+   </Item>
+   <Item type="Access" id="0421A42D23F44254A39A269BA3A1B384" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Team Member" type="Identity">7635594273054F2BA32C1CADB31FD413</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Design Request" type="Permission">42FD6A24BD7E4861B4C7A2B72A849C53</source_id>
+   </Item></Relationships>
+ </Item>
+</AML>

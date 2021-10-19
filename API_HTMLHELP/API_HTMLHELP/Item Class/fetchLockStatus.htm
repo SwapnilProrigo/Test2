@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>fetchLockStatus</title>
+
+
+	
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR">
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"></head><body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2><span class="identifier">fetchLockStatus</span>()</h2>
+
+<p align="left">Fetches the locked status of the item from the database using the item's ID.</p>
+
+<h3>C#</h3>
+
+<h4>Item customer = this.newItem("Customer", "get");<br>
+customer.setID("F045495F51854DC38200B73EFC116130");<br>
+int lockStatus = <span style="background-color: rgb(255, 255, 0);">customer.fetchLockStatus()</span>;</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim customer As Item = Me.newItem("Customer", "get")<br>
+customer.setID("F045495F51854DC38200B73EFC116130")<br>
+Dim lockStatus As Integer = <span style="background-color: rgb(255, 255, 0);">customer.fetchLockStatus()</span></h4>
+
+<h3>Notes:</h3>
+
+<p>The method sends a request to the server in order to fetch the
+latest lock status of the item on server and updates the item's
+property <span class="code">locked_by_id</span>. An apply is not required.</p>
+
+<p>Possible integer returns:</p>
+
+<p>-1 failed to fetch item's lock status from server<br>
+0 not locked<br>
+1 locked by user<br>
+2 locked by other</p>
+</body></html>

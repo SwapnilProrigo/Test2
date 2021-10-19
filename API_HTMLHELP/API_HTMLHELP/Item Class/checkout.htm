@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>checkout</title>
+
+
+	
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR">
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"></head><body bgcolor="#ffffff">
+<h1 pbzloc="0">Item Class</h1>
+
+<h2>checkout(String filepath)</h2>
+
+<p align="left">Retrieve most current version of file from vault and copy to destination filepath.</p>
+
+<h3>C#:</h3>
+
+<h4>Innovator inn = this.getInnovator();<br>
+Item qry = inn.newItem("File", "get");<br>
+qry.setProperty("filename", "Survey.xml");<br>
+Item file = qry.apply();<br>
+if (file.getItemCount()!= 1) {<br>
+&nbsp; return inn.newError("File error");<br>
+}<br>
+Item result = <span style="background-color: rgb(255, 255, 0);">file.checkout( @"c:\temp" )</span>;<br>
+if( result.isError() ) {<br>
+&nbsp; return inn.newError("Cannot checkout file");<br>
+}<br>
+string filename = result.getProperty("checkedout_path");<br>
+file.lockItem();<br>
+return inn.newResult("File checked out to:&nbsp;" +&nbsp;filename);</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim inn As Innovator = Me.getInnovator()<br>
+Dim qry As Item = inn.newItem("File", "get")<br>
+qry.setProperty("filename", "Survey.xml")<br>
+Dim file As Item = qry.apply()<br>
+If file.getItemCount() &lt;&gt; 1 Then<br>
+&nbsp;Return inn.newError("File error")<br>
+End If<br>
+Dim result As Item = <span style="background-color: rgb(255, 255, 0);">file.checkout("c:\temp")</span><br>
+If result.isError() Then<br>
+&nbsp;Return inn.newError("Cannot checkout file")<br>
+End If<br>
+Dim filename As String = result.getProperty("checkedout_path")<br>
+file.lockItem()<br>
+Return inn.newResult("File checked out to: " + filename)<br>
+&nbsp;</h4>
+
+<h3>JavaScript:</h3>
+
+<h4>var&nbsp; inn = this.getInnovator();<br>
+var&nbsp; qry = inn.newItem("File", "get");<br>
+qry.setProperty("filename", "Survey.xml");<br>
+var file = qry.apply();<br>
+if (file.getItemCount()!= 1) {<br>
+&nbsp; return inn.newError("File error");<br>
+}<br>
+var&nbsp; result = <span style="background-color: yellow;">file.checkout( "c:\\temp" );</span><br>
+if( result.isError() ) {<br>
+&nbsp; return inn.newError("Cannot checkout file");<br>
+}<br>
+var&nbsp; filename = result.getProperty("checkedout_path");<br>
+file.lockItem();<br>
+return inn.newResult("File checked out to: " + filename);</h4>
+
+<h3 pbzloc="1">Notes:</h3>
+
+<p pbzloc="8">This method is deprecated in Version 11 and above - see&nbsp;<a href="fetchFileProperty.htm"><em>fetchFileProperty</em></a> &nbsp;to upload a physical file.</p>
+
+<p>It is&nbsp;assumed that the item is of type 'File' and the item must
+have property 'filename' set.&nbsp;It is&nbsp;possible to checkout the
+same file multiple times. If the same file is downloaded into the same
+directory more than once, latest version of the file overwrites the
+previous one. If checkout succeeded, the method sets property
+'checkedout_path' to the full path of the checked out file.<br>
+The file item is not locked automatically on successful checkout - use the lockItem method to lock the file&nbsp;item.<br>
+&nbsp;</p>
+
+<p><br>
+<br>
+&nbsp;</p>
+</body></html>

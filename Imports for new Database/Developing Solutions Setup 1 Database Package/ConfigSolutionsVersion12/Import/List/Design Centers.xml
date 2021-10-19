@@ -1,0 +1,49 @@
+﻿<AML>
+ <Item type="List" id="859DD321CA3440179A59DAADF8DBC59E" action="add">
+  <name>Design Centers</name>
+  <Relationships>
+   <Item type="Filter Value" id="8240402DF57542FBBD1D122B36CAF6E3" action="add">
+    <filter>AS</filter>
+    <label xml:lang="en">Bangalore</label>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Design Centers" type="List">859DD321CA3440179A59DAADF8DBC59E</source_id>
+    <value>BLR</value>
+   </Item>
+   <Item type="Filter Value" id="BF0F0F21AB794F2CB75387E78D461F99" action="add">
+    <filter>EU</filter>
+    <label xml:lang="en">Frankfurt</label>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="Design Centers" type="List">859DD321CA3440179A59DAADF8DBC59E</source_id>
+    <value>FRA</value>
+   </Item>
+  
+   <Item type="Filter Value" id="2FDC264D0AF7403988112B30C625F36E" action="add">
+    <filter>AM</filter>
+    <label xml:lang="en">Sao Paulo</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Design Centers" type="List">859DD321CA3440179A59DAADF8DBC59E</source_id>
+    <value>GRU</value>
+   </Item>
+   <Item type="Filter Value" id="69E9E0A00B4C4E949630B586C1F55BB3" action="add">
+    <filter>EU</filter>
+    <label xml:lang="en">London</label>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Design Centers" type="List">859DD321CA3440179A59DAADF8DBC59E</source_id>
+    <value>LON</value>
+   </Item>
+   <Item type="Filter Value" id="90DC630589B54D9B8082BD7F2DEB3B6C" action="add">
+    <filter>AM</filter>
+    <label xml:lang="en">New York</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Design Centers" type="List">859DD321CA3440179A59DAADF8DBC59E</source_id>
+    <value>NYC</value>
+   </Item>
+   <Item type="Filter Value" id="9C9B7D6524714E6BA108435AA6456C10" action="add">
+    <filter>AS</filter>
+    <label xml:lang="en">Shanghai</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Design Centers" type="List">859DD321CA3440179A59DAADF8DBC59E</source_id>
+    <value>PVG</value>
+   </Item></Relationships>
+ </Item>
+</AML>

@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>newError</title>
+	<link href=../style.css rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Innovator Class</h1>
+
+<h2>newError(String errMsg)</h2>
+
+<p align="left">Returns a new &quot;error&quot; item and displays&nbsp;error string.</p>
+
+<h3>C#:</h3>
+
+<h4>Innovator inn = this.getInnovator();<br />
+string cost = this.getProperty(&quot;cost&quot;, &quot;&quot;);<br />
+if (cost == &quot;&quot;) {<br />
+&nbsp;return <span style="background-color: #ffff00">inn.newError(&quot;Cost required!&quot;);</span><br />
+}<br />
+return this;<br />
+&nbsp;</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim inn As Innovator = Me.getInnovator()<br />
+Dim cost As String = Me.getProperty(&quot;cost&quot;, &quot;&quot;)<br />
+If cost = &quot;&quot; Then<br />
+&nbsp;Return <span style="background-color: #ffff00">inn.newError(&quot;Cost required!&quot;)</span><br />
+End If<br />
+Return Me</h4>
+
+<h3>Notes:</h3>
+
+<p>The passed <span class="code">message</span> is set as <span class="code">InnerText</span> on the &lt;faultstring&gt; element without any pre-processing, so symbols like &#39;&lt;&#39;, &#39;&gt;&#39;, etc. will be escaped.</p>
+
+<p>See the Item class&nbsp;setError... methods to further customize the returned error Item.</p>
+</body>
+</html>

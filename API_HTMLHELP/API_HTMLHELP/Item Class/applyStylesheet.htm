@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>applyStyleSheet</title>
+
+
+	
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR">
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"></head><body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2>applyStyleSheet(String xslStylesheet, String type)</h2>
+
+<p align="left">Performs XSL transformation of the item's DOM and returns the result of the transformation based on xslStylesheet argument.</p>
+
+<h3>C#:</h3>
+
+<h4>string ss = "file:///c:/Sample.xslt";<br>
+Item itm = this.newItem("Part", "get");<br>
+itm = itm.apply();<br>
+var ret= <span style="background-color: rgb(255, 255, 0);">itm.applyStylesheet(ss,"URL")</span>;<br>
+return this.getInnovator().newResult(ret);</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim ss As String = "file:///c:/Sample.xslt"<br>
+Dim itm As Item = Me.newItem("Part", "get")<br>
+itm = itm.apply()<br>
+Dim ret = <span style="background-color: rgb(255, 255, 0);">itm.applyStylesheet(ss, "URL")</span><br>
+Return Me.getInnovator().newResult(ret)</h4>
+
+<h3>JavaScript:</h3>
+
+<h4>var ss = "file:///c:/Sample.xslt";<br>
+var itm = this.newItem("Part", "get");<br>
+itm = itm.apply();<br>
+var ret= <span style="background-color: rgb(255, 255, 0);">itm.applyStylesheet(ss,"URL")</span>;<br>
+return ret;<br>
+&nbsp;</h4>
+
+<h3>Notes:</h3>
+
+<p>The type argument can be either 'text' or a 'url' (case insensitive).</p>
+
+<p>If type='url' the xslStylesheet argument is interpreted as file URL.
+It means that user can pass to the method URLs like:
+"http://localhost/mystylesheets/stylesheet1.xslt" or
+"file:///c:/tmp/stylesheet2.xslt"; or absolute or relative path to the
+file, e.g. "c:/tmp/stylesheet2.xslt" or "../../stylesheet3.xslt".</p>
+
+<p>The examples above use the stylesheet below to return back a list of Parts in an html table.</p>
+
+<p>&lt;?xml version="1.0" ?&gt;<br>
+&lt;xsl:stylesheet<br>
+&nbsp;&nbsp;&nbsp; version = "1.0"<br>
+&nbsp;&nbsp;&nbsp; xmlns:xsl = "http://www.w3.org/1999/XSL/Transform"<br>
+&nbsp;&nbsp;&nbsp; xmlns:soap = "http://www.w3.org/2003/05/soap-envelope"&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;!--Output to HTML --&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;xsl:output method = "html"/&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;!--Match to soap envelope --&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;xsl:template match = "soap:Envelope/soap:Body"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;html&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;xsl:apply-templates/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/html&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/xsl:template&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;xsl:template match = "Result"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;html&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;h2&gt;Order Items&lt;/h2&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;table border = "1"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;tr bgcolor = "#9acd32"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;th&gt;Item Number&lt;/th&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;th&gt;Instructions&lt;/th&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;xsl:for-each select = "Item"&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;tr&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;xsl:value-of select = "id/@keyed_name"/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;td&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;xsl:value-of select = "instructions"/&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;/td&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/tr&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/xsl:for-each&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/table&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/html&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;/xsl:template&gt;<br>
+&lt;/xsl:stylesheet&gt;<br>
+&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p><br>
+<br>
+&nbsp;</p>
+</body></html>

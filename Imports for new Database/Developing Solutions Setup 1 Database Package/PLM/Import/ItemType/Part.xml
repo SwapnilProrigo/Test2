@@ -1,0 +1,12 @@
+<!--Modify Class Structure to add Product for sample part data   -->
+<AML>
+ <Item type="ItemType" id="4F1AC04A2B484F3ABA4E20DB63808A88" action="add">
+  
+  <class_structure><![CDATA[<class id="4F1AC04A2B484F3ABA4E20DB63808A88"><class name="Component" id="0D83A764A1EA0CB66E34980C4B50F7E7" /><class name="Assembly" id="512FF7893DBCD6D1AC1F55B87A480934" /><class name="Material" id="64801C21172EEEB61692B77CB5E0ABF1" /><class name="Software" id="74DB7ADB15E0E70BD729E8837D0FF3C9" /><class name="Product" id="86D3373368F91E52FCF1504A8A73B498" /></class>]]></class_structure>
+ 
+ </Item>
+ <Item type="Property" action="edit" where="source_id='4F1AC04A2B484F3ABA4E20DB63808A88' and name='cost'">
+     <is_hidden>0</is_hidden>
+     <is_hidden2>0</is_hidden2>
+     </Item>
+</AML>

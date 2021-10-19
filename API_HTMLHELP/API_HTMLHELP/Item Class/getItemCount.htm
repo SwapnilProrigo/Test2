@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>getItemCount</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2><span class="identifier">getItemCount</span>(<span class="parameter">)</span><br />
+&nbsp;</h2>
+
+<p align="left">Returns the number of items that the instance represents.</p>
+
+<h3>C#:</h3>
+
+<h4>Item customers = this.newItem(&quot;Customer&quot;, &quot;get&quot;);<br />
+customers = customers.apply();<br />
+int count = <span style="background-color: #ffff00">customers.getItemCount()</span>;</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim customers As Item = Me.newItem(&quot;Customer&quot;, &quot;get&quot;)<br />
+customers = customers.apply()<br />
+Dim count As Integer =<span style="background-color: #ffff00"> customers.getItemCount()</span></h4>
+
+<h3>Notes:</h3>
+
+<p>Possible return values are:</p>
+
+<ul>
+	<li>
+	<p>&#39;0&#39; if the item is an error with error code 0 (No Items Found).</p>
+	</li>
+	<li>
+	<p>&#39;-1&#39; if the item is an error of any other type</p>
+	</li>
+	<li>
+	<p>N (where N is a positive integer for number of items that the instance represents) if the item is not an error</p>
+	</li>
+</ul>
+
+<p><br />
+<br />
+&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,3972 @@
+<!--RUN IMPORT OF CONFIGURING SOLUTIONS EXPORT FIRST -->
+<!--SETUP RUN LAB FOR METHOD -->
+<AML>
+    <!--ADD PARTS DATA-->
+    <Item
+        type = "Part"
+        action = "add"
+        id = "C178DF9A420C4E8A8C9A058F27D662CF">
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description is_null = "1"/>
+        <id keyed_name = "0460-2536" type = "Part">C178DF9A420C4E8A8C9A058F27D662CF</id>
+        <name>Edge wire saddle for Y-axis bracket</name>
+        <item_number>0460-2536</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "10EEE1F2F00543AF84673D07650BDC01">
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>plastic screw M3</description>
+        <id keyed_name = "0515-4700" type = "Part">10EEE1F2F00543AF84673D07650BDC01</id>
+        <name>Screw (Plastic) - M3x12.30</name>
+        <item_number>0515-4700</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "2234E582BBA3451F99A48F4BED253A4B">
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>"Input voltage 220-250VAC, 47/53Hz - Output voltage 13VDC, 800mA, 10.4 watts"</description>
+        <id keyed_name = "0957-2229" type = "Part">2234E582BBA3451F99A48F4BED253A4B</id>
+        <name>Power module (wall mount)-</name>
+        <item_number>0957-2229</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "A542873D06AC46E3AA6D7DDF440460AF">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>(C6229A)</description>
+        <id keyed_name = "1818-6171" type = "Part">A542873D06AC46E3AA6D7DDF440460AF</id>
+        <name>4MB EDO (Extended Data Output) DRAM SIMM memory module</name>
+        <item_number>1818-6171</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "B4640E87FCEE4234A9B1D8C9DA2195D2">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>(C6230A)</description>
+        <id keyed_name = "1818-6172" type = "Part">B4640E87FCEE4234A9B1D8C9DA2195D2</id>
+        <name>8MB EDO (Extended Data Output) DRAM SIMM memory module</name>
+        <item_number>1818-6172</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "DC352B5572284DF08C7965DA19F2F633">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Optical sensor</description>
+        <id keyed_name = "1990-1972" type = "Part">DC352B5572284DF08C7965DA19F2F633</id>
+        <name>Optical sensor</name>
+        <item_number>1990-1972</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "5240E7E24C104310BA9CF8E9EABA6ABE">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>DB-25 (M) connector (type A) to 36-pin Centronics (M) connector (type B)</description>
+        <id keyed_name = "5063-1256" type = "Part">5240E7E24C104310BA9CF8E9EABA6ABE</id>
+        <name>IEEE 1284 Bi-Tronics parallel cable</name>
+        <item_number>5063-1256</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "5C5C1B0F106949D8BB0090BCA32DC6FD">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>DB-25 (M) connector (type A) to 36-pin Centronics (M) connector (type B)</description>
+        <id keyed_name = "5063-1257" type = "Part">5C5C1B0F106949D8BB0090BCA32DC6FD</id>
+        <name>IEEE 1284 Bi-Tronics parallel cable</name>
+        <item_number>5063-1257</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "7CCACB64D2A4497D906FA8870C627625">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>"18 AWG, 2.3m (7.5ft) long - Has straight (F) C13 receptacle (for 120V in USA, Canada, Latin America, Korea, Taiwan, Thailand, Spain, Brazil, and Vietnam)"</description>
+        <id keyed_name = "8120-1378" type = "Part">7CCACB64D2A4497D906FA8870C627625</id>
+        <name>Power cord (Jade Gray)</name>
+        <item_number>8120-1378</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "4E91702EA14F436A9E7565678C6970FA">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>"2-wire, 18 AWG, 1.8m (6.0ft) long - Has straight (F) C7 receptacle (for 240V in the United Kingdom)"</description>
+        <id keyed_name = "8120-8341" type = "Part">4E91702EA14F436A9E7565678C6970FA</id>
+        <name>Power cord (Quartz Gray) -</name>
+        <item_number>8120-8341</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "439359C50B9B463880A8E3055B099337">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>1.8m (6.0ft) long</description>
+        <id keyed_name = "8120-8384" type = "Part">439359C50B9B463880A8E3055B099337</id>
+        <name>Power cord (Flint Gray)</name>
+        <item_number>8120-8384</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "B1B3B62524E547F3844DD5F6DD15DF39">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>"2-wire, 18 AWG, 1.8m (6.0ft) long - Has straight (F) C7 receptacle (for 120V in the United States, Canada, Brazil, Latin America, and Saudi Arabia)"</description>
+        <id keyed_name = "8120-8900" type = "Part">B1B3B62524E547F3844DD5F6DD15DF39</id>
+        <name>Power cord (Flint Gray) -</name>
+        <item_number>8120-8900</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "6213BE83D36E490FA47E118B408F5330">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>RJ11 (M) connectors</description>
+        <id keyed_name = "8121-0811" type = "Part">6213BE83D36E490FA47E118B408F5330</id>
+        <name>Telephone cable (2-wire)</name>
+        <item_number>8121-0811</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "36DDBEA015CC4795B9A6FC3EEA50EDA2">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>(Black)Type `A` connector to type `B` connector - 1.83m (6.0ft) long</description>
+        <id keyed_name = "8121-0868" type = "Part">36DDBEA015CC4795B9A6FC3EEA50EDA2</id>
+        <name>Universal Serial Bus (USB) interface cable</name>
+        <item_number>8121-0868</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "4D61377B26804541976320D5A936D76A">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>(Black)Type `A` connector to type `B` connector - 0.6m (2ft) long - USB 2.0 compliant</description>
+        <id keyed_name = "8121-1036" type = "Part">4D61377B26804541976320D5A936D76A</id>
+        <name>Universal Serial Bus (USB) interface cable</name>
+        <item_number>8121-1036</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "912262840D3341C893B8C5B5F162BDDB">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Installed on Y-AXIS motor cable</description>
+        <id keyed_name = "9170-1687" type = "Part">912262840D3341C893B8C5B5F162BDDB</id>
+        <name>Ferrite core</name>
+        <item_number>9170-1687</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "2C96596E94714AEFAFE558A06341F716">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>8-pin (M) to 8-pin (M) - 2.0m (6.6ft) long - For connecting Apple Macintosh with LocalTalk/serial connector</description>
+        <id keyed_name = "92215S" type = "Part">2C96596E94714AEFAFE558A06341F716</id>
+        <name>RS-422 serial cable</name>
+        <item_number>92215S</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "9E6DC2CF622440F0AAA2EFDBAE6DAFC1">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>For the rear bushing on the carriage</description>
+        <id keyed_name = "C1633-80014" type = "Part">9E6DC2CF622440F0AAA2EFDBAE6DAFC1</id>
+        <name>Compression spring</name>
+        <item_number>C1633-80014</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "652CAACD04F24CB3B73A56CA153B0A6E">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>DB-25 (M) connector (type A) to 36 pin Centronics (M) connector (type B)</description>
+        <id keyed_name = "C2951A" type = "Part">652CAACD04F24CB3B73A56CA153B0A6E</id>
+        <name>IEEE-1284 Bi-Tronics parallel cable</name>
+        <item_number>C2951A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "8663A397E39D4C21955DB093B8294369">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>DB-25 (M) (type A) to 36-pin (M) Centronics (type B)</description>
+        <id keyed_name = "C2990A" type = "Part">8663A397E39D4C21955DB093B8294369</id>
+        <name>IEEE 1284 Bi-Tronics parallel cable</name>
+        <item_number>C2990A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "F7A8412BED3E4909A6B6D8F522FDAC9C">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>DB-25 (M) (type A) to 36-pin (M) Centronics (type B)</description>
+        <id keyed_name = "C2991A" type = "Part">F7A8412BED3E4909A6B6D8F522FDAC9C</id>
+        <name>IEEE 1284 Bi-Tronics parallel cable</name>
+        <item_number>C2991A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "2CA7D5AB261C49C3A65FF28E9C694A5A">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Sheet metal used as bottom of unit</description>
+        <id keyed_name = "C3801-00012" type = "Part">2CA7D5AB261C49C3A65FF28E9C694A5A</id>
+        <name>Base</name>
+        <item_number>C3801-00012</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "819B7AB57A0249768C59CE26A7BCE63F">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Installed in the scanner cover assembly over the friction pad</description>
+        <id keyed_name = "C3801-00025" type = "Part">819B7AB57A0249768C59CE26A7BCE63F</id>
+        <name>Pre-feed spring (rectangular)</name>
+        <item_number>C3801-00025</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "6CA30D97FE484EB8AF80D0EAD07597DF">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Installed in the scanner cover assembly over the pre-feed spring</description>
+        <id keyed_name = "C3801-00029" type = "Part">6CA30D97FE484EB8AF80D0EAD07597DF</id>
+        <name>Plate/bracket</name>
+        <item_number>C3801-00029</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "01946BD2AFAF434DAEAD3C70507DBF9F">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Quartz Gray</description>
+        <id keyed_name = "C3801-40055" type = "Part">01946BD2AFAF434DAEAD3C70507DBF9F</id>
+        <name>Paper output tray</name>
+        <item_number>C3801-40055</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "AED330C9E2454A68A83E88791F736027">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Supports the media output tray</description>
+        <id keyed_name = "C3801-40057" type = "Part">AED330C9E2454A68A83E88791F736027</id>
+        <name>Lower front case (Quartz Gray, U-shaped)</name>
+        <item_number>C3801-40057</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "6B8B08ACEEF44097A199B0680C99C1BD">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Mounts on bottom of media chassis</description>
+        <id keyed_name = "C3801-40100" type = "Part">6B8B08ACEEF44097A199B0680C99C1BD</id>
+        <name>Paper detect flag</name>
+        <item_number>C3801-40100</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "6B87668FC5F74D2990D0B933D0864BBB">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>Used along with pad spring to maintain pressure against friction pad</description>
+        <id keyed_name = "C3801-40128" type = "Part">6B87668FC5F74D2990D0B933D0864BBB</id>
+        <name>Pad installed in the scanner cover assembly</name>
+        <item_number>C3801-40128</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "B1803B4D6F8349C2BA71F7D9D46DD763">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Rear panel (with LIU module slot)</description>
+        <id keyed_name = "C3801-40189" type = "Part">B1803B4D6F8349C2BA71F7D9D46DD763</id>
+        <name>Lower back case (Quartz Gray)</name>
+        <item_number>C3801-40189</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "BDDDB9310BCB4D098C2B0EAEF8976A74">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>Short wide roller</description>
+        <id keyed_name = "C3801-60015" type = "Part">BDDDB9310BCB4D098C2B0EAEF8976A74</id>
+        <name>Pick roller assembly</name>
+        <item_number>C3801-60015</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "F90441CA62634E56BF366AD4F0BBDBD4">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>Long shaft with multiple rollers</description>
+        <id keyed_name = "C3801-60051" type = "Part">F90441CA62634E56BF366AD4F0BBDBD4</id>
+        <name>Pick roller assembly</name>
+        <item_number>C3801-60051</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "A9941FD13F384EDB9EFFC75D8C0E9921">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Directs paper from the media chassis to the print section of the printer chassis assembly</description>
+        <id keyed_name = "C3801-60052" type = "Part">A9941FD13F384EDB9EFFC75D8C0E9921</id>
+        <name>Paper deflector</name>
+        <item_number>C3801-60052</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "C2788631BDD24948A5CA789ACFFE5FE4">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description></description>
+        <id keyed_name = "C3801-60085" type = "Part">C2788631BDD24948A5CA789ACFFE5FE4</id>
+        <name>Right side case (Quartz Gray)</name>
+        <item_number>C3801-60085</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "1A3BDD8FA1344B7384418F6B20C43A1C">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Quartz Gray</description>
+        <id keyed_name = "C3801-60094" type = "Part">1A3BDD8FA1344B7384418F6B20C43A1C</id>
+        <name>Automatic document feeder (ADF) tray</name>
+        <item_number>C3801-60094</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "E21A6A07C6FE439B92ECDAC03BB1515B">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>"Includes the control panel assembly (U. S. version) , instruction sheet, and panel removal tool"</description>
+        <id keyed_name = "C3801-60127" type = "Part">E21A6A07C6FE439B92ECDAC03BB1515B</id>
+        <name>Control panel replacement kit</name>
+        <item_number>C3801-60127</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "2B3F614C5DD449BBA50492B6164C5E9D">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Large lift-up door on top of the OfficeJet</description>
+        <id keyed_name = "C3801-60157" type = "Part">2B3F614C5DD449BBA50492B6164C5E9D</id>
+        <name>Print cartridge access door (Quartz Gray)</name>
+        <item_number>C3801-60157</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "7FDDC07F465E4A76BE9F05AA0DE476A2">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>Mounted in center of ADF deflector</description>
+        <id keyed_name = "C3801-60167" type = "Part">7FDDC07F465E4A76BE9F05AA0DE476A2</id>
+        <name>Plunger assembly</name>
+        <item_number>C3801-60167</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "F7A70A1D23FA4B37ACCD3CF591D27230">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>Has 3-pin (F) connectors</description>
+        <id keyed_name = "C3801-80020" type = "Part">F7A70A1D23FA4B37ACCD3CF591D27230</id>
+        <name>Cable assembly</name>
+        <item_number>C3801-80020</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "687CF6572BE14E6BBB8D8C06FC87CFAF">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Coil spring installed in the scanner cover assembly located under the gimbal</description>
+        <id keyed_name = "C3801-80024" type = "Part">687CF6572BE14E6BBB8D8C06FC87CFAF</id>
+        <name>Gimbal spring</name>
+        <item_number>C3801-80024</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "6054333BE5494FFB8503B46B56FBAA2A">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Two used</description>
+        <id keyed_name = "C3801-80031" type = "Part">6054333BE5494FFB8503B46B56FBAA2A</id>
+        <name>ASF plunger spring under the ADF separator</name>
+        <item_number>C3801-80031</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "9078A6C0E8174924B9EFEB4F77ECD159">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Installed in the scanner cover assembly under the friction pad</description>
+        <id keyed_name = "C3801-80046" type = "Part">9078A6C0E8174924B9EFEB4F77ECD159</id>
+        <name>Mylar pad</name>
+        <item_number>C3801-80046</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "5760701E616249BE986FDED74A8A85E2">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>Has 14-pin (F) connectors</description>
+        <id keyed_name = "C3801-80069" type = "Part">5760701E616249BE986FDED74A8A85E2</id>
+        <name>Cable assembly</name>
+        <item_number>C3801-80069</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "F561FCC315384F33B2F6B65FB018DC2E">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>25-pin (M) with thumbscrews to 36-pin Centronics (M)</description>
+        <id keyed_name = "C3801-80073" type = "Part">F561FCC315384F33B2F6B65FB018DC2E</id>
+        <name>Centronics parallel interface cable</name>
+        <item_number>C3801-80073</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "CE2EEEE340484B138757884606F2081D">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>C14 (M) power socket to an 18cm (7.1in) cable with a 3-pin (F) connector and a 22.3cm (8.8in) ground wire with a ring terminal</description>
+        <id keyed_name = "C3803-60013" type = "Part">CE2EEEE340484B138757884606F2081D</id>
+        <name>Rear panel power socket/power cable assembly</name>
+        <item_number>C3803-60013</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "6C37281924354B458B868528CC37A5BB">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Mounted under encoder strip on right encoder bracket</description>
+        <id keyed_name = "C4699-00016" type = "Part">6C37281924354B458B868528CC37A5BB</id>
+        <name>Encoder spring</name>
+        <item_number>C4699-00016</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "7C8B4C85F8F842D0A7373346A339D0A4">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>HP DesignJet 2000CP logo - Mounts on the left end cover</description>
+        <id keyed_name = "C4703-00004" type = "Part">7C8B4C85F8F842D0A7373346A339D0A4</id>
+        <name>Nameplate</name>
+        <item_number>C4703-00004</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "C12ED50DB3D94E869F4860832B047921">
+        <classification>Product</classification>
+        <cost is_null = "1"/>
+        <description>Large format printer - base model</description>
+        <id keyed_name = "C4703A" type = "Part">C12ED50DB3D94E869F4860832B047921</id>
+        <name>DesignJet 2000CP Printer</name>
+        <item_number>C4703A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part Goal"
+                action = "add"
+                id = "C12ED50DB3D94E869F4860832B04AAAA">
+                <goal>Cost</goal>
+                <actual_value>350.00</actual_value>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "7522B45397D74DA8A56AA7E59F1D9284">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Mounts on top of electronics module</description>
+        <id keyed_name = "C4704-00004" type = "Part">7522B45397D74DA8A56AA7E59F1D9284</id>
+        <name>Modular Input/Output (MIO) cover</name>
+        <item_number>C4704-00004</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "02D7DCFA95E847F5B37BB009C450C2A4">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Includes edge wire saddle - Holds the Y-Axis motor</description>
+        <id keyed_name = "C4704-00005" type = "Part">02D7DCFA95E847F5B37BB009C450C2A4</id>
+        <name>Y-axis motor bracket</name>
+        <item_number>C4704-00005</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "552E26DEFBF743A99D994F0407783122">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Provides ground to end of encoder strip</description>
+        <id keyed_name = "C4704-00016" type = "Part">552E26DEFBF743A99D994F0407783122</id>
+        <name>Encoder ground strap</name>
+        <item_number>C4704-00016</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "17DF27DAC13B4A4AA5364C92EC611103">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description></description>
+        <id keyed_name = "C4704-00021" type = "Part">17DF27DAC13B4A4AA5364C92EC611103</id>
+        <name>Top cover</name>
+        <item_number>C4704-00021</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "737E2078962E4341B54FF73C5F7DD8D2">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description></description>
+        <id keyed_name = "C4704-00033" type = "Part">737E2078962E4341B54FF73C5F7DD8D2</id>
+        <name>SIMM slot cover</name>
+        <item_number>C4704-00033</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "FD95D85970D847A691B90C6F62688A00">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Attached to Y-AXIS bracket</description>
+        <id keyed_name = "C4704-00035" type = "Part">FD95D85970D847A691B90C6F62688A00</id>
+        <name>Ground strap</name>
+        <item_number>C4704-00035</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "370689EB3BD54C5C861DC33F4B19E5BD">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Louvered cover on rear of plotter</description>
+        <id keyed_name = "C4704-40057" type = "Part">370689EB3BD54C5C861DC33F4B19E5BD</id>
+        <name>Electronics module left cover</name>
+        <item_number>C4704-40057</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "E0B279A16A8244DF82892D789326157F">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Mounts on rear of plotter</description>
+        <id keyed_name = "C4704-40058" type = "Part">E0B279A16A8244DF82892D789326157F</id>
+        <name>Electronics module right cover</name>
+        <item_number>C4704-40058</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "F5646C4B517E4CF89CC2AB6D37C970E4">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Two strips that snap together on the ends of the bin arms</description>
+        <id keyed_name = "C4704-40070" type = "Part">F5646C4B517E4CF89CC2AB6D37C970E4</id>
+        <name>Capping strips ( E-size)</name>
+        <item_number>C4704-40070</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "54ABF5CD6657409F81BD39E919A7846C">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Mounts in carriage assembly over the encoder strip</description>
+        <id keyed_name = "C4704-40080" type = "Part">54ABF5CD6657409F81BD39E919A7846C</id>
+        <name>Encoder strip roof</name>
+        <item_number>C4704-40080</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "F3AC670BFB4C40CB997308B07A17B8FE">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Spring loaded - Rear slider rod bushing - Spring loaded - Slides into the rear center of the carriage assembly</description>
+        <id keyed_name = "C4704-40084" type = "Part">F3AC670BFB4C40CB997308B07A17B8FE</id>
+        <name>Rear slider rod bushing</name>
+        <item_number>C4704-40084</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "B1F7ECBCF059456C84829B95DA9DE607">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Secures the trailing cable to the carriage assembly</description>
+        <id keyed_name = "C4704-40085" type = "Part">B1F7ECBCF059456C84829B95DA9DE607</id>
+        <name>Trailing cable clamp</name>
+        <item_number>C4704-40085</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "9746D6CD626E4A5FAEC2B4D8D0E6095E">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Refill Interconnect Board - Mounted on Left Side Plate of Plotter</description>
+        <id keyed_name = "C4704-60009" type = "Part">9746D6CD626E4A5FAEC2B4D8D0E6095E</id>
+        <name>Refill interconnect board</name>
+        <item_number>C4704-60009</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "F9B8CCBCBD2B4E0F8FF8CFFC4B92AE28">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Three ribbon cables bundled together - 1.9m (6.3ft) long - From carriage board to main board</description>
+        <id keyed_name = "C4704-60015" type = "Part">F9B8CCBCBD2B4E0F8FF8CFFC4B92AE28</id>
+        <name>Carriage board trailing cable with ferrite</name>
+        <item_number>C4704-60015</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "F7BDF55043394D6F9CA8A098D2645DDC">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>For carriage (Y-axis) belt - On right end of plotter</description>
+        <id keyed_name = "C4704-60020" type = "Part">F7BDF55043394D6F9CA8A098D2645DDC</id>
+        <name>Idler pulley</name>
+        <item_number>C4704-60020</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "B743BDC7E2734481AE56C63720DF3979">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Has 28-pin (F) connectors - 1.3m (4.1ft) long - From refill interconnect board to main board</description>
+        <id keyed_name = "C4704-60025" type = "Part">B743BDC7E2734481AE56C63720DF3979</id>
+        <name>Ribbon cable assembly with ferrite</name>
+        <item_number>C4704-60025</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "BC66AE85C9B546139E5EC286A3C84446">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Includes cable and connector - Right end cover and window closed sensor  Includes cable and connector - Plugs into front control panel</description>
+        <id keyed_name = "C4704-60029" type = "Part">BC66AE85C9B546139E5EC286A3C84446</id>
+        <name>Right end cover and window closed sensors</name>
+        <item_number>C4704-60029</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "D01942273BF1468FA99134700FC48880">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Mounted on left side plate</description>
+        <id keyed_name = "C4704-60040" type = "Part">D01942273BF1468FA99134700FC48880</id>
+        <name>Bail motor</name>
+        <item_number>C4704-60040</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "0E11F43DD9CB4C089347DA2993A3406C">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Pincharm sensor - Mounted on right side plate</description>
+        <id keyed_name = "C4704-60052" type = "Part">0E11F43DD9CB4C089347DA2993A3406C</id>
+        <name>Pincharm sensor</name>
+        <item_number>C4704-60052</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "AE42881F31214094A2F29751BBDAE2AB">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Includes cable</description>
+        <id keyed_name = "C4704-60056" type = "Part">AE42881F31214094A2F29751BBDAE2AB</id>
+        <name>Power switch</name>
+        <item_number>C4704-60056</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "7FCACECDFD924251AFD0DCEBF7D80F50">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Includes cable and connector - Left end cover sensor - Includes cable and connector - Plugs into refill interconnect board</description>
+        <id keyed_name = "C4704-60058" type = "Part">7FCACECDFD924251AFD0DCEBF7D80F50</id>
+        <name>Left end cover sensor</name>
+        <item_number>C4704-60058</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "CB4CF24625634124ACAFFBF1F9C11404">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Side support for the plotter - Does NOT include the foot assembly - (Two used)</description>
+        <id keyed_name = "C4704-60075" type = "Part">CB4CF24625634124ACAFFBF1F9C11404</id>
+        <name>Leg assembly</name>
+        <item_number>C4704-60075</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "5B8A4DAE2BCF40BAA0C37451D38626FB">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Brace that connects and supports the two stand legs</description>
+        <id keyed_name = "C4704-60077" type = "Part">5B8A4DAE2BCF40BAA0C37451D38626FB</id>
+        <name>Cross-brace (E-size)</name>
+        <item_number>C4704-60077</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "AC1AA06F470541EA843F542492DAA5B6">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Plotter stand tray assembly - Mounted between the feet of plotter</description>
+        <id keyed_name = "C4704-60084" type = "Part">AC1AA06F470541EA843F542492DAA5B6</id>
+        <name>Plotter stand tray assembly</name>
+        <item_number>C4704-60084</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "DD0E73E5EB4242F8851DCE49271595E0">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Mounts to the bottom of the plotter stand legs (two used)</description>
+        <id keyed_name = "C4704-60086" type = "Part">DD0E73E5EB4242F8851DCE49271595E0</id>
+        <name>Foot assembly (includes casters)</name>
+        <item_number>C4704-60086</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "B077846881664D19815B51CF34C58C3B">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>"Includes screwdriver, screws, washers, and media bin retaining clips"</description>
+        <id keyed_name = "C4704-60095" type = "Part">B077846881664D19815B51CF34C58C3B</id>
+        <name>Hardware kit for printer stand</name>
+        <item_number>C4704-60095</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "998F719F85084ACA9F9691F762E85CAF">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Shows the function of the front panel buttons and indicator lights (English)</description>
+        <id keyed_name = "C4704-60101" type = "Part">998F719F85084ACA9F9691F762E85CAF</id>
+        <name>Front panel overlay</name>
+        <item_number>C4704-60101</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "49322203A7E04F45B6F657F6406FAF9D">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Mounts to carriage assembly</description>
+        <id keyed_name = "C4704-60117" type = "Part">49322203A7E04F45B6F657F6406FAF9D</id>
+        <name>Line sensor lens cover</name>
+        <item_number>C4704-60117</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "C138B4BBBFC34C6E9B181D3C62F3589E">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>"Media sensor assembly - Includes, edge measuring and secondary levers, media sensor and holder"</description>
+        <id keyed_name = "C4704-60195" type = "Part">C138B4BBBFC34C6E9B181D3C62F3589E</id>
+        <name>Media sensor assembly</name>
+        <item_number>C4704-60195</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "38B3B42C51284F7C84686A9A549E9A03">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Drives the carriage assembly</description>
+        <id keyed_name = "C4704-60207" type = "Part">38B3B42C51284F7C84686A9A549E9A03</id>
+        <name>Carriage (Y-axis) belt</name>
+        <item_number>C4704-60207</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "061B02751C274CE483D86E811DD5707C">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Holds quick reference guides and media knife - Mounted on rear of right end cover</description>
+        <id keyed_name = "C4704-60218" type = "Part">061B02751C274CE483D86E811DD5707C</id>
+        <name>Quick reference holder pocket</name>
+        <item_number>C4704-60218</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "9F8E7BA81952472C94CBE1F6EC9A358A">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Used to determine carriage position - Connects from left to right side of plotter</description>
+        <id keyed_name = "C4704-60224" type = "Part">9F8E7BA81952472C94CBE1F6EC9A358A</id>
+        <name>Encoder strip</name>
+        <item_number>C4704-60224</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "63DBB548D84F446495FA6830B4EA3DF4">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Includes function buttons and display</description>
+        <id keyed_name = "C4704-60255" type = "Part">63DBB548D84F446495FA6830B4EA3DF4</id>
+        <name>Front (Control) panel and cable assembly</name>
+        <item_number>C4704-60255</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "0A0ED1FB168B4B499D267D0E370699F2">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Mounted in right end cover</description>
+        <id keyed_name = "C4704-60261" type = "Part">0A0ED1FB168B4B499D267D0E370699F2</id>
+        <name>Stand-by switch asembly</name>
+        <item_number>C4704-60261</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "BA28C15705D54DA5A9645134BAD855FC">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Mounts to rear of plotter - Includes SIMM cover</description>
+        <id keyed_name = "C4704-60274" type = "Part">BA28C15705D54DA5A9645134BAD855FC</id>
+        <name>Electronics module cover</name>
+        <item_number>C4704-60274</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "53CAE3ADBA264AC8A83D8214A5F0C49D">
+        <classification>Product</classification>
+        <cost is_null = "1"/>
+        <description>Large format printer - extended model</description>
+        <id keyed_name = "C4704AX" type = "Part">53CAE3ADBA264AC8A83D8214A5F0C49D</id>
+        <name>DesignJet 2000CX Printer</name>
+        <item_number>C4704AX</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part Goal"
+                action = "add"
+                id = "53CAE3ADBA264AC8A83D8214A5F0AAAA">
+                <goal>Cost</goal>
+                <actual_value>1200.00</actual_value>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "8E4E869A4BB741D39C937DDB1093FCEF">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Media bin support kit (D-size) - Supports media bin arms - Includes two supports and two capping strips that snap together on the ends of the bin arms</description>
+        <id keyed_name = "C4713-60147" type = "Part">8E4E869A4BB741D39C937DDB1093FCEF</id>
+        <name>Media bin arm (Loop assembly)</name>
+        <item_number>C4713-60147</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "7C4E9C82D768497E9BF36F6F70A02E08">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Media bin support (E-size) - Supports media bin arms</description>
+        <id keyed_name = "C4714-60147" type = "Part">7C4E9C82D768497E9BF36F6F70A02E08</id>
+        <name>Media bin support (E-size)</name>
+        <item_number>C4714-60147</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "79AC99DF05864EF5B8C8B6450A6AF443">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>"Applies tension to carriage belt - Includes wedge, tensioner spring, and housing"</description>
+        <id keyed_name = "C4723-60063" type = "Part">79AC99DF05864EF5B8C8B6450A6AF443</id>
+        <name>Y-axis tensioner assembly</name>
+        <item_number>C4723-60063</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "512E5D8094EE49568291C337C27456D6">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Take-up reel left hand support assembly - Mounted on left leg</description>
+        <id keyed_name = "C4723-60072" type = "Part">512E5D8094EE49568291C337C27456D6</id>
+        <name>Take-up reel left hand support assembly</name>
+        <item_number>C4723-60072</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "7BAFAD05CDF341EBBAD3ECF5BEA9D634">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Has cut outs for the control panel</description>
+        <id keyed_name = "C4723-60115" type = "Part">7BAFAD05CDF341EBBAD3ECF5BEA9D634</id>
+        <name>Right end cover</name>
+        <item_number>C4723-60115</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "D24259E1B15C4761931C9B7EBCBA3AD0">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description></description>
+        <id keyed_name = "C4723-60116" type = "Part">D24259E1B15C4761931C9B7EBCBA3AD0</id>
+        <name>Left end cover</name>
+        <item_number>C4723-60116</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "6C1F11111533465DB4E386820BD12A4A">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>"Drives carriage belt - Includes motor, motor holder, and cable"</description>
+        <id keyed_name = "C4723-60277" type = "Part">6C1F11111533465DB4E386820BD12A4A</id>
+        <name>Carriage (Y-Axis) motor assembly</name>
+        <item_number>C4723-60277</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "A378B080F63441019B802DBA92955C6B">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Take-up reel sensor assembly - Mounted near bottom of right leg</description>
+        <id keyed_name = "C4723-69071" type = "Part">A378B080F63441019B802DBA92955C6B</id>
+        <name>Take-up reel sensor assembly</name>
+        <item_number>C4723-69071</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "7A0CDF7213414AD0AB147ACD1FCCC3C2">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>Includes carriage assembly, line sensor, encoder, rear bushing, calibration pen, digitizing sight, guages - Trailing cable and cable clamp not included</description>
+        <id keyed_name = "C4723-69096" type = "Part">7A0CDF7213414AD0AB147ACD1FCCC3C2</id>
+        <name>Carriage assembly</name>
+        <item_number>C4723-69096</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "98601F02F50E49478AB8522977989D08">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>"Includes power supply, fan, and main board"</description>
+        <id keyed_name = "C4723-69114" type = "Part">98601F02F50E49478AB8522977989D08</id>
+        <name>Electronics module</name>
+        <item_number>C4723-69114</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "DCB4C2564E6D49BF97D8D0CE5E1EA587">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Mounts in the electronics module - NOTE: this is not a postscript SIMM</description>
+        <id keyed_name = "C4723-69294" type = "Part">DCB4C2564E6D49BF97D8D0CE5E1EA587</id>
+        <name>Firmware SIMM kit (Revision A.04.08)</name>
+        <item_number>C4723-69294</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "777B8BB04D0E41E48386ABF4AED1E1CC">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description is_null = "1"/>
+        <id keyed_name = "C5316-60000" type = "Part">777B8BB04D0E41E48386ABF4AED1E1CC</id>
+        <name>PC Board Kit</name>
+        <item_number>C5316-60000</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "8B7CEB0C453B48C3934AD7BA9EA61399">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>For the OfficeJet 630</description>
+        <id keyed_name = "C5316-60010" type = "Part">8B7CEB0C453B48C3934AD7BA9EA61399</id>
+        <name>Control panel overlay (Quartz Gray)</name>
+        <item_number>C5316-60010</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "52B8F91215404DC68DBD68FE087A45F4">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description></description>
+        <id keyed_name = "C5316-60012" type = "Part">52B8F91215404DC68DBD68FE087A45F4</id>
+        <name>Left side case (Quartz Gray)</name>
+        <item_number>C5316-60012</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "21B6E271FE1A4A8CB0DDB10F9EA29ED3">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>Includes lamp</description>
+        <id keyed_name = "C5316-60108" type = "Part">21B6E271FE1A4A8CB0DDB10F9EA29ED3</id>
+        <name>Scanner assembly</name>
+        <item_number>C5316-60108</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "4B6152D8EF4F4B36B06DB86DB44BBC27">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Main Logic PC Board</description>
+        <id keyed_name = "C5316-69002" type = "Part">4B6152D8EF4F4B36B06DB86DB44BBC27</id>
+        <name>Main logic PC board</name>
+        <item_number>C5316-69002</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "82A00F4C9C0546AAAA5EB35E8D44ACC9">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Has 15-pin (M) edge connectors</description>
+        <id keyed_name = "C5316-80002" type = "Part">82A00F4C9C0546AAAA5EB35E8D44ACC9</id>
+        <name>Ribbon cable</name>
+        <item_number>C5316-80002</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "53CF15C1387B4F1585FD9A40674F30C3">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Shield installed over main PC board</description>
+        <id keyed_name = "C5316-80004" type = "Part">53CF15C1387B4F1585FD9A40674F30C3</id>
+        <name>Main PC board shield</name>
+        <item_number>C5316-80004</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "C0A7350AD438405E9ECF9FC7EDC55694">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>Moves paper from ADF assembly to scanner assembly</description>
+        <id keyed_name = "C5324-60010" type = "Part">C0A7350AD438405E9ECF9FC7EDC55694</id>
+        <name>Media chassis assembly (Paper drive)</name>
+        <item_number>C5324-60010</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "884BC6BBA2A4441387DEA55BE669E5D1">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>For DesignJet CP printer</description>
+        <id keyed_name = "C6229A" type = "Part">884BC6BBA2A4441387DEA55BE669E5D1</id>
+        <name>4MB SIMM memory module</name>
+        <item_number>C6229A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "7DD57AC66AC2410E906AFB7F4025CA6D">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>For DesignJet CP printer</description>
+        <id keyed_name = "C6230A" type = "Part">7DD57AC66AC2410E906AFB7F4025CA6D</id>
+        <name>8MB SIMM memory module</name>
+        <item_number>C6230A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "A77BA990EEA549A08DA7538BB5451FD6">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>"For DesignJet 400, 700, CP series printers"</description>
+        <id keyed_name = "C6231A" type = "Part">A77BA990EEA549A08DA7538BB5451FD6</id>
+        <name>16MB SIMM memory module</name>
+        <item_number>C6231A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "D19422D03DA14BD8B53E6DC12097117A">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>"For DesignJet 400, 700, CP series printers"</description>
+        <id keyed_name = "C6232A" type = "Part">D19422D03DA14BD8B53E6DC12097117A</id>
+        <name>32MB SIMM memory module upgrade</name>
+        <item_number>C6232A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "0BB7C2A9926F4CBF96ABB0A4489617A8">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Take-up reel right hand support assembly - Mounted on right leg</description>
+        <id keyed_name = "C6246-60009" type = "Part">0BB7C2A9926F4CBF96ABB0A4489617A8</id>
+        <name>Take-up reel support assembly</name>
+        <item_number>C6246-60009</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "356C3EBA4EB64BDBBDB1DB0F0193F0E0">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description></description>
+        <id keyed_name = "C6246-60010" type = "Part">356C3EBA4EB64BDBBDB1DB0F0193F0E0</id>
+        <name>36-inch take-up reel spindle assembly</name>
+        <item_number>C6246-60010</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "C96598F91F754CAAB50EE8792BC7978B">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description></description>
+        <id keyed_name = "C6246-60011" type = "Part">C96598F91F754CAAB50EE8792BC7978B</id>
+        <name>Media weight and core kit for the take-up reel</name>
+        <item_number>C6246-60011</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "2CB7D5E84449498A8FD1A6792838B47B">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>"Includes take-up reel spindle assembly, left and right take-up reel supports, take-up reel sensor assembly, empty core tubes, and media weight tubes"</description>
+        <id keyed_name = "C6246A" type = "Part">2CB7D5E84449498A8FD1A6792838B47B</id>
+        <name>Take-up reel kit for DesignJet 2000CP/2500CP</name>
+        <item_number>C6246A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "449D55BAD7744D2F9302F55EA9B941B7">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>- Type `A` connector to type `B` connector - 2.0m (6.6ft) long</description>
+        <id keyed_name = "C6518A" type = "Part">449D55BAD7744D2F9302F55EA9B941B7</id>
+        <name>Universal Serial Bus (USB) interface cable</name>
+        <item_number>C6518A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "E173284994D74422812EE4C1DEC03026">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Plug-in fax/phone line module</description>
+        <id keyed_name = "C6659-60002" type = "Part">E173284994D74422812EE4C1DEC03026</id>
+        <name>Line Interface Unit (LIU)</name>
+        <item_number>C6659-60002</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "61B70A9F43A1450284583F449C603F2F">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>Covers the scanner glass</description>
+        <id keyed_name = "C6659-60038" type = "Part">61B70A9F43A1450284583F449C603F2F</id>
+        <name>Scanner cover assembly (Upper ADF)</name>
+        <item_number>C6659-60038</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "F9C6A8B63C3640F4BFB7604CE6563EE7">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>Does not include rear panel power socket/power cable assembly</description>
+        <id keyed_name = "C6659-60055" type = "Part">F9C6A8B63C3640F4BFB7604CE6563EE7</id>
+        <name>Power supply assembly</name>
+        <item_number>C6659-60055</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "9FF82B1DD8E3435E9E5AC3E0E042BF30">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Pen Driver PC Board</description>
+        <id keyed_name = "C6659-60190" type = "Part">9FF82B1DD8E3435E9E5AC3E0E042BF30</id>
+        <name>Pen driver PC board</name>
+        <item_number>C6659-60190</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "233819F3839C4E09B57B05B736E2B55C">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Drives the scanner lamp</description>
+        <id keyed_name = "C6659-60194" type = "Part">233819F3839C4E09B57B05B736E2B55C</id>
+        <name>Lamp driver PC board</name>
+        <item_number>C6659-60194</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "D161EC814C854A3AAF3B239EDC9125F7">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Plug-in fax/phone line module</description>
+        <id keyed_name = "C6663-60069" type = "Part">D161EC814C854A3AAF3B239EDC9125F7</id>
+        <name>Line interface unit (LIU)</name>
+        <item_number>C6663-60069</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "E65E48826B41416D9E4C30B5A0D09115">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Allows access to the ink cartridges</description>
+        <id keyed_name = "C8111-67016" type = "Part">E65E48826B41416D9E4C30B5A0D09115</id>
+        <name>Main access door -</name>
+        <item_number>C8111-67016</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "CF3E98216C064824AC657B1A792C6B71">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>Without key pan</description>
+        <id keyed_name = "C8111-67046" type = "Part">CF3E98216C064824AC657B1A792C6B71</id>
+        <name>Top case assembly -</name>
+        <item_number>C8111-67046</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "054748BEBA124EDB8EFE842C014A407F">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Located behind the paper feeder assembly</description>
+        <id keyed_name = "C8111-67057" type = "Part">054748BEBA124EDB8EFE842C014A407F</id>
+        <name>Carriage PC board -</name>
+        <item_number>C8111-67057</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "630A963EE19942FF974E950C45739630">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>For the DeskJet series</description>
+        <id keyed_name = "C8111-67058" type = "Part">630A963EE19942FF974E950C45739630</id>
+        <name>Keypad assembly -</name>
+        <item_number>C8111-67058</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "A8E3E19F6BB641C2AFEA915F9AAD4E3E">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>For the DeskJet 450 series</description>
+        <id keyed_name = "C8111-67059" type = "Part">A8E3E19F6BB641C2AFEA915F9AAD4E3E</id>
+        <name>Bottom case assembly -</name>
+        <item_number>C8111-67059</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "9CD328668B434438A6A8774856FA28ED">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description></description>
+        <id keyed_name = "C8111-69060" type = "Part">9CD328668B434438A6A8774856FA28ED</id>
+        <name>Main logic PC board and power supply kit</name>
+        <item_number>C8111-69060</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "DFE58912D52B43ACA56637B424230123">
+        <classification>Product</classification>
+        <cost is_null = "1"/>
+        <description>Consumer retail mobile inkjet printer</description>
+        <id keyed_name = "C8111A" type = "Part">DFE58912D52B43ACA56637B424230123</id>
+        <name>Deskjet 450</name>
+        <item_number>C8111A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part Goal"
+                action = "add"
+                id = "DFE58912D52B43ACA56637B42423AAAA">
+                <goal>Cost</goal>
+                <actual_value>125.00</actual_value>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "28905FBCCCCA4DBCBD113B34ADD8E4E7">
+        <classification>Product</classification>
+        <cost is_null = "1"/>
+        <description>Consumer retail mobile inkjet printer - advanced battery</description>
+        <id keyed_name = "C8112A" type = "Part">28905FBCCCCA4DBCBD113B34ADD8E4E7</id>
+        <name>Deskjet 460</name>
+        <item_number>C8112A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part Goal"
+                action = "add"
+                id = "28905FBCCCCA4DBCBD113B34ADD8AAAA">
+                <goal>Cost</goal>
+                <actual_value>99.00</actual_value>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "93AF913D552F4D58B2038E23009EAD71">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Get up to 250 pages on each charge - For Deskjet 450 mobile printer series</description>
+        <id keyed_name = "C8150-67036" type = "Part">93AF913D552F4D58B2038E23009EAD71</id>
+        <name>Battery packLithium-ion (Li-Ion)</name>
+        <item_number>C8150-67036</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "0D97CF414D84432EB48850746C328225">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Get up to 540 pages per charge</description>
+        <id keyed_name = "C8222A" type = "Part">0D97CF414D84432EB48850746C328225</id>
+        <name>Battery pack - Lithium-ion (Li-Ion) Extended</name>
+        <item_number>C8222A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "B9F289D6A71A497295BD6CB2CA9D3C15">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description></description>
+        <id keyed_name = "C8231A" type = "Part">B9F289D6A71A497295BD6CB2CA9D3C15</id>
+        <name>DeskJet 450 mobile printer parallel cable</name>
+        <item_number>C8231A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "71B64892E68B48758FE19D553FE7497B">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>Two sided printing accessory</description>
+        <id keyed_name = "C8955A" type = "Part">71B64892E68B48758FE19D553FE7497B</id>
+        <name>Duplexer assembly -</name>
+        <item_number>C8955A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "96226833DF664151AE24B9798E84E311">
+        <classification>Product</classification>
+        <cost is_null = "1"/>
+        <description>Office Business Printer</description>
+        <id keyed_name = "C9223" type = "Part">96226833DF664151AE24B9798E84E311</id>
+        <name>Office Jet 650</name>
+        <item_number>C9223</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part Goal"
+                action = "add"
+                id = "96226833DF664151AE24B9798E84EAAA">
+                <goal>Cost</goal>
+                <actual_value>225.00</actual_value>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "84942BBFA2EC44C993FF46F1861A4240">
+        <classification>Product</classification>
+        <cost is_null = "1"/>
+        <description>Office Business Printer manual feed</description>
+        <id keyed_name = "C9225" type = "Part">84942BBFA2EC44C993FF46F1861A4240</id>
+        <name>Office Jet 700</name>
+        <item_number>C9225</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part Goal"
+                action = "add"
+                id = "84942BBFA2EC44C993FF46F1861AAAAA">
+                <goal>Cost</goal>
+                <actual_value>310.00</actual_value>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "E9C82F411E7F495DA358A396FD3019ED">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>HP 64MB, 144-pin, DDR2 SDRAM DIMM</description>
+        <id keyed_name = "CB421A" type = "Part">E9C82F411E7F495DA358A396FD3019ED</id>
+        <name>HP 64MB, 144-pin, DDR2 SDRAM DIMM</name>
+        <item_number>CB421A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "64365A089B954BDEB9B9B4CB878CDD62">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>HP 128MB, 144-pin, DDR2 SDRAM DIMM</description>
+        <id keyed_name = "CB422A" type = "Part">64365A089B954BDEB9B9B4CB878CDD62</id>
+        <name>HP 128MB, 144-pin, DDR2 SDRAM DIMM</name>
+        <item_number>CB422A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "D2E5D1EA7F0043A99EC6A4FCB700B266">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>256MB, 144-pin, DDR2 SDRAM memory DIMM</description>
+        <id keyed_name = "CB423A" type = "Part">D2E5D1EA7F0043A99EC6A4FCB700B266</id>
+        <name>256MB, 144-pin, DDR2 SDRAM memory DIMM</name>
+        <item_number>CB423A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "168587C577544D98AA2ED47202C5EE75">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>- For the Color LaserJet CP1210 series printer</description>
+        <id keyed_name = "CB505-60001" type = "Part">168587C577544D98AA2ED47202C5EE75</id>
+        <name>Formatter (Main logic) board</name>
+        <item_number>CB505-60001</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "A412A7F61E62474C94D2C0E7669157F4">
+        <classification>Product</classification>
+        <cost is_null = "1"/>
+        <description>Low cost consumer printer</description>
+        <id keyed_name = "CC376A" type = "Part">A412A7F61E62474C94D2C0E7669157F4</id>
+        <name>CP1200 LaserJet Printer</name>
+        <item_number>CC376A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part Goal"
+                action = "add"
+                id = "A412A7F61E62474C94D2C0E76691AAAA">
+                <goal>Cost</goal>
+                <actual_value>79.00</actual_value>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "49666CB0F63D49D083B38C95ADE91D80">
+        <classification>Product</classification>
+        <cost is_null = "1"/>
+        <description>Low cost consumer printer - 128MB  memory</description>
+        <id keyed_name = "CC377A" type = "Part">49666CB0F63D49D083B38C95ADE91D80</id>
+        <name>CP1220 LaserJet Printer</name>
+        <item_number>CC377A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part Goal"
+                action = "add"
+                id = "49666CB0F63D49D083B38C95ADE9AAAA">
+                <goal>Cost</goal>
+                <actual_value>295.00</actual_value>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "6D5ADF21C6CB4AA5A82F323C92F4453E">
+        <classification>Product</classification>
+        <cost is_null = "1"/>
+        <description>Low cost consumer printer - 256 MB  memory</description>
+        <id keyed_name = "CC387A" type = "Part">6D5ADF21C6CB4AA5A82F323C92F4453E</id>
+        <name>CP1230 LaserJet Printer</name>
+        <item_number>CC387A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part Goal"
+                action = "add"
+                id = "6D5ADF21C6CB4AA5A82F323C92F4AAAA">
+                <goal>Cost</goal>
+                <actual_value>89.00</actual_value>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "582E63CD408D44718E2E9484838585C5">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Interfaces a parallel printer to an ethernet 10Base-T (RJ-45) LAN</description>
+        <id keyed_name = "J3258B" type = "Part">582E63CD408D44718E2E9484838585C5</id>
+        <name>External JetDirect 170X LAN interface module</name>
+        <item_number>J3258B</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "CFF7BDCCE44443F7B5AAB6D33FA6D959">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Internal print server - Provides 10/100Base-T or 10Base-2 network connection using RJ45 or BNC connectors</description>
+        <id keyed_name = "J4100A" type = "Part">CFF7BDCCE44443F7B5AAB6D33FA6D959</id>
+        <name>JetDirect 400N modular input/output (MIO)</name>
+        <item_number>J4100A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "831521F67A5F4A75BA96381CF7A27A9D">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Provides token ring network connection using RJ45 or DB9 connectors</description>
+        <id keyed_name = "J4105A" type = "Part">831521F67A5F4A75BA96381CF7A27A9D</id>
+        <name>JetDirect 400N modular input/output (MIO) internal print server</name>
+        <item_number>J4105A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "85B92BC6CAC449D38197A4E56FE406ED">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Provides 10Base-T network connection using RJ45 connector</description>
+        <id keyed_name = "J4106A" type = "Part">85B92BC6CAC449D38197A4E56FE406ED</id>
+        <name>JetDirect 400N modular input/output (MIO) internal print server</name>
+        <item_number>J4106A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "5B88AE0A179C41358F792F9CB79398A9">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>"Allows for wireless printing from Bluetooth enabled PCs, PDAs, phones, and cameras - Connects to either the parallel or USB port on the printer - Includes the power module and power cord"</description>
+        <id keyed_name = "J6072A" type = "Part">5B88AE0A179C41358F792F9CB79398A9</id>
+        <name>HP bt1300 Bluetooth wireless printer adapter -</name>
+        <item_number>J6072A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "18CAEB4BBE50486E90C69ABD8B82D4F0">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>for  RJ-45 10/100 Base-TX connector</description>
+        <id keyed_name = "J7942G" type = "Part">18CAEB4BBE50486E90C69ABD8B82D4F0</id>
+        <name>Fast Ethernet Internet connector</name>
+        <item_number>J7942G</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "AEDEE1C08E1848E196600415B4F9EEC1">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>- Includes power supply, USB cable, LAN/Ethernet cable, setup documentation and software</description>
+        <id keyed_name = "J7951G" type = "Part">AEDEE1C08E1848E196600415B4F9EEC1</id>
+        <name>HP Jetdirect ew2400 802.11g wireless print server module</name>
+        <item_number>J7951G</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "98CE4F0C0212438DB2CE2E75F2B6D79E">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>- For the Color LaserJet CP1210 series printer</description>
+        <id keyed_name = "RC2-1786-000CN" type = "Part">98CE4F0C0212438DB2CE2E75F2B6D79E</id>
+        <name>Front door assembly</name>
+        <item_number>RC2-1786-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "A4E437B481654B25BD75E93471D9B87F">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>- For the Color LaserJet CP1210 series printer</description>
+        <id keyed_name = "RC2-1788-000CN" type = "Part">A4E437B481654B25BD75E93471D9B87F</id>
+        <name>Right side cover assembly</name>
+        <item_number>RC2-1788-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "75FA273B3227479096D798A7D3AE575F">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>- For the Color LaserJet CP1210 series printer</description>
+        <id keyed_name = "RC2-1789-000CN" type = "Part">75FA273B3227479096D798A7D3AE575F</id>
+        <name>Left side cover assembly</name>
+        <item_number>RC2-1789-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "048E2B0E0DE749B68B4B068062F729B7">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>- Located below the rear door - For the Color LaserJet CP1210 series printer</description>
+        <id keyed_name = "RC2-1790-000CN" type = "Part">048E2B0E0DE749B68B4B068062F729B7</id>
+        <name>Lower rear cover</name>
+        <item_number>RC2-1790-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "4B0090B598E641FBA646D7EF29D725EF">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>- Located above the rear door assembly - For the Color LaserJet CP1210 series printer</description>
+        <id keyed_name = "RC2-1791-000CN" type = "Part">4B0090B598E641FBA646D7EF29D725EF</id>
+        <name>Upper rear cover</name>
+        <item_number>RC2-1791-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "5FB6DF26C16947E383C366CC17A194A5">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>- For the Color LaserJet CP1210/CP1510 series printer</description>
+        <id keyed_name = "RC2-1878-000CN" type = "Part">5FB6DF26C16947E383C366CC17A194A5</id>
+        <name>Front left cassette rail assembly</name>
+        <item_number>RC2-1878-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "D6111DDE61CE444E98CFC12F8A90765E">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>- Front access door that provides access to paper jams - For the Color LaserJet CP1210 series printer</description>
+        <id keyed_name = "RC2-2005-000CN" type = "Part">D6111DDE61CE444E98CFC12F8A90765E</id>
+        <name>Cleanout assembly door</name>
+        <item_number>RC2-2005-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "9BA7498C4762440DB0EF627091BC80DA">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>- Located below the separation roller - For Color LaserJet series printers</description>
+        <id keyed_name = "RC2-2014-000CN" type = "Part">9BA7498C4762440DB0EF627091BC80DA</id>
+        <name>Cover holder</name>
+        <item_number>RC2-2014-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "24DF21FF508A4AA2BB9EF4B12AF6AD66">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>- For the Color LaserJet CP1210 series printer</description>
+        <id keyed_name = "RC2-2115-000CN" type = "Part">24DF21FF508A4AA2BB9EF4B12AF6AD66</id>
+        <name>Rear door assembly</name>
+        <item_number>RC2-2115-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "682A946267F54097AE70BCE2A0D09C3C">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>- Located to the left of the rear door assembly - For the Color LaserJet CP1210 series printer</description>
+        <id keyed_name = "RC2-2875-000CN" type = "Part">682A946267F54097AE70BCE2A0D09C3C</id>
+        <name>Center rear cover</name>
+        <item_number>RC2-2875-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "C3895E2FFC5045A3B400D2B334E61864">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description></description>
+        <id keyed_name = "RC2-3108-000CN" type = "Part">C3895E2FFC5045A3B400D2B334E61864</id>
+        <name>Left side cartridge tray clamp</name>
+        <item_number>RC2-3108-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "6B1BB8D5B898463A83D5529281FE558B">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description></description>
+        <id keyed_name = "RC2-3109-000CN" type = "Part">6B1BB8D5B898463A83D5529281FE558B</id>
+        <name>Right side cartridge tray clamp</name>
+        <item_number>RC2-3109-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "CF9000DF55974F088B2D9587B8F36315">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>Ã¯Â¿Â½ Connect to the DC controller PCA assembly</description>
+        <id keyed_name = "RK2-1955-000CN" type = "Part">CF9000DF55974F088B2D9587B8F36315</id>
+        <name>Flexible flat cable</name>
+        <item_number>RK2-1955-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "FAB127901B184B569539D6B0C9719D06">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>- For the Color LaserJet CP1510 series printer</description>
+        <id keyed_name = "RK2-1959-000CN" type = "Part">FAB127901B184B569539D6B0C9719D06</id>
+        <name>Flexible flat cable</name>
+        <item_number>RK2-1959-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "28238B005735440E8588B350A93555B3">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>- For the Color LaserJet CP1210 series printer</description>
+        <id keyed_name = "RK2-1960-000CN" type = "Part">28238B005735440E8588B350A93555B3</id>
+        <name>Flexible flat cable</name>
+        <item_number>RK2-1960-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "BA2F139B782742B3AC1CDB17C6066B48">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>- For the Color LaserJet CP1210/CP1510 series printer</description>
+        <id keyed_name = "RL1-1849-000CN" type = "Part">BA2F139B782742B3AC1CDB17C6066B48</id>
+        <name>Front left cassette rail assembly</name>
+        <item_number>RL1-1849-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "086A89D7B7A647ED9AA43915B8E54E35">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>- For the Color LaserJet CP1210/CP1510/CM1312MFP series printer</description>
+        <id keyed_name = "RM1-4425-000CN" type = "Part">086A89D7B7A647ED9AA43915B8E54E35</id>
+        <name>Feed/separation roller</name>
+        <item_number>RM1-4425-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "46C9ABE43AAF429C9480F6DC279D2E85">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>- Picks up media from the paper input tray</description>
+        <id keyed_name = "RM1-4426-000CN" type = "Part">46C9ABE43AAF429C9480F6DC279D2E85</id>
+        <name>Paper pickup roller (D-shaped roller)</name>
+        <item_number>RM1-4426-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "149367FC58E34EEBB877C451871EE9A8">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description></description>
+        <id keyed_name = "RM1-4428-000CN" type = "Part">149367FC58E34EEBB877C451871EE9A8</id>
+        <name>Cartridge tray (drawer) assembly</name>
+        <item_number>RM1-4428-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "BF4113DC081E47698A1812276AC9C3EE">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>- Bonds toner to paper with heat - For 110-127VAC (+/- 10%) operation</description>
+        <id keyed_name = "RM1-4430-000CN" type = "Part">BF4113DC081E47698A1812276AC9C3EE</id>
+        <name>Fusing Assembly</name>
+        <item_number>RM1-4430-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "FC786A4C3C5D444A941EE07808EC26DA">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>- Bonds toner to paper with heat - For 220-240VAC (+/- 10%) operation</description>
+        <id keyed_name = "RM1-4431-000CN" type = "Part">FC786A4C3C5D444A941EE07808EC26DA</id>
+        <name>Fusing Assembly</name>
+        <item_number>RM1-4431-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "9AA8726C09114C84B27733B69D43FEEC">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>- For the Color LaserJet CP1210/CP1510 series printer</description>
+        <id keyed_name = "RM1-4436-000CN" type = "Part">9AA8726C09114C84B27733B69D43FEEC</id>
+        <name>Intermediate Transfer Belt (ITB) assembly</name>
+        <item_number>RM1-4436-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "1982AF6D3C8D442080EB4513F8E8645B">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>- For the Color LaserJet CP1210 series printer</description>
+        <id keyed_name = "RM1-4439-000CN" type = "Part">1982AF6D3C8D442080EB4513F8E8645B</id>
+        <name>Tray (cassette) assembly</name>
+        <item_number>RM1-4439-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "74CF763C83E24028B7E5B849D102E080">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description></description>
+        <id keyed_name = "RM1-4445-000CN" type = "Part">74CF763C83E24028B7E5B849D102E080</id>
+        <name>Secondary transfer roller</name>
+        <item_number>RM1-4445-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "40BDE56222144DFF931A89B624CC2379">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>- For the Color LaserJet CP1210 series printer</description>
+        <id keyed_name = "RM1-4465-000CN" type = "Part">40BDE56222144DFF931A89B624CC2379</id>
+        <name>Top cover assembly</name>
+        <item_number>RM1-4465-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "68A3D688ACEE4CBCA7DAD3359EA6DDF3">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description>- For the Color LaserJet CP1210 series printer</description>
+        <id keyed_name = "RM1-4468-000CN" type = "Part">68A3D688ACEE4CBCA7DAD3359EA6DDF3</id>
+        <name>Control panel assembly</name>
+        <item_number>RM1-4468-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "1D1CB95696AF42DA9FF291C0CD960054">
+        <classification>Assembly</classification>
+        <cost is_null = "1"/>
+        <description></description>
+        <id keyed_name = "RM1-4689-000CN" type = "Part">1D1CB95696AF42DA9FF291C0CD960054</id>
+        <name>High voltage power supply PC board assembly</name>
+        <item_number>RM1-4689-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "BA5140CB461441D793923B8346CC2C33">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>- For the 110-127VAC (+/- 10%) fusing assembly</description>
+        <id keyed_name = "RM1-4776-000CN" type = "Part">BA5140CB461441D793923B8346CC2C33</id>
+        <name>Power supply</name>
+        <item_number>RM1-4776-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "74445B1E31FD4AE4A062F91ACE7F5824">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>- For the 220-240VAC (+/- 10%) fusing assembly</description>
+        <id keyed_name = "RM1-4777-000CN" type = "Part">74445B1E31FD4AE4A062F91ACE7F5824</id>
+        <name>Power supply</name>
+        <item_number>RM1-4777-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "094A18F52D2C49FE9B432557CCF687AC">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>- Controls the timing and functionality of the multifunction finisher - For the Color LaserJet CP1210 series printer</description>
+        <id keyed_name = "RM1-4813-050CN" type = "Part">094A18F52D2C49FE9B432557CCF687AC</id>
+        <name>DC controller PC board</name>
+        <item_number>RM1-4813-050CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "CD1DC7A1FBDA4AAB94A0155336A60E99">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>- For 110-127VAC (+/- 10%) operation</description>
+        <id keyed_name = "RM1-4815-000CN" type = "Part">CD1DC7A1FBDA4AAB94A0155336A60E99</id>
+        <name>Low voltage power supply</name>
+        <item_number>RM1-4815-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "3AAEB5FD5F634D708EB37108C726EC83">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description>- For 220-240VAC (+/- 10%) operation</description>
+        <id keyed_name = "RM1-4816-000CN" type = "Part">3AAEB5FD5F634D708EB37108C726EC83</id>
+        <name>Low voltage power supply</name>
+        <item_number>RM1-4816-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "A1A91716B34F464295C64D9C9ABC726B">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description></description>
+        <id keyed_name = "XA9-1449-000CN" type = "Part">A1A91716B34F464295C64D9C9ABC726B</id>
+        <name>M3 pan-head Phillips screw with machine threads - 8mm long</name>
+        <item_number>XA9-1449-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "add"
+        id = "DA7F9D82D3584EFF9135E5E52D054192">
+        <classification>Component</classification>
+        <cost is_null = "1"/>
+        <description></description>
+        <id keyed_name = "XA9-1671-000CN" type = "Part">DA7F9D82D3584EFF9135E5E52D054192</id>
+        <name>Screw - M3 X 8mm long</name>
+        <item_number>XA9-1671-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+    </Item>
+    <Item
+        type = "Part"
+        action = "edit"
+        where = "part.item_number='C3801-80020'">
+        <description>Has 3-pin (F) connectors</description>
+        <cost is_null = "1"/>
+        <name>Cable assembly</name>
+        <classification>/Part/Assembly</classification>
+        <item_number>C3801-80020</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "13DF72BE72A84284BEB5215A3D0BAA63">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C2951A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "edit"
+        where = "part.item_number='C4703A'">
+        <description>Large format printer - base model</description>
+        <cost is_null = "1"/>
+        <name>DesignJet 2000CP Printer</name>
+        <classification>/Part/Product</classification>
+        <item_number>C4703A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "25D407BD5DB94176AADA7DD4ACABFA87">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4723-69096</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "31FD7C75D96F4FE1AFB00AC4B62B4D2E">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C6229A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "384DEC0AEB6041639273B818C711DCA5">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4704-60255</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "441E56885F774C64A49AC273D8F13641">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4723-69294</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "77071DE76635478DA684C261E188691B">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C6659-60055</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "8788635EF8A746048C17DAB5CF78ACE7">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>8120-8384</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "8ACB8555193D414A89A40C780D598B0D">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4704-60056</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "8BAD9816F1EA4E77B08FA889224DAF61">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4723-69071</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "938B1A5A873E4C2D8D570AFE0CC68CB4">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4704-00033</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "96179F0E1E85467ABED7110476AFA448">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4704-60009</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "9A1314F26FE2403D858F463D19FFDFE2">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>J4100A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "edit"
+        where = "part.item_number='C4704-60255'">
+        <description>Includes function buttons and display</description>
+        <cost is_null = "1"/>
+        <name>Front (Control) panel and cable assembly</name>
+        <classification>/Part/Component</classification>
+        <item_number>C4704-60255</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "A412A6B9E95A4706805039E5FEBA037A">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>5063-1256</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "C551A41AED404512B461E56DF802853E">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4704-60101</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "edit"
+        where = "part.item_number='C4704AX'">
+        <description>Large format printer - extended model</description>
+        <cost is_null = "1"/>
+        <name>DesignJet 2000CX Printer</name>
+        <classification>/Part/Product</classification>
+        <item_number>C4704AX</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "E5C19E0A5CCB437085D0B905D1529F75">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4723-69096</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "F0A7F1FDB88F47A3818DD9265428B9D2">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C6230A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "FDB52E85D52F4B4AA49F143A335137D2">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4704-60255</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "1758563413BF43D88E44B5D663D0EE94">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4723-69294</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "3C52099C895D4A78BD25F31871DC998C">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C6659-60055</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "3E5867BA4CF2433499A83AA828053D0D">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>8120-8384</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "499D634FA2D84588A4B407C5B132CDEE">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4704-60056</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "66B41C35AA0945D5B646627C97D954DC">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4723-69071</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "84CF185CA22A43BC8477D5D431F284BD">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4704-00033</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "8DACBB58CCAB420CBD9F9C369F4D893B">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4704-60009</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "B832D67AF6264F508014DBA66B2D45AC">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>J4106A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "edit"
+        where = "part.item_number='C4723-69096'">
+        <description>Includes carriage assembly, line sensor, encoder, rear bushing, calibration pen, digitizing sight, guages - Trailing cable and cable clamp not included</description>
+        <cost is_null = "1"/>
+        <name>Carriage assembly</name>
+        <classification>/Part/Assembly</classification>
+        <item_number>C4723-69096</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "CD9F9B309AA24B15B917044E9C111862">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4704-60117</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "DDEAE2D917364393AB0A12660E04F3FD">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C6659-60190</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "EBA3E81BEEAB4A3795B3933664526971">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>0515-4700</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "edit"
+        where = "part.item_number='C5316-60000'">
+        <description is_null = "1"/>
+        <cost is_null = "1"/>
+        <name>PC Board Kit</name>
+        <classification>/Part/Assembly</classification>
+        <item_number>C5316-60000</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "EC301937A7854099917526724D922454">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C5316-80004</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "EEF5EFAED7194818A10BC33711902656">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C5316-69002</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "F5929B2217C649F391442C515CA76D87">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C6659-60194</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "FB6B9A627CD04948BB9FE6D621D7C138">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C6659-60190</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "edit"
+        where = "part.item_number='C6659-60055'">
+        <description>Does not include rear panel power socket/power cable assembly</description>
+        <cost is_null = "1"/>
+        <name>Power supply assembly</name>
+        <classification>/Part/Assembly</classification>
+        <item_number>C6659-60055</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "176C39A6BB9149838599BFB66E3D86CF">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RM1-4776-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "edit"
+        where = "part.item_number='C8111-67046'">
+        <description>Without key pan</description>
+        <cost is_null = "1"/>
+        <name>Top case assembly -</name>
+        <classification>/Part/Assembly</classification>
+        <item_number>C8111-67046</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "1C83DE661BFB41AFA030124846C8271F">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>XA9-1671-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "212683C955BD430CB6DDDA31BCBE0D7F">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>XA9-1449-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "edit"
+        where = "part.item_number='C8111-67059'">
+        <description>For the DeskJet 450 series</description>
+        <cost is_null = "1"/>
+        <name>Bottom case assembly -</name>
+        <classification>/Part/Assembly</classification>
+        <item_number>C8111-67059</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "25D97BF379674E44A847CC510876E440">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>XA9-1449-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "3A87273187ED4309BB50221BCD9038C5">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>0515-4700</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "edit"
+        where = "part.item_number='C8111A'">
+        <description>Consumer retail mobile inkjet printer</description>
+        <cost is_null = "1"/>
+        <name>Deskjet 450</name>
+        <classification>/Part/Product</classification>
+        <item_number>C8111A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "9B93940D395F44488C2BD9B9170A8A64">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C8150-67036</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "B7509F226D1540399EE69B7AA4718EE1">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>8121-0868</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "BB0F12914AF842B39700A62E9A41FE00">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C8955A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "BE048F61BD0648089B95652137B9C6E1">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C8111-67057</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "D4C859E2BB15452F93B68F549A08A81F">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4704-60015</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "E4C859E2BB15452F93B68F549A08A810">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C8111-67046</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "54053DDEC0E5439880649EBF156DCB92">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C8111-67059</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "5DAE90DEC53B482594D2EBD2CF631175">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>8120-8384</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "7299F96F102A4B4EA75D12A00F3A2F00">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C8111-69060</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "74B7B7B0EE9448179E09793080B37E3A">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>J6072A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "edit"
+        where = "part.item_number='C8112A'">
+        <description>Consumer retail mobile inkjet printer - advanced battery</description>
+        <cost is_null = "1"/>
+        <name>Deskjet 460</name>
+        <classification>/Part/Product</classification>
+        <item_number>C8112A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "796815D039BD4503B6783B94DAEA393B">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C8222A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "A5D6C6F454BB4E79B297D6E4FB779CFF">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>8121-0868</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "A73AADAABBAF4FBFB811B6C64F8C3C62">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C8955A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "B6587EEF2DDD4FA88113BC617A2F0725">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C8111-67057</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "C0FBCB92138147049983AF2850C2CA25">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4704-60015</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "F589F1CA659E4D21B0B5C4B899503C1C">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C8111-67046</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "0B502C1908CB41D18332AF0135404D80">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C8111-67059</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "16DEAE9B7E01492AA870F5733F04A0DD">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>8120-8384</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "271989D1C06D4D8FA0E57CEDF586ABBF">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C8111-69060</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "2EF86D8AEB27459482DDCAE74FC7B28E">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>J6072A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "edit"
+        where = "[part].item_number='C9223'">
+        <description>Office Business Printer</description>
+        <cost is_null = "1"/>
+        <name>Office Jet 650</name>
+        <classification>/Part/Product</classification>
+        <item_number>C9223</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "6CF2DE7C67BF4D0A811599549F0BA904">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>1990-1972</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "870D413DC8FE4CFF9C912ECD527086EC">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C3801-80020</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "A0B38FA85C544088974A63AA487A5320">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C3801-00012</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "A7BC8FFE81464A3CB58A2EA446F5DE25">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C3801-60094</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "D8009096A6144D60A7B8D572C112DD8A">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C3801-60127</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "17F86700C42044FF88BC21EFA3C85D19">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C5316-60000</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "1CC6CCDE6726495791AE56E4BCADCFD0">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C3801-60015</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "3EA1B25AE9C8441B906B1AF4CC5DEEB7">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>8120-8384</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "52E5B5A1EA624C5AA96DD453EABD754A">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C6659-60055</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "6E00C9A506784EBFAD8B6433FD80ECB3">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C3801-40057</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "9405151DA6CF45A09E310CB786003EDD">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C3801-40189</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "A7BD30CF86BA431685FBEDF5271D735E">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C5316-80002</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "edit"
+        where = "part.item_number='C9225'">
+        <description>Office Business Printer manual feed</description>
+        <cost is_null = "1"/>
+        <name>Office Jet 700</name>
+        <classification>/Part/Product</classification>
+        <item_number>C9225</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "A9B83FD7093642578288D5FED0C71B5B">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>1990-1972</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "FE6966D8F5634750A1B4978C025B6945">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C3801-80020</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "03A798E56F3B49AF82BBF4E128C3360A">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C3801-00012</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "09DFED4BCCDE44518292F14A8CDE0055">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C3801-60127</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "1439728BBA8544E683FD5573453969B4">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C5316-60000</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "69E8AD499D514921A967EA8B5646FA31">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C3801-60015</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "718FF0A135C54EE4BF9A29DF5FCC7A41">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>8120-8384</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "80ED169BD3F3433A8A130C57B008CFD3">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C6659-60055</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "ABAEB6B28F454DC3B7C4398FA3520C2F">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C3801-40057</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "D0F5EA4FD461413093612BEFE4635AF0">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C3801-40189</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "E7E6885B33CF4F849400D99E65D4309E">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C5316-80002</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "edit"
+        where = "part.item_number='CC376A'">
+        <description>Low cost consumer printer</description>
+        <cost is_null = "1"/>
+        <name>CP1200 LaserJet Printer</name>
+        <classification>/Part/Product</classification>
+        <item_number>CC376A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "2294BF1F625541E68ADDB986129C9CF1">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RM1-4439-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "29CF53328F3E4159834AF50A1A55324B">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RM1-4430-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "2E78E63D9A9745258326064F735CC3D8">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RM1-4689-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "351D725D721B46C690A1509902BFD94F">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C5316-60000</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "40F463F5E66246B59D22217D64380D8F">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RC2-1786-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "40F463F5E66246B59D22217D64380123">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RK2-1959-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "4B4262EF0EDD41DD8086EAE7D1311CD8">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RC2-1878-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "5EFE51D1B5F84E7099EAD1D6DF7D0805">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RC2-1790-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "AFF23738466945BE846E8350F032F620">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RC2-1791-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "B3A5801DE8D64053A8B3088EA40481DB">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>CB421A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "0A629FA41F614308937EDA9FF6131B3E">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RM1-4813-050CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "20754290E76A44B7BE92D3EDE26BBDD0">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4704-00021</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "3B8340790EEF4EE9A169C67039F973B0">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>8120-8900</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "edit"
+        where = "part.item_number='CC377A'">
+        <description>Low cost consumer printer - 128MB  memory</description>
+        <cost is_null = "1"/>
+        <name>CP1220 LaserJet Printer</name>
+        <classification>/Part/Product</classification>
+        <item_number>CC377A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "46C28DD30785473B9E53AFFFD70F2331">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RM1-4465-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "89863C2B25D742A2A5E251897EA063BF">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RC2-1790-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "9D6936F1ED494875B93C7DC2778FA1B2">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RK2-1959-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "BF5659830AB14C7F8F0BAFA05B6A6145">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RM1-4689-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "C39002AE29DE47CCA90A656E23695FD2">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4704-00021</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "CB3759BC507A45E3B8FA3C9F990B844D">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RM1-4813-050CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "2D602046A6924F49A6B3E988CCAD24EF">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RC2-1878-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "415C3588B5664206AA2091926B116BAB">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RM1-4439-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "6D0E0825039441C68B5CD03B03B5A545">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>CB422A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "780D9A7385C14ED482A6788A35863EF8">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RM1-4430-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "88AA2FA13A3B445582346BEDCE27D9E0">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RC2-1791-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "A9F737CC55F14A65A4EDF8CB9D233526">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RC2-1786-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "B26E0BF0865E415E97B874F0CDB9AA9F">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C5316-60000</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "edit"
+        where = "part.item_number='CC387A'">
+        <description>Low cost consumer printer - 256 MB  memory</description>
+        <cost is_null = "1"/>
+        <name>CP1230 LaserJet Printer</name>
+        <classification>/Part/Product</classification>
+        <item_number>CC387A</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "B8BCF4C077CC4C37B0A0ABDC564AF279">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RM1-4465-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "FA2D448868D048ACA330DF77BCDD41B1">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RC2-1790-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "06176D61570946A9AB0815E4D8EDC04F">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RK2-1959-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "0E39DE8456DD46C298A24699B3804197">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RM1-4689-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "348B2E4D498544DBB6C86AF3C34B4CCF">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4704-00021</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "74EFB503523B473E8E72A7F22EEFE3EE">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RM1-4813-050CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "783AEF03A37C43CFBBBCA13A81FCFA27">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RC2-1878-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "BDC9B4CB2A224A559B46AEDAD99AF8E3">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RM1-4439-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "F7E009F4A89645F8A251E502AAAFC9FC">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>CB423A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "1D884990870D4106A6DF9115368015BF">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RM1-4430-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "6838826B358A46FF9A33681CED8EC1D7">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RC2-1791-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "A692D8EEC2A443F38FE76BD2A306D5AB">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>RC2-1786-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "DF5117E4B40E43BF8DFEAE9B50BECC24">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>C5316-60000</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "3D47AAFAE98147A7BF4F09646D41F625">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>8120-8900</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Part"
+        action = "edit"
+        where = "part.item_number='RC2-1878-000CN'">
+        <description>- For the Color LaserJet CP1210/CP1510 series printer</description>
+        <cost is_null = "1"/>
+        <name>Front left cassette rail assembly</name>
+        <classification>/Part/Assembly</classification>
+        <item_number>RC2-1878-000CN</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "D637EC7C9D0243FB9293E954EAE407BF">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>XA9-1671-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+            <Item
+                type = "Part BOM"
+                action = "add"
+                id = "F6D926DB54384F23A9C1634E8AA62E09">
+                <related_id>
+                    <Item type = "Part" action = "get">
+                        <item_number>XA9-1449-000CN</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </related_id>
+            </Item>
+        </Relationships>
+    </Item>
+    <!--ADD PRODUCT DATA -->
+    <!--Load after Parts -->
+    <Item
+        type = "Product"
+        action = "add"
+        id = "FB6F028D117649D3A3C90429948EFDB9">
+        <name>Large Format Printer</name>
+        <description>Commercial high capacity large format</description>
+        <item_number>DesignJet 2000 Large Format</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Model"
+                action = "add"
+                id = "8278DB98EC9E4CA2A337A39F67609FEA">
+                <item_number>2000CP</item_number>
+                <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                <name>DesignJet 2000CP Standard</name>
+                <part_number>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4703A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </part_number>
+            </Item>
+            <Item
+                type = "Model"
+                action = "add"
+                id = "0EF0ACF7AB0049CE925AD06FE7972205">
+                <item_number>2000CX</item_number>
+                <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                <name>DesignJet 2000CX Extended</name>
+                <part_number>
+                    <Item type = "Part" action = "get">
+                        <item_number>C4704AX</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </part_number>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Product"
+        action = "add"
+        id = "082F75FCB7B0492DA6E77E078E3696DD">
+        <name>Inkjet Printer</name>
+        <description>Low cost inkjet printer for consumer and business</description>
+        <item_number>DeskJet 400 Series</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Model"
+                action = "add"
+                id = "858A29A1724242788AB6CFDD051FD7BE">
+                <item_number>450</item_number>
+                <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                <name>DeskJet 450</name>
+                <part_number>
+                    <Item type = "Part" action = "get">
+                        <item_number>C8111A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </part_number>
+            </Item>
+            <Item
+                type = "Model"
+                action = "add"
+                id = "3C8137177277477997C6B9B631B2FBF3">
+                <item_number>460</item_number>
+                <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                <name>DeskJet 460</name>
+                <part_number>
+                    <Item type = "Part" action = "get">
+                        <item_number>C8112A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </part_number>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Product"
+        action = "add"
+        id = "EF9EC3E2CEF3456894952E42743DEA04">
+        <name>LaserJet Retail Printer</name>
+        <description>Low cost retail printer</description>
+        <item_number>LaserJet 1200 Retail Series</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Model"
+                action = "add"
+                id = "4BEAD110F727413BAA1A75BA7A377C42">
+                <item_number>CP1200</item_number>
+                <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                <name>LaserJet CP1200</name>
+                <part_number>
+                    <Item type = "Part" action = "get">
+                        <item_number>CC376A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </part_number>
+            </Item>
+            <Item
+                type = "Model"
+                action = "add"
+                id = "E26D186C5F3D4037A77853605C6C82D7">
+                <item_number>1220</item_number>
+                <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                <name>LaserJet CP1220</name>
+                <part_number>
+                    <Item type = "Part" action = "get">
+                        <item_number>CC377A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </part_number>
+            </Item>
+            <Item
+                type = "Model"
+                action = "add"
+                id = "CF2DB890F12848B882504D0F1F9DD26E">
+                <item_number>1230</item_number>
+                <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                <name>LaserJet CP1230</name>
+                <part_number>
+                    <Item type = "Part" action = "get">
+                        <item_number>CC387A</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </part_number>
+            </Item>
+        </Relationships>
+    </Item>
+    <Item
+        type = "Product"
+        action = "add"
+        id = "E3C4E2870B874FB59B1C0CC132C67171">
+        <name>All-in-one Office Printer</name>
+        <description>High capacity commercial printer</description>
+        <item_number>OfficeJet Business Series</item_number>
+        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+        <Relationships>
+            <Item
+                type = "Model"
+                action = "add"
+                id = "C7BA942751C94E26BBD885DE8CA8D092">
+                <item_number>650</item_number>
+                <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                <name>OfficeJet 450</name>
+                <part_number>
+                    <Item type = "Part" action = "get">
+                        <item_number>C9223</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </part_number>
+            </Item>
+            <Item
+                type = "Model"
+                action = "add"
+                id = "50C8F78764D349ACBF515035CE3F078D">
+                <item_number>700</item_number>
+                <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                <name>OfficeJet 700</name>
+                <part_number>
+                    <Item type = "Part" action = "get">
+                        <item_number>C9225</item_number>
+                        <owned_by_id>DBA5D86402BF43D5976854B8B48FCDD1</owned_by_id>
+                    </Item>
+                </part_number>
+            </Item>
+        </Relationships>
+    </Item>
+</AML>

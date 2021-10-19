@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head>
+
+
+
+<link rel="stylesheet" type="text/css" href="../style.css"> 
+<meta name="GENERATOR" content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)">
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1"><title>applyAML</title></head><body bgcolor="#ffffff">
+<h1>Innovator Class</h1>
+
+<h2>applyAML(String)</h2>
+
+<p align="left">Sends AML&nbsp;request to Innovator server and returns server response as an item.</p>
+
+<h3>C#:</h3>
+
+<h4>Innovator inn = this.getInnovator();<br>
+string AML = "&lt;AML&gt;&lt;Item type='Part' action='get'/&gt;&lt;/AML&gt;";<br>
+Item result = <span style="background-color: rgb(255, 255, 0);">inn.applyAML(AML);</span></h4>
+
+<h3>VB:</h3>
+
+<h4>Dim inn as Innovator = Me.getInnovator<br>
+Dim AML as String = _<br>
+&nbsp;"&lt;AML&gt;&lt;Item type='Part' action='get'/&gt;&lt;/AML&gt;"<br>
+Dim result as Item = <span style="background-color: rgb(255, 255, 0);">inn.applyAML(AML)</span></h4>
+
+<h3><strong>JavaScript:</strong></h3>
+
+<h4>var inn = this.getInnovator();<br>
+var AML = "&lt;AML&gt;&lt;Item type='Part' action='get'/&gt;&lt;/AML&gt;";<br>
+var result = <span style="background-color: rgb(255, 255, 0);">inn.applyAML(AML);</span></h4>
+
+<h3>Notes:</h3>
+
+<p>It's assumed that passed AML script has a root tag &lt;AML&gt; that contains one or more &lt;Item&gt; children elements.</p>
+
+<p>The method send the AML script to the server and returns an Item object where the <span class="code">dom</span> property is the xml response returned from the server.</p>
+</body></html>

@@ -1,0 +1,140 @@
+﻿<AML>
+ <Item type="Life Cycle Map" id="E37CA2FBAE404EEF9C028EB03C927B60" action="add">
+  <name>Change Request</name>
+  <start_state keyed_name="Preliminary" type="Life Cycle State">C191FA26FA334C8A85D39FA55CC2D56C</start_state>
+  <Relationships>
+   <Item type="Life Cycle State" id="A31270D68274490CBEDC1E0B4A23C361" action="add">
+    <image>../images/LifeCycleState.svg</image>
+    <item_behavior>fixed</item_behavior>
+    <name>Approved</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Change Request" type="Life Cycle Map">E37CA2FBAE404EEF9C028EB03C927B60</source_id>
+    <x>681</x>
+    <y>140</y>
+   </Item>
+   <Item type="Life Cycle State" id="2206368B3F4540F7A405F3CD95938D9B" action="add">
+    <image>../images/LifeCycleState.svg</image>
+    <item_behavior>fixed</item_behavior>
+    <name>Cancelled</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="Change Request" type="Life Cycle Map">E37CA2FBAE404EEF9C028EB03C927B60</source_id>
+    <x>151</x>
+    <y>285</y>
+   </Item>
+   <Item type="Life Cycle State" id="27B9DFC235C1459990227210EDDF5871" action="add">
+    <image>../images/LifeCycleState.svg</image>
+    <item_behavior>float</item_behavior>
+    <name>In Review</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Change Request" type="Life Cycle Map">E37CA2FBAE404EEF9C028EB03C927B60</source_id>
+    <x>505</x>
+    <y>140</y>
+   </Item>
+   <Item type="Life Cycle State" id="BAA2183138EE4026B348E2B72408A3C2" action="add">
+    <image>../images/LifeCycleState.svg</image>
+    <item_behavior>float</item_behavior>
+    <name>In Validation</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Change Request" type="Life Cycle Map">E37CA2FBAE404EEF9C028EB03C927B60</source_id>
+    <x>333</x>
+    <y>139</y>
+   </Item>
+   <Item type="Life Cycle State" id="C191FA26FA334C8A85D39FA55CC2D56C" action="add">
+    <image>../images/LifeCycleState.svg</image>
+    <item_behavior>float</item_behavior>
+    <name>Preliminary</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Change Request" type="Life Cycle Map">E37CA2FBAE404EEF9C028EB03C927B60</source_id>
+    <x>156</x>
+    <y>140</y>
+    <Relationships>
+     <Item type="State EMail" id="9681DD26D6EC49C9AECAA1B3B5C9BBD7" action="add">
+      <related_id keyed_name="Change Request Created" type="EMail Message">2E6DBEC3351E48F19D99032FBA5D6D89</related_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="Preliminary" type="Life Cycle State">C191FA26FA334C8A85D39FA55CC2D56C</source_id>
+      <Relationships>
+       <Item type="State Distribution" id="E59C31360A934839BE25DFB1F6659076" action="add">
+        <related_id keyed_name="Innovator Admin" type="Identity">
+         <Item type="Identity" action="get" select="id">
+          <name>Innovator Admin</name>
+         </Item>
+        </related_id>
+        <sort_order>128</sort_order>
+        <source_id keyed_name="9681DD26D6EC49C9AECAA1B3B5C9BBD7" type="State EMail">9681DD26D6EC49C9AECAA1B3B5C9BBD7</source_id>
+       </Item>
+      </Relationships>
+     </Item>
+    </Relationships>
+   </Item>
+   <Item type="Life Cycle State" id="22A3CEC8ADEB44558356E2D47E4BCCEE" action="add">
+    <image>../images/LifeCycleState.svg</image>
+    <item_behavior>fixed</item_behavior>
+    <name>Rejected</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Change Request" type="Life Cycle Map">E37CA2FBAE404EEF9C028EB03C927B60</source_id>
+    <x>504</x>
+    <y>284</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="3EF6F76107724771AD0AF47485F80AAB" action="add">
+    <from_state keyed_name="In Review" type="Life Cycle State">27B9DFC235C1459990227210EDDF5871</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="CRB" type="Identity">82F3C6E0E1D34FECB48B5205C735A930</role>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Change Request" type="Life Cycle Map">E37CA2FBAE404EEF9C028EB03C927B60</source_id>
+    <to_state keyed_name="Approved" type="Life Cycle State">A31270D68274490CBEDC1E0B4A23C361</to_state>
+   </Item>
+   <Item type="Life Cycle Transition" id="CEF6E13AD48E44F0801805A98B26B252" action="add">
+    <from_state keyed_name="In Review" type="Life Cycle State">27B9DFC235C1459990227210EDDF5871</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="CRB" type="Identity">82F3C6E0E1D34FECB48B5205C735A930</role>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Change Request" type="Life Cycle Map">E37CA2FBAE404EEF9C028EB03C927B60</source_id>
+    <to_state keyed_name="Rejected" type="Life Cycle State">22A3CEC8ADEB44558356E2D47E4BCCEE</to_state>
+   </Item>
+   <Item type="Life Cycle Transition" id="295576145B1D4F28AB19FF7C294C0937" action="add">
+    <from_state keyed_name="In Validation" type="Life Cycle State">BAA2183138EE4026B348E2B72408A3C2</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Engineering" type="Identity">BC72C6DE3D0F46D195711994B3993CA7</role>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Change Request" type="Life Cycle Map">E37CA2FBAE404EEF9C028EB03C927B60</source_id>
+    <to_state keyed_name="In Review" type="Life Cycle State">27B9DFC235C1459990227210EDDF5871</to_state>
+   </Item>
+   <Item type="Life Cycle Transition" id="D757CA9754F947BEB7849A86CF34064F" action="add">
+    <from_state keyed_name="Preliminary" type="Life Cycle State">C191FA26FA334C8A85D39FA55CC2D56C</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Creator" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>Creator</name>
+     </Item>
+    </role>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Change Request" type="Life Cycle Map">E37CA2FBAE404EEF9C028EB03C927B60</source_id>
+    <to_state keyed_name="Cancelled" type="Life Cycle State">2206368B3F4540F7A405F3CD95938D9B</to_state>
+   </Item>
+  
+   <Item type="Life Cycle Transition" id="430E28E816424A37846320468079F1BC" action="add">
+    <from_state keyed_name="Preliminary" type="Life Cycle State">C191FA26FA334C8A85D39FA55CC2D56C</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="Creator" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>Creator</name>
+     </Item>
+    </role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Change Request" type="Life Cycle Map">E37CA2FBAE404EEF9C028EB03C927B60</source_id>
+    <to_state keyed_name="In Validation" type="Life Cycle State">BAA2183138EE4026B348E2B72408A3C2</to_state>
+   </Item></Relationships>
+ </Item>
+</AML>

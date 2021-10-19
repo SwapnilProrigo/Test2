@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>delete AML Action</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>AML Actions</h1>
+
+<h2>delete</h2>
+
+<p>Remove an Item(s) from the server.</p>
+
+<h3>Syntax:</h3>
+
+<h4><strong><span style="color: #008000">&lt;Item type=&quot;Type&quot; action=&quot;delete&quot; [<a href="_attribute Item Attributes.html#CHANGE_ATTRIBUTES">item attributes</a>]&gt;</span><br />
+<span style="color: #008000">&lt;/Item&gt;</span></strong><br />
+&nbsp;</h4>
+
+<h3>Notes:</h3>
+
+<p>The edit action requires item attribute be either an existing <a href="_attribute guid.html">GUID </a>or a where clause to prevent an ambiguous query.</p>
+
+<h3>Examples:</h3>
+
+<h4>&lt;!-- Delete specified part --&gt;<br />
+&lt;Item type=&quot;Part&quot; action=&quot;<span style="background-color: #ffff00">delete</span>&quot; where=&quot;[part].item_number=&#39;ABCD-1234&#39;&quot;&gt;<br />
+&lt;/Item&gt;</h4>
+
+<h4>&lt;!-- Delete existing parts that meet criteria&nbsp;--&gt;<br />
+&lt;Item type=&quot;Part&quot; action=&quot;<span style="background-color: #ffff00">delete</span>&quot; where=&quot;[part].state=&#39;Preliminary&#39;&quot;&gt;<br />
+&lt;/Item&gt;<br />
+&nbsp;</h4>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>getPropertyAttribute</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2><span class="identifier">getPropertyAttribute</span>(<span class="nolink">string</span> <span class="parameter">propertyName</span>, <span class="nolink">string</span> <span class="parameter">attributeName, </span><span class="nolink">string</span> <span class="parameter">defaultValue)</span></h2>
+
+<p align="left">Gets the specified attribute of the property with the specified name or return defaultValue if attribute not found.</p>
+
+<h3>C#:</h3>
+
+<h4>Item itm = this.newItem(&quot;Customer&quot;, &quot;get&quot;);<br />
+itm.setProperty(&quot;name&quot;, &quot;ACME&quot;);<br />
+itm = itm.apply();<br />
+string state = itm.getPropertyAttribute(&quot;current_state&quot;, &quot;keyed_name&quot;, &quot;&quot;);&nbsp;<br />
+if (state!= &quot;&quot;) {<br />
+return this.getInnovator().newResult(state);<br />
+}<br />
+else {<br />
+return this.getInnovator().newError(&quot;No current state&quot;);<br />
+}</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim itm As Item = Me.newItem(&quot;Customer&quot;, &quot;get&quot;)<br />
+itm.setProperty(&quot;name&quot;, &quot;ACME&quot;)<br />
+itm = itm.apply()<br />
+Dim state As String = itm.getPropertyAttribute(&quot;current_state&quot;, &quot;keyed_name&quot;, &quot;&quot;)<br />
+If state &lt;&gt; &quot;&quot; Then<br />
+&nbsp;Return Me.getInnovator().newResult(state)<br />
+Else<br />
+&nbsp;Return Me.getInnovator().newError(&quot;No current state&quot;)<br />
+End If</h4>
+
+<h3>Notes:</h3>
+
+<p>If either property with the specified name or the specified attribute on the property doesn&#39;t exist, returns <span class="code">defaultValue provided.</span></p>
+</body>
+</html>

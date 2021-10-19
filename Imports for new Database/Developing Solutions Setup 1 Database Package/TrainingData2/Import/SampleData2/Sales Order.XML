@@ -1,0 +1,298 @@
+<AML>
+      <Item type="Sales Order" id="D4D83BC7382C41A8B29B8C3747A5E1AB" action="add">
+        <config_id keyed_name="SO-0001" type="Sales Order">D4D83BC7382C41A8B29B8C3747A5E1AB</config_id>
+        <generation>1</generation>
+        <id keyed_name="SO-0001" type="Sales Order">D4D83BC7382C41A8B29B8C3747A5E1AB</id>
+        <is_current>1</is_current>
+        <is_released>0</is_released>
+        <major_rev>A</major_rev>
+        <managed_by_id keyed_name="Innovator Admin" type="Identity">DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+        <modified_on>2013-08-01T13:15:01</modified_on>
+        <multiple_shipment>0</multiple_shipment>
+        <new_version>1</new_version>
+        <not_lockable>0</not_lockable>
+        <permission_id keyed_name="Sales Order" type="Permission">CD6E6419D00A41C0A157DB070699CFFB</permission_id>
+        <po_number>980-90991</po_number>
+        <ship_date>2013-07-17T00:00:00</ship_date>
+        <shipping_method>Federal Express</shipping_method>
+        <state>New</state>
+        <so_number>SO-0001</so_number>
+        <Relationships>
+          <Item type="Sales Order Customer"  id="4B379F763A3C4BED95AD0E0267F93470" action="add">
+            <behavior>float</behavior>
+           <id keyed_name="4B379F763A3C4BED95AD0E0267F93470" type="Sales Order Customer">4B379F763A3C4BED95AD0E0267F93470</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <major_rev>A</major_rev>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Sales Order" type="Permission">CD6E6419D00A41C0A157DB070699CFFB</permission_id>
+            <related_id keyed_name="ABC Industries" type="Customer">
+              <Item type="Customer" typeId="E4847F4A706B4285A395C0228A867E0F" id="A1D512C82C204817BDD275FC4F794A3E" action="get">
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="SO-0001" type="Sales Order">D4D83BC7382C41A8B29B8C3747A5E1AB</source_id>
+          </Item>
+          <Item type="Sales Order Part" typeId="4A80BC8DB1144AEC885983FC67B82D1D" id="71861D71769941D1ABC5A50E7D317711" action="add">
+            <behavior>float</behavior>
+            <config_id keyed_name="71861D71769941D1ABC5A50E7D317711" type="Sales Order Part">71861D71769941D1ABC5A50E7D317711</config_id>
+            <id keyed_name="71861D71769941D1ABC5A50E7D317711" type="Sales Order Part">71861D71769941D1ABC5A50E7D317711</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>71861D71769941D1ABC5A50E7D317711</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+            <modified_on>2013-08-01T13:15:01</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Sales Order" type="Permission">CD6E6419D00A41C0A157DB070699CFFB</permission_id>
+            <quantity>1</quantity>
+            <related_id keyed_name="C4704AX" type="Part">
+              <Item type="Part" typeId="4F1AC04A2B484F3ABA4E20DB63808A88" id="53CAE3ADBA264AC8A83D8214A5F0C49D" action="get">
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="SO-0001" type="Sales Order">D4D83BC7382C41A8B29B8C3747A5E1AB</source_id>
+          </Item>
+        </Relationships>
+      </Item>
+      <Item type="Sales Order" typeId="11D43C6BFA5E4554AC3B7FC7A3429E3F" id="9323FC11CFBA44EA98935BD8BD926CB6" action="add">
+        <config_id keyed_name="SO-0002" type="Sales Order">9323FC11CFBA44EA98935BD8BD926CB6</config_id>
+        <current_state keyed_name="New" type="Life Cycle State" name="New">18945EB74ECF4C3AB7BD463A1A6175A4</current_state>
+        <generation>1</generation>
+        <id keyed_name="SO-0002" type="Sales Order">9323FC11CFBA44EA98935BD8BD926CB6</id>
+        <managed_by_id keyed_name="Innovator Admin" type="Identity">DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+        <modified_on>2013-08-01T13:15:14</modified_on>
+        <multiple_shipment>1</multiple_shipment>
+        <new_version>1</new_version>
+        <not_lockable>0</not_lockable>
+        <permission_id keyed_name="Sales Order" type="Permission">CD6E6419D00A41C0A157DB070699CFFB</permission_id>
+        <po_number>908-78761</po_number>
+        <ship_date>2013-07-02T00:00:00</ship_date>
+        <shipping_method>UPS</shipping_method>
+        <state>New</state>
+        <so_number>SO-0002</so_number>
+        <Relationships>
+          <Item type="Sales Order Customer" typeId="CB3B9AAF7504420EA81677FC2B0FECA1" id="E5EBF97355074FAAAC8FC1029C42B305" action="add">
+            <behavior>float</behavior>
+            <config_id keyed_name="E5EBF97355074FAAAC8FC1029C42B305" type="Sales Order Customer">E5EBF97355074FAAAC8FC1029C42B305</config_id>
+            <id keyed_name="E5EBF97355074FAAAC8FC1029C42B305" type="Sales Order Customer">E5EBF97355074FAAAC8FC1029C42B305</id>
+           <keyed_name>E5EBF97355074FAAAC8FC1029C42B305</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+            <modified_on>2013-08-01T13:13:36</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Sales Order" type="Permission">CD6E6419D00A41C0A157DB070699CFFB</permission_id>
+            <related_id keyed_name="Brown Industries" type="Customer">
+              <Item type="Customer" typeId="E4847F4A706B4285A395C0228A867E0F" id="F9074B4B519544F79542FB3555381798" action="get">
+               </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="SO-0002" type="Sales Order">9323FC11CFBA44EA98935BD8BD926CB6</source_id>
+          </Item>
+          <Item type="Sales Order Part" typeId="4A80BC8DB1144AEC885983FC67B82D1D" id="04B9F30A4EEA4F5197471713EEA215A9" action="add">
+            <behavior>float</behavior>
+            <config_id keyed_name="04B9F30A4EEA4F5197471713EEA215A9" type="Sales Order Part">04B9F30A4EEA4F5197471713EEA215A9</config_id>
+            <id keyed_name="04B9F30A4EEA4F5197471713EEA215A9" type="Sales Order Part">04B9F30A4EEA4F5197471713EEA215A9</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>04B9F30A4EEA4F5197471713EEA215A9</keyed_name>
+            <major_rev>A</major_rev>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Sales Order" type="Permission">CD6E6419D00A41C0A157DB070699CFFB</permission_id>
+            <quantity>2</quantity>
+            <related_id keyed_name="C8112A" type="Part">
+              <Item type="Part" typeId="4F1AC04A2B484F3ABA4E20DB63808A88" id="28905FBCCCCA4DBCBD113B34ADD8E4E7" action="get">
+                </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="SO-0002" type="Sales Order">9323FC11CFBA44EA98935BD8BD926CB6</source_id>
+          </Item>
+        </Relationships>
+      </Item>
+      <Item type="Sales Order" typeId="11D43C6BFA5E4554AC3B7FC7A3429E3F" id="3FC9730A8D524B1FB464E49BEA7DA3FB" action="add">
+        <generation>1</generation>
+        <id keyed_name="SO-0003" type="Sales Order">3FC9730A8D524B1FB464E49BEA7DA3FB</id>
+        <is_current>1</is_current>
+        <is_released>0</is_released>
+        <keyed_name>SO-0003</keyed_name>
+        <major_rev>A</major_rev>
+        <managed_by_id keyed_name="Innovator Admin" type="Identity">DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <multiple_shipment>0</multiple_shipment>
+        <new_version>1</new_version>
+        <not_lockable>0</not_lockable>
+        <permission_id keyed_name="Sales Order" type="Permission">CD6E6419D00A41C0A157DB070699CFFB</permission_id>
+        <po_number>987-9087</po_number>
+        <ship_date>2013-08-05T00:00:00</ship_date>
+        <shipping_method>UPS</shipping_method>
+        <state>New</state>
+        <so_number>SO-0003</so_number>
+        <Relationships>
+          <Item type="Sales Order Customer" typeId="CB3B9AAF7504420EA81677FC2B0FECA1" id="97141EA11D204529A2950DAE9E4DA508" action="add">
+            <behavior>float</behavior>
+            <id keyed_name="97141EA11D204529A2950DAE9E4DA508" type="Sales Order Customer">97141EA11D204529A2950DAE9E4DA508</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>97141EA11D204529A2950DAE9E4DA508</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+            <modified_on>2013-08-01T13:14:32</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Sales Order" type="Permission">CD6E6419D00A41C0A157DB070699CFFB</permission_id>
+            <related_id keyed_name="EDA" type="Customer">
+              <Item type="Customer" typeId="E4847F4A706B4285A395C0228A867E0F" id="F045495F51854DC38200B73EFC116130" action="get">
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="SO-0003" type="Sales Order">3FC9730A8D524B1FB464E49BEA7DA3FB</source_id>
+          </Item>
+          <Item type="Sales Order Part" typeId="4A80BC8DB1144AEC885983FC67B82D1D" id="EEC3D33C0C7D4B5F8FBCF046E86F94F4" action="add">
+            <behavior>float</behavior>
+            <id keyed_name="EEC3D33C0C7D4B5F8FBCF046E86F94F4" type="Sales Order Part">EEC3D33C0C7D4B5F8FBCF046E86F94F4</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>EEC3D33C0C7D4B5F8FBCF046E86F94F4</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+            <modified_on>2013-08-01T13:15:26</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Sales Order" type="Permission">CD6E6419D00A41C0A157DB070699CFFB</permission_id>
+            <quantity>1</quantity>
+            <related_id keyed_name="CC377A" type="Part">
+              <Item type="Part" typeId="4F1AC04A2B484F3ABA4E20DB63808A88" id="49666CB0F63D49D083B38C95ADE91D80" action="get">
+               </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="SO-0003" type="Sales Order">3FC9730A8D524B1FB464E49BEA7DA3FB</source_id>
+          </Item>
+        </Relationships>
+      </Item>
+      <Item type="Sales Order" typeId="11D43C6BFA5E4554AC3B7FC7A3429E3F" id="E009E75C69084FAD8E13B6FB69014A71" action="add">
+       <id keyed_name="SO-0004" type="Sales Order">E009E75C69084FAD8E13B6FB69014A71</id>
+        <is_current>1</is_current>
+        <is_released>0</is_released>
+        <keyed_name>SO-0004</keyed_name>
+        <major_rev>A</major_rev>
+        <managed_by_id keyed_name="Innovator Admin" type="Identity">DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+        <modified_on>2013-08-01T13:18:02</modified_on>
+        <multiple_shipment>0</multiple_shipment>
+        <new_version>1</new_version>
+        <not_lockable>0</not_lockable>
+        <permission_id keyed_name="Sales Order" type="Permission">CD6E6419D00A41C0A157DB070699CFFB</permission_id>
+        <po_number>898-99911</po_number>
+        <ship_date>2013-08-06T00:00:00</ship_date>
+        <shipping_method>Federal Express</shipping_method>
+        <state>New</state>
+        <so_number>SO-0004</so_number>
+        <Relationships>
+          <Item type="Sales Order Customer" typeId="CB3B9AAF7504420EA81677FC2B0FECA1" id="16975C771FD5489BB893E913C49D67F6" action="add">
+            <behavior>float</behavior>
+            <id keyed_name="16975C771FD5489BB893E913C49D67F6" type="Sales Order Customer">16975C771FD5489BB893E913C49D67F6</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>16975C771FD5489BB893E913C49D67F6</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+            <modified_on>2013-08-01T13:16:40</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Sales Order" type="Permission">CD6E6419D00A41C0A157DB070699CFFB</permission_id>
+            <related_id keyed_name="General Electronics" type="Customer">
+              <Item type="Customer" typeId="E4847F4A706B4285A395C0228A867E0F" id="DF715EBCA4AC4281BB1ECBEDC07B059B" action="get">
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="SO-0004" type="Sales Order">E009E75C69084FAD8E13B6FB69014A71</source_id>
+          </Item>
+          <Item type="Sales Order Part" typeId="4A80BC8DB1144AEC885983FC67B82D1D" id="84820986E4FE459D8FE137A99D4335E9" action="add">
+            <behavior>float</behavior>
+            <id keyed_name="84820986E4FE459D8FE137A99D4335E9" type="Sales Order Part">84820986E4FE459D8FE137A99D4335E9</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>84820986E4FE459D8FE137A99D4335E9</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+            <modified_on>2013-08-01T13:18:02</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Sales Order" type="Permission">CD6E6419D00A41C0A157DB070699CFFB</permission_id>
+            <quantity>1</quantity>
+            <related_id keyed_name="CC376A" type="Part">
+              <Item type="Part" typeId="4F1AC04A2B484F3ABA4E20DB63808A88" id="A412A7F61E62474C94D2C0E7669157F4" action="get">
+             </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="SO-0004" type="Sales Order">E009E75C69084FAD8E13B6FB69014A71</source_id>
+          </Item>
+        </Relationships>
+      </Item>
+      <Item type="Sales Order" typeId="11D43C6BFA5E4554AC3B7FC7A3429E3F" id="436BD436A7CD4C448B580363DD365B3D" action="add">
+        <generation>1</generation>
+        <id keyed_name="SO-0005" type="Sales Order">436BD436A7CD4C448B580363DD365B3D</id>
+        <is_current>1</is_current>
+        <is_released>0</is_released>
+        <keyed_name>SO-0005</keyed_name>
+        <major_rev>A</major_rev>
+        <managed_by_id keyed_name="Innovator Admin" type="Identity">DBA5D86402BF43D5976854B8B48FCDD1</managed_by_id>
+        <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+        <modified_on>2013-08-01T13:18:12</modified_on>
+        <multiple_shipment>1</multiple_shipment>
+        <new_version>1</new_version>
+        <not_lockable>0</not_lockable>
+        <permission_id keyed_name="Sales Order" type="Permission">CD6E6419D00A41C0A157DB070699CFFB</permission_id>
+        <po_number>768-9099</po_number>
+        <ship_date>2013-08-20T00:00:00</ship_date>
+        <shipping_method>Federal Express</shipping_method>
+        <state>New</state>
+        <so_number>SO-0005</so_number>
+        <Relationships>
+          <Item type="Sales Order Customer" typeId="CB3B9AAF7504420EA81677FC2B0FECA1" id="EB4E21CA5878408895CC1731FF286558" action="add">
+            <behavior>float</behavior>
+            <id keyed_name="EB4E21CA5878408895CC1731FF286558" type="Sales Order Customer">EB4E21CA5878408895CC1731FF286558</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>EB4E21CA5878408895CC1731FF286558</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+            <modified_on>2013-08-01T13:17:51</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Sales Order" type="Permission">CD6E6419D00A41C0A157DB070699CFFB</permission_id>
+            <related_id keyed_name="GHC" type="Customer">
+              <Item type="Customer" typeId="E4847F4A706B4285A395C0228A867E0F" id="B319970194B44A52B1E7E85A1690B379" action="get">
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="SO-0005" type="Sales Order">436BD436A7CD4C448B580363DD365B3D</source_id>
+          </Item>
+          <Item type="Sales Order Part" typeId="4A80BC8DB1144AEC885983FC67B82D1D" id="E61BC588907247CFA2B5E4B4A40215F7" action="add">
+            <behavior>float</behavior>
+            <id keyed_name="E61BC588907247CFA2B5E4B4A40215F7" type="Sales Order Part">E61BC588907247CFA2B5E4B4A40215F7</id>
+            <is_current>1</is_current>
+            <is_released>0</is_released>
+            <keyed_name>E61BC588907247CFA2B5E4B4A40215F7</keyed_name>
+            <major_rev>A</major_rev>
+            <modified_by_id keyed_name="Innovator Admin" type="User">30B991F927274FA3829655F50C99472E</modified_by_id>
+            <modified_on>2013-08-01T13:18:12</modified_on>
+            <new_version>1</new_version>
+            <not_lockable>0</not_lockable>
+            <permission_id keyed_name="Sales Order" type="Permission">CD6E6419D00A41C0A157DB070699CFFB</permission_id>
+            <quantity>1</quantity>
+            <related_id keyed_name="CC387A" type="Part">
+              <Item type="Part" typeId="4F1AC04A2B484F3ABA4E20DB63808A88" id="6D5ADF21C6CB4AA5A82F323C92F4453E" action="get">
+              </Item>
+            </related_id>
+            <sort_order>128</sort_order>
+            <source_id keyed_name="SO-0005" type="Sales Order">436BD436A7CD4C448B580363DD365B3D</source_id>
+          </Item>
+        </Relationships>
+      </Item>
+</AML>

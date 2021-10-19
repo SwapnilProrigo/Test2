@@ -1,0 +1,67 @@
+﻿<AML>
+ <Item type="Permission" id="356C6E7F1FB840E9AC685E0C1C3861E8" action="add">
+  <is_private>0</is_private>
+  <name>Change Request</name>
+  <Relationships>
+   <Item type="Access" id="0BA7598B16E44559B3FBE5CA1221CE54" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>0</can_update>
+    <related_id keyed_name="All Employees" type="Identity">B32BD81D1AD04207BF1E61E39A4E0E13</related_id>
+    <show_permissions_warning>1</show_permissions_warning>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Change Request" type="Permission">356C6E7F1FB840E9AC685E0C1C3861E8</source_id>
+   </Item>
+   <Item type="Access" id="5CEDEA3C054E47B89F35B895433D636D" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Engineering" type="Identity">BC72C6DE3D0F46D195711994B3993CA7</related_id>
+    <show_permissions_warning>1</show_permissions_warning>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Change Request" type="Permission">356C6E7F1FB840E9AC685E0C1C3861E8</source_id>
+   </Item>
+   <Item type="Access" id="A5C4E5AE633C40CCA0A4AF05113806A8" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Innovator Admin" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>Innovator Admin</name>
+     </Item>
+    </related_id>
+    <show_permissions_warning>1</show_permissions_warning>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Change Request" type="Permission">356C6E7F1FB840E9AC685E0C1C3861E8</source_id>
+   </Item>
+   <Item type="Access" id="DA0890416D254BB7BA929947A37A3B8B" action="add">
+    <can_change_access>1</can_change_access>
+    <can_delete>1</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</related_id>
+    <show_permissions_warning>1</show_permissions_warning>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Change Request" type="Permission">356C6E7F1FB840E9AC685E0C1C3861E8</source_id>
+   </Item>
+  
+   <Item type="Access" id="3C6FE504D62A446E90993A2D22F17220" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>0</can_delete>
+    <can_discover>1</can_discover>
+    <can_get>1</can_get>
+    <can_update>0</can_update>
+    <related_id keyed_name="Team Member" type="Identity">7635594273054F2BA32C1CADB31FD413</related_id>
+    <show_permissions_warning>0</show_permissions_warning>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Change Request" type="Permission">356C6E7F1FB840E9AC685E0C1C3861E8</source_id>
+   </Item></Relationships>
+ </Item>
+</AML>

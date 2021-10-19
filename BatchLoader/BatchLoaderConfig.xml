@@ -1,0 +1,16 @@
+﻿<BatchLoaderConfig>
+	<server>http://localhost/InnovatorServer</server>
+	<db>SolutionsDatabase</db>
+	<user />
+	<password />
+	<max_processes>1</max_processes>
+	<delimiter>|</delimiter>
+	<threads>1</threads>
+	<encoding>utf-8</encoding>
+	<lines_per_process>250</lines_per_process>
+	<first_row>1</first_row>
+	<log_level>3</log_level>
+	<delimiter />
+	<log_file />
+	<log_level />
+</BatchLoaderConfig>

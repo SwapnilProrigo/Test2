@@ -1,0 +1,6 @@
+<imports>
+  <package name="xClassTraining" path="xClassTraining\Import">
+    <dependson name="Sales Order" />
+    <dependson name="ConfigSolutionsVersion12" />
+  </package>
+</imports>

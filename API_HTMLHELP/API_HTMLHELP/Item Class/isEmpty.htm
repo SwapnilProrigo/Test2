@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>isEmpty</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2><span class="identifier">isEmpty</span>()</h2>
+
+<p align="left">Returns true if item count is zero.</p>
+
+<h3>C#</h3>
+
+<h4>Item file = this.newItem(&quot;File&quot;, &quot;get&quot;);<br />
+file.setProperty(&quot;filename&quot;, &quot;Surveys.xml&quot;);<br />
+file = file.apply();<br />
+if (<span style="background-color: #ffff00">file.isEmpty()</span>) {<br />
+&nbsp;return this.getInnovator().newError(&quot;No files found&quot;);<br />
+}<br />
+return file;</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim file As Item = Me.newItem(&quot;File&quot;, &quot;get&quot;)<br />
+file.setProperty(&quot;filename&quot;, &quot;Surveys.xml&quot;)<br />
+file = file.apply()<br />
+If <span style="background-color: #ffff00">file.isEmpty() </span>Then<br />
+&nbsp;Return Me.getInnovator().newError(&quot;No files found&quot;)<br />
+End If<br />
+Return file<br />
+&nbsp;</h4>
+
+<h3>Notes:</h3>
+
+<p>Returns boolean true&nbsp;if item count&nbsp;= 0.<br />
+&nbsp;</p>
+</body>
+</html>

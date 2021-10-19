@@ -1,0 +1,25 @@
+﻿<AML>
+ <Item type="List" id="58A004036B2F42ADBFEFDD9CFAE66068" action="add">
+  <name>Regions</name>
+  <Relationships>
+   <Item type="Value" id="195A800B64D441409CD9E00E871F87DC" action="add">
+    <label xml:lang="en">Americas</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Regions" type="List">58A004036B2F42ADBFEFDD9CFAE66068</source_id>
+    <value>AM</value>
+   </Item>
+   <Item type="Value" id="9E750377FE7D49ADBC32E215D278A29C" action="add">
+    <label xml:lang="en">Asia</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Regions" type="List">58A004036B2F42ADBFEFDD9CFAE66068</source_id>
+    <value>AS</value>
+   </Item>
+   <Item type="Value" id="C890B4E370814CA9A9D3A57477E89C7C" action="add">
+    <label xml:lang="en">Europe</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Regions" type="List">58A004036B2F42ADBFEFDD9CFAE66068</source_id>
+    <value>EU</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

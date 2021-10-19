@@ -1,0 +1,10 @@
+﻿<AML>
+ <Item type="Sequence" id="937FA0DA99CD4EE4B16730313FE31F44" action="add">
+  <initial_value>0</initial_value>
+  <name>Change Request</name>
+  <pad_to>6</pad_to>
+  <pad_with>0</pad_with>
+  <prefix>CR-</prefix>
+  <step>10</step>
+ </Item>
+</AML>

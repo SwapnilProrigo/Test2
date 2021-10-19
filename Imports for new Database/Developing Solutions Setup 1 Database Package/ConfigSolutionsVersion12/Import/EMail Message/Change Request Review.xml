@@ -1,0 +1,7 @@
+﻿<AML>
+ <Item type="EMail Message" id="6A724FAF0F084D659DB478863479F77E" action="add">
+  <body_plain>Change Request ${Item[@type="Change Request"/_item_number needs review.</body_plain>
+  <name>Change Request Review</name>
+  <subject>Change Request ${Item[@type="Change Request"/_item_number needs review.</subject>
+ </Item>
+</AML>

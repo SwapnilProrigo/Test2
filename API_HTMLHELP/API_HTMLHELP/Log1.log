@@ -1,0 +1,396 @@
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\GITFiles\Training\110\Developing Solutions\API_HTMLHELP\InnovatorAPIExamples.chm
+
+index.htm
+Innovator Class\Innovator.html
+Innovator Class\Innovator_applyMethod.html
+Innovator Class\Innovator_applyAML.html
+Innovator Class\Innovator_applySQL.html
+Innovator Class\Innovator_getConnection.html
+Innovator Class\Innovator_getFileUrl.html
+Innovator Class\Innovator_getFileUrls.html
+Innovator Class\Innovator_getI18NSessionContext.html
+Innovator Class\Innovator_getItemById.html
+Innovator Class\Innovator_getItemByKeyedName.html
+Innovator Class\Innovator_getItemInDom.html
+Innovator Class\Innovator_getNewID.html
+Innovator Class\Innovator_getNextSequence.html
+Innovator Class\Innovator_getUserID.html
+Innovator Class\Innovator_newError.html
+Innovator Class\Innovator_newItem Overview.html
+Innovator Class\Innovator_newItem.html
+Innovator Class\Innovator_newItem(String).html
+Innovator Class\Innovator_newItem(String, String).html
+Innovator Class\Innovator_newResult.html
+Innovator Class\Innovator_newXMLDocument.html
+Innovator Class\Innovator_ScalcMD5.html
+Item Class\_Item.html
+Item Class\addRelationship.htm
+Item Class\appendItem.htm
+Item Class\apply.htm
+Item Class\apply_1.htm
+Item Class\apply_2.htm
+Item Class\apply_3.htm
+Item Class\apply_4.htm
+Item Class\applyStylesheet.htm
+Item Class\attachPhysicalFile.htm
+Item Class\attachPhysicalFile_1.htm
+Item Class\attachPhysicalFile_2.htm
+Item Class\checkout.htm
+Item Class\clone.htm
+Item Class\createPropertyItem.htm
+Item Class\createRelatedItem.htm
+Item Class\createRelationship.htm
+Item Class\email.htm
+Item Class\fetchDefaultPropertyValues.htm
+Item Class\fetchFileProperty.htm
+Item Class\fetchLockStatus.htm
+Item Class\fetchRelationships.htm
+Item Class\fetchRelationships_1.htm
+Item Class\fetchRelationships_2.htm
+Item Class\fetchRelationships_3.htm
+Item Class\getAction.htm
+Item Class\getAttribute.htm
+Item Class\getAttribute_1.htm
+Item Class\getAttribute_2.htm
+Item Class\getErrorCode.htm
+Item Class\getErrorDetail.htm
+Item Class\getErrorSource.htm
+Item Class\getErrorString.htm
+Item Class\getID.htm
+Item Class\getInnovator.htm
+Item Class\getItemByIndex.htm
+Item Class\getItemCount.htm
+Item Class\getItemsByXPath.htm
+Item Class\getLockStatus.htm
+Item Class\getLogicalChildren.htm
+Item Class\getNewID.htm
+Item Class\getParentItem.htm
+Item Class\getProperty.htm
+Item Class\getProperty_1.htm
+Item Class\getProperty_2.htm
+Item Class\getProperty_3.htm
+Item Class\getPropertyAttribute.htm
+Item Class\getPropertyAttribute_1.htm
+Item Class\getPropertyAttribute_2.htm
+Item Class\getPropertyAttribute_3.htm
+Item Class\getPropertyCondition.htm
+Item Class\getPropertyCondition_1.htm
+Item Class\getPropertyCondition_2.htm
+Item Class\getPropertyItem.htm
+Item Class\getRelatedItem.htm
+Item Class\getRelatedItemID.htm
+Item Class\getRelationships.htm
+Item Class\getRelationships_1.htm
+Item Class\getRelationships_2.htm
+Item Class\getResult.htm
+Item Class\getType.htm
+Item Class\instantiateWorkflow.htm
+Item Class\isCollection.htm
+Item Class\isEmpty.htm
+Item Class\isError.htm
+Item Class\isLogical.htm
+Item Class\isNew.htm
+Item Class\isRoot.htm
+Item Class\loadAML.htm
+Item Class\lockItem.htm
+Item Class\newAND.htm
+Item Class\newItem.htm
+Item Class\newItem_1.htm
+Item Class\newItem_2.htm
+Item Class\newItem_3.htm
+Item Class\newNOT.htm
+Item Class\newOR.htm
+Item Class\newXMLDocument.htm
+Item Class\promote.htm
+Item Class\removeAttribute.htm
+Item Class\removeItem.htm
+Item Class\removeLogical.htm
+Item Class\removeProperty.htm
+Item Class\removeProperty_1.htm
+Item Class\removeProperty_2.htm
+Item Class\removePropertyAttribute.htm
+Item Class\removePropertyAttribute_1.htm
+Item Class\removePropertyAttribute_2.htm
+Item Class\removeRelationship.htm
+Item Class\setAction.htm
+Item Class\setAttribute.htm
+Item Class\setErrorCode.htm
+Item Class\setErrorDetail.htm
+Item Class\setErrorSource.htm
+Item Class\setErrorString.htm
+Item Class\setFileProperty.htm
+Item Class\setID.htm
+Item Class\setNewID.htm
+Item Class\setProperty.htm
+Item Class\setProperty_1.htm
+Item Class\setProperty_2.htm
+Item Class\setPropertyAttribute.htm
+Item Class\setPropertyAttribute_1.htm
+Item Class\setPropertyAttribute_2.htm
+Item Class\setPropertyCondition.htm
+Item Class\setPropertyCondition_1.htm
+Item Class\setPropertyCondition_2.htm
+Item Class\setPropertyItem.htm
+Item Class\setRelatedItem.htm
+Item Class\setType.htm
+Item Class\ToString.htm
+Item Class\unlockItem.htm
+I18NSessionContext Class\_I18NSessionContext.htm
+I18NSessionContext Class\ConvertFromNeutral.htm
+I18NSessionContext Class\ConvertNeutralToUtcDateTime.htm
+I18NSessionContext Class\ConvertToNeutral.htm
+I18NSessionContext Class\ConvertUtcDateTimeToNeutral.htm
+I18NSessionContext Class\GetCorporateToLocalOffset.htm
+I18NSessionContext Class\GetDefaultLanguageCode.htm
+I18NSessionContext Class\GetDefaultLanguageSuffix.htm
+I18NSessionContext Class\GetLanguageCode.htm
+I18NSessionContext Class\GetLanguageSuffix.htm
+I18NSessionContext Class\GetLocale.htm
+I18NSessionContext Class\GetTimeZone.htm
+I18NSessionContext Class\GetUIDatePattern.htm
+IomFactory Class\_IomFactory.htm
+IomFactory Class\CreateCheckoutManager.htm
+IomFactory Class\CreateHttpServerConnection_1.htm
+IomFactory Class\CreateHttpServerConnection_2.htm
+IomFactory Class\CreateInnovator.htm
+HttpServerConnection Class\_HttpServerConnection.htm
+HttpServerConnection Class\CallAction.htm
+HttpServerConnection Class\GetDatabaseName.htm
+HttpServerConnection Class\GetDatabases.htm
+HttpServerConnection Class\getFileUrl.htm
+HttpServerConnection Class\getFileUrls.htm
+HttpServerConnection Class\GetLicenseInfo.htm
+HttpServerConnection Class\GetLicenseInfo_1.htm
+HttpServerConnection Class\GetLicenseInfo_2.htm
+HttpServerConnection Class\getUserID.htm
+HttpServerConnection Class\getUserInfo.htm
+HttpServerConnection Class\Login.htm
+HttpServerConnection Class\Logout.htm
+HttpServerConnection Class\Logout_1.htm
+HttpServerConnection Class\Logout_2.htm
+IomFactory Class\CreateHttpServerConnection.htm
+AML\_AML.html
+AML\add.html
+AML\update.html
+AML\purge.html
+AML\delete.html
+AML\get.html
+AML\edit.html
+AML\create.html
+AML\merge.html
+AML\lock.html
+AML\unlock.html
+AML\_attribute guid.html
+AML\_attribute Item Attributes.html
+AML\_attribute Property Attributes Get.html
+style.css
+
+Compile time: 0 minutes, 3 seconds
+186	Topics
+509	Local links
+18	Internet links
+0	Graphics
+
+
+Created c:\GITFiles\Training\110\Developing Solutions\API_HTMLHELP\InnovatorAPIExamples.chm, 122,271 bytes
+Compression decreased file by 299,971 bytes.
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\GITFiles\Training\110\Developing Solutions\API_HTMLHELP\InnovatorAPIExamples.chm
+
+index.htm
+Innovator Class\Innovator.html
+Innovator Class\Innovator_applyMethod.html
+Innovator Class\Innovator_applyAML.html
+Innovator Class\Innovator_applySQL.html
+Innovator Class\Innovator_getConnection.html
+Innovator Class\Innovator_getFileUrl.html
+Innovator Class\Innovator_getFileUrls.html
+Innovator Class\Innovator_getI18NSessionContext.html
+Innovator Class\Innovator_getItemById.html
+Innovator Class\Innovator_getItemByKeyedName.html
+Innovator Class\Innovator_getItemInDom.html
+Innovator Class\Innovator_getNewID.html
+Innovator Class\Innovator_getNextSequence.html
+Innovator Class\Innovator_getUserID.html
+Innovator Class\Innovator_newError.html
+Innovator Class\Innovator_newItem Overview.html
+Innovator Class\Innovator_newItem.html
+Innovator Class\Innovator_newItem(String).html
+Innovator Class\Innovator_newItem(String, String).html
+Innovator Class\Innovator_newResult.html
+Innovator Class\Innovator_newXMLDocument.html
+Innovator Class\Innovator_ScalcMD5.html
+Item Class\_Item.html
+Item Class\addRelationship.htm
+Item Class\appendItem.htm
+Item Class\apply.htm
+Item Class\apply_1.htm
+Item Class\apply_2.htm
+Item Class\apply_3.htm
+Item Class\apply_4.htm
+Item Class\applyStylesheet.htm
+Item Class\attachPhysicalFile.htm
+Item Class\attachPhysicalFile_1.htm
+Item Class\attachPhysicalFile_2.htm
+Item Class\checkout.htm
+Item Class\clone.htm
+Item Class\createPropertyItem.htm
+Item Class\createRelatedItem.htm
+Item Class\createRelationship.htm
+Item Class\email.htm
+Item Class\fetchDefaultPropertyValues.htm
+Item Class\fetchFileProperty.htm
+Item Class\fetchLockStatus.htm
+Item Class\fetchRelationships.htm
+Item Class\fetchRelationships_1.htm
+Item Class\fetchRelationships_2.htm
+Item Class\fetchRelationships_3.htm
+Item Class\getAction.htm
+Item Class\getAttribute.htm
+Item Class\getAttribute_1.htm
+Item Class\getAttribute_2.htm
+Item Class\getErrorCode.htm
+Item Class\getErrorDetail.htm
+Item Class\getErrorSource.htm
+Item Class\getErrorString.htm
+Item Class\getID.htm
+Item Class\getInnovator.htm
+Item Class\getItemByIndex.htm
+Item Class\getItemCount.htm
+Item Class\getItemsByXPath.htm
+Item Class\getLockStatus.htm
+Item Class\getLogicalChildren.htm
+Item Class\getNewID.htm
+Item Class\getParentItem.htm
+Item Class\getProperty.htm
+Item Class\getProperty_1.htm
+Item Class\getProperty_2.htm
+Item Class\getProperty_3.htm
+Item Class\getPropertyAttribute.htm
+Item Class\getPropertyAttribute_1.htm
+Item Class\getPropertyAttribute_2.htm
+Item Class\getPropertyAttribute_3.htm
+Item Class\getPropertyCondition.htm
+Item Class\getPropertyCondition_1.htm
+Item Class\getPropertyCondition_2.htm
+Item Class\getPropertyItem.htm
+Item Class\getRelatedItem.htm
+Item Class\getRelatedItemID.htm
+Item Class\getRelationships.htm
+Item Class\getRelationships_1.htm
+Item Class\getRelationships_2.htm
+Item Class\getResult.htm
+Item Class\getType.htm
+Item Class\instantiateWorkflow.htm
+Item Class\isCollection.htm
+Item Class\isEmpty.htm
+Item Class\isError.htm
+Item Class\isLogical.htm
+Item Class\isNew.htm
+Item Class\isRoot.htm
+Item Class\loadAML.htm
+Item Class\lockItem.htm
+Item Class\newAND.htm
+Item Class\newItem.htm
+Item Class\newItem_1.htm
+Item Class\newItem_2.htm
+Item Class\newItem_3.htm
+Item Class\newNOT.htm
+Item Class\newOR.htm
+Item Class\newXMLDocument.htm
+Item Class\promote.htm
+Item Class\removeAttribute.htm
+Item Class\removeItem.htm
+Item Class\removeLogical.htm
+Item Class\removeProperty.htm
+Item Class\removeProperty_1.htm
+Item Class\removeProperty_2.htm
+Item Class\removePropertyAttribute.htm
+Item Class\removePropertyAttribute_1.htm
+Item Class\removePropertyAttribute_2.htm
+Item Class\removeRelationship.htm
+Item Class\setAction.htm
+Item Class\setAttribute.htm
+Item Class\setErrorCode.htm
+Item Class\setErrorDetail.htm
+Item Class\setErrorSource.htm
+Item Class\setErrorString.htm
+Item Class\setFileProperty.htm
+Item Class\setID.htm
+Item Class\setNewID.htm
+Item Class\setProperty.htm
+Item Class\setProperty_1.htm
+Item Class\setProperty_2.htm
+Item Class\setPropertyAttribute.htm
+Item Class\setPropertyAttribute_1.htm
+Item Class\setPropertyAttribute_2.htm
+Item Class\setPropertyCondition.htm
+Item Class\setPropertyCondition_1.htm
+Item Class\setPropertyCondition_2.htm
+Item Class\setPropertyItem.htm
+Item Class\setRelatedItem.htm
+Item Class\setType.htm
+Item Class\ToString.htm
+Item Class\unlockItem.htm
+I18NSessionContext Class\_I18NSessionContext.htm
+I18NSessionContext Class\ConvertFromNeutral.htm
+I18NSessionContext Class\ConvertNeutralToUtcDateTime.htm
+I18NSessionContext Class\ConvertToNeutral.htm
+I18NSessionContext Class\ConvertUtcDateTimeToNeutral.htm
+I18NSessionContext Class\GetCorporateToLocalOffset.htm
+I18NSessionContext Class\GetDefaultLanguageCode.htm
+I18NSessionContext Class\GetDefaultLanguageSuffix.htm
+I18NSessionContext Class\GetLanguageCode.htm
+I18NSessionContext Class\GetLanguageSuffix.htm
+I18NSessionContext Class\GetLocale.htm
+I18NSessionContext Class\GetTimeZone.htm
+I18NSessionContext Class\GetUIDatePattern.htm
+IomFactory Class\_IomFactory.htm
+IomFactory Class\CreateCheckoutManager.htm
+IomFactory Class\CreateHttpServerConnection_1.htm
+IomFactory Class\CreateHttpServerConnection_2.htm
+IomFactory Class\CreateInnovator.htm
+HttpServerConnection Class\_HttpServerConnection.htm
+HttpServerConnection Class\CallAction.htm
+HttpServerConnection Class\GetDatabaseName.htm
+HttpServerConnection Class\GetDatabases.htm
+HttpServerConnection Class\getFileUrl.htm
+HttpServerConnection Class\getFileUrls.htm
+HttpServerConnection Class\GetLicenseInfo.htm
+HttpServerConnection Class\GetLicenseInfo_1.htm
+HttpServerConnection Class\GetLicenseInfo_2.htm
+HttpServerConnection Class\getUserID.htm
+HttpServerConnection Class\getUserInfo.htm
+HttpServerConnection Class\Login.htm
+HttpServerConnection Class\Logout.htm
+HttpServerConnection Class\Logout_1.htm
+HttpServerConnection Class\Logout_2.htm
+IomFactory Class\CreateHttpServerConnection.htm
+AML\_AML.html
+AML\add.html
+AML\update.html
+AML\purge.html
+AML\delete.html
+AML\get.html
+AML\edit.html
+AML\create.html
+AML\merge.html
+AML\lock.html
+AML\unlock.html
+AML\_attribute guid.html
+AML\_attribute Item Attributes.html
+AML\_attribute Property Attributes Get.html
+style.css
+
+Compile time: 0 minutes, 3 seconds
+186	Topics
+509	Local links
+18	Internet links
+0	Graphics
+
+
+Created c:\GITFiles\Training\110\Developing Solutions\API_HTMLHELP\InnovatorAPIExamples.chm, 122,307 bytes
+Compression decreased file by 299,934 bytes.

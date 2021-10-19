@@ -1,0 +1,327 @@
+﻿<AML>
+ <Item type="ItemType" id="2E3CFA4899A24C4B94E2139699733092" action="add">
+  <allow_private_permission>1</allow_private_permission>
+  <auto_search>1</auto_search>
+  <class_structure><![CDATA[<class id="2E3CFA4899A24C4B94E2139699733092"><class id="0C484D76CD6740B09C23F28AD4AF90C5" name="Enhancement" /><class id="F7A6E1865E954C65BE38C5AB49D6B251" name="Defect" /></class>]]></class_structure>
+  <default_page_size>20</default_page_size>
+  <enforce_discovery>1</enforce_discovery>
+  <hide_where_used>0</hide_where_used>
+  <history_template keyed_name="Default" type="History Template">3BC16EF9E52B4F9792AB76BCE0492F29</history_template>
+  <implementation_type>table</implementation_type>
+  <instance_data>CHANGE_REQUEST</instance_data>
+  <is_dependent>0</is_dependent>
+  <is_relationship>0</is_relationship>
+  <is_versionable>1</is_versionable>
+  <label xml:lang="en">Change Request</label>
+  <label_plural xml:lang="en">Change Requests</label_plural>
+  <large_icon>../Images/SimpleECO.svg</large_icon>
+  <manual_versioning>0</manual_versioning>
+  <name>Change Request</name>
+  <open_icon>../Images/SimpleECO.svg</open_icon>
+  <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+  <show_parameters_tab>0</show_parameters_tab>
+  <structure_view>tab view</structure_view>
+  <unlock_on_logout>0</unlock_on_logout>
+  <use_src_access>0</use_src_access>
+  <Relationships>
+   <Item type="Allowed Permission" id="AE357BB21F114448ACA066B923AE5E12" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="Change Request" type="Permission">356C6E7F1FB840E9AC685E0C1C3861E8</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+   </Item>
+  
+   <Item type="Allowed Workflow" id="19EB4D116EDE44C4A9130D2A5B01F03C" action="add">
+    <is_default>1</is_default>
+    <related_id keyed_name="Change Request" type="Workflow Map">3A222CC8BCC1401D906BE74AA4E0ECDA</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+   </Item>
+   <Item type="Can Add" id="A8FD4A8D043D4655AABFCBAD899348EF" action="add">
+    <can_add>1</can_add>
+    <related_id keyed_name="Engineering" type="Identity">BC72C6DE3D0F46D195711994B3993CA7</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+   </Item>
+   <Item type="ItemType Life Cycle" id="40DBC3E5496E467989BBA49FA81D06FB" action="add">
+    <related_id keyed_name="Change Request" type="Life Cycle Map">E37CA2FBAE404EEF9C028EB03C927B60</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+   </Item>
+   <Item type="Property" id="ECD323AF2A124D5FBD179C4529DB3DD7" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Document" type="ItemType" name="Document">B88C14B99EF449828C5D926E39EE8B89</data_source>
+    <data_type>item</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">Attachment</label>
+    <name>_attachment</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4096</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="74F443DE0096486988667B8BC6F45131" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source>
+     <Item type="Property" action="get" select="id">
+      <name>_attachment</name>
+      <source_id>2E3CFA4899A24C4B94E2139699733092</source_id>
+     </Item>
+    </data_source>
+    <data_type>foreign</data_type>
+    <foreign_property>
+     <Item type="Property" action="get" select="id">
+      <keyed_name>name</keyed_name>
+      <source_id>
+       <Item type="ItemType" action="get" select="id">
+        <name>Document</name>
+       </Item>
+      </source_id>
+     </Item>
+    </foreign_property>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Attachment Name</label>
+    <name>_attachment_name</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4224</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="68676A8851FE4B8AA87F2A7EE3481332" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>decimal</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Cost Estimate</label>
+    <name>_cost_estimate</name>
+    <prec>6</prec>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <scale>2</scale>
+    <sort_order>3456</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="F33601799D014B4AAE5B596290DCCD4C" action="add">
+    <class_path>Defect</class_path>
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Defect details</label>
+    <name>_defect_details</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3584</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+    <stored_length>128</stored_length>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="23AA3EE49F4240ECB1BFBCB9446E7FAC" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Design Centers">859DD321CA3440179A59DAADF8DBC59E</data_source>
+    <data_type>filter list</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Design Center</label>
+    <name>_design_center</name>
+    <pattern>_region</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3968</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="BB2C9480EFBE4E11B6B07C95B854D5E3" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Change Request">937FA0DA99CD4EE4B16730313FE31F44</data_source>
+    <data_type>sequence</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <keyed_name_order>1</keyed_name_order>
+    <label xml:lang="en">Item Number</label>
+    <name>_item_number</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>10</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="1D4E2D50677048C68BC688494A6EA65F" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Reason</label>
+    <name>_reason</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>0010</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="EBEFE1114DD146CCBCC3487AD3ED114F" action="add">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="Regions">58A004036B2F42ADBFEFDD9CFAE66068</data_source>
+    <data_type>list</data_type>
+    <default_value xml:lang="en">AM</default_value>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Region</label>
+    <name>_region</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3840</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+    <stored_length>256</stored_length>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="860AF56E0BC349A0865AF4161E8EFB9A" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Target date</label>
+    <name>_target_date</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3328</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" id="C67D05F2A51340A7AFFA5A383FA06B81" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Title</label>
+    <name>_title</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3072</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+    <stored_length>64</stored_length>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="TOC Access" id="4168999B668B4BACA71964093265A671" action="add">
+    <category>Design Innovator</category>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+   </Item>
+   <Item type="View" id="64B35AD9213D4DEDBBD2BB3E41D090CC" action="add">
+    <client>js</client>
+    <related_id keyed_name="Change Request" type="Form">2B74FDA348874D84A1B35C094833400F</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+    <type>default</type>
+   </Item>
+   <Item type="View" id="3A17191F0CFA4ED4AC6B10E08DBE8AAA" action="add">
+    <client>js</client>
+    <form_classification>Defect</form_classification>
+    <related_id keyed_name="Change Request Defect" type="Form">B08852FCD2EB4F97810DE517760D65A2</related_id>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+    <type>default</type>
+   </Item></Relationships>
+ </Item>
+ <Item type="ItemType" id="2E3CFA4899A24C4B94E2139699733092" action="edit">
+  <Relationships>
+   <Item type="Property" action="edit" where="source_id='2E3CFA4899A24C4B94E2139699733092' and name='generation'">
+    <column_alignment>left</column_alignment>
+    <data_type>integer</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <name>generation</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>2432</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='2E3CFA4899A24C4B94E2139699733092' and name='superseded_date'">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Superseded Date</label>
+    <name>superseded_date</name>
+    <pattern>short_date_time</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>4608</sort_order>
+    <source_id keyed_name="Change Request" type="ItemType" name="Change Request">2E3CFA4899A24C4B94E2139699733092</source_id>
+    <track_history>0</track_history>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

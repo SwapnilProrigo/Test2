@@ -1,0 +1,19 @@
+﻿<AML>
+ <Item type="List" id="CE46CD04735F47D0856FA825C5651899" action="add">
+  <name>Shipping Method</name>
+  <Relationships>
+   <Item type="Value" id="AB097974119040E39EEAD5D799438EF5" action="add">
+    <label xml:lang="en">Federal Express</label>
+    <sort_order>1</sort_order>
+    <source_id keyed_name="Shipping Method" type="List">CE46CD04735F47D0856FA825C5651899</source_id>
+    <value>Federal Express</value>
+   </Item>
+   <Item type="Value" id="67CB5367E918414182D94A6130DEBD5D" action="add">
+    <label xml:lang="en">UPS</label>
+    <sort_order>2</sort_order>
+    <source_id keyed_name="Shipping Method" type="List">CE46CD04735F47D0856FA825C5651899</source_id>
+    <value>UPS</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

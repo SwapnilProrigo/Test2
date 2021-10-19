@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>loadAML</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2><span class="identifier">loadAML</span>(String aml)</h2>
+
+<p align="left">This loads the <span class="code">dom</span> property for the Item object with the passed AML. The method will also set the <span class="code">node</span> and <span class="code">nodeList</span> properties for the Item object according to the content of the loaded AML.</p>
+
+<h3>C#:</h3>
+
+<h4>Item itm = this.newItem();<br />
+String AML =<br />
+&nbsp; @&quot;&lt;Item type=&#39;Customer&#39; action=&#39;get&#39;&gt;&lt;/Item&gt;&quot;;<br />
+try {<span style="background-color: #ffff00">itm.loadAML(AML)</span>;}<br />
+catch (System.Xml.XmlException ex) {<br />
+&nbsp;return this;<br />
+&nbsp;}<br />
+itm = itm.apply();<br />
+return itm;</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim itm As Item = Me.newItem()<br />
+Dim AML As [String] = &quot;&lt;Item type=&#39;Customer&#39; action=&#39;get&#39;&gt;&lt;/Item&gt;&quot;<br />
+Try<br />
+&nbsp;<span style="background-color: #ffff00">itm.loadAML(AML)</span><br />
+Catch ex As System.Xml.XmlException<br />
+&nbsp;Return Me<br />
+End Try<br />
+itm = itm.apply()<br />
+Return itm</h4>
+
+<h3>Notes:</h3>
+
+<p>The loadAML method sets the AML string to the item DOM but does not submit it to the server.&nbsp; You must use the apply() method to submit the item after the AML is loaded.</p>
+</body>
+</html>

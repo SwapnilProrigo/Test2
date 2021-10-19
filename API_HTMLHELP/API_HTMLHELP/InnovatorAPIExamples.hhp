@@ -1,0 +1,24 @@
+[OPTIONS]
+Auto Index=Yes
+Compatibility=1.1 or later
+Compiled file=InnovatorAPIExamples.chm
+Contents file=Table of Contents.hhc
+Default topic=index.htm
+Display compile progress=Yes
+Full-text search=Yes
+Index file=Index.hhk
+Language=0x409 English (United States)
+Title=Aras APIHelp Examples Version 11
+
+
+[ALIAS]
+#include InnovatorAPIExamples.ali
+
+[MAP]
+#include BSSCDefault.h
+
+[TEXT POPUPS]
+BSSCDefault.h
+
+[INFOTYPES]
+

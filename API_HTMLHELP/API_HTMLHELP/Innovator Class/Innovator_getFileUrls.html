@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>getFileUrls</title>
+	<link href=../style.css rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Innovator Class</h1>
+
+<h2>getFileUrls(ArrayList, UrlType)</h2>
+
+<p align="left">Supply an ArrayList of file ids which returns each file url vault location in an ArrayList.</p>
+
+<h3>C#:</h3>
+
+<h4>Innovator inn = this.getInnovator();<br />
+ArrayList list = new ArrayList();<br />
+Item file = this.newItem(&quot;File&quot;, &quot;get&quot;);<br />
+file.setProperty(&quot;filename&quot;, &quot;customers.txt&quot;);<br />
+file = file.apply();<br />
+string fileid = file.getID();<br />
+list.Add(fileid);<br />
+ArrayList urls = <span style="background-color: #ffff00">inn.getFileUrls(list, UrlType.None);</span><br />
+return inn.newResult(urls[0].ToString());</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim inn As Innovator = Me.getInnovator()<br />
+Dim list As New ArrayList()<br />
+Dim file As Item = Me.newItem(&quot;File&quot;, &quot;get&quot;)<br />
+file.setProperty(&quot;filename&quot;, &quot;customers.txt&quot;)<br />
+file = file.apply()<br />
+Dim fileid As String = file.getID()<br />
+list.Add(fileid)<br />
+Dim urls As ArrayList = <span style="background-color: #ffff00">inn.getFileUrls(list, UrlType.None)</span><br />
+Return inn.newResult(urls(0).ToString())</h4>
+
+<h3>Notes:</h3>
+
+<p>Possible URLType for enumeration - None or SecurityToken.</p>
+
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href=../style.css> 
+<meta name="GENERATOR" content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)">
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" >
+<title>applySQL</title>
+</head>
+<body bgcolor="#ffffff">
+<h1>Innovator Class</h1>
+
+<h2>applySQL(String)</h2>
+
+<p align="left">Sends SQL request to Innovator server and returns server response as an Item.</p>
+
+<h3>C#:</h3>
+
+<h4>Innovator inn = this.getInnovator();<br />
+Item qry = <span style="background-color: #ffff00">inn.applySQL(&quot;select login_name from&nbsp;innovator.[user]&quot;);</span><br />
+return qry;<br />
+&nbsp;</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim inn As Innovator = Me.getInnovator()<br />
+Dim qry As Item = _<br />
+&nbsp;<span style="background-color: #ffff00">inn.applySQL(&quot;select login_name from innovator.[user]&quot;)</span><br />
+Return qry</h4>
+
+<h3>Notes:</h3>
+
+<p>The method returns back a Result collection containing each row as an Item.</p>
+
+<p>The applySQL method is intended for execution in server Methods only.&nbsp; &nbsp;Attempting to execute SQL that modifies data in a client Method (by a user without administrative credentials) will result in an error.</p>
+
+<p>The examples above return the following:</p>
+
+<p>&lt;Result&gt;<br />
+&lt;Item&gt;&lt;login_name&gt;admin&lt;/login_name&gt; &lt;/Item&gt;<br />
+&lt;Item&gt;&lt;login_name&gt;root&lt;/login_name&gt;&lt;/Item&gt;<br />
+&lt;Item&gt;&lt;login_name&gt;serviceuser&lt;/login_name&gt;&lt;/Item&gt;<br />
+&lt;Item&gt; &lt;login_name&gt;vadmin&lt;/login_name&gt;&lt;/Item&gt;<br />
+&lt;/Result&gt;</p>
+</body>
+</html>

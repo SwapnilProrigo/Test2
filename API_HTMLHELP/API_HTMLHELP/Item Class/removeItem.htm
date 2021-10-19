@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>removeItem</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Innovator Class</h1>
+
+<h2>removeItem(Item)</h2>
+
+<p align="left">Remove item from current Item&#39;s nodelist.</p>
+
+<h3>C#:</h3>
+
+<h4>Item itmlist =&nbsp; this.newItem(&quot;Customer&quot;, &quot;get&quot;);<br />
+itmlist.setAttribute(&quot;select&quot;, &quot;name&quot;);<br />
+itmlist = itmlist.apply();<br />
+Item itm_find =<br />
+itmlist.getItemsByXPath(&quot;//Item[name=&#39;IBM&#39;]&quot;);<br />
+<span style="background-color: #ffff00">itmlist.removeItem(itm_find);&nbsp; </span>//Remove Item from collection<br />
+return itmlist;</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim itmlist As Item = Me.newItem(&quot;Customer&quot;, &quot;get&quot;)<br />
+itmlist.setAttribute(&quot;select&quot;, &quot;name&quot;)<br />
+itmlist = itmlist.apply()<br />
+Dim itm_find As Item = itmlist.getItemsByXPath(&quot;//Item[name=&#39;IBM&#39;]&quot;)<br />
+<span style="background-color: #ffff00">itmlist.removeItem(itm_find)</span><br />
+&#39;Remove Item from collection<br />
+Return itmlist</h4>
+
+<h3>Notes:</h3>
+
+<p>The Item being removed must exist on the current&nbsp;Item&#39;s nodelist.&nbsp; In these examples the&nbsp;Item to be removed is located with XPath.<br />
+<br />
+&nbsp;</p>
+</body>
+</html>

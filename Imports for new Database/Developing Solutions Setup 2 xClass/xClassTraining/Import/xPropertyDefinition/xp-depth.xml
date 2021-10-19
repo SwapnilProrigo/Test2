@@ -1,0 +1,16 @@
+﻿<AML>
+ <Item type="xPropertyDefinition" id="3407821556A1480B9B9F188E856AE154" action="add">
+  <column_alignment>left</column_alignment>
+  <data_type>decimal</data_type>
+  <default_value xml:lang="en">0.0000</default_value>
+  <is_indexed>0</is_indexed>
+  <is_required>0</is_required>
+  <label xml:lang="en">Depth</label>
+  <prec>8</prec>
+  <private_permission_behavior>None</private_permission_behavior>
+  <readonly>0</readonly>
+  <scale>4</scale>
+  <track_history>0</track_history>
+  <name>xp-depth</name>
+ </Item>
+</AML>

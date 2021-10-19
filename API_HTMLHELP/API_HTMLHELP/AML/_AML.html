@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>Item Class Methods</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff" style="background-color: #ffffff">
+<h2 pbzloc="0">AML</h2>
+
+<h3>Built In Method Actions</h3>
+
+<table border="1" cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td colspan="2" style="height: 6px; width: 288px">
+			<p><a href="add.html">add</a></p>
+			</td>
+			<td style="height: 6px; width: 284px">
+			<p>Add the Item as an instance of an ItemType.</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="height: 6px; width: 288px">
+			<p><a href="update.html">update</a></p>
+			</td>
+			<td style="height: 6px; width: 284px">
+			<p>Saves the locked&nbsp;Item.</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="height: 6px; width: 288px">
+			<p><a href="purge.html">purge</a></p>
+			</td>
+			<td style="height: 6px; width: 284px">
+			<p>Delete the version of the Item.</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="height: 13px; width: 288px">
+			<p><a href="delete.html">delete</a></p>
+			</td>
+			<td style="height: 13px; width: 284px">
+			<p>Delete all versions of the Item. The purge and delete are the same for non-versionable Items.</p>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="height: 13px; width: 288px">
+			<p><a href="get.html">get</a></p>
+			</td>
+			<td style="height: 13px; width: 284px">
+			<p>Gets the Item(s) and its configuration based on the AML Item configuration used to query the database.</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 6px; width: 281px">
+			<p><a href="edit.html">edit</a></p>
+			</td>
+			<td colspan="2" style="height: 6px; width: 290px">
+			<p>This will lock, update, and unlock the Item.</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 6px; width: 281px">
+			<p><a href="create.html">create</a></p>
+			</td>
+			<td colspan="2" style="height: 6px; width: 290px">
+			<p>This will act as a &quot;get&quot; if the Item exists, otherwise acts as an &quot;add&quot;.</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 6px; width: 281px">
+			<p><a href="merge.html">merge</a></p>
+			</td>
+			<td colspan="2" style="height: 6px; width: 290px">
+			<p>This will act as an &quot;edit&quot; if the Item exists, otherwise acts as an &quot;add&quot;.</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 6px; width: 281px">
+			<p><a href="lock.html">lock</a></p>
+			</td>
+			<td colspan="2" style="height: 6px; width: 290px">
+			<p>This will lock the Item.</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 6px; width: 281px">
+			<p><a href="unlock.html">unlock</a></p>
+			</td>
+			<td colspan="2" style="height: 6px; width: 290px">
+			<p>This will lock the Item.</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="height: 6px; width: 281px">
+			<p><a href="promote.html">promoteItem</a></p>
+			</td>
+			<td colspan="2" style="height: 6px; width: 290px">
+			<p pbzloc="1">Promote Item to next lifecycle state.</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<h3>&nbsp;Overview</h3>
+
+<p>AML actions are used to create, delete or act on existing Items in Aras Innovator.</p>
+
+<p>An ItemType can be configured to support relationships from one&nbsp;Item to another using a Relationship Item.&nbsp;&nbsp; Each relationship Item also&nbsp;contains a property named <em>source_id</em> which points to the parent in the relationship and a property named <em>related_id</em> which points to the child of the parent.</p>
+
+<p><span style="font-size: 12px"><span><strong><span style="color: #d3d3d3"><span style="background-color: #008000">PARENT ITEM</span>&nbsp; </span></strong>&lt;-------<strong> <span style="color: #d3d3d3"><span style="background-color: #ff0000">(source_id)&nbsp; RELATIONSHIP ITEM&nbsp; (related_id)</span> </span></strong>--------&gt;<span style="background-color: #0000ff"> </span><strong><span style="color: #d3d3d3"><span><span><span style="background-color: #0000ff">RELATED ITEM</span></span></span></span></strong></span></span></p>
+
+<p>Syntax for the built in AML actions listed above is displayed using this color coding to indicate how each action can be used to act on the parent, relationship or related item.</p>
+</body>
+</html>

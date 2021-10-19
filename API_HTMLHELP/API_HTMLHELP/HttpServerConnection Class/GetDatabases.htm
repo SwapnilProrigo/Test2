@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>GetDatabases</title>
+
+
+	
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR">
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"></head><body bgcolor="#ffffff">
+<h1>HttpServerConnection&nbsp;Class</h1>
+
+<h2>GetDatabases()</h2>
+
+<p align="left">Returns list of possible databases to use with this connection.&nbsp; Requires unrestricted connection.</p>
+
+<h3>C#:</h3>
+
+<h4>string url = "http://localhost/InnovatorServer";<br>
+HttpServerConnection cnx = IomFactory.CreateHttpServerConnection(url);<br>
+string[] databases = <span style="background-color: rgb(255, 255, 0);">cnx.GetDatabases();</span><br>
+return this.getInnovator().newResult(string.Join(" ", databases));</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim url As String = "http://localhost/InnovatorServer"<br>
+Dim cnx As HttpServerConnection = IomFactory.CreateHttpServerConnection(url)<br>
+Dim databases As String() = <span style="background-color: rgb(255, 255, 0);">cnx.GetDatabases()</span><br>
+Return Me.getInnovator().newResult(String.Join(" ", databases))</h4>
+
+<h3>Notes:</h3>
+
+<p>Returns a string array of configured databases for this server connection.</p>
+
+<p><br>
+<br>
+&nbsp;</p>
+</body></html>

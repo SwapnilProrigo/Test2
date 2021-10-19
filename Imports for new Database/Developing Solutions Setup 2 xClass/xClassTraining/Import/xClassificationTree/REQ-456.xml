@@ -1,0 +1,77 @@
+<AML>
+    <Item
+        type = "xClassificationTree"
+        id = "F8068E0FE2FB443089FB4CD678B9973D"
+        action = "add">
+        <classification_hierarchy>[{"toRefId":"F8068E0FE2FB443089FB4CD678B9973D"}]</classification_hierarchy>
+        <name>Requests</name>
+        <select_only_leaf_class>1</select_only_leaf_class>
+        <select_only_single_class>1</select_only_single_class>
+        <item_number>REQ-456</item_number>
+        <Relationships>
+            <Item
+                type = "xClassificationTree_ItemType"
+                id = "1A1127CD994A4EA2A9D057614DAEF60A"
+                action = "add">
+                <related_id
+                    keyed_name = "Change Request"
+                    type = "ItemType"
+                    name = "Change Request">2E3CFA4899A24C4B94E2139699733092</related_id>
+                <sort_order>128</sort_order>
+                <source_id keyed_name = "REQ-456" type = "xClassificationTree">F8068E0FE2FB443089FB4CD678B9973D</source_id>
+            </Item>
+            <Item
+                type = "xClass"
+                id = "CE0027054BB94D79954577FA98830488"
+                action = "add">
+                <name>Requests</name>
+                <ref_id>F8068E0FE2FB443089FB4CD678B9973D</ref_id>
+                <sort_order>128</sort_order>
+                <source_id keyed_name = "REQ-456" type = "xClassificationTree">F8068E0FE2FB443089FB4CD678B9973D</source_id>
+                <xproperties_sort_order/>
+                <Relationships>
+                    <Item
+                        type = "xClass_Classification_Perm"
+                        id = "762B1419F7BC48B7AE038D2C8C54297D"
+                        action = "add">
+                        <itemtype_id
+                            keyed_name = "Change Request"
+                            type = "ItemType"
+                            name = "Change Request">2E3CFA4899A24C4B94E2139699733092</itemtype_id>
+                        <related_id keyed_name = "Request Classify Permissions" type = "Permission_ItemClassification">3EC737218AD940B599E2FE97E44B4757</related_id>
+                        <sort_order>128</sort_order>
+                        <source_id keyed_name = "/Requests" type = "xClass">CE0027054BB94D79954577FA98830488</source_id>
+                    </Item>
+                    <Item
+                        type = "xClass_xPropertyDefinition"
+                        id = "95FD9C7EE377487C8ADA82C03C940397"
+                        action = "add">
+                        <related_id keyed_name = "xp-model" type = "xPropertyDefinition">687ED2E2B85F4954ACFF70FDE82B44C5</related_id>
+                        <sort_order>128</sort_order>
+                        <source_id keyed_name = "/Requests" type = "xClass">CE0027054BB94D79954577FA98830488</source_id>
+                    </Item>
+                    <Item
+                        type = "xClass_xPropertyDefinition"
+                        id = "7F90424DF2EA45EAAACDECA93EC65016"
+                        action = "add">
+                        <related_id keyed_name = "xp-series" type = "xPropertyDefinition">C33D6E8A8E6041BA88BF3F1E849EA7F5</related_id>
+                        <sort_order>256</sort_order>
+                        <source_id keyed_name = "/Requests" type = "xClass">CE0027054BB94D79954577FA98830488</source_id>
+                    </Item>
+                    <Item
+                        type = "xClass_xPropValue_Perm"
+                        id = "941876D2CFB340079A4D1B1064F71CCE"
+                        action = "add">
+                        <itemtype_id
+                            keyed_name = "Change Request"
+                            type = "ItemType"
+                            name = "Change Request">2E3CFA4899A24C4B94E2139699733092</itemtype_id>
+                        <related_id keyed_name = "Request Value Permissions" type = "Permission_PropertyValue">0A17E3EDFDA547239731B37CC9E978CF</related_id>
+                        <sort_order>128</sort_order>
+                        <source_id keyed_name = "/Requests" type = "xClass">CE0027054BB94D79954577FA98830488</source_id>
+                    </Item>
+                </Relationships>
+            </Item>
+        </Relationships>
+    </Item>
+</AML>

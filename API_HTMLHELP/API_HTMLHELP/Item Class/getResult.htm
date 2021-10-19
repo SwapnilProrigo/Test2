@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>getResult</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2>getResult()</h2>
+
+<p align="left">Returns &#39;InnerText&#39; property of&nbsp;Result item</p>
+
+<h3>JavaScript:</h3>
+
+<h4>//Calls server method below which returns Result Item<br />
+var inn = this.getInnovator();<br />
+var itemResult = inn.applyMethod(&quot;_ItemCount&quot;, &quot;&quot;);<br />
+var result = <span style="background-color: #ffff00">itemResult.getResult()</span>;<br />
+alert(result);</h4>
+
+<h3>C#</h3>
+
+<h4>//_ItemCount server method<br />
+Innovator inn = this.getInnovator();<br />
+Item itemcount = inn.applySQL(&quot;select count(*) as count from innovator.part&quot;);<br />
+string count = itemcount.getProperty(&quot;count&quot;);<br />
+return inn.newResult(count);</h4>
+
+<h3>VB:</h3>
+
+<h4>&#39;_ItemCount server method<br />
+Dim inn As Innovator = Me.getInnovator()<br />
+Dim itemcount As Item = inn.applySQL(&quot;select count(*) as count from innovator.part&quot;)<br />
+Dim count As String = itemcount.getProperty(&quot;count&quot;)<br />
+Return inn.newResult(count)</h4>
+
+<h3>Notes:</h3>
+
+<p>If <span class="code">this.dom</span> is <span class="code">null</span> or node with Result was not found, the method returns an empty string.</p>
+
+<p>In the example above a JavaScript client&nbsp;Method uses Innovator.applyMethod to call a server Method that gets the count of all Parts in the database.&nbsp; The server Methods return a new Result item which is then parsed by the JavaScript client Method to get the count value.</p>
+
+<p><br />
+<br />
+&nbsp;</p>
+</body>
+</html>

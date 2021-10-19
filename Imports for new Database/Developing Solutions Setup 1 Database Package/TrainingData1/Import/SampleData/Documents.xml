@@ -1,0 +1,36 @@
+      <AML>
+<Item type="Document" id="B01F1F19EC7D4059ABADDAA7F4173900" action="add">
+        <classification>Specification</classification>
+        <config_id keyed_name="SPEC-00001" type="Document">B01F1F19EC7D4059ABADDAA7F4173900</config_id>
+        <has_files>0</has_files>
+        <id keyed_name="SPEC-00001" type="Document">B01F1F19EC7D4059ABADDAA7F4173900</id>
+        <is_current>1</is_current>
+        <is_released>0</is_released>
+        <is_template>0</is_template>
+        <keyed_name>SPEC-00001</keyed_name>
+        <major_rev>A</major_rev>
+        <name>Mobile Phone Case Design Proposal</name>
+        <new_version>0</new_version>
+        <not_lockable>0</not_lockable>
+        <permission_id keyed_name="New Document" type="Permission">F0E3A6D242FC4889A9A119EEBC8EC79E</permission_id>
+        <state>Preliminary</state>
+        <item_number>SPEC-00001</item_number>
+       </Item>
+      <Item type="Document"  id="810EA3A23F4D4F488431E523982E8F5B" action="add">
+        <classification>Specification</classification>
+        <config_id keyed_name="SPEC-0002" type="Document">810EA3A23F4D4F488431E523982E8F5B</config_id>
+        <has_files>0</has_files>
+        <id keyed_name="SPEC-0002" type="Document">810EA3A23F4D4F488431E523982E8F5B</id>
+        <is_current>1</is_current>
+        <is_released>0</is_released>
+        <is_template>0</is_template>
+        <keyed_name>SPEC-0002</keyed_name>
+        <major_rev>A</major_rev>
+        <name>Ultra High Density Television</name>
+        <new_version>0</new_version>
+        <not_lockable>0</not_lockable>
+        <permission_id keyed_name="New Document" type="Permission">F0E3A6D242FC4889A9A119EEBC8EC79E</permission_id>
+        <state>Preliminary</state>
+        <item_number>SPEC-0002</item_number>
+      </Item>
+</AML>

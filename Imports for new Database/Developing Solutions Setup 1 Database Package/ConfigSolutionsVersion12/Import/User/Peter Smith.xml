@@ -1,0 +1,19 @@
+﻿<AML>
+ <Item type="User" id="CC68559761C3416E9CA8E61F6754E358" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>psmith@aras.com</email>
+  <first_name>Peter</first_name>
+  <last_name>Smith</last_name>
+  <login_name>psmith</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Peter Smith" type="Identity">D296A5C079C44EE8B1EB9FDB6BAE99A4</owned_by_id>
+  <Relationships>
+   <Item type="Alias" id="DA7DDF3786224DF8874C664F14B29690" action="add">
+    <from_date>2014-01-28T11:26:20</from_date>
+    <related_id keyed_name="Peter Smith" type="Identity">D296A5C079C44EE8B1EB9FDB6BAE99A4</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Peter Smith" type="User">CC68559761C3416E9CA8E61F6754E358</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

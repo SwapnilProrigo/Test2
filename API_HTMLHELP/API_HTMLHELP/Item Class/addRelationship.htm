@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>addRelationship</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>Item Class</h1>
+
+<h2>addRelationship(Item relationship)</h2>
+
+<p align="left">Add specified item as a relationship item to the instance.</p>
+
+<h3>C#:</h3>
+
+<h4>Item parentItem = this.newItem(&quot;Part&quot;, &quot;get&quot;);<br />
+Item relationshipItem = this.newItem(&quot;Part Document&quot;, &quot;get&quot;);<br />
+Item relatedItem = this.newItem(&quot;Document&quot;, &quot;get&quot;);<br />
+relatedItem.setProperty(&quot;item_number&quot;, &quot;DOC-0001&quot;);<br />
+relationshipItem.setRelatedItem(relatedItem);<br />
+parentItem.<span style="background-color: #ffff00">addRelationship(relationshipItem)</span>;<br />
+return parentItem.apply();</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim parentItem As Item = Me.newItem(&quot;Part&quot;, &quot;get&quot;)<br />
+Dim relationshipItem As Item = Me.newItem(&quot;Part Document&quot;, &quot;get&quot;)<br />
+Dim relatedItem As Item = Me.newItem(&quot;Document&quot;, &quot;get&quot;)<br />
+relatedItem.setProperty(&quot;item_number&quot;, &quot;DOC-0001&quot;)<br />
+relationshipItem.setRelatedItem(relatedItem)<br />
+parentItem.<span style="background-color: #ffff00">addRelationship(relationshipItem)</span><br />
+Return parentItem.apply()</h4>
+
+<h3>Notes:</h3>
+
+<p>The method inserts passed relationship Item under &lt;Relationships&gt; node.&nbsp; Relationship Item must be established before it can be added to parent node.</p>
+
+<p>Examples above create following AML Request:</p>
+
+<p>&lt;Item type=&quot;Part&quot; action=&quot;get&quot;&gt;<br />
+&lt;Relationships&gt;<br />
+&lt;Item type=&quot;Part Document&quot; action=&quot;get&quot;&gt;<br />
+&lt;related_id&gt;<br />
+&lt;Item type = &quot;Document&quot; action=&quot;get&quot;&gt;<br />
+&lt;item_number&gt;DOC-0001&quot;&lt;/item_number&gt;<br />
+&lt;/Item&gt;<br />
+&lt;related_id&gt;<br />
+&lt;/Item&gt;<br />
+&lt;/Relationships&gt;<br />
+&lt;/Item&gt;<br />
+&nbsp;</p>
+</body>
+</html>

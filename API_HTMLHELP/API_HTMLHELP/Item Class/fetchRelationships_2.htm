@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>fetchRelationships(String relationshipName, String selectList)</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1 pbzloc="268">Item Class</h1>
+
+<h2>fetchRelationships(String relationshipName, String selectList)</h2>
+
+<p align="left">Fetches relationships of specified type from the server and sets them on the item.&nbsp; Only returns relationship item properties included in the selectList.</p>
+
+<h3>C#:</h3>
+
+<h4>Item part = this.newItem(&quot;Part&quot; , &quot;get&quot;);<br />
+part.setProperty(&quot;item_number&quot;, &quot;8120-8900&quot;);<br />
+part = part.apply();</h4>
+
+<h4>Item partWithRelationships = <span style="background-color: #ffff00">part.fetchRelationships(&quot;Part Document&quot;)</span>;<br />
+Item relationships = partWithRelationships.getRelationships(&quot;Part Document&quot;, &quot;id,related_id&quot;);<br />
+int count = relationships.getItemCount();</h4>
+
+<h4>return this.getInnovator().newResult(count.ToString());</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim part As Item = Me.newItem(&quot;Part&quot;, &quot;get&quot;)<br />
+part.setProperty(&quot;item_number&quot;, &quot;8120-8900&quot;)<br />
+part = part.apply()</h4>
+
+<h4>Dim partWithRelationships As Item = <span style="background-color: #ffff00">part.fetchRelationships(&quot;Part Document&quot;, &quot;id,related_id&quot;)</span><br />
+Dim relationships As Item = partWithRelationships.getRelationships(&quot;Part Document&quot;)<br />
+Dim count As Integer = relationships.getItemCount()</h4>
+
+<h4>Return Me.getInnovator().newResult(count.ToString())</h4>
+
+<h3 pbzloc="270">Notes:</h3>
+
+<p pbzloc="276">This method retrieves relationship data from the database an applies it to an existing item.&nbsp; The item returned from this method includes the current item with relationship data appended (based on selectList).&nbsp; To access the relationship data requires the use of the <a href="getRelationships.htm">getRelationships </a>method as shown.</p>
+
+<p>This method makes a server request without performing an apply.</p>
+
+<p><br />
+<br />
+&nbsp;</p>
+</body>
+</html>

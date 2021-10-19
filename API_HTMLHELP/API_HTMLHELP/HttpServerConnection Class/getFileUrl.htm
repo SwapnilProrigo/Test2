@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>getFileURL(String, URLType)</title>
+	<link href=../style.css rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>HttpServerConnection Class</h1>
+
+<h2>getFileURL(String, URLType)</h2>
+
+<p align="left">Returns file full file url vault location. Can also return AuthenticationBroker&#39;s token.</p>
+
+<h3>C#:</h3>
+
+<h4>HttpServerConnection cnx = IomFactory.CreateHttpServerConnection(url, db, user, pw);<br />
+Item login_result&nbsp; = cnx.Login();<br />
+Item file = innovator.newItem(&quot;File&quot;, &quot;get&quot;);<br />
+file.setProperty(&quot;filename&quot;, &quot;customers.txt&quot;);<br />
+file = file.apply();<br />
+string fileid = file.getID();<br />
+string url =cnx<span style="background-color: #ffff00">.getFileUrl(fileid, UrlType.None);</span><br />
+return inn.newResult(url);<br />
+&nbsp;</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim cnx As HttpServerConnection = IomFactory.CreateHttpServerConnection(url, db, user, pw)<br />
+Dim login_result As Item = cnx.Login()<br />
+Dim file As Item = innovator.newItem(&quot;File&quot;, &quot;get&quot;)<br />
+file.setProperty(&quot;filename&quot;, &quot;customers.txt&quot;)<br />
+file = file.apply()<br />
+Dim fileid As String = file.getID()<br />
+Dim url As String =<span style="background-color: #ffff00"> cnx.getFileUrl(fileid, UrlType.None)</span><br />
+Return inn.newResult(url)<br />
+&nbsp;</h4>
+
+<h3>Notes:</h3>
+
+<p>Possible URLType for enumeration - None or SecurityToken</p>
+</body>
+</html>

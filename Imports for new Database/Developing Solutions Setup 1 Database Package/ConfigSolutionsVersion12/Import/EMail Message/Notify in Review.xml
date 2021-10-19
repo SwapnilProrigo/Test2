@@ -1,0 +1,7 @@
+﻿<AML>
+ <Item type="EMail Message" id="8E88E3D5A9694E2A9FBEBA60586E9694" action="add">
+  <body_plain>Please review ${_item_number}</body_plain>
+  <name>Notify in Review</name>
+  <subject>Please review ${_item_number}</subject>
+ </Item>
+</AML>

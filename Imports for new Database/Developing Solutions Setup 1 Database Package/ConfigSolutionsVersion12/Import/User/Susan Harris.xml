@@ -1,0 +1,19 @@
+﻿<AML>
+ <Item type="User" id="A16306136FB449CAB3AE407B5021C841" action="add">
+  <default_vault keyed_name="Default" type="Vault">67BBB9204FE84A8981ED8313049BA06C</default_vault>
+  <email>sharris@aras.com</email>
+  <first_name>Susan</first_name>
+  <last_name>Harris</last_name>
+  <login_name>sharris</login_name>
+  <logon_enabled>1</logon_enabled>
+  <owned_by_id keyed_name="Susan Harris" type="Identity">64AEF0E0FCA54697B6E1C0B57EA8413F</owned_by_id>
+  <Relationships>
+   <Item type="Alias" id="888051B336FB43099D49A146B29AEF42" action="add">
+    <from_date>2014-01-28T11:26:48</from_date>
+    <related_id keyed_name="Susan Harris" type="Identity">64AEF0E0FCA54697B6E1C0B57EA8413F</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Susan Harris" type="User">A16306136FB449CAB3AE407B5021C841</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

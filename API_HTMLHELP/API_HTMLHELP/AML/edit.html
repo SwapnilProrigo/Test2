@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>edit AML Action</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1>AML Actions</h1>
+
+<h2>edit</h2>
+
+<p>Lock,&nbsp; update and unlock an Item.</p>
+
+<h3>Syntax:</h3>
+
+<h4><strong><span style="color: #008000">&lt;Item type=&quot;Type&quot; action=&quot;edit&quot; [<a href="_attribute Item Attributes.html#CHANGE_ATTRIBUTES">item attributes</a>]&gt;<br />
+&nbsp;&lt;property&gt;value&lt;/property&gt;<br />
+&nbsp;...</span><br />
+&nbsp;<span style="color: #ff0000">&lt;Relationships&gt;<br />
+&nbsp; &lt;Item type=&quot;Type&quot; action=&quot;add|create&quot; [id=&quot;<a href="_attribute guid.html">GUID</a>&quot;]&gt;<br />
+&nbsp;&nbsp; &lt;property&gt;value&lt;/property&gt;<br />
+&nbsp;&nbsp; ...</span><br />
+&nbsp;&nbsp;&nbsp;&nbsp; <span style="color: #0000ff">&lt;related_id&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Item type=&quot;Type&quot; action=&quot;add|create|get&quot; [<a href="_attribute Item Attributes.html">item attributes</a>]&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;property&gt;value&lt;/property&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/Item&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp; &lt;related_id&gt;<br />
+&nbsp; </span><span style="color: #ff0000">&lt;/Item&gt;<br />
+&nbsp;&nbsp; ...<br />
+&nbsp;&lt;/Relationships&gt;</span><br />
+<span style="color: #008000">&lt;/Item&gt;</span></strong><br />
+&nbsp;</h4>
+
+<h3>Notes:</h3>
+
+<p>The edit action requires item attribute be either an existing <a href="_attribute guid.html">GUID </a>or a where clause to prevent an ambiguous query.&nbsp; All three actions (lock, update, unlock) must be successful to commit the changes.</p>
+
+<h3>Examples:</h3>
+
+<h4>&lt;!-- Edit part with specified properties --&gt;<br />
+&lt;Item type=&quot;Part&quot; action=&quot;<span style="background-color: #ffff00">edit</span>&quot; where=&quot;[part].item_number=&#39;ABCD-1234&#39;&quot;&gt;<br />
+&nbsp;&lt;name&gt;Carriage Assembly&lt;/name&gt;<br />
+&nbsp;&lt;description&gt;Supports multi-track component installation.&lt;/description&gt;<br />
+&lt;/Item&gt;</h4>
+
+<h4>&lt;!-- Edit existing part&nbsp;and add&nbsp;existing related item and&nbsp;quantity specified&nbsp;--&gt;<br />
+&lt;Item type=&quot;Part&quot; action=&quot;<span style="background-color: #ffff00">edit</span>&quot; where=&quot;[part].item_number=&#39;C8111A&#39;&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp; &lt;Relationships&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Item type=&quot;Part BOM&quot; action=&quot;add&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;quantity&gt;1&lt;/quantity&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;related_id&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;Item type=&quot;Part&quot; action=&quot;get&quot;&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;item_number&gt;8120-8900&lt;/item_number&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/Item&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/related_id&gt;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/Item&gt;<br />
+&nbsp;&nbsp;&nbsp; &lt;/Relationships&gt;<br />
+&lt;/Item&gt;<br />
+&nbsp;</h4>
+</body>
+</html>

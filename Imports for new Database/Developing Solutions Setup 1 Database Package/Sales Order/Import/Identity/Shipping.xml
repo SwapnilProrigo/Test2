@@ -1,0 +1,16 @@
+﻿<AML>
+ <Item type="Identity" id="63B58B507D4445829025519AF865BCF6" action="add">
+  <description>Shipping</description>
+  <is_alias>0</is_alias>
+  <name>Shipping</name>
+  </Item>
+ <Item type="Member" id="B2C55C30423446AFA59FFFC047E08C08" action="add">
+  <related_id keyed_name="World" type="Identity">
+   <Item type="Identity" action="get" select="id">
+    <name>World</name>
+   </Item>
+  </related_id>
+  <sort_order>128</sort_order>
+  <source_id keyed_name="Shipping" type="Identity">63B58B507D4445829025519AF865BCF6</source_id>
+ </Item>
+</AML>

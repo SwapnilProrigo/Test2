@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>fetchDefaultPropertyValues</title>
+
+
+
+	
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR">
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"></head><body bgcolor="#ffffff">
+<h1>Innovator Class</h1>
+
+<h2><span class="identifier">fetchDefaultPropertyValues</span>(<span class="nolink">bool</span> <span class="parameter">overwrite_current)</span><br>
+&nbsp;</h2>
+
+<p align="left">Fetches the default ItemType property values (from the database) and sets them on the item dom.</p>
+
+<h3>C#</h3>
+
+<h4>Item customer = this.newItem("Customer", "add");<br>
+customer.<span style="background-color: rgb(255, 255, 0);">fetchDefaultPropertyValues(true)</span>;<br>
+customer.setProperty("name", "Dempsey Corporation");<br>
+return customer.apply();</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim customer As Item = Me.newItem("Customer", "add")<br>
+customer.<span style="background-color: rgb(255, 255, 0);">fetchDefaultPropertyValues(True)</span><br>
+customer.setProperty("name", "Dempsey Corporation")<br>
+Return customer.apply()</h4>
+
+<h3>Notes:</h3>
+
+<p>If 'overwrite_current is true', overwrite any existing property values on the item.</p>
+
+<p>If a property doesn't have a default value defined on the ItemType, the property is not set.<br>
+&nbsp;</p>
+</body></html>

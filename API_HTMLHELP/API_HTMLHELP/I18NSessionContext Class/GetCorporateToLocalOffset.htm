@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<title>GetCorporateToLocalOffset</title>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR" />
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type" />
+</head>
+<body bgcolor="#ffffff">
+<h1><span id="nsrTitle">I18NSessionContext Class</span></h1>
+
+<h2><span class="identifier">GetCorporateToLocalOffset</span>()</h2>
+
+<p align="left">Returns offset in minutes between corporate time zone and the local time zone of the client. If the corporate time zone is not defined by the Innovator then &#39;0&#39; is returned.</p>
+
+<h3>C#:</h3>
+
+<h4>I18NSessionContext cntx = this.getInnovator().getI18NSessionContext();<br />
+int offset_minutes = <span style="background-color: #ffff00">cntx.GetCorporateToLocalOffset();</span></h4>
+
+<h4>DateTime saveNow = DateTime.Now;<br />
+DateTime corporate = saveNow.AddMinutes(offset_minutes);</h4>
+
+<h4>return this.getInnovator().newResult(corporate.ToString());</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim cntx As I18NSessionContext = Me.getInnovator().getI18NSessionContext()<br />
+Dim offset_minutes As Integer = <span style="background-color: #ffff00">cntx.GetCorporateToLocalOffset()</span></h4>
+
+<h4>Dim saveNow As DateTime = DateTime.Now<br />
+Dim corporate As DateTime = saveNow.AddMinutes(offset_minutes)</h4>
+
+<h4>Return Me.getInnovator().newResult(corporate.ToString())</h4>
+
+<h3>Notes:</h3>
+
+<p>The examples above get the&nbsp;offset&nbsp;between the users local time and the corporate time and return the corporate time by adding minutes.</p>
+
+<p>Offset can be a negative number which would subtract minutes in the examples above.<br />
+&nbsp;</p>
+
+<dl paramname="neutralStr">
+</dl>
+
+<dl>
+</dl>
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿<AML>
+ <Item type="List" id="202BC30CC91E46A1BE20FF2B3D599EB9" action="add">
+  <name>Product Divisions</name>
+  <Relationships>
+   <Item type="Value" id="0F3701A98F0842C1B189BA34151FD68F" action="add">
+    <label xml:lang="en">Computing</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Product Divisions" type="List">202BC30CC91E46A1BE20FF2B3D599EB9</source_id>
+    <value>CO</value>
+   </Item>
+  
+   <Item type="Value" id="1DAB7B576D0345B4BAA64B26275D4F54" action="add">
+    <label xml:lang="en">Home Electronics</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Product Divisions" type="List">202BC30CC91E46A1BE20FF2B3D599EB9</source_id>
+    <value>HE</value>
+   </Item>
+   <Item type="Value" id="414C4F46E9364066ABF458470FB27619" action="add">
+    <label xml:lang="en">Mobile</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Product Divisions" type="List">202BC30CC91E46A1BE20FF2B3D599EB9</source_id>
+    <value>MO</value>
+   </Item></Relationships>
+ </Item>
+</AML>

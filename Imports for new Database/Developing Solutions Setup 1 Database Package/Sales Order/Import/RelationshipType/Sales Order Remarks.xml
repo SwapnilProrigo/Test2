@@ -1,0 +1,127 @@
+﻿<AML>
+ <Item type="RelationshipType" id="6B520489884F45D982382283E152A8AA" action="add" dependencyLevel="0">
+  <auto_search>1</auto_search>
+  <behavior>float</behavior>
+  <copy_permissions>0</copy_permissions>
+  <create_related>0</create_related>
+  <hide_in_all>0</hide_in_all>
+  <inc_rel_key_name>1</inc_rel_key_name>
+  <inc_related_key_name>1</inc_related_key_name>
+  <is_list_type>0</is_list_type>
+  <label xml:lang="en">Remarks</label>
+  <name>Sales Order Remarks</name>
+  <new_show_related>0</new_show_related>
+  <related_notnull>0</related_notnull>
+  <related_option>2</related_option>
+  <relationship_id keyed_name="Sales Order Remarks" type="ItemType" name="Sales Order Remarks">
+   <Item type="ItemType" id="CAD47BA4A1A547F49C6D07F256321B28" action="add">
+    <allow_private_permission>1</allow_private_permission>
+    <auto_search>0</auto_search>
+    <enforce_discovery>0</enforce_discovery>
+    <hide_where_used>0</hide_where_used>
+    <implementation_type>table</implementation_type>
+    <instance_data>SALES_ORDER_REMARKS</instance_data>
+    <is_dependent>0</is_dependent>
+    <is_relationship>1</is_relationship>
+    <is_versionable>0</is_versionable>
+    <manual_versioning>0</manual_versioning>
+    <name>Sales Order Remarks</name>
+    <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+    <show_parameters_tab>1</show_parameters_tab>
+    <unlock_on_logout>0</unlock_on_logout>
+    <use_src_access>1</use_src_access>
+    <Relationships>
+     <Item type="Property" id="1809711371E248298DC1D246DFCAEACB" action="add">
+      <column_alignment>left</column_alignment>
+      <data_type>string</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label xml:lang="en">Comments</label>
+      <name>comment_text</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>3584</sort_order>
+      <source_id keyed_name="Sales Order Remarks" type="ItemType" name="Sales Order Remarks">CAD47BA4A1A547F49C6D07F256321B28</source_id>
+      <stored_length>128</stored_length>
+      <track_history>0</track_history>
+     </Item>
+     <Item type="View" id="D972805747C5409A9DD096CEA24C2E15" action="add">
+      <client>js</client>
+      <related_id keyed_name="Sales Order Remarks" type="Form">2C24D3C769D842B5A8D5FA6A40EC0C9C</related_id>
+      <role keyed_name="World" type="Identity">
+       <Item type="Identity" action="get" select="id">
+        <name>World</name>
+       </Item>
+      </role>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="Sales Order Remarks" type="ItemType" name="Sales Order Remarks">CAD47BA4A1A547F49C6D07F256321B28</source_id>
+      <type>default</type>
+     </Item>
+    </Relationships>
+   </Item>
+  </relationship_id>
+  <sort_order>258</sort_order>
+  <source_id keyed_name="Sales Order" type="ItemType" name="Sales Order">11D43C6BFA5E4554AC3B7FC7A3429E3F</source_id>
+ </Item>
+ <Item type="ItemType" id="CAD47BA4A1A547F49C6D07F256321B28" action="edit">
+  <Relationships>
+   <Item type="Property" action="edit" where="source_id='CAD47BA4A1A547F49C6D07F256321B28' and name='generation'">
+    <column_alignment>left</column_alignment>
+    <data_type>integer</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>1</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <name>generation</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>2432</sort_order>
+    <source_id keyed_name="Sales Order Remarks" type="ItemType" name="Sales Order Remarks">CAD47BA4A1A547F49C6D07F256321B28</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='CAD47BA4A1A547F49C6D07F256321B28' and name='modified_by_id'">
+    <column_alignment>left</column_alignment>
+    <data_source keyed_name="User" type="ItemType" name="User">45E899CD2859442982EB22BB2DF683E5</data_source>
+    <data_type>item</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <item_behavior>float</item_behavior>
+    <label xml:lang="en">User</label>
+    <name>modified_by_id</name>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="Sales Order Remarks" type="ItemType" name="Sales Order Remarks">CAD47BA4A1A547F49C6D07F256321B28</source_id>
+    <track_history>0</track_history>
+   </Item>
+   <Item type="Property" action="edit" where="source_id='CAD47BA4A1A547F49C6D07F256321B28' and name='modified_on'">
+    <column_alignment>left</column_alignment>
+    <data_type>date</data_type>
+    <is_hidden>1</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">Date</label>
+    <name>modified_on</name>
+    <pattern>short_date_time</pattern>
+    <range_inclusive>0</range_inclusive>
+    <readonly>1</readonly>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="Sales Order Remarks" type="ItemType" name="Sales Order Remarks">CAD47BA4A1A547F49C6D07F256321B28</source_id>
+    <track_history>0</track_history>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

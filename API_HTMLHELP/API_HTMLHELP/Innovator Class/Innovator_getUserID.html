@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>getUserID</title>
+
+
+	
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR">
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"></head><body bgcolor="#ffffff">
+<h1>Innovator Class</h1>
+
+<h2>getUserID()</h2>
+
+<p align="left">Returns id of the user assosiated with a given instance
+of Innovator if this user is currently logged in, otherwise throws "Not
+logged in" exception.</p>
+
+<h3>C#:</h3>
+
+<h4>Innovator inn = this.getInnovator();<br>
+string uid = <span style="background-color: rgb(255, 255, 0);">inn.getUserID();</span><br>Item user = inn.getItemById("User", uid);<br>
+return inn.newResult(user.getProperty("keyed_name"));</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim inn As Innovator = Me.getInnovator()<br>
+Dim uid As String = <span style="background-color: rgb(255, 255, 0);">inn.getUserID()</span><br>
+Dim user As Item = inn.getItemById("User", uid)<br>Return inn.newResult(user.getProperty("keyed_name"))</h4>
+
+<h3>Notes:</h3>
+
+<p>Returns current 32 character id (GUID) of user currently logged into Aras session.</p>
+</body></html>

@@ -1,0 +1,14 @@
+﻿<AML>
+ <Item type="xPropertyDefinition" id="687ED2E2B85F4954ACFF70FDE82B44C5" action="add">
+  <column_alignment>left</column_alignment>
+  <data_type>string</data_type>
+  <is_indexed>0</is_indexed>
+  <is_required>0</is_required>
+  <label xml:lang="en">Model</label>
+  <private_permission_behavior>None</private_permission_behavior>
+  <readonly>0</readonly>
+  <stored_length>24</stored_length>
+  <track_history>0</track_history>
+  <name>xp-model</name>
+ </Item>
+</AML>

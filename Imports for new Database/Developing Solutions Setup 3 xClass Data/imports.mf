@@ -1,0 +1,4 @@
+<imports>
+  <package name="xClassTrainingData" path="xClassTrainingData\Import">
+  </package>
+</imports>

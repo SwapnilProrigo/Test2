@@ -1,0 +1,63 @@
+﻿<AML>
+ <Item type="List" id="E3E0C617E7D644CEBF1A75B5F0263D5C" action="add">
+  <name>Product Types</name>
+  <Relationships>
+   <Item type="Filter Value" id="ECF1E3F5797D4DCBA7190B0D73F1E04D" action="add">
+    <filter>HE</filter>
+    <label xml:lang="en">Audio</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Product Types" type="List">E3E0C617E7D644CEBF1A75B5F0263D5C</source_id>
+    <value>AU</value>
+   </Item>
+   <Item type="Filter Value" id="3A92C5FF61114089B98334915BB71659" action="add">
+    <filter>HE</filter>
+    <label xml:lang="en">Media Player</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Product Types" type="List">E3E0C617E7D644CEBF1A75B5F0263D5C</source_id>
+    <value>ME</value>
+   </Item>
+   <Item type="Filter Value" id="6AD9BB04F79C4EE380835B348D725F27" action="add">
+    <filter>CO</filter>
+    <label xml:lang="en">Monitor</label>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="Product Types" type="List">E3E0C617E7D644CEBF1A75B5F0263D5C</source_id>
+    <value>MN</value>
+   </Item>
+  
+   <Item type="Filter Value" id="C46592987FDA4356990C33EE474D25FA" action="add">
+    <filter>CO</filter>
+    <label xml:lang="en">PC</label>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="Product Types" type="List">E3E0C617E7D644CEBF1A75B5F0263D5C</source_id>
+    <value>PC</value>
+   </Item>
+   <Item type="Filter Value" id="C3B3A57B32514FACB43BB46640165D82" action="add">
+    <filter>CO</filter>
+    <label xml:lang="en">Printer</label>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="Product Types" type="List">E3E0C617E7D644CEBF1A75B5F0263D5C</source_id>
+    <value>PN</value>
+   </Item>
+   <Item type="Filter Value" id="C4F4D1FAD06F4D268AD0BD3812F7117E" action="add">
+    <filter>MO</filter>
+    <label xml:lang="en">Smart Phone</label>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Product Types" type="List">E3E0C617E7D644CEBF1A75B5F0263D5C</source_id>
+    <value>SP</value>
+   </Item>
+   <Item type="Filter Value" id="674852510B1D48988B568B90379D702B" action="add">
+    <filter>MO</filter>
+    <label xml:lang="en">Tablet</label>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Product Types" type="List">E3E0C617E7D644CEBF1A75B5F0263D5C</source_id>
+    <value>TB</value>
+   </Item>
+   <Item type="Filter Value" id="9F883BD1C0E14EDEB18DE14425F6B099" action="add">
+    <filter>HE</filter>
+    <label xml:lang="en">TV</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Product Types" type="List">E3E0C617E7D644CEBF1A75B5F0263D5C</source_id>
+    <value>TV</value>
+   </Item></Relationships>
+ </Item>
+</AML>

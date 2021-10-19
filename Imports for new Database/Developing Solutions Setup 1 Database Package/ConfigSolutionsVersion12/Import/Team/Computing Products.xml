@@ -1,0 +1,19 @@
+﻿<AML>
+ <Item type="Team" id="C72BAAD527F047FB9B7954C2D9B897AA" action="add">
+  <name>Computing Products</name>
+  <Relationships>
+   <Item type="Team Identity" id="2CA1D4E7A87545FFA4C6ACF52B049F6E" action="add">
+    <related_id keyed_name="John Young" type="Identity">BE7D4FB1155648768C03F90F9B966835</related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Computing Products" type="Team">C72BAAD527F047FB9B7954C2D9B897AA</source_id>
+    <team_role keyed_name="Team Manager" type="Identity">60EBF9D1BB584921A73FA2F8D74DAF80</team_role>
+   </Item>
+   <Item type="Team Identity" id="B20C4B6FB8924AF7B57B2AFBA61354C3" action="add">
+    <related_id keyed_name="Susan Harris" type="Identity">64AEF0E0FCA54697B6E1C0B57EA8413F</related_id>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Computing Products" type="Team">C72BAAD527F047FB9B7954C2D9B897AA</source_id>
+    <team_role keyed_name="Team Member" type="Identity">7635594273054F2BA32C1CADB31FD413</team_role>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

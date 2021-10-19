@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>Innovator applyAML</title>
+
+
+
+	
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR">
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"></head><body bgcolor="#ffffff">
+<h1 pbzloc="465">HttpServerConnection Class</h1>
+
+<h2 pbzloc="471"><span class="identifier">GetLicenseInfo</span>(String add_on)</h2>
+
+<p align="left">Returns information about subscription and specified add-on's .</p>
+
+<h3>C#:</h3>
+
+<h4>string url = "http://localhost/InnovatorServer";<br>
+string db = "InnovatorSolutions";<br>
+string user = "admin";<br>
+string pw = "innovator";</h4>
+
+<h4>HttpServerConnection cnx = IomFactory.CreateHttpServerConnection(url, db, user, pw);<br>
+Item login_result&nbsp; = cnx.Login();</h4>
+
+<h4 pbzloc="469">string lic_info = cnx.GetLicenseInfo("addon Name");</h4>
+
+<h4>return this.getInnovator().newResult(lic_info);</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim url As String = "http://localhost/InnovatorServer"<br>
+Dim db As String = "InnovatorSolutions"<br>
+Dim user As String = "admin"<br>
+Dim pw As String = "innovator"</h4>
+
+
+<h4>Dim cnx As HttpServerConnection = IomFactory.CreateHttpServerConnection(url, db, user, pw)<br>
+Dim login_result As Item = cnx.Login()</h4>
+
+<h4 pbzloc="468">Dim lic_info As String = cnx.GetLicenseInfo("addon name")</h4>
+
+<h4>Return Me.getInnovator().newResult(lic_info)</h4>
+
+<h3>Notes:</h3>
+
+<p pbzloc="470"><span class="parameter">Returns information about specific add on.</span></p>
+
+<p>&nbsp;</p>
+
+<dl paramname="actionName">
+	<dt>&nbsp;</dt>
+</dl>
+
+<p><br>
+<br>
+&nbsp;</p>
+</body></html>

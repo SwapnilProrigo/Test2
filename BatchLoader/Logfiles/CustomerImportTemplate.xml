@@ -1,0 +1,8 @@
+<Item type="Customer" action="add">
+  <name>@1</name>
+  <address>@2</address>
+  <city>@3</city>
+  <address_state>@4</address_state>
+  <zip_code>@5</zip_code>
+  <main_phone>@6</main_phone>
+</Item>

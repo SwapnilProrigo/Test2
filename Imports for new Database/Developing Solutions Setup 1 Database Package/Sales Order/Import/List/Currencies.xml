@@ -1,0 +1,200 @@
+﻿<AML>
+ <Item type="List" id="C7AD0CE1815C459FB041077B620CB011" action="add">
+  <description>World Currencies</description>
+  <name>Currencies</name>
+  <Relationships>
+   <Item type="Value" id="5BA07DA0692C4D7F88B3DFBCE7AB5F85" action="add">
+    <label xml:lang="en">Australia</label>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>AUD</value>
+   </Item>
+   <Item type="Value" id="3988438E59E34957BF4A6EA80111B246" action="add">
+    <label xml:lang="en">Bulgaria</label>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>BGN</value>
+   </Item>
+   <Item type="Value" id="AD7AC60E62B54EBB91B9AF428FED8107" action="add">
+    <label xml:lang="en">Brazil</label>
+    <sort_order>384</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>BRL</value>
+   </Item>
+   <Item type="Value" id="EAD61729FB7C4E00A2B3ADFB878127C1" action="add">
+    <label xml:lang="en">Canada</label>
+    <sort_order>512</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>CAD</value>
+   </Item>
+   <Item type="Value" id="C7C75406DA8C41BCB83FC8BDEB67B443" action="add">
+    <label xml:lang="en">Congo</label>
+    <sort_order>640</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>CHF</value>
+   </Item>
+   <Item type="Value" id="669981B1B7AD405CBCF681C18B6EA072" action="add">
+    <label xml:lang="en">China</label>
+    <sort_order>768</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>CNY</value>
+   </Item>
+   <Item type="Value" id="A0CEEF77D53D45009E2F6CA9CD4803F0" action="add">
+    <label xml:lang="en">Czech</label>
+    <sort_order>896</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>CZK</value>
+   </Item>
+   <Item type="Value" id="A49F47F84B0B4A97BE92DF11C4D39489" action="add">
+    <label xml:lang="en">Denmark</label>
+    <sort_order>1024</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>DKK</value>
+   </Item>
+   <Item type="Value" id="A5031E9ABF9A4CEBB05B9468EEA0BF8C" action="add">
+    <label xml:lang="en">Europe</label>
+    <sort_order>1152</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>EUR</value>
+   </Item>
+   <Item type="Value" id="A8C911D81C3D4ED6ABEE93C6CD74DE43" action="add">
+    <label xml:lang="en">United Kingdom</label>
+    <sort_order>1280</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>GBP</value>
+   </Item>
+   <Item type="Value" id="05455DDB90DB4D0CAC5EE90CE0B26BD9" action="add">
+    <label xml:lang="en">Hong Kong</label>
+    <sort_order>1408</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>HKD</value>
+   </Item>
+   <Item type="Value" id="4D1E6D1AAF9047AA9DEA5C278E646776" action="add">
+    <label xml:lang="en">Croatia</label>
+    <sort_order>1536</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>HRK</value>
+   </Item>
+   <Item type="Value" id="2661EF6D0E4142C89238A6D05415CAF3" action="add">
+    <label xml:lang="en">Hungary</label>
+    <sort_order>1664</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>HUF</value>
+   </Item>
+   <Item type="Value" id="243C7E3587AF4C778E4138913852BDE6" action="add">
+    <label xml:lang="en">Idonesia</label>
+    <sort_order>1792</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>IDR</value>
+   </Item>
+   <Item type="Value" id="1A85590B77BB4D379804841C6A6ACF2B" action="add">
+    <label xml:lang="en">Israel</label>
+    <sort_order>1920</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>ILS</value>
+   </Item>
+   <Item type="Value" id="FC3AAD9C4C8645188F8751B00E11EAFF" action="add">
+    <label xml:lang="en">India</label>
+    <sort_order>2048</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>INR</value>
+   </Item>
+   <Item type="Value" id="C1E702F66EC44419864424F5CBAF2592" action="add">
+    <label xml:lang="en">Iceland</label>
+    <sort_order>2176</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>ISK</value>
+   </Item>
+   <Item type="Value" id="1A65529F465244F1A4A3545808F0EB40" action="add">
+    <label xml:lang="en">Japan</label>
+    <sort_order>2304</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>JPY</value>
+   </Item>
+   <Item type="Value" id="051817BE5B5B4C06AFEE432BB4A8F9F0" action="add">
+    <label xml:lang="en">Korea</label>
+    <sort_order>2432</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>KRW</value>
+   </Item>
+   <Item type="Value" id="A7BE3A60375046DC9C900CD86D544E9A" action="add">
+    <label xml:lang="en">Mexico</label>
+    <sort_order>2560</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>MXN</value>
+   </Item>
+   <Item type="Value" id="6E102C543AC04F6FA566071D1BB0B1AD" action="add">
+    <label xml:lang="en">Malaysia</label>
+    <sort_order>2688</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>MYR</value>
+   </Item>
+   <Item type="Value" id="FF168688C6B5438EA171AF310E1B0612" action="add">
+    <label xml:lang="en">Norway</label>
+    <sort_order>2816</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>NOK</value>
+   </Item>
+   <Item type="Value" id="AE2F42FE7B0A4D6CAFE4F81701F5D479" action="add">
+    <label xml:lang="en">New Zealand</label>
+    <sort_order>2944</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>NZD</value>
+   </Item>
+   <Item type="Value" id="2CD070B8853246CF95F9A1DCCE7A2104" action="add">
+    <label xml:lang="en">Phillipines</label>
+    <sort_order>3072</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>PHP</value>
+   </Item>
+   <Item type="Value" id="F560E1C2FF724557BBFCFDC69B685E83" action="add">
+    <label xml:lang="en">Poland</label>
+    <sort_order>3200</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>PLN</value>
+   </Item>
+   <Item type="Value" id="4B93713B61D44D52B93B7750271D0CA4" action="add">
+    <label xml:lang="en">Romania</label>
+    <sort_order>3328</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>RON</value>
+   </Item>
+   <Item type="Value" id="674C448B6CD245268CCF17E206AB48CC" action="add">
+    <label xml:lang="en">Russia</label>
+    <sort_order>3456</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>RUB</value>
+   </Item>
+   <Item type="Value" id="D180D936949248A4B47812E149466453" action="add">
+    <label xml:lang="en">South Africa</label>
+    <sort_order>3460</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>ZAR</value>
+   </Item>
+   <Item type="Value" id="A6351505FDA542BFAFF71064FDC67794" action="add">
+    <label xml:lang="en">Sweden</label>
+    <sort_order>3584</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>SEK</value>
+   </Item>
+   <Item type="Value" id="3FEEDA50503C4B73AC64FF8B8143EEAA" action="add">
+    <label xml:lang="en">Sudan</label>
+    <sort_order>3712</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>SGD</value>
+   </Item>
+   <Item type="Value" id="E163A1B0FC05450192548AA08839CC26" action="add">
+    <label xml:lang="en">Turkey</label>
+    <sort_order>3840</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>TRY</value>
+   </Item>
+   <Item type="Value" id="65DFCC8946F94466B3709C6F9CA08971" action="add">
+    <label xml:lang="en">United States</label>
+    <sort_order>3968</sort_order>
+    <source_id keyed_name="Currencies" type="List">C7AD0CE1815C459FB041077B620CB011</source_id>
+    <value>USD</value>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

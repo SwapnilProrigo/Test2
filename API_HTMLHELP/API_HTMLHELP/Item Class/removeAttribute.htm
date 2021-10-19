@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head><title>removeAttribute</title>
+
+
+	
+	<link href="../style.css" rel="stylesheet" type="text/css">
+	<meta content="PageBreeze Free HTML Editor (http://www.pagebreeze.com)" name="GENERATOR">
+	<meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"></head><body bgcolor="#ffffff">
+<h1>Innovator Class</h1>
+
+<h2><span class="identifier">removeAttribute</span>(<span class="nolink">String</span> <span class="parameter">attributeName)</span></h2>
+
+<p align="left">Removes the specified attribute from the dom item if the attribute exist; does nothing otherwise.</p>
+
+<h3>C#:</h3>
+
+<h4>Innovator inn = this.getInnovator();<br>
+Item countResult = inn.applySQL("select count(*) as count from innovator.part");<br>
+int count = Convert.ToInt32(countResult.getProperty("count"));</h4>
+
+<h4>Item vendor = this.newItem("Part", "get");<br>
+vendor.setAttribute("maxRecords", "100");</h4>
+
+<h4>if (count &lt; 1000) <span style="background-color: rgb(255, 255, 0);">vendor.removeAttribute("maxRecords");</span></h4>
+
+<h4>return&nbsp; vendor.apply();</h4>
+
+<h3>VB:</h3>
+
+<h4>Dim inn As Innovator = Me.getInnovator()<br>
+Dim countResult As Item = inn.applySQL("select count(*) as count from innovator.part")<br>
+Dim count As Integer = Convert.ToInt32(countResult.getProperty("count"))</h4>
+
+<h4>Dim vendor As Item = Me.newItem("Part", "get")<br>
+vendor.setAttribute("maxRecords", "100")</h4>
+
+<h4>If count &lt; 1000 Then<br>
+&nbsp;<span style="background-color: rgb(255, 255, 0);">vendor.removeAttribute("maxRecords")</span><br>
+End If</h4>
+
+<h4>Return vendor.apply()</h4>
+
+<h3>Notes:</h3>
+
+<p>Remove item attribute if it exists.</p>
+
+<p>In the examples above the maxRecords attribute is removed from the request if the part count is less than 1000.</p>
+</body></html>

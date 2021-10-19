@@ -1,0 +1,37 @@
+H1 {
+    font-family: arial,verdana,sans-serif;
+    font-size: 18px;
+    background: #ffffff;
+    color: maroon;
+    
+ }
+ 
+H2 {
+    font-family: arial,verdana,sans-serif;
+    font-size: 24px;
+    background: #ffffff;
+    color: black;
+
+ }
+H3 {
+    font-family: arial,verdana,sans-serif;
+    font-size: 16px;
+    background: #ffffff;
+    color: black;
+ } 
+H4 {
+    font-family: 'Courier New';
+    font-size: 14px;
+    font-weight: normal;
+    background: #ffffff;
+    color: black;
+    line-height: 1.25;
+ }
+
+P {
+    font-family: arial,verdana,sans-serif;
+    font-size: 12px;
+    background: #ffffff;
+    color: black;
+    line-height: 1.2;
+ }
